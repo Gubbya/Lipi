@@ -9,6 +9,9 @@ export interface OrthographicUnit {
   displayName: string;
   transliteration?: string;
   audioAsset?: string;
+  soundHint?: string;
+  speechCue?: string;
+  exampleWords?: string[];
 }
 
 export interface GraphemePhonemeMapping {

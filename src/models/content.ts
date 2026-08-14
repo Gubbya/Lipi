@@ -7,6 +7,8 @@ export interface ContentLevel {
   id: string;
   languageId: string;
   title: string;
+  description?: string;
+  focus?: string;
   order: number;
   unitIds: string[];
 }
