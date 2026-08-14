@@ -1,0 +1,24 @@
+{
+  "id": "english-m1",
+  "schemaVersion": 1,
+  "language": {
+    "id": "en",
+    "name": "English",
+    "nativeName": "English",
+    "locale": "en",
+    "script": { "id": "latin", "name": "Latin", "nativeName": "Latin", "direction": "ltr", "iso15924": "Latn" },
+    "pronunciationVariants": [
+      { "id": "en-US", "languageId": "en", "name": "American English", "regionCode": "US", "description": "Clear, everyday American pronunciation" },
+      { "id": "en-GB", "languageId": "en", "name": "British English", "regionCode": "GB", "description": "Modern standard British pronunciation" }
+    ]
+  },
+  "levels": [{ "id": "en-foundations", "languageId": "en", "title": "English Foundations", "order": 1, "unitIds": ["en-letter-a", "en-letter-b", "en-letter-c"] }],
+  "units": [
+    { "id": "en-letter-a", "languageId": "en", "scriptId": "latin", "type": "letter", "symbol": "A", "displayName": "Letter A", "transliteration": "ay" },
+    { "id": "en-letter-b", "languageId": "en", "scriptId": "latin", "type": "letter", "symbol": "B", "displayName": "Letter B", "transliteration": "bee" },
+    { "id": "en-letter-c", "languageId": "en", "scriptId": "latin", "type": "letter", "symbol": "C", "displayName": "Letter C", "transliteration": "see" }
+  ],
+  "phonemes": [{ "id": "en-ae", "languageId": "en", "ipa": "æ", "category": "vowel", "description": "The short a sound" }],
+  "mappings": [{ "id": "map-a-ae", "graphemeUnitId": "en-letter-a", "phonemeIds": ["en-ae"], "examples": ["apple", "ant"] }],
+  "activities": [{ "id": "identify-a", "unitId": "en-letter-a", "languageId": "en", "title": "Find A", "prompt": "Tap the letter A", "skill": "recognition", "type": "identify-unit", "choices": ["en-letter-a", "en-letter-b", "en-letter-c"], "correctUnitId": "en-letter-a" }]
+}

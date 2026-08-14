@@ -1,98 +1,50 @@
-import * as Device from 'expo-device';
-import { Platform, StyleSheet } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { useEffect, useState } from 'react';
+import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
+import { router } from 'expo-router';
+import { useSQLiteContext } from 'expo-sqlite';
+import { getLocalUser, getSelectedLanguages } from '@/db/onboarding';
+import { colors } from '@/features/onboarding/theme';
 
-import { AnimatedIcon } from '@/components/animated-icon';
-import { HintRow } from '@/components/hint-row';
-import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
-import { WebBadge } from '@/components/web-badge';
-import { BottomTabInset, MaxContentWidth, Spacing } from '@/constants/theme';
+export default function AppEntry() {
+  const db = useSQLiteContext();
+  const [error, setError] = useState<string | null>(null);
 
-function getDevMenuHint() {
-  if (Platform.OS === 'web') {
-    return <ThemedText type="small">use browser devtools</ThemedText>;
-  }
-  if (Device.isDevice) {
-    return (
-      <ThemedText type="small">
-        shake device or press <ThemedText type="code">m</ThemedText> in terminal
-      </ThemedText>
-    );
-  }
-  const shortcut = Platform.OS === 'android' ? 'cmd+m (or ctrl+m)' : 'cmd+d';
+  useEffect(() => {
+    let active = true;
+    async function routeFromSavedState() {
+      try {
+        const user = await getLocalUser(db);
+        if (!active) return;
+        if (!user) return router.replace('/(onboarding)/teacher-language');
+        if (user.onboarding_completed_at) return router.replace('/(tabs)/learn');
+        const languages = await getSelectedLanguages(db, user.id);
+        if (!active) return;
+        if (languages.length === 0) return router.replace('/(onboarding)/target-languages');
+        return router.replace('/(onboarding)/pronunciation');
+      } catch (reason) {
+        if (active) setError(reason instanceof Error ? reason.message : 'Unable to open Lipi');
+      }
+    }
+    routeFromSavedState();
+    return () => { active = false; };
+  }, [db]);
+
   return (
-    <ThemedText type="small">
-      press <ThemedText type="code">{shortcut}</ThemedText>
-    </ThemedText>
-  );
-}
-
-export default function HomeScreen() {
-  return (
-    <ThemedView style={styles.container}>
-      <SafeAreaView style={styles.safeArea}>
-        <ThemedView style={styles.heroSection}>
-          <AnimatedIcon />
-          <ThemedText type="title" style={styles.title}>
-            Welcome to&nbsp;Expo
-          </ThemedText>
-        </ThemedView>
-
-        <ThemedText type="code" style={styles.code}>
-          get started
-        </ThemedText>
-
-        <ThemedView type="backgroundElement" style={styles.stepContainer}>
-          <HintRow
-            title="Try editing"
-            hint={<ThemedText type="code">src/app/index.tsx</ThemedText>}
-          />
-          <HintRow title="Dev tools" hint={getDevMenuHint()} />
-          <HintRow
-            title="Fresh start"
-            hint={<ThemedText type="code">npm run reset-project</ThemedText>}
-          />
-        </ThemedView>
-
-        {Platform.OS === 'web' && <WebBadge />}
-      </SafeAreaView>
-    </ThemedView>
+    <View style={styles.container}>
+      <View style={styles.mark}><Text style={styles.markText}>लि</Text></View>
+      <Text style={styles.logo}>Lipi</Text>
+      <Text style={styles.tagline}>Language, made familiar.</Text>
+      {error ? <Text style={styles.error}>{error}</Text> : <ActivityIndicator color={colors.ink} style={styles.loader} />}
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    flexDirection: 'row',
-  },
-  safeArea: {
-    flex: 1,
-    paddingHorizontal: Spacing.four,
-    alignItems: 'center',
-    gap: Spacing.three,
-    paddingBottom: BottomTabInset + Spacing.three,
-    maxWidth: MaxContentWidth,
-  },
-  heroSection: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    flex: 1,
-    paddingHorizontal: Spacing.four,
-    gap: Spacing.four,
-  },
-  title: {
-    textAlign: 'center',
-  },
-  code: {
-    textTransform: 'uppercase',
-  },
-  stepContainer: {
-    gap: Spacing.three,
-    alignSelf: 'stretch',
-    paddingHorizontal: Spacing.three,
-    paddingVertical: Spacing.four,
-    borderRadius: Spacing.four,
-  },
+  container: { flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.cream },
+  mark: { width: 76, height: 76, borderRadius: 24, backgroundColor: colors.coral, alignItems: 'center', justifyContent: 'center', transform: [{ rotate: '-4deg' }] },
+  markText: { color: '#fff', fontSize: 33, fontWeight: '800' },
+  logo: { marginTop: 18, color: colors.ink, fontSize: 38, fontWeight: '800', letterSpacing: -1.5 },
+  tagline: { marginTop: 5, color: colors.muted, fontSize: 15 },
+  loader: { marginTop: 30 },
+  error: { marginTop: 24, color: '#A43B31', paddingHorizontal: 30, textAlign: 'center' },
 });
