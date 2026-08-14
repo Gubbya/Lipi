@@ -46,10 +46,37 @@ export async function saveTargetLanguages(db: SQLiteDatabase, userId: string, la
   });
 }
 
-export async function finishOnboarding(db: SQLiteDatabase, userId: string, languageId: string, variantId: string, levelId: string) {
+export interface OnboardingCourseSelection {
+  languageId: string;
+  pronunciationVariantId: string | null;
+  currentLevelId: string | null;
+}
+
+export async function replaceTargetLanguages(db: SQLiteDatabase, userId: string, languageIds: string[]) {
   const now = new Date().toISOString();
   await db.withTransactionAsync(async () => {
-    await db.runAsync('UPDATE user_languages SET pronunciation_variant_id = ?, current_level_id = ? WHERE user_id = ? AND language_id = ?', variantId, levelId, userId, languageId);
+    await db.runAsync("UPDATE user_languages SET status = 'inactive' WHERE user_id = ?", userId);
+    for (const [priority, languageId] of languageIds.entries()) {
+      await db.runAsync(
+        `INSERT INTO user_languages (user_id, language_id, status, priority, added_at)
+         VALUES (?, ?, 'active', ?, ?)
+         ON CONFLICT(user_id, language_id) DO UPDATE SET status = 'active', priority = excluded.priority`,
+        userId, languageId, priority, now,
+      );
+    }
+    await db.runAsync('UPDATE local_user SET updated_at = ? WHERE id = ?', now, userId);
+  });
+}
+
+export async function finishOnboarding(db: SQLiteDatabase, userId: string, selections: OnboardingCourseSelection[]) {
+  const now = new Date().toISOString();
+  await db.withTransactionAsync(async () => {
+    for (const selection of selections) {
+      await db.runAsync(
+        'UPDATE user_languages SET pronunciation_variant_id = ?, current_level_id = ? WHERE user_id = ? AND language_id = ?',
+        selection.pronunciationVariantId, selection.currentLevelId, userId, selection.languageId,
+      );
+    }
     await db.runAsync('UPDATE local_user SET onboarding_completed_at = ?, updated_at = ? WHERE id = ?', now, now, userId);
   });
 }

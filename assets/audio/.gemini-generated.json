@@ -1,0 +1,42 @@
+{
+  "en-US/en-letter-a.wav": {
+    "model": "gemini-3.1-flash-tts-preview",
+    "generatedAt": "2026-08-14T17:00:00.000Z"
+  },
+  "en-US/en-letter-c.wav": {
+    "model": "gemini-3.1-flash-tts-preview",
+    "generatedAt": "2026-08-14T17:00:00.000Z"
+  },
+  "en-US/en-letter-d.wav": {
+    "model": "gemini-3.1-flash-tts-preview",
+    "generatedAt": "2026-08-14T17:00:00.000Z"
+  },
+  "en-US/en-letter-b.wav": {
+    "model": "gemini-3.1-flash-tts-preview",
+    "generatedAt": "2026-08-14T17:22:23.281Z"
+  },
+  "en-US/en-letter-e.wav": {
+    "model": "gemini-3.1-flash-tts-preview",
+    "generatedAt": "2026-08-14T17:22:31.417Z"
+  },
+  "en-US/en-letter-f.wav": {
+    "model": "gemini-3.1-flash-tts-preview",
+    "generatedAt": "2026-08-14T17:22:38.606Z"
+  },
+  "en-US/en-letter-g.wav": {
+    "model": "gemini-3.1-flash-tts-preview",
+    "generatedAt": "2026-08-14T17:23:48.448Z"
+  },
+  "en-US/en-letter-h.wav": {
+    "model": "gemini-3.1-flash-tts-preview",
+    "generatedAt": "2026-08-14T17:24:25.183Z"
+  },
+  "en-US/en-letter-i.wav": {
+    "model": "gemini-3.1-flash-tts-preview",
+    "generatedAt": "2026-08-14T17:25:33.749Z"
+  },
+  "en-US/en-letter-j.wav": {
+    "model": "gemini-3.1-flash-tts-preview",
+    "generatedAt": "2026-08-14T17:25:40.998Z"
+  }
+}

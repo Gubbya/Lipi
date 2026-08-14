@@ -4,18 +4,16 @@
     "slug": "lipi",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/lipi-icon.png",
     "scheme": "lipi",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/images/lipi-icon.png"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "backgroundColor": "#FFF9EF",
+        "foregroundImage": "./assets/images/lipi-icon.png"
       },
       "predictiveBackGestureEnabled": false
     },
@@ -29,13 +27,15 @@
         "expo-splash-screen",
         {
           "backgroundColor": "#FFF9EF",
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "image": "./assets/images/lipi-icon.png",
+          "imageWidth": 180
         }
       ],
       "expo-sqlite",
       "expo-secure-store",
-      "expo-audio"
+      "expo-audio",
+      "expo-image",
+      "expo-asset"
     ],
     "experiments": {
       "typedRoutes": true,

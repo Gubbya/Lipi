@@ -1,56 +1,69 @@
-# Welcome to your Expo app 👋
+# Lipi
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Language, made familiar.**
 
-## Get started
+Lipi is a mobile-first, offline-first multilingual learning app built with Expo
+SDK 57, React Native, TypeScript, Expo Router, and SQLite.
 
-1. Install dependencies
+## Current courses
 
-   ```bash
-   npm install
-   ```
+English (US/UK), Marathi, Hindi, French, Spanish, Italian, German, Russian,
+Arabic, Mandarin Chinese, Japanese, Korean, Kannada, Punjabi, Gujarati, Telugu,
+and Sanskrit.
 
-2. Start the app
+English currently has the deepest phonics path. Every other course includes a
+reviewable starter package with script lessons, pronunciation, picture
+vocabulary, first phrases, worksheets, quizzes, and repeatable progress.
 
-   ```bash
-   npx expo start
-   ```
+## Run the app
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```powershell
+npm install
+npx expo start --clear
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Press `w` for web. Use a compatible Expo Go version or development build for a
+physical Android device.
 
-### Other setup steps
+## Verification
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+```powershell
+npx tsc --noEmit
+npm run lint
+npm run server:check
+npx expo export --platform web
+```
 
-## Learn more
+## Backend
 
-To learn more about developing your project with Expo, look at the following resources:
+Copy `server/.env.example` to `server/.env`, then configure MongoDB and Gemini.
+The real `.env` is ignored by Git.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```powershell
+npm run server
+```
 
-## Join the community
+The backend refuses to start unless `MONGODB_DB=lipi`. Without a configured
+`AI_API_TOKEN`, it binds to localhost and rejects non-local API requests.
 
-Join our community of developers creating universal apps.
+Endpoints:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- `GET /health`
+- `GET /api/progress/:deviceUserId`
+- `PUT /api/progress/:deviceUserId`
+- `POST /api/tutor`
+
+SQLite remains the primary offline store. MongoDB is for optional backup and
+future multi-device synchronization.
+
+## Content and visual licensing
+
+Course content is bundled and validated locally. Vocabulary pictograms are
+Twemoji graphics licensed under CC-BY 4.0; attribution is stored in
+`assets/images/vocabulary/ATTRIBUTION.md`.
+
+## Important scope note
+
+English is commonly analyzed as roughly 44 phonemes represented by about
+140–150 spelling patterns, rather than 148 distinct sounds. Lipi models sounds
+and spellings separately so the curriculum can grow accurately.

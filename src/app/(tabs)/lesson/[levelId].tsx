@@ -2,10 +2,11 @@ import { useEffect, useMemo, useState } from 'react';
 import { Pressable, SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useSQLiteContext } from 'expo-sqlite';
-import * as Speech from 'expo-speech';
+import { useAudioPlayer, useAudioPlayerStatus } from 'expo-audio';
 import { getContentPackage } from '@/content';
+import { getFeedbackAudio, getPhonicsAudio, getQuizAudio } from '@/content/phonics-audio';
 import { getLocalUser, getSelectedLanguages } from '@/db/onboarding';
-import { recordAttempt, saveUnitMastery } from '@/db/progress';
+import { recordAttempt, recordLessonCompletion, saveUnitMastery } from '@/db/progress';
 import { colors } from '@/features/onboarding/theme';
 import type { IdentifyUnitActivity } from '@/models';
 
@@ -15,6 +16,8 @@ type Feedback = 'correct' | 'incorrect' | null;
 export default function LessonScreen() {
   const { levelId } = useLocalSearchParams<{ levelId: string }>();
   const db = useSQLiteContext();
+  const audioPlayer = useAudioPlayer(null);
+  const audioStatus = useAudioPlayerStatus(audioPlayer);
   const level = content.levels.find((item) => item.id === levelId);
   const units = useMemo(() => level?.unitIds.map((id) => content.units.find((unit) => unit.id === id)).filter((unit) => unit !== undefined) ?? [], [level]);
   const activity = content.activities.find(
@@ -23,8 +26,7 @@ export default function LessonScreen() {
   const [step, setStep] = useState(0);
   const [feedback, setFeedback] = useState<Feedback>(null);
   const [saving, setSaving] = useState(false);
-  const [speaking, setSpeaking] = useState(false);
-  const [voiceLanguage, setVoiceLanguage] = useState('en-US');
+  const [pronunciationVariantId, setPronunciationVariantId] = useState('en-US');
   const unitsById = useMemo(() => new Map(content.units.map((unit) => [unit.id, unit])), []);
   const isQuiz = step === units.length;
   const isComplete = step > units.length;
@@ -35,46 +37,41 @@ export default function LessonScreen() {
       const user = await getLocalUser(db);
       if (!user) return;
       const languages = await getSelectedLanguages(db, user.id);
-      setVoiceLanguage(languages[0]?.pronunciation_variant_id ?? 'en-US');
+      setPronunciationVariantId(languages.find((language) => language.language_id === 'en')?.pronunciation_variant_id ?? 'en-US');
     })();
-    return () => { Speech.stop(); };
   }, [db]);
 
   if (!level || !activity || activity.type !== 'identify-unit' || units.length === 0) {
     return <SafeAreaView style={styles.safe}><View style={styles.errorWrap}><Text style={styles.title}>Lesson not found</Text><Pressable onPress={() => router.replace('/(tabs)/learn')} style={styles.primaryButton}><Text style={styles.primaryText}>Back to Learn</Text></Pressable></View></SafeAreaView>;
   }
 
-  async function playSound() {
-    const unit = units[Math.min(step, units.length - 1)];
-    if (!unit) return;
-    await Speech.stop();
-    Speech.speak(unit.speechCue ?? `${unit.displayName}. ${unit.exampleWords?.join(', ')}`, {
-      language: voiceLanguage,
-      rate: 0.72,
-      pitch: 1,
-      onStart: () => setSpeaking(true),
-      onDone: () => setSpeaking(false),
-      onStopped: () => setSpeaking(false),
-      onError: () => setSpeaking(false),
-    });
+  function playAudio(source: Parameters<typeof audioPlayer.replace>[0] | null) {
+    if (!source) return;
+    audioPlayer.replace(source);
+    audioPlayer.play();
   }
 
-  async function playQuizPrompt() {
+  function playSound() {
+    const unit = units[Math.min(step, units.length - 1)];
+    if (!unit) return;
+    playAudio(getPhonicsAudio(unit.id, pronunciationVariantId));
+  }
+
+  function playQuizPrompt() {
     if (!activity) return;
-    await Speech.stop();
-    Speech.speak(activity.prompt, { language: voiceLanguage, rate: 0.78 });
+    playAudio(getQuizAudio(activity.id, pronunciationVariantId));
   }
 
   async function chooseAnswer(unitId: string) {
-    if (feedback || !activity) return;
+    if (feedback || !activity || !level) return;
     const correct = unitId === activity.correctUnitId;
     setFeedback(correct ? 'correct' : 'incorrect');
     if (!correct) {
-      Speech.speak('Try again.', { language: voiceLanguage, rate: 0.8 });
+      playAudio(getFeedbackAudio('try-again', pronunciationVariantId));
       setTimeout(() => setFeedback(null), 900);
       return;
     }
-    Speech.speak('Correct! Well done.', { language: voiceLanguage, rate: 0.8 });
+    playAudio(getFeedbackAudio('correct', pronunciationVariantId));
     setSaving(true);
     try {
       const user = await getLocalUser(db);
@@ -90,6 +87,7 @@ export default function LessonScreen() {
         pronunciation: 0, writing: 0, recall: 0, totalAttempts: 1, correctAttempts: 1, streakCorrect: 1,
         lastReviewedAt: now, nextReviewAt: new Date(Date.now() + 86400000).toISOString(), updatedAt: now,
       });
+      await recordLessonCompletion(db, user.id, level.id, 100);
     } finally { setSaving(false); }
   }
 
@@ -127,17 +125,17 @@ export default function LessonScreen() {
       ) : (
         <View style={styles.lessonBody}>
           <Text style={styles.eyebrow}>{level.focus?.toUpperCase()} • TAP TO HEAR</Text>
-          <Pressable accessibilityLabel={`Hear ${unit.displayName}`} onPress={playSound} style={({ pressed }) => [styles.heroLetter, speaking && styles.heroSpeaking, pressed && styles.pressed]}><Text style={styles.heroLetterText}>{unit.symbol}</Text><View style={styles.speakerBadge}><Text style={styles.speakerText}>{speaking ? '♪' : '▶'}</Text></View></Pressable>
+          <Pressable accessibilityLabel={`Hear ${unit.displayName}`} onPress={playSound} style={({ pressed }) => [styles.heroLetter, audioStatus.playing && styles.heroSpeaking, pressed && styles.pressed]}><Text style={styles.heroLetterText}>{unit.symbol}</Text><View style={styles.speakerBadge}><Text style={styles.speakerText}>{audioStatus.playing ? '♪' : '▶'}</Text></View></Pressable>
           <Text style={styles.title}>{unit.displayName}</Text><Text style={styles.pronunciation}>{unit.soundHint} · “{unit.transliteration}”</Text>
           <View style={styles.wordRow}>{unit.exampleWords?.map((word) => <View key={word} style={styles.wordPill}><Text style={styles.wordText}>{word}</Text></View>)}</View>
-          <Pressable onPress={playSound} style={({ pressed }) => [styles.smallSoundButton, pressed && styles.pressed]}><Text style={styles.soundIcon}>♪</Text><Text style={styles.smallSoundText}>{speaking ? 'Playing sound…' : 'Hear sound & words'}</Text></Pressable>
+          <Pressable onPress={playSound} style={({ pressed }) => [styles.smallSoundButton, pressed && styles.pressed]}><Text style={styles.soundIcon}>♪</Text><Text style={styles.smallSoundText}>{audioStatus.playing ? 'Playing sound…' : 'Hear clear sound & words'}</Text></Pressable>
         </View>
       )}
 
       <View style={styles.footer}>{isQuiz ? (
         <Pressable disabled={feedback !== 'correct' || saving} onPress={() => setStep((current) => current + 1)} style={({ pressed }) => [styles.primaryButton, feedback !== 'correct' && styles.disabled, pressed && styles.pressed]}><Text style={styles.primaryText}>{saving ? 'Saving…' : 'Finish lesson'}</Text><Text style={styles.primaryArrow}>→</Text></Pressable>
       ) : (
-        <Pressable onPress={() => { Speech.stop(); setSpeaking(false); setStep((current) => current + 1); }} style={({ pressed }) => [styles.primaryButton, pressed && styles.pressed]}><Text style={styles.primaryText}>{step === units.length - 1 ? 'Quick check' : 'Next sound'}</Text><Text style={styles.primaryArrow}>→</Text></Pressable>
+        <Pressable onPress={() => { audioPlayer.pause(); setStep((current) => current + 1); }} style={({ pressed }) => [styles.primaryButton, pressed && styles.pressed]}><Text style={styles.primaryText}>{step === units.length - 1 ? 'Quick check' : 'Next sound'}</Text><Text style={styles.primaryArrow}>→</Text></Pressable>
       )}</View>
     </View></SafeAreaView>
   );

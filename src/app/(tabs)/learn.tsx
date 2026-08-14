@@ -3,14 +3,21 @@ import { Pressable, SafeAreaView, ScrollView, StyleSheet, Text, View } from 'rea
 import { useFocusEffect, router } from 'expo-router';
 import { useSQLiteContext } from 'expo-sqlite';
 import { getContentPackage } from '@/content';
+import { getCourse } from '@/content/course-catalog';
 import { getLocalUser, getSelectedLanguages } from '@/db/onboarding';
+import { getLessonCompletions, type LessonCompletionRow } from '@/db/progress';
 import { colors } from '@/features/onboarding/theme';
+import type { LanguageCourse } from '@/models';
+import { useUiCopy } from '@/features/localization/use-ui-copy';
 
-const content = getContentPackage('en');
+const englishContent = getContentPackage('en');
 
 export default function LearnScreen() {
   const db = useSQLiteContext();
+  const copy = useUiCopy();
   const [variant, setVariant] = useState('English');
+  const [courses, setCourses] = useState<LanguageCourse[]>([]);
+  const [completions, setCompletions] = useState<Record<string, LessonCompletionRow>>({});
 
   useFocusEffect(useCallback(() => {
     let active = true;
@@ -18,68 +25,83 @@ export default function LearnScreen() {
       const user = await getLocalUser(db);
       if (!user?.onboarding_completed_at) return router.replace('/');
       const languages = await getSelectedLanguages(db, user.id);
-      const selectedVariant = content.language.pronunciationVariants.find((item) => item.id === languages[0]?.pronunciation_variant_id);
-      if (active) setVariant(selectedVariant?.name ?? content.language.name);
+      const savedCompletions = await getLessonCompletions(db, user.id);
+      const englishSelection = languages.find((item) => item.language_id === 'en');
+      const selectedVariant = englishContent.language.pronunciationVariants.find((item) => item.id === englishSelection?.pronunciation_variant_id);
+      if (active) {
+        setVariant(selectedVariant?.name ?? englishContent.language.name);
+        setCourses(languages.map((item) => getCourse(item.language_id)).filter((course): course is LanguageCourse => Boolean(course)));
+        setCompletions(Object.fromEntries(savedCompletions.map((item) => [item.level_id, item])));
+      }
     })();
     return () => { active = false; };
   }, [db]));
+
+  const hasEnglish = courses.some((course) => course.id === 'en');
 
   return (
     <SafeAreaView style={styles.safe}>
       <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
         <View style={styles.header}>
-          <View><Text style={styles.kicker}>LISTEN • REPEAT • RECOGNIZE</Text><Text style={styles.title}>Build English from its sounds.</Text></View>
-          <View style={styles.avatar}><Text style={styles.avatarText}>लि</Text></View>
+          <View><Text style={styles.kicker}>{copy.languageShelf}</Text><Text style={styles.title}>{copy.shelfTitle}</Text></View>
+          <Pressable onPress={() => router.push('/(tabs)/manage-languages')} style={styles.addButton}><Text style={styles.addText}>＋</Text></Pressable>
         </View>
 
-        <View style={styles.courseCard}>
-          <View style={styles.courseTop}><View style={styles.languagePill}><Text style={styles.languagePillText}>EN</Text></View><Text style={styles.courseLabel}>YOUR ACTIVE COURSE</Text></View>
-          <Text style={styles.courseTitle}>{variant}</Text>
-          <Text style={styles.courseSub}>{content.levels.length} lessons · {content.units.length} letters and sound patterns</Text>
-          <View style={styles.progress}><View style={styles.progressFill} /></View>
-        </View>
+        <Text style={styles.intro}>{copy.shelfIntro}</Text>
 
-        <View style={styles.sectionRow}><Text style={styles.sectionTitle}>Phonics path</Text><Text style={styles.count}>{content.levels.length} lessons</Text></View>
-        <View style={styles.lessonList}>
-          {content.levels.map((level, index) => {
-            const preview = level.unitIds.slice(0, 4).map((id) => content.units.find((unit) => unit.id === id)?.symbol.split(' ')[0]).join('  ');
+        <View style={styles.courseList}>
+          {courses.map((course) => {
+            const lessonIds = course.id === 'en' ? englishContent.levels.map((level) => level.id) : course.lessons.map((lesson) => lesson.id);
+            const completed = lessonIds.filter((id) => completions[id]).length;
+            const total = Math.max(lessonIds.length, 1);
             return (
               <Pressable
-                key={level.id}
-                accessibilityRole="button"
-                onPress={() => router.push({ pathname: '/(tabs)/lesson/[levelId]', params: { levelId: level.id } })}
-                style={({ pressed }) => [styles.lessonCard, pressed && styles.buttonPressed]}
+                key={course.id}
+                onPress={() => course.id === 'en' ? undefined : router.push({ pathname: '/(tabs)/multilingual/[languageId]', params: { languageId: course.id } })}
+                style={({ pressed }) => [styles.courseCard, { backgroundColor: course.color }, pressed && course.id !== 'en' && styles.pressed]}
               >
-                <View style={[styles.lessonNumber, index > 4 && styles.lessonNumberPhonics]}><Text style={styles.lessonNumberText}>{String(index + 1).padStart(2, '0')}</Text></View>
-                <View style={styles.lessonCopyWrap}>
-                  <Text style={styles.lessonFocus}>{level.focus}</Text>
-                  <Text style={styles.lessonTitle}>{level.title}</Text>
-                  <Text style={styles.lessonCopy}>{level.description}</Text>
-                  <Text style={styles.preview}>{preview}{level.unitIds.length > 4 ? '  …' : ''}</Text>
+                <View style={styles.courseCardTop}>
+                  <View style={[styles.scriptMark, { backgroundColor: course.accentColor }]}><Text style={styles.scriptMarkText}>{course.preview.split(' ')[0]}</Text></View>
+                  <View style={styles.courseCopy}><Text style={[styles.courseLabel, { color: course.accentColor }]}>{course.scriptName.toUpperCase()}</Text><Text style={styles.courseTitle}>{course.name} <Text style={styles.nativeName}>{course.nativeName !== course.name ? course.nativeName : variant}</Text></Text></View>
+                  <Text style={[styles.openArrow, { color: course.accentColor }]}>{course.id === 'en' ? '↓' : '→'}</Text>
                 </View>
-                <View style={styles.play}><Text style={styles.playText}>▶</Text></View>
+                <Text style={styles.courseDescription}>{course.description}</Text>
+                <View style={styles.progressRow}><View style={styles.progressTrack}><View style={[styles.progressFill, { width: `${(completed / total) * 100}%`, backgroundColor: course.accentColor }]} /></View><Text style={styles.progressText}>{completed}/{lessonIds.length}</Text></View>
               </Pressable>
             );
           })}
         </View>
 
-        <View style={styles.offline}><Text style={styles.offlineIcon}>⌁</Text><View><Text style={styles.offlineTitle}>Audio-ready on this device</Text><Text style={styles.offlineCopy}>Tap the speaker in a lesson to hear every sound and example.</Text></View></View>
+        {!courses.length ? <Pressable onPress={() => router.push('/(tabs)/manage-languages')} style={styles.empty}><Text style={styles.emptyTitle}>Add your first course</Text><Text style={styles.emptyCopy}>Choose one or several languages to begin.</Text></Pressable> : null}
+
+        {hasEnglish ? <>
+          <View style={styles.sectionRow}><View><Text style={styles.sectionEyebrow}>{copy.englishCourse}</Text><Text style={styles.sectionTitle}>{copy.phonicsPath}</Text></View><Text style={styles.count}>{englishContent.levels.length} lessons</Text></View>
+          <View style={styles.lessonList}>{englishContent.levels.map((level, index) => {
+            const preview = level.unitIds.slice(0, 4).map((id) => englishContent.units.find((unit) => unit.id === id)?.symbol.split(' ')[0]).join('  ');
+            const completion = completions[level.id];
+            return (
+              <Pressable key={level.id} onPress={() => router.push({ pathname: '/(tabs)/lesson/[levelId]', params: { levelId: level.id } })} style={({ pressed }) => [styles.lessonCard, pressed && styles.pressed]}>
+                <View style={[styles.lessonNumber, index > 4 && styles.lessonNumberPhonics]}><Text style={styles.lessonNumberText}>{String(index + 1).padStart(2, '0')}</Text></View>
+                <View style={styles.lessonCopyWrap}><Text style={styles.lessonFocus}>{completion ? `COMPLETED · REPEAT ${completion.completion_count > 1 ? `×${completion.completion_count}` : ''}` : level.focus}</Text><Text style={styles.lessonTitle}>{level.title}</Text><Text style={styles.preview}>{preview}{level.unitIds.length > 4 ? '  …' : ''}</Text></View>
+                <View style={[styles.play, completion && styles.playComplete]}><Text style={[styles.playText, completion && styles.playCompleteText]}>{completion ? '✓' : '▶'}</Text></View>
+              </Pressable>
+            );
+          })}</View>
+        </> : null}
+
+        <Pressable onPress={() => router.push('/(tabs)/manage-languages')} style={styles.manageButton}><Text style={styles.manageText}>{copy.manageShelf}</Text><Text style={styles.manageArrow}>→</Text></Pressable>
       </ScrollView>
     </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  safe: { flex: 1, backgroundColor: colors.cream }, content: { padding: 24, paddingBottom: 45 },
-  header: { flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-between', marginTop: 14 }, kicker: { color: colors.mintDark, fontSize: 10, fontWeight: '800', letterSpacing: 1.3 },
-  title: { marginTop: 8, maxWidth: 280, color: colors.ink, fontSize: 29, lineHeight: 35, fontWeight: '800', letterSpacing: -0.8 },
-  avatar: { width: 48, height: 48, borderRadius: 17, backgroundColor: colors.coral, alignItems: 'center', justifyContent: 'center', transform: [{ rotate: '4deg' }] }, avatarText: { color: '#fff', fontSize: 19, fontWeight: '800' },
-  courseCard: { marginTop: 30, padding: 22, borderRadius: 26, backgroundColor: colors.ink }, courseTop: { flexDirection: 'row', alignItems: 'center' },
-  languagePill: { width: 35, height: 26, borderRadius: 9, backgroundColor: colors.gold, alignItems: 'center', justifyContent: 'center' }, languagePillText: { color: colors.ink, fontSize: 11, fontWeight: '900' }, courseLabel: { marginLeft: 10, color: '#BBD1C9', fontSize: 10, fontWeight: '800', letterSpacing: 1.2 },
-  courseTitle: { marginTop: 20, color: '#fff', fontSize: 25, fontWeight: '800' }, courseSub: { marginTop: 5, color: '#BBD1C9', fontSize: 13 }, progress: { height: 6, marginTop: 22, borderRadius: 3, backgroundColor: '#34534D' }, progressFill: { width: '3%', height: 6, borderRadius: 3, backgroundColor: colors.coral },
-  sectionRow: { marginTop: 30, marginBottom: 13, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }, sectionTitle: { color: colors.ink, fontSize: 20, fontWeight: '800' }, count: { color: colors.muted, fontSize: 12, fontWeight: '600' }, lessonList: { gap: 12 },
-  lessonCard: { minHeight: 126, flexDirection: 'row', alignItems: 'center', padding: 17, borderRadius: 24, borderWidth: 1, borderColor: colors.line, backgroundColor: '#fff' }, lessonNumber: { width: 46, height: 46, borderRadius: 15, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.mint }, lessonNumberPhonics: { backgroundColor: colors.coralSoft }, lessonNumberText: { color: colors.ink, fontSize: 14, fontWeight: '900' },
-  lessonCopyWrap: { flex: 1, marginHorizontal: 14 }, lessonFocus: { color: colors.coral, fontSize: 9, fontWeight: '900', letterSpacing: 1.2, textTransform: 'uppercase' }, lessonTitle: { marginTop: 4, color: colors.ink, fontSize: 17, fontWeight: '800' }, lessonCopy: { marginTop: 3, color: colors.muted, fontSize: 11, lineHeight: 16 }, preview: { marginTop: 7, color: colors.mintDark, fontSize: 13, fontWeight: '800' },
-  play: { width: 36, height: 36, borderRadius: 13, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.coralSoft }, playText: { marginLeft: 2, color: colors.coral, fontSize: 12 }, buttonPressed: { opacity: 0.75, transform: [{ scale: 0.99 }] },
-  offline: { marginTop: 18, padding: 16, flexDirection: 'row', alignItems: 'center', borderRadius: 19, backgroundColor: '#F1EBDD' }, offlineIcon: { width: 34, color: colors.mintDark, fontSize: 28 }, offlineTitle: { color: colors.ink, fontSize: 14, fontWeight: '800' }, offlineCopy: { maxWidth: 285, marginTop: 2, color: colors.muted, fontSize: 11, lineHeight: 16 },
+  safe: { flex: 1, backgroundColor: colors.cream }, content: { padding: 24, paddingBottom: 46 },
+  header: { marginTop: 12, flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-between' }, kicker: { color: colors.mintDark, fontSize: 10, fontWeight: '900', letterSpacing: 1.5 }, title: { marginTop: 7, color: colors.ink, fontSize: 31, lineHeight: 37, fontWeight: '800', letterSpacing: -1 },
+  addButton: { width: 47, height: 47, borderRadius: 16, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.ink }, addText: { color: colors.gold, fontSize: 27, lineHeight: 30 }, intro: { maxWidth: 350, marginTop: 12, color: colors.muted, fontSize: 14, lineHeight: 21 },
+  courseList: { gap: 12, marginTop: 25 }, courseCard: { padding: 18, borderRadius: 25, borderWidth: 1, borderColor: 'rgba(25,52,47,0.08)' }, courseCardTop: { flexDirection: 'row', alignItems: 'center' }, scriptMark: { width: 48, height: 48, borderRadius: 16, alignItems: 'center', justifyContent: 'center' }, scriptMarkText: { color: '#fff', fontSize: 19, fontWeight: '900' }, courseCopy: { flex: 1, marginLeft: 13 }, courseLabel: { fontSize: 9, fontWeight: '900', letterSpacing: 1.3 }, courseTitle: { marginTop: 4, color: colors.ink, fontSize: 20, fontWeight: '800' }, nativeName: { color: colors.muted, fontSize: 15, fontWeight: '600' }, openArrow: { fontSize: 23, fontWeight: '800' }, courseDescription: { marginTop: 13, color: colors.muted, fontSize: 12, lineHeight: 18 }, progressRow: { marginTop: 14, flexDirection: 'row', alignItems: 'center' }, progressTrack: { flex: 1, height: 6, borderRadius: 3, backgroundColor: 'rgba(25,52,47,0.12)', overflow: 'hidden' }, progressFill: { height: 6, borderRadius: 3 }, progressText: { width: 38, marginLeft: 10, color: colors.ink, fontSize: 11, fontWeight: '800', textAlign: 'right' },
+  empty: { marginTop: 25, padding: 25, borderRadius: 24, borderWidth: 1.5, borderStyle: 'dashed', borderColor: colors.mintDark, alignItems: 'center' }, emptyTitle: { color: colors.ink, fontSize: 18, fontWeight: '800' }, emptyCopy: { marginTop: 5, color: colors.muted, fontSize: 13 },
+  sectionRow: { marginTop: 32, marginBottom: 13, flexDirection: 'row', alignItems: 'flex-end', justifyContent: 'space-between' }, sectionEyebrow: { color: colors.coral, fontSize: 9, fontWeight: '900', letterSpacing: 1.3 }, sectionTitle: { marginTop: 3, color: colors.ink, fontSize: 21, fontWeight: '800' }, count: { color: colors.muted, fontSize: 12, fontWeight: '600' }, lessonList: { gap: 11 },
+  lessonCard: { minHeight: 94, flexDirection: 'row', alignItems: 'center', padding: 15, borderRadius: 22, borderWidth: 1, borderColor: colors.line, backgroundColor: '#fff' }, lessonNumber: { width: 44, height: 44, borderRadius: 14, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.mint }, lessonNumberPhonics: { backgroundColor: colors.coralSoft }, lessonNumberText: { color: colors.ink, fontSize: 13, fontWeight: '900' }, lessonCopyWrap: { flex: 1, marginHorizontal: 13 }, lessonFocus: { color: colors.coral, fontSize: 8, fontWeight: '900', letterSpacing: 1, textTransform: 'uppercase' }, lessonTitle: { marginTop: 4, color: colors.ink, fontSize: 16, fontWeight: '800' }, preview: { marginTop: 5, color: colors.mintDark, fontSize: 12, fontWeight: '800' }, play: { width: 34, height: 34, borderRadius: 12, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.coralSoft }, playComplete: { backgroundColor: colors.mint }, playText: { marginLeft: 2, color: colors.coral, fontSize: 11 }, playCompleteText: { marginLeft: 0, color: colors.mintDark, fontSize: 16, fontWeight: '900' },
+  manageButton: { height: 56, marginTop: 24, paddingHorizontal: 18, borderRadius: 18, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', backgroundColor: colors.ink }, manageText: { color: '#fff', fontSize: 15, fontWeight: '800' }, manageArrow: { marginLeft: 9, color: colors.gold, fontSize: 20 }, pressed: { opacity: 0.78, transform: [{ scale: 0.99 }] },
 });
