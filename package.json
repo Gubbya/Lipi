@@ -1,7 +1,10 @@
 {
   "name": "lipi",
   "main": "expo-router/entry",
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "engines": {
+    "node": ">=20.19.0"
+  },
   "dependencies": {
     "@expo/ui": "~57.0.11",
     "cors": "^2.8.6",
@@ -16,8 +19,10 @@
     "expo-glass-effect": "~57.0.1",
     "expo-image": "~57.0.3",
     "expo-linking": "~57.0.6",
+    "expo-print": "~57.0.1",
     "expo-router": "~57.0.13",
     "expo-secure-store": "~57.0.1",
+    "expo-sharing": "~57.0.12",
     "expo-speech": "~57.0.1",
     "expo-splash-screen": "~57.0.6",
     "expo-sqlite": "~57.0.1",
@@ -51,6 +56,7 @@
     "web": "expo start --web",
     "server": "node server/index.js",
     "server:check": "node --check server/index.js",
+    "validate:migrations": "node scripts/validate-migrations.mjs",
     "lint": "expo lint"
   },
   "private": true

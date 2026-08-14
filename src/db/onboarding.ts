@@ -4,6 +4,8 @@ export interface LocalUserRow {
   id: string;
   teacher_language_id: string;
   onboarding_completed_at: string | null;
+  display_name: string;
+  avatar_emoji: string;
 }
 
 export interface UserLanguageRow {
@@ -13,7 +15,17 @@ export interface UserLanguageRow {
 }
 
 export async function getLocalUser(db: SQLiteDatabase) {
-  return db.getFirstAsync<LocalUserRow>('SELECT id, teacher_language_id, onboarding_completed_at FROM local_user LIMIT 1');
+  const active = await db.getFirstAsync<{ value: string }>("SELECT value FROM app_settings WHERE key = 'active_user_id'");
+  if (active?.value) {
+    const profile = await db.getFirstAsync<LocalUserRow>(
+      'SELECT id, teacher_language_id, onboarding_completed_at, display_name, avatar_emoji FROM local_user WHERE id = ?',
+      active.value,
+    );
+    if (profile) return profile;
+  }
+  return db.getFirstAsync<LocalUserRow>(
+    'SELECT id, teacher_language_id, onboarding_completed_at, display_name, avatar_emoji FROM local_user ORDER BY created_at LIMIT 1',
+  );
 }
 
 export async function getSelectedLanguages(db: SQLiteDatabase, userId: string) {
@@ -27,7 +39,14 @@ export async function saveTeacherLanguage(db: SQLiteDatabase, teacherLanguageId:
   if (existing) {
     await db.runAsync('UPDATE local_user SET teacher_language_id = ?, updated_at = ? WHERE id = ?', teacherLanguageId, now, id);
   } else {
-    await db.runAsync('INSERT INTO local_user (id, teacher_language_id, created_at, updated_at) VALUES (?, ?, ?, ?)', id, teacherLanguageId, now, now);
+    await db.withTransactionAsync(async () => {
+      await db.runAsync('INSERT INTO local_user (id, teacher_language_id, created_at, updated_at, display_name, avatar_emoji) VALUES (?, ?, ?, ?, ?, ?)', id, teacherLanguageId, now, now, 'Learner', '🌱');
+      await db.runAsync(
+        "INSERT INTO app_settings (key, value, updated_at) VALUES ('active_user_id', ?, ?) ON CONFLICT(key) DO UPDATE SET value = excluded.value, updated_at = excluded.updated_at",
+        id,
+        now,
+      );
+    });
   }
   return id;
 }

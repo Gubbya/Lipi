@@ -3,10 +3,12 @@ import { Pressable, SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useSQLiteContext } from 'expo-sqlite';
 import { useAudioPlayer, useAudioPlayerStatus } from 'expo-audio';
+import * as Speech from 'expo-speech';
 import { getContentPackage } from '@/content';
 import { getFeedbackAudio, getPhonicsAudio, getQuizAudio } from '@/content/phonics-audio';
 import { getLocalUser, getSelectedLanguages } from '@/db/onboarding';
 import { recordAttempt, recordLessonCompletion, saveUnitMastery } from '@/db/progress';
+import { scheduleReview, seedReviewCard } from '@/db/review';
 import { colors } from '@/features/onboarding/theme';
 import type { IdentifyUnitActivity } from '@/models';
 
@@ -54,12 +56,16 @@ export default function LessonScreen() {
   function playSound() {
     const unit = units[Math.min(step, units.length - 1)];
     if (!unit) return;
-    playAudio(getPhonicsAudio(unit.id, pronunciationVariantId));
+    const source = getPhonicsAudio(unit.id, pronunciationVariantId);
+    if (source) playAudio(source);
+    else Speech.speak(unit.speechCue ?? `${unit.symbol}. ${unit.soundHint ?? ''}`, { language: pronunciationVariantId, rate: 0.62 });
   }
 
   function playQuizPrompt() {
     if (!activity) return;
-    playAudio(getQuizAudio(activity.id, pronunciationVariantId));
+    const source = getQuizAudio(activity.id, pronunciationVariantId);
+    if (source) playAudio(source);
+    else Speech.speak(activity.prompt, { language: pronunciationVariantId, rate: 0.68 });
   }
 
   async function chooseAnswer(unitId: string) {
@@ -87,6 +93,8 @@ export default function LessonScreen() {
         pronunciation: 0, writing: 0, recall: 0, totalAttempts: 1, correctAttempts: 1, streakCorrect: 1,
         lastReviewedAt: now, nextReviewAt: new Date(Date.now() + 86400000).toISOString(), updatedAt: now,
       });
+      for (const learnedUnit of units) await seedReviewCard(db, user.id, 'en', learnedUnit.id, 'recognition');
+      await scheduleReview(db, user.id, 'en', activity.unitId, activity.skill, 100);
       await recordLessonCompletion(db, user.id, level.id, 100);
     } finally { setSaving(false); }
   }

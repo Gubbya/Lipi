@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react';
 import { Pressable, SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native';
-import { useFocusEffect, router } from 'expo-router';
+import { useFocusEffect, router, type Href } from 'expo-router';
 import { useSQLiteContext } from 'expo-sqlite';
 import { getContentPackage } from '@/content';
 import { getCourse } from '@/content/course-catalog';
@@ -89,6 +89,7 @@ export default function LearnScreen() {
           })}</View>
         </> : null}
 
+        <Pressable onPress={() => router.push('/(tabs)/worksheets' as Href)} style={styles.worksheetButton}><Text style={styles.worksheetIcon}>✎</Text><View style={styles.worksheetCopy}><Text style={styles.worksheetTitle}>Printable worksheet library</Text><Text style={styles.worksheetSubtitle}>Print or create PDFs for every bundled lesson</Text></View><Text style={styles.worksheetArrow}>→</Text></Pressable>
         <Pressable onPress={() => router.push('/(tabs)/manage-languages')} style={styles.manageButton}><Text style={styles.manageText}>{copy.manageShelf}</Text><Text style={styles.manageArrow}>→</Text></Pressable>
       </ScrollView>
     </SafeAreaView>
@@ -104,4 +105,5 @@ const styles = StyleSheet.create({
   sectionRow: { marginTop: 32, marginBottom: 13, flexDirection: 'row', alignItems: 'flex-end', justifyContent: 'space-between' }, sectionEyebrow: { color: colors.coral, fontSize: 9, fontWeight: '900', letterSpacing: 1.3 }, sectionTitle: { marginTop: 3, color: colors.ink, fontSize: 21, fontWeight: '800' }, count: { color: colors.muted, fontSize: 12, fontWeight: '600' }, lessonList: { gap: 11 },
   lessonCard: { minHeight: 94, flexDirection: 'row', alignItems: 'center', padding: 15, borderRadius: 22, borderWidth: 1, borderColor: colors.line, backgroundColor: '#fff' }, lessonNumber: { width: 44, height: 44, borderRadius: 14, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.mint }, lessonNumberPhonics: { backgroundColor: colors.coralSoft }, lessonNumberText: { color: colors.ink, fontSize: 13, fontWeight: '900' }, lessonCopyWrap: { flex: 1, marginHorizontal: 13 }, lessonFocus: { color: colors.coral, fontSize: 8, fontWeight: '900', letterSpacing: 1, textTransform: 'uppercase' }, lessonTitle: { marginTop: 4, color: colors.ink, fontSize: 16, fontWeight: '800' }, preview: { marginTop: 5, color: colors.mintDark, fontSize: 12, fontWeight: '800' }, play: { width: 34, height: 34, borderRadius: 12, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.coralSoft }, playComplete: { backgroundColor: colors.mint }, playText: { marginLeft: 2, color: colors.coral, fontSize: 11 }, playCompleteText: { marginLeft: 0, color: colors.mintDark, fontSize: 16, fontWeight: '900' },
   manageButton: { height: 56, marginTop: 24, paddingHorizontal: 18, borderRadius: 18, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', backgroundColor: colors.ink }, manageText: { color: '#fff', fontSize: 15, fontWeight: '800' }, manageArrow: { marginLeft: 9, color: colors.gold, fontSize: 20 }, pressed: { opacity: 0.78, transform: [{ scale: 0.99 }] },
+  worksheetButton: { minHeight: 76, marginTop: 27, padding: 14, borderRadius: 21, borderWidth: 1, borderColor: colors.line, flexDirection: 'row', alignItems: 'center', backgroundColor: '#fff' }, worksheetIcon: { width: 45, height: 45, borderRadius: 14, backgroundColor: colors.gold, color: colors.ink, fontSize: 22, lineHeight: 45, textAlign: 'center' }, worksheetCopy: { flex: 1, marginLeft: 12 }, worksheetTitle: { color: colors.ink, fontSize: 14, fontWeight: '900' }, worksheetSubtitle: { marginTop: 4, color: colors.muted, fontSize: 9 }, worksheetArrow: { color: colors.coral, fontSize: 20, fontWeight: '900' },
 });

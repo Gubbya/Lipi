@@ -2,6 +2,8 @@ import type { SQLiteDatabase } from 'expo-sqlite';
 import { migration001 } from './migrations/001_initial';
 import { migration002 } from './migrations/002_lesson_completions';
 import { migration003 } from './migrations/003_practice_sessions';
+import { migration004 } from './migrations/004_learning_system';
+import { migration005 } from './migrations/005_content_reviews';
 
 export async function migrateDatabase(db: SQLiteDatabase) {
   await db.execAsync('PRAGMA journal_mode = WAL; PRAGMA foreign_keys = ON;');
@@ -22,6 +24,18 @@ export async function migrateDatabase(db: SQLiteDatabase) {
     await db.withTransactionAsync(async () => {
       await db.execAsync(migration003);
       await db.execAsync('PRAGMA user_version = 3');
+    });
+  }
+  if ((result?.user_version ?? 0) < 4) {
+    await db.withTransactionAsync(async () => {
+      await db.execAsync(migration004);
+      await db.execAsync('PRAGMA user_version = 4');
+    });
+  }
+  if ((result?.user_version ?? 0) < 5) {
+    await db.withTransactionAsync(async () => {
+      await db.execAsync(migration005);
+      await db.execAsync('PRAGMA user_version = 5');
     });
   }
 }

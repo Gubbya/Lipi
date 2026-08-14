@@ -1,4 +1,5 @@
 import type { LanguageCourse, ScriptUnit, StarterLesson, VocabularyEntry, VocabularyImageKey } from '@/models';
+import { buildCurriculumExpansion } from './curriculum-expansion';
 
 type UnitInput = [symbol: string, romanization: string, soundHint: string, name?: string, example?: string];
 type WordInput = [concept: VocabularyImageKey, native: string, romanization: string, english: string];
@@ -23,10 +24,10 @@ function words(inputs: WordInput[]): VocabularyEntry[] {
   return inputs.map(([concept, native, romanization, english]) => ({ concept, native, romanization, english }));
 }
 
-export const courseCatalog: LanguageCourse[] = [
+const baseCourseCatalog: LanguageCourse[] = [
   {
     id: 'en', name: 'English', nativeName: 'English', locale: 'en-US', scriptName: 'Latin', direction: 'ltr', color: '#DDF1E7', accentColor: '#2F725D', preview: 'A B C',
-    description: 'US or UK pronunciation, A–Z, 44 phonemes, and common spelling patterns.', lessons: [],
+    description: 'US or UK pronunciation, A–Z, 44 phonemes, and 148 sound-spelling teaching units.', lessons: [],
     vocabulary: words([['hello', 'hello', 'hello', 'hello'], ['water', 'water', 'water', 'water'], ['book', 'book', 'book', 'book'], ['sun', 'sun', 'sun', 'sun'], ['cat', 'cat', 'cat', 'cat'], ['house', 'house', 'house', 'house']]),
   },
   {
@@ -129,6 +130,11 @@ export const courseCatalog: LanguageCourse[] = [
     vocabulary: words([['hello', 'नमस्ते', 'namaste', 'hello'], ['water', 'जलम्', 'jalam', 'water'], ['book', 'पुस्तकम्', 'pustakam', 'book'], ['sun', 'सूर्यः', 'sūryaḥ', 'sun'], ['cat', 'मार्जारः', 'mārjāraḥ', 'cat'], ['house', 'गृहम्', 'gṛham', 'house']]),
   },
 ];
+
+export const courseCatalog: LanguageCourse[] = baseCourseCatalog.map((course) => ({
+  ...course,
+  lessons: [...course.lessons, ...buildCurriculumExpansion(course)],
+}));
 
 function validateCourseCatalog(courses: LanguageCourse[]) {
   const courseIds = new Set<string>();

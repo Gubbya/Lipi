@@ -1,4 +1,4 @@
-# Lipi multilingual MVP
+# Lipi completion-pass review
 
 ## Product promise
 
@@ -12,24 +12,32 @@ puzzles. The core experience works offline and saves progress locally.
 - Multi-select language onboarding and editable course shelf
 - 17 target-language courses
 - US/UK English pronunciation selection
-- English A–Z and foundational phonics-pattern path
-- Starter script lessons for every non-English course
+- English A–Z, 44 phonemes, and 148 sound/spelling teaching units
+- Six structured foundation lessons for every non-English course
 - Tap-to-hear device pronunciation for multilingual starter content
 - Bundled offline English audio with resumable expressive-voice generation
 - Picture vocabulary with reusable internet-sourced CC-BY visuals
 - Simple first phrases with romanization and English meaning
-- Look/Say/Trace worksheets
+- On-screen Look/Say/Trace plus printable PDF worksheets
 - Per-lesson recognition quizzes
 - Mixed-language picture puzzles
 - SQLite lesson completion, repeat counts, mastery, attempts, and practice history
+- SM-2-style spaced review scheduling
+- Persistent learner voice recording with self-checks
+- Optional Gemini audio-based pronunciation coaching
+- Multiple learner profiles on one device
+- Online Gemini tutor with bundled offline fallback
+- Manual MongoDB backup and restore from the Profile tab
+- Protected native-speaker content-review studio
 - Secure MongoDB/Gemini backend foundation
 
-## Course expansion order
+## Future curriculum depth
 
-1. Finish and linguistically review all English phoneme/grapheme groups.
-2. Expand Marathi into full varṇamālā and bārākhaḍī.
-3. Expand Hindi, Gujarati, Punjabi, Kannada, Telugu, and Sanskrit scripts.
-4. Add complete Latin-alphabet pronunciation packs for French, Spanish,
+1. Linguistically review every English phoneme/grapheme group.
+2. Extend Marathi into complete varṇamālā, bārākhaḍī, and graded reading.
+3. Complete the full scripts for Hindi, Gujarati, Punjabi, Kannada, Telugu,
+   and Sanskrit.
+4. Add professionally recorded pronunciation packs for French, Spanish,
    Italian, and German.
 5. Expand Cyrillic and Arabic joining forms.
 6. Expand Hiragana/Katakana, Hangul blocks, and Mandarin tones/Hanzi strokes.
@@ -47,16 +55,19 @@ puzzles. The core experience works offline and saves progress locally.
 8. Open a worksheet and check all script symbols render correctly.
 9. Play a picture word and a first phrase.
 10. Complete the six-round mixed-language puzzle.
-11. Restart offline and confirm course selections and progress remain.
+11. Complete a Practice review and record a pronunciation attempt.
+12. Open Worksheets and print or save one lesson as PDF.
+13. Ask the Tutor a question with the server disabled and verify offline fallback.
+14. Create a second learner profile, switch profiles, and confirm separate progress.
+15. Restart offline and confirm course selections and progress remain.
 
 ## Known limitations
 
-- Non-English courses are foundational starter packs, not yet complete CEFR or
-  school-grade curricula.
+- Non-English courses are expanded foundation packs, not complete CEFR or
+  school-grade curricula; full mastery content remains a multi-year publishing task.
 - Device speech quality and voice availability vary by operating system.
 - Expressive Gemini audio generation is rate-limited and uses a resume manifest.
-- Cloud sync APIs exist, but the mobile client remains offline-first and does
-  not upload automatically.
+- Cloud sync is deliberately manual and offline-first.
 - Atlas connectivity currently reports a strict TLS handshake failure on this
   Windows/Node environment; certificate verification has not been weakened.
 - Language content needs native-speaker review before public release.

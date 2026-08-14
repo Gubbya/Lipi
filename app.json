@@ -2,7 +2,7 @@
   "expo": {
     "name": "Lipi",
     "slug": "lipi",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/images/lipi-icon.png",
     "scheme": "lipi",
@@ -33,9 +33,18 @@
       ],
       "expo-sqlite",
       "expo-secure-store",
-      "expo-audio",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Allow Lipi to record your voice for pronunciation practice.",
+          "recordAudioAndroid": true,
+          "enableBackgroundRecording": false,
+          "enableBackgroundPlayback": false
+        }
+      ],
       "expo-image",
-      "expo-asset"
+      "expo-asset",
+      "expo-sharing"
     ],
     "experiments": {
       "typedRoutes": true,

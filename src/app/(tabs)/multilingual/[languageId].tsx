@@ -8,6 +8,7 @@ import { vocabularyImages } from '@/content/vocabulary-images';
 import { phrasebook } from '@/content/phrasebook';
 import { getLocalUser } from '@/db/onboarding';
 import { getLessonCompletions, recordLessonCompletion, type LessonCompletionRow } from '@/db/progress';
+import { scheduleReview, seedReviewCard } from '@/db/review';
 import { colors } from '@/features/onboarding/theme';
 import type { StarterLesson } from '@/models';
 import { useUiCopy } from '@/features/localization/use-ui-copy';
@@ -71,6 +72,8 @@ export default function MultilingualCourseScreen() {
       const user = await getLocalUser(db);
       if (!user) return router.replace('/');
       await recordLessonCompletion(db, user.id, activeLesson.id, 100);
+      for (const learnedUnit of activeLesson.units) await seedReviewCard(db, user.id, course!.id, learnedUnit.id, 'recognition');
+      await scheduleReview(db, user.id, course!.id, quizTarget.id, 'recognition', 100);
       const rows = await getLessonCompletions(db, user.id);
       setCompletions(Object.fromEntries(rows.map((row) => [row.level_id, row])));
     } finally { setSaving(false); }

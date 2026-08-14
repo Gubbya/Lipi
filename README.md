@@ -11,9 +11,15 @@ English (US/UK), Marathi, Hindi, French, Spanish, Italian, German, Russian,
 Arabic, Mandarin Chinese, Japanese, Korean, Kannada, Punjabi, Gujarati, Telugu,
 and Sanskrit.
 
-English currently has the deepest phonics path. Every other course includes a
-reviewable starter package with script lessons, pronunciation, picture
-vocabulary, first phrases, worksheets, quizzes, and repeatable progress.
+English contains a validated 44-phoneme reference and exactly 148 teachable
+letter/sound/spelling units across 23 lessons. Every other course contains six
+structured foundation lessons covering script, numbers, picture vocabulary,
+phrases, worksheets, quizzes, and repeatable progress.
+
+The application also includes multiple learner profiles, spaced repetition,
+voice recording, optional AI pronunciation coaching, an online/offline tutor,
+printable PDF worksheets, manual cloud backup/restore, and a protected content
+review studio.
 
 ## Run the app
 
@@ -31,6 +37,8 @@ physical Android device.
 npx tsc --noEmit
 npm run lint
 npm run server:check
+npm run validate:migrations
+npx expo-doctor
 npx expo export --platform web
 ```
 
@@ -52,9 +60,14 @@ Endpoints:
 - `GET /api/progress/:deviceUserId`
 - `PUT /api/progress/:deviceUserId`
 - `POST /api/tutor`
+- `POST /api/pronunciation`
+- `GET /api/content-review/:languageId`
+- `PUT /api/content-review/:languageId`
 
 SQLite remains the primary offline store. MongoDB is for optional backup and
-future multi-device synchronization.
+manual multi-device synchronization. Add the server URL and `AI_API_TOKEN` in
+the app under **Profile → Cloud & AI**. Raw voice recordings are never uploaded
+by progress backup.
 
 ## Content and visual licensing
 
@@ -64,6 +77,10 @@ Twemoji graphics licensed under CC-BY 4.0; attribution is stored in
 
 ## Important scope note
 
-English is commonly analyzed as roughly 44 phonemes represented by about
-140–150 spelling patterns, rather than 148 distinct sounds. Lipi models sounds
-and spellings separately so the curriculum can grow accurately.
+English is commonly analyzed as roughly 44 phonemes represented by many
+spellings, rather than 148 distinct sounds. Lipi therefore provides 44 phoneme
+records and 148 teaching units, keeping sounds and spellings separate.
+
+All course material must receive native-speaker and teacher review before a
+public educational release. The built-in Content Review Studio tracks that
+approval without allowing unvalidated runtime curriculum changes.
