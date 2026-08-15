@@ -11,6 +11,7 @@ export interface ScriptUnit {
 
 export interface StarterLesson {
   id: string;
+  section?: string;
   title: string;
   description: string;
   units: ScriptUnit[];

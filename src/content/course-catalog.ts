@@ -1,5 +1,6 @@
 import type { LanguageCourse, ScriptUnit, StarterLesson, VocabularyEntry, VocabularyImageKey } from '@/models';
 import { buildCurriculumExpansion } from './curriculum-expansion';
+import { marathiCurriculum } from './marathi-curriculum';
 
 type UnitInput = [symbol: string, romanization: string, soundHint: string, name?: string, example?: string];
 type WordInput = [concept: VocabularyImageKey, native: string, romanization: string, english: string];
@@ -32,11 +33,8 @@ const baseCourseCatalog: LanguageCourse[] = [
   },
   {
     id: 'mr', name: 'Marathi', nativeName: 'मराठी', locale: 'mr-IN', scriptName: 'Devanagari', direction: 'ltr', color: '#FFE7C7', accentColor: '#A55224', preview: 'अ आ क',
-    description: 'स्वर, व्यंजन, बाराखडी, everyday words, and simple Marathi sentences.',
-    lessons: [
-      lesson('mr', 'vowels-1', 'स्वर · Vowels 1', 'Meet the first independent Marathi vowels.', [['अ', 'a', 'short a', 'अ'], ['आ', 'ā', 'long aa', 'आ'], ['इ', 'i', 'short i', 'इ'], ['ई', 'ī', 'long ee', 'ई'], ['उ', 'u', 'short u', 'उ'], ['ऊ', 'ū', 'long oo', 'ऊ']]),
-      lesson('mr', 'consonants-1', 'व्यंजन · Consonants 1', 'Start the क-वर्ग consonant family.', [['क', 'ka', 'k as in kite', 'क'], ['ख', 'kha', 'aspirated kh', 'ख'], ['ग', 'ga', 'g as in go', 'ग'], ['घ', 'gha', 'aspirated gh', 'घ'], ['ङ', 'ṅa', 'nasal ng', 'ङ']]),
-    ],
+    description: 'A complete Marathi foundation: स्वर, व्यंजन, मात्रा, expanded बाराखडी, numbers, reading, conversation, quizzes, and review.',
+    lessons: [],
     vocabulary: words([['hello', 'नमस्कार', 'namaskār', 'hello'], ['water', 'पाणी', 'pāṇī', 'water'], ['book', 'पुस्तक', 'pustak', 'book'], ['sun', 'सूर्य', 'sūrya', 'sun'], ['cat', 'मांजर', 'māñjar', 'cat'], ['house', 'घर', 'ghar', 'house']]),
   },
   {
@@ -133,7 +131,7 @@ const baseCourseCatalog: LanguageCourse[] = [
 
 export const courseCatalog: LanguageCourse[] = baseCourseCatalog.map((course) => ({
   ...course,
-  lessons: [...course.lessons, ...buildCurriculumExpansion(course)],
+  lessons: course.id === 'mr' ? marathiCurriculum : [...course.lessons, ...buildCurriculumExpansion(course)],
 }));
 
 function validateCourseCatalog(courses: LanguageCourse[]) {

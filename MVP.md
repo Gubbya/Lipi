@@ -13,7 +13,10 @@ puzzles. The core experience works offline and saves progress locally.
 - 17 target-language courses
 - US/UK English pronunciation selection
 - English A–Z, 44 phonemes, and 148 sound/spelling teaching units
-- Six structured foundation lessons for every non-English course
+- 56 grouped Marathi foundational lessons with 689 learning units
+- Complete starter Marathi varṇamālā, mātrās, 37 expanded bārākhaḍī rows,
+  Devanagari numbers 0–20, first reading, and conversation
+- Six structured foundation lessons for every other non-English course
 - Tap-to-hear device pronunciation for multilingual starter content
 - Bundled offline English audio with resumable expressive-voice generation
 - Picture vocabulary with reusable internet-sourced CC-BY visuals
@@ -34,7 +37,8 @@ puzzles. The core experience works offline and saves progress locally.
 ## Future curriculum depth
 
 1. Linguistically review every English phoneme/grapheme group.
-2. Extend Marathi into complete varṇamālā, bārākhaḍī, and graded reading.
+2. Native-speaker and primary-teacher review of the new Marathi foundation,
+   followed by graded readers beyond the first sentence level.
 3. Complete the full scripts for Hindi, Gujarati, Punjabi, Kannada, Telugu,
    and Sanskrit.
 4. Add professionally recorded pronunciation packs for French, Spanish,
@@ -52,19 +56,24 @@ puzzles. The core experience works offline and saves progress locally.
 5. Open every selected course from the Learn shelf.
 6. Complete one English lesson and one non-English lesson.
 7. Confirm both show Completed and remain repeatable.
-8. Open a worksheet and check all script symbols render correctly.
-9. Play a picture word and a first phrase.
-10. Complete the six-round mixed-language puzzle.
-11. Complete a Practice review and record a pronunciation attempt.
-12. Open Worksheets and print or save one lesson as PDF.
-13. Ask the Tutor a question with the server disabled and verify offline fallback.
-14. Create a second learner profile, switch profiles, and confirm separate progress.
-15. Restart offline and confirm course selections and progress remain.
+8. Open Marathi and confirm the seven lesson sections, all 56 lessons, and the
+   expanded बārाखडी rows appear.
+9. Complete one Marathi bārākhaḍī lesson, repeat it, and confirm the quiz target
+   advances on the repeat.
+10. Open a worksheet and check all script symbols render correctly.
+11. Play a picture word and a first phrase.
+12. Complete the six-round mixed-language puzzle.
+13. Complete a Practice review and record a pronunciation attempt.
+14. Open Worksheets and print or save one lesson as PDF.
+15. Ask the Tutor a question with the server disabled and verify offline fallback.
+16. Create a second learner profile, switch profiles, and confirm separate progress.
+17. Restart offline and confirm course selections and progress remain.
 
 ## Known limitations
 
-- Non-English courses are expanded foundation packs, not complete CEFR or
-  school-grade curricula; full mastery content remains a multi-year publishing task.
+- Marathi is now a complete foundational literacy path, not a full school-grade
+  or CEFR-equivalent course. Other non-English courses remain expanded foundation
+  packs; full mastery content is a multi-year publishing task.
 - Device speech quality and voice availability vary by operating system.
 - Expressive Gemini audio generation is rate-limited and uses a resume manifest.
 - Cloud sync is deliberately manual and offline-first.

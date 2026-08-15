@@ -12,9 +12,12 @@ Arabic, Mandarin Chinese, Japanese, Korean, Kannada, Punjabi, Gujarati, Telugu,
 and Sanskrit.
 
 English contains a validated 44-phoneme reference and exactly 148 teachable
-letter/sound/spelling units across 23 lessons. Every other course contains six
-structured foundation lessons covering script, numbers, picture vocabulary,
-phrases, worksheets, quizzes, and repeatable progress.
+letter/sound/spelling units across 23 lessons. Marathi contains 56 grouped
+foundational lessons and 689 learning units covering the complete starter
+varṇamālā, vowel signs, 37 expanded bārākhaḍī rows, Devanagari numbers 0–20,
+reading, and conversation. Each remaining course contains six structured
+foundation lessons covering script, numbers, picture vocabulary, phrases,
+worksheets, quizzes, and repeatable progress.
 
 The application also includes multiple learner profiles, spaced repetition,
 voice recording, optional AI pronunciation coaching, an online/offline tutor,
@@ -74,6 +77,11 @@ by progress backup.
 Course content is bundled and validated locally. Vocabulary pictograms are
 Twemoji graphics licensed under CC-BY 4.0; attribution is stored in
 `assets/images/vocabulary/ATTRIBUTION.md`.
+
+The Marathi writing-system inventory follows the current Unicode Devanagari
+repertoire. Every lesson can be heard with the device's Marathi voice, completed
+as a recognition quiz, printed as a worksheet, repeated, and scheduled for
+spaced review.
 
 ## Important scope note
 
