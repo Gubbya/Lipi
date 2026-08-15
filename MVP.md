@@ -29,7 +29,8 @@ puzzles. The core experience works offline and saves progress locally.
 - Persistent learner voice recording with self-checks
 - Optional Gemini audio-based pronunciation coaching
 - Multiple learner profiles on one device
-- Online Gemini tutor with bundled offline fallback
+- Responsive online Gemini tutor with intent-aware bundled offline lessons,
+  pronunciation playback, quick prompts, and per-language private chat history
 - Manual MongoDB backup and restore from the Profile tab
 - Protected native-speaker content-review studio
 - Secure MongoDB/Gemini backend foundation

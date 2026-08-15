@@ -20,7 +20,8 @@ foundation lessons covering script, numbers, picture vocabulary, phrases,
 worksheets, quizzes, and repeatable progress.
 
 The application also includes multiple learner profiles, spaced repetition,
-voice recording, optional AI pronunciation coaching, an online/offline tutor,
+voice recording, optional AI pronunciation coaching, a responsive online/offline
+tutor with intent-aware bundled lessons and private conversation history,
 printable PDF worksheets, manual cloud backup/restore, and a protected content
 review studio.
 

@@ -43,3 +43,7 @@ export async function getTutorMessages(db: SQLiteDatabase, userId: string, langu
     limit,
   );
 }
+
+export async function clearTutorMessages(db: SQLiteDatabase, userId: string, languageId: string) {
+  await db.runAsync('DELETE FROM tutor_messages WHERE user_id = ? AND language_id = ?', userId, languageId);
+}
