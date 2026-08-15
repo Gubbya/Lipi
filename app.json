@@ -2,7 +2,7 @@
   "expo": {
     "name": "Lipi",
     "slug": "lipi",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "orientation": "portrait",
     "icon": "./assets/images/lipi-icon.png",
     "scheme": "lipi",
@@ -10,11 +10,11 @@
     "ios": {
       "icon": "./assets/images/lipi-icon.png",
       "bundleIdentifier": "com.gubbya.lipi",
-      "buildNumber": "5"
+      "buildNumber": "6"
     },
     "android": {
       "package": "com.gubbya.lipi",
-      "versionCode": 15,
+      "versionCode": 16,
       "adaptiveIcon": {
         "backgroundColor": "#FFF9EF",
         "foregroundImage": "./assets/images/lipi-icon.png"

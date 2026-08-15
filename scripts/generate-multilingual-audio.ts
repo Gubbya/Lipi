@@ -12,6 +12,7 @@ type Clip = {
   file: string;
   text: string;
   transcript: string;
+  fallbackTranscript?: string;
   textKey?: string;
   unitId?: string;
 };
@@ -61,6 +62,19 @@ const feedback: Record<string, { correct: string; tryAgain: string }> = {
   sa: { correct: 'समीचीनम्!', tryAgain: 'पुनः प्रयत्नं कुरु।' },
 };
 
+// Standalone Pinyin letters are inconsistently handled by neural TTS. These
+// short native examples begin or end with the intended sound and reliably
+// produce clear Mandarin audio instead of English letter names.
+const mandarinSoundExamples: Record<string, string> = {
+  b: '波', p: '坡', m: '摸', f: '佛', d: '得', t: '特', n: '呢', l: '勒',
+  g: '哥', k: '科', h: '喝', j: '鸡', q: '七', x: '西', zh: '知', ch: '吃',
+  sh: '诗', r: '日', z: '资', c: '次', s: '思', y: '衣', w: '屋',
+  a: '啊', o: '哦', e: '鹅', i: '衣', u: '乌', ü: '鱼', ai: '哀', ei: '欸',
+  ao: '凹', ou: '欧', ia: '呀', ie: '耶', ua: '蛙', uo: '窝', an: '安', en: '恩',
+  in: '音', un: '温', ün: '云', ang: '昂', eng: '鞥', ing: '英', ong: '翁',
+  ian: '烟', uan: '弯', uang: '汪',
+};
+
 const args = new Map(process.argv.slice(2).map((argument) => {
   const [key, ...value] = argument.replace(/^--/, '').split('=');
   return [key, value.join('=') || 'true'];
@@ -79,13 +93,17 @@ function cleanTranscript(text: string) {
 }
 
 function clipsForCourse(course: LanguageCourse): Clip[] {
-  const unitClips = course.lessons.flatMap((lesson) => lesson.units.map((unit): Clip => ({
-    course,
-    file: `${unit.id}.mp3`,
-    text: unit.symbol,
-    transcript: `${cleanTranscript(unit.symbol)}. ${cleanTranscript(unit.symbol)}.`,
-    unitId: unit.id,
-  })));
+  const unitClips = course.lessons.flatMap((lesson) => lesson.units.map((unit): Clip => {
+    const spokenExample = course.id === 'zh' ? mandarinSoundExamples[unit.symbol] ?? unit.symbol : unit.symbol;
+    return {
+      course,
+      file: `${unit.id}.mp3`,
+      text: unit.symbol,
+      transcript: `${cleanTranscript(spokenExample)}. ${cleanTranscript(spokenExample)}.`,
+      fallbackTranscript: `${cleanTranscript(unit.romanization)}. ${cleanTranscript(unit.soundHint)}.`,
+      unitId: unit.id,
+    };
+  }));
   const phraseClips = (phrasebook[course.id] ?? []).map((phrase, index): Clip => ({
     course,
     file: `${course.id}-phrase-${index + 1}.mp3`,
@@ -178,13 +196,14 @@ async function generateClip(clip: Clip, attempt = 1): Promise<void> {
   const filePath = path.join(outputDirectory, clip.file);
   await fs.mkdir(outputDirectory, { recursive: true });
   try {
+    const transcript = attempt >= 3 && clip.fallbackTranscript ? clip.fallbackTranscript : clip.transcript;
     if (provider.kind === 'edge') {
       await execFileAsync('python', [
         '-m', 'edge_tts', '--voice', provider.voice, '--rate=-8%', '--pitch=+0Hz',
-        '--text', clip.transcript, '--write-media', filePath,
+        '--text', transcript, '--write-media', filePath,
       ], { windowsHide: true, timeout: 90_000 });
     } else {
-      await execFileAsync('gtts-cli', [clip.transcript, '--lang', provider.language, '--output', filePath], { windowsHide: true, timeout: 90_000 });
+      await execFileAsync('gtts-cli', [transcript, '--lang', provider.language, '--output', filePath], { windowsHide: true, timeout: 90_000 });
     }
     await validateMp3(filePath);
   } catch (error) {

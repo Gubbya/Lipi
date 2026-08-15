@@ -6,9 +6,9 @@ const audioRoot = path.join(projectRoot, 'assets', 'audio');
 const failures = [];
 const expectedCounts = {
   'en-US': 70, 'en-GB': 70, 'mr-IN': 712,
-  'hi-IN': 42, 'fr-FR': 42, 'es-ES': 41, 'it-IT': 41, 'de-DE': 42,
-  'ru-RU': 43, 'ar-SA': 43, 'zh-CN': 42, 'ja-JP': 41, 'ko-KR': 43,
-  'kn-IN': 42, 'pa-IN': 42, 'gu-IN': 42, 'te-IN': 42, 'sa-IN': 42,
+  'hi-IN': 131, 'fr-FR': 108, 'es-ES': 106, 'it-IT': 105, 'de-DE': 110,
+  'ru-RU': 112, 'ar-SA': 110, 'zh-CN': 142, 'ja-JP': 181, 'ko-KR': 121,
+  'kn-IN': 133, 'pa-IN': 115, 'gu-IN': 130, 'te-IN': 135, 'sa-IN': 135,
 };
 
 async function validateDirectory(locale) {
@@ -57,7 +57,7 @@ for (const file of requires) {
 console.log(`Marathi static mappings: ${requires.length}`);
 if (requires.length !== 712) failures.push(`Marathi static mappings: expected 712, found ${requires.length}`);
 
-for (const [moduleName, expectedMappings] of [['multilingual-audio.generated.ts', 630], ['english-content-audio.generated.ts', 18]]) {
+for (const [moduleName, expectedMappings] of [['multilingual-audio.generated.ts', 1874], ['english-content-audio.generated.ts', 18]]) {
   const moduleSource = await fs.readFile(path.join(projectRoot, 'src', 'content', moduleName), 'utf8');
   const moduleRequires = [...moduleSource.matchAll(/require\('\.\.\/\.\.\/assets\/audio\/([^/]+)\/([^']+)'\)/g)];
   for (const match of moduleRequires) {

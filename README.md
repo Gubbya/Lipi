@@ -15,9 +15,10 @@ English contains a validated 44-phoneme reference and exactly 148 teachable
 letter/sound/spelling units across 23 lessons. Marathi contains 56 grouped
 foundational lessons and 689 learning units covering the complete starter
 varṇamālā, vowel signs, 37 expanded bārākhaḍī rows, Devanagari numbers 0–20,
-reading, and conversation. Each remaining course contains six structured
-foundation lessons covering script, numbers, picture vocabulary, phrases,
-worksheets, quizzes, and repeatable progress.
+reading, and conversation. The other 15 courses now contain 199 structured
+foundation lessons and 1,589 learning units covering complete beginner writing-
+system inventories, high-value phonics, numbers 1–10, picture vocabulary, 11
+conversation phrases per language, worksheets, quizzes, and repeatable progress.
 
 The application also includes multiple learner profiles, spaced repetition,
 voice recording, optional AI pronunciation coaching, a responsive online/offline
@@ -37,9 +38,9 @@ physical Android device.
 
 ## Offline learning audio
 
-Lipi packages 1,482 permanent recordings across every course. This includes
+Lipi packages 2,726 permanent recordings across every course. This includes
 separate US/UK English phonics and content variants, all 712 planned Marathi
-recordings, and 630 lesson, phrase, vocabulary, and feedback recordings for the
+recordings, and 1,874 lesson, phrase, vocabulary, and feedback recordings for the
 other 15 courses. Lesson, phrase, Practice, and Tutor targets provide **Normal**
 and **Slow** playback. Dynamic tutor sentences that are not part of the planned
 curriculum still use a clearly labelled device voice.
@@ -53,6 +54,7 @@ npm run audio:marathi:fallback
 npm run audio:multilingual:status
 npm run audio:multilingual
 npm run audio:validate
+npm run validate:curriculum
 ```
 
 The Gemini generators read `GEMINI_API_KEY` from the ignored `server/.env`, are
@@ -85,6 +87,7 @@ release.
 ```powershell
 npx tsc --noEmit
 npm run lint
+npm run validate:curriculum
 npm run server:check
 npm run validate:migrations
 npx expo-doctor

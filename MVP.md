@@ -16,8 +16,14 @@ puzzles. The core experience works offline and saves progress locally.
 - 56 grouped Marathi foundational lessons with 689 learning units
 - Complete starter Marathi varṇamālā, mātrās, 37 expanded bārākhaḍī rows,
   Devanagari numbers 0–20, first reading, and conversation
-- Six structured foundation lessons for every other non-English course
-- Tap-to-hear device pronunciation for multilingual starter content
+- 199 structured foundation lessons and 1,589 learning units across the other
+  15 non-English courses
+- Complete beginner Cyrillic, Arabic, Hiragana, Katakana, Hangul, Devanagari,
+  Kannada, Gurmukhi, Gujarati, and Telugu script inventories
+- Mandarin Pinyin initials/finals, five tones, and starter Hanzi
+- High-value French, Spanish, Italian, and German phonics patterns
+- 11 practical conversation phrases per non-English language
+- 1,874 bundled offline recordings for multilingual lessons and practice
 - Bundled offline English audio with resumable expressive-voice generation
 - Picture vocabulary with reusable internet-sourced CC-BY visuals
 - Simple first phrases with romanization and English meaning
@@ -40,13 +46,11 @@ puzzles. The core experience works offline and saves progress locally.
 1. Linguistically review every English phoneme/grapheme group.
 2. Native-speaker and primary-teacher review of the new Marathi foundation,
    followed by graded readers beyond the first sentence level.
-3. Complete the full scripts for Hindi, Gujarati, Punjabi, Kannada, Telugu,
-   and Sanskrit.
-4. Add professionally recorded pronunciation packs for French, Spanish,
-   Italian, and German.
-5. Expand Cyrillic and Arabic joining forms.
-6. Expand Hiragana/Katakana, Hangul blocks, and Mandarin tones/Hanzi strokes.
-7. Add graded readers, sentence construction, and conversation scenarios.
+3. Native-teacher review and correction pass for every new language pack.
+4. Replace neural starter audio with studio teacher recordings where needed.
+5. Add handwriting stroke animations and connected Arabic-form tracing.
+6. Add graded readers, sentence construction, grammar, and conversation scenarios.
+7. Map future content to CEFR or an appropriate school-grade framework.
 
 ## Review test
 
@@ -72,9 +76,9 @@ puzzles. The core experience works offline and saves progress locally.
 
 ## Known limitations
 
-- Marathi is now a complete foundational literacy path, not a full school-grade
-  or CEFR-equivalent course. Other non-English courses remain expanded foundation
-  packs; full mastery content is a multi-year publishing task.
+- Marathi and the other courses are foundational literacy paths, not full school-
+  grade or CEFR-equivalent mastery courses. Full mastery content is a multi-year
+  publishing and native-teacher-review task.
 - Device speech quality and voice availability vary by operating system.
 - Expressive Gemini audio generation is rate-limited and uses a resume manifest.
 - Cloud sync is deliberately manual and offline-first.

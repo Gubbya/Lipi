@@ -1,7 +1,7 @@
 {
   "name": "lipi",
   "main": "expo-router/entry",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "engines": {
     "node": ">=20.19.0"
   },
@@ -66,6 +66,7 @@
     "audio:multilingual:status": "tsx scripts/generate-multilingual-audio.ts --plan",
     "audio:status": "tsx scripts/generate-gemini-marathi-audio.ts --plan",
     "audio:validate": "node scripts/validate-audio-packs.mjs",
+    "validate:curriculum": "tsx scripts/validate-curriculum.ts",
     "validate:migrations": "node scripts/validate-migrations.mjs",
     "lint": "expo lint"
   },
