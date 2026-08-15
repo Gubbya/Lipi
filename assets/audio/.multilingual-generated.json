@@ -1,0 +1,3782 @@
+{
+  "hi-IN/hi-vowels-1-1.mp3": {
+    "generatedAt": "2026-08-15T07:50:25.757Z",
+    "model": "edge-neural-tts",
+    "transcript": "अ. अ.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-vowels-1-2.mp3": {
+    "generatedAt": "2026-08-15T07:50:25.758Z",
+    "model": "edge-neural-tts",
+    "transcript": "आ. आ.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-vowels-1-3.mp3": {
+    "generatedAt": "2026-08-15T07:50:25.758Z",
+    "model": "edge-neural-tts",
+    "transcript": "इ. इ.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-vowels-1-4.mp3": {
+    "generatedAt": "2026-08-15T07:50:25.758Z",
+    "model": "edge-neural-tts",
+    "transcript": "ई. ई.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-vowels-1-5.mp3": {
+    "generatedAt": "2026-08-15T07:50:25.758Z",
+    "model": "edge-neural-tts",
+    "transcript": "उ. उ.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-vowels-1-6.mp3": {
+    "generatedAt": "2026-08-15T07:50:25.758Z",
+    "model": "edge-neural-tts",
+    "transcript": "ऊ. ऊ.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-consonants-1-1.mp3": {
+    "generatedAt": "2026-08-15T07:50:25.758Z",
+    "model": "edge-neural-tts",
+    "transcript": "क. क.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-consonants-1-2.mp3": {
+    "generatedAt": "2026-08-15T07:50:25.758Z",
+    "model": "edge-neural-tts",
+    "transcript": "ख. ख.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-consonants-1-3.mp3": {
+    "generatedAt": "2026-08-15T07:50:30.454Z",
+    "model": "edge-neural-tts",
+    "transcript": "ग. ग.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-consonants-1-4.mp3": {
+    "generatedAt": "2026-08-15T07:50:30.454Z",
+    "model": "edge-neural-tts",
+    "transcript": "घ. घ.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-consonants-1-5.mp3": {
+    "generatedAt": "2026-08-15T07:50:30.454Z",
+    "model": "edge-neural-tts",
+    "transcript": "ङ. ङ.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-script-more-1.mp3": {
+    "generatedAt": "2026-08-15T07:50:30.454Z",
+    "model": "edge-neural-tts",
+    "transcript": "ए. ए.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-script-more-2.mp3": {
+    "generatedAt": "2026-08-15T07:50:30.454Z",
+    "model": "edge-neural-tts",
+    "transcript": "ऐ. ऐ.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-script-more-3.mp3": {
+    "generatedAt": "2026-08-15T07:50:30.454Z",
+    "model": "edge-neural-tts",
+    "transcript": "ओ. ओ.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-script-more-4.mp3": {
+    "generatedAt": "2026-08-15T07:50:30.454Z",
+    "model": "edge-neural-tts",
+    "transcript": "औ. औ.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-script-more-5.mp3": {
+    "generatedAt": "2026-08-15T07:50:30.454Z",
+    "model": "edge-neural-tts",
+    "transcript": "अं. अं.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-script-more-6.mp3": {
+    "generatedAt": "2026-08-15T07:50:35.326Z",
+    "model": "edge-neural-tts",
+    "transcript": "अः. अः.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-numbers-1.mp3": {
+    "generatedAt": "2026-08-15T07:50:35.326Z",
+    "model": "edge-neural-tts",
+    "transcript": "एक. एक.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-numbers-2.mp3": {
+    "generatedAt": "2026-08-15T07:50:35.326Z",
+    "model": "edge-neural-tts",
+    "transcript": "दो. दो.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-numbers-3.mp3": {
+    "generatedAt": "2026-08-15T07:50:35.326Z",
+    "model": "edge-neural-tts",
+    "transcript": "तीन. तीन.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-numbers-4.mp3": {
+    "generatedAt": "2026-08-15T07:50:35.326Z",
+    "model": "edge-neural-tts",
+    "transcript": "चार. चार.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-numbers-5.mp3": {
+    "generatedAt": "2026-08-15T07:50:35.326Z",
+    "model": "edge-neural-tts",
+    "transcript": "पाँच. पाँच.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-picture-words-1.mp3": {
+    "generatedAt": "2026-08-15T07:50:35.326Z",
+    "model": "edge-neural-tts",
+    "transcript": "नमस्ते. नमस्ते.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-picture-words-2.mp3": {
+    "generatedAt": "2026-08-15T07:50:35.326Z",
+    "model": "edge-neural-tts",
+    "transcript": "पानी. पानी.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-picture-words-3.mp3": {
+    "generatedAt": "2026-08-15T07:50:40.582Z",
+    "model": "edge-neural-tts",
+    "transcript": "किताब. किताब.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-picture-words-4.mp3": {
+    "generatedAt": "2026-08-15T07:50:40.582Z",
+    "model": "edge-neural-tts",
+    "transcript": "सूरज. सूरज.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-picture-words-5.mp3": {
+    "generatedAt": "2026-08-15T07:50:40.582Z",
+    "model": "edge-neural-tts",
+    "transcript": "बिल्ली. बिल्ली.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-picture-words-6.mp3": {
+    "generatedAt": "2026-08-15T07:50:40.582Z",
+    "model": "edge-neural-tts",
+    "transcript": "घर. घर.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-phrases-1.mp3": {
+    "generatedAt": "2026-08-15T07:50:40.582Z",
+    "model": "edge-neural-tts",
+    "transcript": "नमस्ते!. नमस्ते!.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-phrases-2.mp3": {
+    "generatedAt": "2026-08-15T07:50:40.582Z",
+    "model": "edge-neural-tts",
+    "transcript": "मेरा नाम , है।. मेरा नाम , है।.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-phrases-3.mp3": {
+    "generatedAt": "2026-08-15T07:50:40.582Z",
+    "model": "edge-neural-tts",
+    "transcript": "मुझे पानी चाहिए।. मुझे पानी चाहिए।.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-phrase-1.mp3": {
+    "generatedAt": "2026-08-15T07:50:40.582Z",
+    "model": "edge-neural-tts",
+    "transcript": "नमस्ते!",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-phrase-2.mp3": {
+    "generatedAt": "2026-08-15T07:50:45.521Z",
+    "model": "edge-neural-tts",
+    "transcript": "मेरा नाम , है।",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-phrase-3.mp3": {
+    "generatedAt": "2026-08-15T07:50:45.521Z",
+    "model": "edge-neural-tts",
+    "transcript": "मुझे पानी चाहिए।",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-vocabulary-hello.mp3": {
+    "generatedAt": "2026-08-15T07:50:45.521Z",
+    "model": "edge-neural-tts",
+    "transcript": "नमस्ते. नमस्ते.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-vocabulary-water.mp3": {
+    "generatedAt": "2026-08-15T07:50:45.521Z",
+    "model": "edge-neural-tts",
+    "transcript": "पानी. पानी.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-vocabulary-book.mp3": {
+    "generatedAt": "2026-08-15T07:50:45.521Z",
+    "model": "edge-neural-tts",
+    "transcript": "किताब. किताब.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-vocabulary-sun.mp3": {
+    "generatedAt": "2026-08-15T07:50:45.521Z",
+    "model": "edge-neural-tts",
+    "transcript": "सूरज. सूरज.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-vocabulary-cat.mp3": {
+    "generatedAt": "2026-08-15T07:50:45.521Z",
+    "model": "edge-neural-tts",
+    "transcript": "बिल्ली. बिल्ली.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-vocabulary-house.mp3": {
+    "generatedAt": "2026-08-15T07:50:45.521Z",
+    "model": "edge-neural-tts",
+    "transcript": "घर. घर.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-feedback-correct.mp3": {
+    "generatedAt": "2026-08-15T07:50:50.023Z",
+    "model": "edge-neural-tts",
+    "transcript": "सही!",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "hi-IN/hi-feedback-try-again.mp3": {
+    "generatedAt": "2026-08-15T07:50:50.023Z",
+    "model": "edge-neural-tts",
+    "transcript": "फिर से कोशिश करें।",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "fr-FR/fr-alphabet-1-1.mp3": {
+    "generatedAt": "2026-08-15T07:50:50.023Z",
+    "model": "edge-neural-tts",
+    "transcript": "A a. A a.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-alphabet-1-2.mp3": {
+    "generatedAt": "2026-08-15T07:50:50.023Z",
+    "model": "edge-neural-tts",
+    "transcript": "B b. B b.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-alphabet-1-3.mp3": {
+    "generatedAt": "2026-08-15T07:50:50.023Z",
+    "model": "edge-neural-tts",
+    "transcript": "C c. C c.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-alphabet-1-4.mp3": {
+    "generatedAt": "2026-08-15T07:50:50.023Z",
+    "model": "edge-neural-tts",
+    "transcript": "D d. D d.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-alphabet-1-5.mp3": {
+    "generatedAt": "2026-08-15T07:50:50.023Z",
+    "model": "edge-neural-tts",
+    "transcript": "E e. E e.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-alphabet-1-6.mp3": {
+    "generatedAt": "2026-08-15T07:50:50.023Z",
+    "model": "edge-neural-tts",
+    "transcript": "F f. F f.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-special-letters-1.mp3": {
+    "generatedAt": "2026-08-15T07:50:54.947Z",
+    "model": "edge-neural-tts",
+    "transcript": "É é. É é.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-special-letters-2.mp3": {
+    "generatedAt": "2026-08-15T07:50:54.947Z",
+    "model": "edge-neural-tts",
+    "transcript": "È è. È è.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-special-letters-3.mp3": {
+    "generatedAt": "2026-08-15T07:50:54.947Z",
+    "model": "edge-neural-tts",
+    "transcript": "Ç ç. Ç ç.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-special-letters-4.mp3": {
+    "generatedAt": "2026-08-15T07:50:54.947Z",
+    "model": "edge-neural-tts",
+    "transcript": "Â â. Â â.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-special-letters-5.mp3": {
+    "generatedAt": "2026-08-15T07:50:54.947Z",
+    "model": "edge-neural-tts",
+    "transcript": "Œ œ. Œ œ.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-script-more-1.mp3": {
+    "generatedAt": "2026-08-15T07:50:54.947Z",
+    "model": "edge-neural-tts",
+    "transcript": "G g. G g.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-script-more-2.mp3": {
+    "generatedAt": "2026-08-15T07:50:54.947Z",
+    "model": "edge-neural-tts",
+    "transcript": "H h. H h.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-script-more-3.mp3": {
+    "generatedAt": "2026-08-15T07:50:54.947Z",
+    "model": "edge-neural-tts",
+    "transcript": "I i. I i.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-script-more-4.mp3": {
+    "generatedAt": "2026-08-15T07:50:59.768Z",
+    "model": "edge-neural-tts",
+    "transcript": "J j. J j.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-script-more-5.mp3": {
+    "generatedAt": "2026-08-15T07:50:59.768Z",
+    "model": "edge-neural-tts",
+    "transcript": "K k. K k.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-script-more-6.mp3": {
+    "generatedAt": "2026-08-15T07:50:59.768Z",
+    "model": "edge-neural-tts",
+    "transcript": "L l. L l.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-numbers-1.mp3": {
+    "generatedAt": "2026-08-15T07:50:59.768Z",
+    "model": "edge-neural-tts",
+    "transcript": "un. un.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-numbers-2.mp3": {
+    "generatedAt": "2026-08-15T07:50:59.768Z",
+    "model": "edge-neural-tts",
+    "transcript": "deux. deux.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-numbers-3.mp3": {
+    "generatedAt": "2026-08-15T07:50:59.768Z",
+    "model": "edge-neural-tts",
+    "transcript": "trois. trois.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-numbers-4.mp3": {
+    "generatedAt": "2026-08-15T07:50:59.768Z",
+    "model": "edge-neural-tts",
+    "transcript": "quatre. quatre.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-numbers-5.mp3": {
+    "generatedAt": "2026-08-15T07:50:59.768Z",
+    "model": "edge-neural-tts",
+    "transcript": "cinq. cinq.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-picture-words-1.mp3": {
+    "generatedAt": "2026-08-15T07:51:04.301Z",
+    "model": "edge-neural-tts",
+    "transcript": "bonjour. bonjour.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-picture-words-2.mp3": {
+    "generatedAt": "2026-08-15T07:51:04.301Z",
+    "model": "edge-neural-tts",
+    "transcript": "eau. eau.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-picture-words-3.mp3": {
+    "generatedAt": "2026-08-15T07:51:04.301Z",
+    "model": "edge-neural-tts",
+    "transcript": "livre. livre.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-picture-words-4.mp3": {
+    "generatedAt": "2026-08-15T07:51:04.301Z",
+    "model": "edge-neural-tts",
+    "transcript": "soleil. soleil.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-picture-words-5.mp3": {
+    "generatedAt": "2026-08-15T07:51:04.301Z",
+    "model": "edge-neural-tts",
+    "transcript": "chat. chat.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-picture-words-6.mp3": {
+    "generatedAt": "2026-08-15T07:51:04.301Z",
+    "model": "edge-neural-tts",
+    "transcript": "maison. maison.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-phrases-1.mp3": {
+    "generatedAt": "2026-08-15T07:51:04.301Z",
+    "model": "edge-neural-tts",
+    "transcript": "Bonjour !. Bonjour !.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-phrases-2.mp3": {
+    "generatedAt": "2026-08-15T07:51:04.301Z",
+    "model": "edge-neural-tts",
+    "transcript": "Je m’appelle ,.. Je m’appelle ,..",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-phrases-3.mp3": {
+    "generatedAt": "2026-08-15T07:51:08.876Z",
+    "model": "edge-neural-tts",
+    "transcript": "Je voudrais de l’eau, s’il vous plaît.. Je voudrais de l’eau, s’il vous plaît..",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-phrase-1.mp3": {
+    "generatedAt": "2026-08-15T07:51:08.876Z",
+    "model": "edge-neural-tts",
+    "transcript": "Bonjour !",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-phrase-2.mp3": {
+    "generatedAt": "2026-08-15T07:51:08.876Z",
+    "model": "edge-neural-tts",
+    "transcript": "Je m’appelle ,.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-phrase-3.mp3": {
+    "generatedAt": "2026-08-15T07:51:08.876Z",
+    "model": "edge-neural-tts",
+    "transcript": "Je voudrais de l’eau, s’il vous plaît.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-vocabulary-hello.mp3": {
+    "generatedAt": "2026-08-15T07:51:08.876Z",
+    "model": "edge-neural-tts",
+    "transcript": "bonjour. bonjour.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-vocabulary-water.mp3": {
+    "generatedAt": "2026-08-15T07:51:08.876Z",
+    "model": "edge-neural-tts",
+    "transcript": "eau. eau.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-vocabulary-book.mp3": {
+    "generatedAt": "2026-08-15T07:51:08.876Z",
+    "model": "edge-neural-tts",
+    "transcript": "livre. livre.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-vocabulary-sun.mp3": {
+    "generatedAt": "2026-08-15T07:51:08.876Z",
+    "model": "edge-neural-tts",
+    "transcript": "soleil. soleil.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-vocabulary-cat.mp3": {
+    "generatedAt": "2026-08-15T07:51:13.538Z",
+    "model": "edge-neural-tts",
+    "transcript": "chat. chat.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-vocabulary-house.mp3": {
+    "generatedAt": "2026-08-15T07:51:13.538Z",
+    "model": "edge-neural-tts",
+    "transcript": "maison. maison.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-feedback-correct.mp3": {
+    "generatedAt": "2026-08-15T07:51:13.538Z",
+    "model": "edge-neural-tts",
+    "transcript": "Correct !",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "fr-FR/fr-feedback-try-again.mp3": {
+    "generatedAt": "2026-08-15T07:51:13.538Z",
+    "model": "edge-neural-tts",
+    "transcript": "Essayez encore.",
+    "voice": "fr-FR-DeniseNeural"
+  },
+  "es-ES/es-vowels-1.mp3": {
+    "generatedAt": "2026-08-15T07:51:13.538Z",
+    "model": "edge-neural-tts",
+    "transcript": "A a. A a.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-vowels-2.mp3": {
+    "generatedAt": "2026-08-15T07:51:13.538Z",
+    "model": "edge-neural-tts",
+    "transcript": "E e. E e.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-vowels-3.mp3": {
+    "generatedAt": "2026-08-15T07:51:13.538Z",
+    "model": "edge-neural-tts",
+    "transcript": "I i. I i.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-vowels-4.mp3": {
+    "generatedAt": "2026-08-15T07:51:13.538Z",
+    "model": "edge-neural-tts",
+    "transcript": "O o. O o.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-vowels-5.mp3": {
+    "generatedAt": "2026-08-15T07:51:18.525Z",
+    "model": "edge-neural-tts",
+    "transcript": "U u. U u.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-special-1.mp3": {
+    "generatedAt": "2026-08-15T07:51:18.525Z",
+    "model": "edge-neural-tts",
+    "transcript": "Ñ ñ. Ñ ñ.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-special-2.mp3": {
+    "generatedAt": "2026-08-15T07:51:18.525Z",
+    "model": "edge-neural-tts",
+    "transcript": "R r. R r.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-special-3.mp3": {
+    "generatedAt": "2026-08-15T07:51:18.525Z",
+    "model": "edge-neural-tts",
+    "transcript": "J j. J j.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-special-4.mp3": {
+    "generatedAt": "2026-08-15T07:51:18.525Z",
+    "model": "edge-neural-tts",
+    "transcript": "H h. H h.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-special-5.mp3": {
+    "generatedAt": "2026-08-15T07:51:18.525Z",
+    "model": "edge-neural-tts",
+    "transcript": "LL ll. LL ll.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-script-more-1.mp3": {
+    "generatedAt": "2026-08-15T07:51:18.525Z",
+    "model": "edge-neural-tts",
+    "transcript": "B b. B b.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-script-more-2.mp3": {
+    "generatedAt": "2026-08-15T07:51:18.525Z",
+    "model": "edge-neural-tts",
+    "transcript": "C c. C c.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-script-more-3.mp3": {
+    "generatedAt": "2026-08-15T07:51:23.304Z",
+    "model": "edge-neural-tts",
+    "transcript": "D d. D d.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-script-more-4.mp3": {
+    "generatedAt": "2026-08-15T07:51:23.304Z",
+    "model": "edge-neural-tts",
+    "transcript": "F f. F f.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-script-more-5.mp3": {
+    "generatedAt": "2026-08-15T07:51:23.304Z",
+    "model": "edge-neural-tts",
+    "transcript": "G g. G g.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-script-more-6.mp3": {
+    "generatedAt": "2026-08-15T07:51:23.304Z",
+    "model": "edge-neural-tts",
+    "transcript": "H h. H h.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-numbers-1.mp3": {
+    "generatedAt": "2026-08-15T07:51:23.304Z",
+    "model": "edge-neural-tts",
+    "transcript": "uno. uno.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-numbers-2.mp3": {
+    "generatedAt": "2026-08-15T07:51:23.304Z",
+    "model": "edge-neural-tts",
+    "transcript": "dos. dos.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-numbers-3.mp3": {
+    "generatedAt": "2026-08-15T07:51:23.304Z",
+    "model": "edge-neural-tts",
+    "transcript": "tres. tres.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-numbers-4.mp3": {
+    "generatedAt": "2026-08-15T07:51:23.304Z",
+    "model": "edge-neural-tts",
+    "transcript": "cuatro. cuatro.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-numbers-5.mp3": {
+    "generatedAt": "2026-08-15T07:51:28.637Z",
+    "model": "edge-neural-tts",
+    "transcript": "cinco. cinco.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-picture-words-1.mp3": {
+    "generatedAt": "2026-08-15T07:51:28.637Z",
+    "model": "edge-neural-tts",
+    "transcript": "hola. hola.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-picture-words-2.mp3": {
+    "generatedAt": "2026-08-15T07:51:28.637Z",
+    "model": "edge-neural-tts",
+    "transcript": "agua. agua.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-picture-words-3.mp3": {
+    "generatedAt": "2026-08-15T07:51:28.637Z",
+    "model": "edge-neural-tts",
+    "transcript": "libro. libro.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-picture-words-4.mp3": {
+    "generatedAt": "2026-08-15T07:51:28.637Z",
+    "model": "edge-neural-tts",
+    "transcript": "sol. sol.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-picture-words-5.mp3": {
+    "generatedAt": "2026-08-15T07:51:28.637Z",
+    "model": "edge-neural-tts",
+    "transcript": "gato. gato.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-picture-words-6.mp3": {
+    "generatedAt": "2026-08-15T07:51:28.637Z",
+    "model": "edge-neural-tts",
+    "transcript": "casa. casa.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-phrases-1.mp3": {
+    "generatedAt": "2026-08-15T07:51:28.637Z",
+    "model": "edge-neural-tts",
+    "transcript": "¡Hola!. ¡Hola!.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-phrases-2.mp3": {
+    "generatedAt": "2026-08-15T07:51:34.328Z",
+    "model": "edge-neural-tts",
+    "transcript": "Me llamo ,.. Me llamo ,..",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-phrases-3.mp3": {
+    "generatedAt": "2026-08-15T07:51:34.328Z",
+    "model": "edge-neural-tts",
+    "transcript": "Quisiera agua, por favor.. Quisiera agua, por favor..",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-phrase-1.mp3": {
+    "generatedAt": "2026-08-15T07:51:34.328Z",
+    "model": "edge-neural-tts",
+    "transcript": "¡Hola!",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-phrase-2.mp3": {
+    "generatedAt": "2026-08-15T07:51:34.328Z",
+    "model": "edge-neural-tts",
+    "transcript": "Me llamo ,.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-phrase-3.mp3": {
+    "generatedAt": "2026-08-15T07:51:34.328Z",
+    "model": "edge-neural-tts",
+    "transcript": "Quisiera agua, por favor.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-vocabulary-hello.mp3": {
+    "generatedAt": "2026-08-15T07:51:34.328Z",
+    "model": "edge-neural-tts",
+    "transcript": "hola. hola.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-vocabulary-water.mp3": {
+    "generatedAt": "2026-08-15T07:51:34.328Z",
+    "model": "edge-neural-tts",
+    "transcript": "agua. agua.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-vocabulary-book.mp3": {
+    "generatedAt": "2026-08-15T07:51:34.328Z",
+    "model": "edge-neural-tts",
+    "transcript": "libro. libro.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-vocabulary-sun.mp3": {
+    "generatedAt": "2026-08-15T07:51:39.225Z",
+    "model": "edge-neural-tts",
+    "transcript": "sol. sol.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-vocabulary-cat.mp3": {
+    "generatedAt": "2026-08-15T07:51:39.225Z",
+    "model": "edge-neural-tts",
+    "transcript": "gato. gato.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-vocabulary-house.mp3": {
+    "generatedAt": "2026-08-15T07:51:39.225Z",
+    "model": "edge-neural-tts",
+    "transcript": "casa. casa.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-feedback-correct.mp3": {
+    "generatedAt": "2026-08-15T07:51:39.225Z",
+    "model": "edge-neural-tts",
+    "transcript": "¡Correcto!",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "es-ES/es-feedback-try-again.mp3": {
+    "generatedAt": "2026-08-15T07:51:39.225Z",
+    "model": "edge-neural-tts",
+    "transcript": "Inténtalo de nuevo.",
+    "voice": "es-ES-ElviraNeural"
+  },
+  "it-IT/it-vowels-1.mp3": {
+    "generatedAt": "2026-08-15T07:51:39.225Z",
+    "model": "edge-neural-tts",
+    "transcript": "A a. A a.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-vowels-2.mp3": {
+    "generatedAt": "2026-08-15T07:51:39.225Z",
+    "model": "edge-neural-tts",
+    "transcript": "E e. E e.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-vowels-3.mp3": {
+    "generatedAt": "2026-08-15T07:51:39.225Z",
+    "model": "edge-neural-tts",
+    "transcript": "I i. I i.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-vowels-4.mp3": {
+    "generatedAt": "2026-08-15T07:51:44.709Z",
+    "model": "edge-neural-tts",
+    "transcript": "O o. O o.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-vowels-5.mp3": {
+    "generatedAt": "2026-08-15T07:51:44.709Z",
+    "model": "edge-neural-tts",
+    "transcript": "U u. U u.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-sounds-1.mp3": {
+    "generatedAt": "2026-08-15T07:51:44.709Z",
+    "model": "edge-neural-tts",
+    "transcript": "C e i. C e i.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-sounds-2.mp3": {
+    "generatedAt": "2026-08-15T07:51:44.709Z",
+    "model": "edge-neural-tts",
+    "transcript": "Ch. Ch.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-sounds-3.mp3": {
+    "generatedAt": "2026-08-15T07:51:44.709Z",
+    "model": "edge-neural-tts",
+    "transcript": "G e i. G e i.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-sounds-4.mp3": {
+    "generatedAt": "2026-08-15T07:51:44.709Z",
+    "model": "edge-neural-tts",
+    "transcript": "Gn. Gn.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-sounds-5.mp3": {
+    "generatedAt": "2026-08-15T07:51:44.709Z",
+    "model": "edge-neural-tts",
+    "transcript": "Gli. Gli.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-script-more-1.mp3": {
+    "generatedAt": "2026-08-15T07:51:44.709Z",
+    "model": "edge-neural-tts",
+    "transcript": "B b. B b.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-script-more-2.mp3": {
+    "generatedAt": "2026-08-15T07:51:49.726Z",
+    "model": "edge-neural-tts",
+    "transcript": "C c. C c.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-script-more-3.mp3": {
+    "generatedAt": "2026-08-15T07:51:49.726Z",
+    "model": "edge-neural-tts",
+    "transcript": "D d. D d.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-script-more-4.mp3": {
+    "generatedAt": "2026-08-15T07:51:49.726Z",
+    "model": "edge-neural-tts",
+    "transcript": "F f. F f.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-script-more-5.mp3": {
+    "generatedAt": "2026-08-15T07:51:49.726Z",
+    "model": "edge-neural-tts",
+    "transcript": "G g. G g.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-script-more-6.mp3": {
+    "generatedAt": "2026-08-15T07:51:49.726Z",
+    "model": "edge-neural-tts",
+    "transcript": "L l. L l.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-numbers-1.mp3": {
+    "generatedAt": "2026-08-15T07:51:49.726Z",
+    "model": "edge-neural-tts",
+    "transcript": "uno. uno.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-numbers-2.mp3": {
+    "generatedAt": "2026-08-15T07:51:49.726Z",
+    "model": "edge-neural-tts",
+    "transcript": "due. due.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-numbers-3.mp3": {
+    "generatedAt": "2026-08-15T07:51:49.726Z",
+    "model": "edge-neural-tts",
+    "transcript": "tre. tre.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-numbers-4.mp3": {
+    "generatedAt": "2026-08-15T07:51:54.776Z",
+    "model": "edge-neural-tts",
+    "transcript": "quattro. quattro.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-numbers-5.mp3": {
+    "generatedAt": "2026-08-15T07:51:54.776Z",
+    "model": "edge-neural-tts",
+    "transcript": "cinque. cinque.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-picture-words-1.mp3": {
+    "generatedAt": "2026-08-15T07:51:54.776Z",
+    "model": "edge-neural-tts",
+    "transcript": "ciao. ciao.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-picture-words-2.mp3": {
+    "generatedAt": "2026-08-15T07:51:54.776Z",
+    "model": "edge-neural-tts",
+    "transcript": "acqua. acqua.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-picture-words-3.mp3": {
+    "generatedAt": "2026-08-15T07:51:54.776Z",
+    "model": "edge-neural-tts",
+    "transcript": "libro. libro.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-picture-words-4.mp3": {
+    "generatedAt": "2026-08-15T07:51:54.776Z",
+    "model": "edge-neural-tts",
+    "transcript": "sole. sole.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-picture-words-5.mp3": {
+    "generatedAt": "2026-08-15T07:51:54.776Z",
+    "model": "edge-neural-tts",
+    "transcript": "gatto. gatto.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-picture-words-6.mp3": {
+    "generatedAt": "2026-08-15T07:51:54.776Z",
+    "model": "edge-neural-tts",
+    "transcript": "casa. casa.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-phrases-1.mp3": {
+    "generatedAt": "2026-08-15T07:51:59.364Z",
+    "model": "edge-neural-tts",
+    "transcript": "Ciao!. Ciao!.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-phrases-2.mp3": {
+    "generatedAt": "2026-08-15T07:51:59.364Z",
+    "model": "edge-neural-tts",
+    "transcript": "Mi chiamo ,.. Mi chiamo ,..",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-phrases-3.mp3": {
+    "generatedAt": "2026-08-15T07:51:59.364Z",
+    "model": "edge-neural-tts",
+    "transcript": "Vorrei dell’acqua, per favore.. Vorrei dell’acqua, per favore..",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-phrase-1.mp3": {
+    "generatedAt": "2026-08-15T07:51:59.364Z",
+    "model": "edge-neural-tts",
+    "transcript": "Ciao!",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-phrase-2.mp3": {
+    "generatedAt": "2026-08-15T07:51:59.364Z",
+    "model": "edge-neural-tts",
+    "transcript": "Mi chiamo ,.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-phrase-3.mp3": {
+    "generatedAt": "2026-08-15T07:51:59.364Z",
+    "model": "edge-neural-tts",
+    "transcript": "Vorrei dell’acqua, per favore.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-vocabulary-hello.mp3": {
+    "generatedAt": "2026-08-15T07:51:59.364Z",
+    "model": "edge-neural-tts",
+    "transcript": "ciao. ciao.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-vocabulary-water.mp3": {
+    "generatedAt": "2026-08-15T07:51:59.364Z",
+    "model": "edge-neural-tts",
+    "transcript": "acqua. acqua.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-vocabulary-book.mp3": {
+    "generatedAt": "2026-08-15T07:52:04.084Z",
+    "model": "edge-neural-tts",
+    "transcript": "libro. libro.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-vocabulary-sun.mp3": {
+    "generatedAt": "2026-08-15T07:52:04.084Z",
+    "model": "edge-neural-tts",
+    "transcript": "sole. sole.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-vocabulary-cat.mp3": {
+    "generatedAt": "2026-08-15T07:52:04.084Z",
+    "model": "edge-neural-tts",
+    "transcript": "gatto. gatto.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-vocabulary-house.mp3": {
+    "generatedAt": "2026-08-15T07:52:04.084Z",
+    "model": "edge-neural-tts",
+    "transcript": "casa. casa.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-feedback-correct.mp3": {
+    "generatedAt": "2026-08-15T07:52:04.084Z",
+    "model": "edge-neural-tts",
+    "transcript": "Corretto!",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "it-IT/it-feedback-try-again.mp3": {
+    "generatedAt": "2026-08-15T07:52:04.084Z",
+    "model": "edge-neural-tts",
+    "transcript": "Prova di nuovo.",
+    "voice": "it-IT-ElsaNeural"
+  },
+  "de-DE/de-alphabet-1-1.mp3": {
+    "generatedAt": "2026-08-15T07:52:04.084Z",
+    "model": "edge-neural-tts",
+    "transcript": "A a. A a.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-alphabet-1-2.mp3": {
+    "generatedAt": "2026-08-15T07:52:04.084Z",
+    "model": "edge-neural-tts",
+    "transcript": "B b. B b.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-alphabet-1-3.mp3": {
+    "generatedAt": "2026-08-15T07:52:08.661Z",
+    "model": "edge-neural-tts",
+    "transcript": "C c. C c.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-alphabet-1-4.mp3": {
+    "generatedAt": "2026-08-15T07:52:08.661Z",
+    "model": "edge-neural-tts",
+    "transcript": "D d. D d.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-alphabet-1-5.mp3": {
+    "generatedAt": "2026-08-15T07:52:08.661Z",
+    "model": "edge-neural-tts",
+    "transcript": "E e. E e.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-alphabet-1-6.mp3": {
+    "generatedAt": "2026-08-15T07:52:08.661Z",
+    "model": "edge-neural-tts",
+    "transcript": "F f. F f.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-special-1.mp3": {
+    "generatedAt": "2026-08-15T07:52:08.661Z",
+    "model": "edge-neural-tts",
+    "transcript": "Ä ä. Ä ä.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-special-2.mp3": {
+    "generatedAt": "2026-08-15T07:52:08.661Z",
+    "model": "edge-neural-tts",
+    "transcript": "Ö ö. Ö ö.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-special-3.mp3": {
+    "generatedAt": "2026-08-15T07:52:08.661Z",
+    "model": "edge-neural-tts",
+    "transcript": "Ü ü. Ü ü.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-special-4.mp3": {
+    "generatedAt": "2026-08-15T07:52:08.661Z",
+    "model": "edge-neural-tts",
+    "transcript": "ß. ß.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-special-5.mp3": {
+    "generatedAt": "2026-08-15T07:52:13.772Z",
+    "model": "edge-neural-tts",
+    "transcript": "Ch. Ch.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-script-more-1.mp3": {
+    "generatedAt": "2026-08-15T07:52:13.772Z",
+    "model": "edge-neural-tts",
+    "transcript": "G g. G g.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-script-more-2.mp3": {
+    "generatedAt": "2026-08-15T07:52:13.772Z",
+    "model": "edge-neural-tts",
+    "transcript": "H h. H h.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-script-more-3.mp3": {
+    "generatedAt": "2026-08-15T07:52:13.772Z",
+    "model": "edge-neural-tts",
+    "transcript": "I i. I i.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-script-more-4.mp3": {
+    "generatedAt": "2026-08-15T07:52:13.772Z",
+    "model": "edge-neural-tts",
+    "transcript": "J j. J j.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-script-more-5.mp3": {
+    "generatedAt": "2026-08-15T07:52:13.772Z",
+    "model": "edge-neural-tts",
+    "transcript": "K k. K k.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-script-more-6.mp3": {
+    "generatedAt": "2026-08-15T07:52:13.772Z",
+    "model": "edge-neural-tts",
+    "transcript": "L l. L l.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-numbers-1.mp3": {
+    "generatedAt": "2026-08-15T07:52:13.772Z",
+    "model": "edge-neural-tts",
+    "transcript": "eins. eins.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-numbers-2.mp3": {
+    "generatedAt": "2026-08-15T07:52:18.675Z",
+    "model": "edge-neural-tts",
+    "transcript": "zwei. zwei.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-numbers-3.mp3": {
+    "generatedAt": "2026-08-15T07:52:18.675Z",
+    "model": "edge-neural-tts",
+    "transcript": "drei. drei.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-numbers-4.mp3": {
+    "generatedAt": "2026-08-15T07:52:18.675Z",
+    "model": "edge-neural-tts",
+    "transcript": "vier. vier.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-numbers-5.mp3": {
+    "generatedAt": "2026-08-15T07:52:18.675Z",
+    "model": "edge-neural-tts",
+    "transcript": "fünf. fünf.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-picture-words-1.mp3": {
+    "generatedAt": "2026-08-15T07:52:18.675Z",
+    "model": "edge-neural-tts",
+    "transcript": "Hallo. Hallo.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-picture-words-2.mp3": {
+    "generatedAt": "2026-08-15T07:52:18.675Z",
+    "model": "edge-neural-tts",
+    "transcript": "Wasser. Wasser.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-picture-words-3.mp3": {
+    "generatedAt": "2026-08-15T07:52:18.675Z",
+    "model": "edge-neural-tts",
+    "transcript": "Buch. Buch.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-picture-words-4.mp3": {
+    "generatedAt": "2026-08-15T07:52:18.675Z",
+    "model": "edge-neural-tts",
+    "transcript": "Sonne. Sonne.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-picture-words-5.mp3": {
+    "generatedAt": "2026-08-15T07:52:23.931Z",
+    "model": "edge-neural-tts",
+    "transcript": "Katze. Katze.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-picture-words-6.mp3": {
+    "generatedAt": "2026-08-15T07:52:23.931Z",
+    "model": "edge-neural-tts",
+    "transcript": "Haus. Haus.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-phrases-1.mp3": {
+    "generatedAt": "2026-08-15T07:52:23.931Z",
+    "model": "edge-neural-tts",
+    "transcript": "Hallo!. Hallo!.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-phrases-2.mp3": {
+    "generatedAt": "2026-08-15T07:52:23.931Z",
+    "model": "edge-neural-tts",
+    "transcript": "Ich heiße ,.. Ich heiße ,..",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-phrases-3.mp3": {
+    "generatedAt": "2026-08-15T07:52:23.931Z",
+    "model": "edge-neural-tts",
+    "transcript": "Ich möchte Wasser, bitte.. Ich möchte Wasser, bitte..",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-phrase-1.mp3": {
+    "generatedAt": "2026-08-15T07:52:23.931Z",
+    "model": "edge-neural-tts",
+    "transcript": "Hallo!",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-phrase-2.mp3": {
+    "generatedAt": "2026-08-15T07:52:23.931Z",
+    "model": "edge-neural-tts",
+    "transcript": "Ich heiße ,.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-phrase-3.mp3": {
+    "generatedAt": "2026-08-15T07:52:23.931Z",
+    "model": "edge-neural-tts",
+    "transcript": "Ich möchte Wasser, bitte.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-vocabulary-hello.mp3": {
+    "generatedAt": "2026-08-15T07:52:28.625Z",
+    "model": "edge-neural-tts",
+    "transcript": "Hallo. Hallo.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-vocabulary-water.mp3": {
+    "generatedAt": "2026-08-15T07:52:28.625Z",
+    "model": "edge-neural-tts",
+    "transcript": "Wasser. Wasser.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-vocabulary-book.mp3": {
+    "generatedAt": "2026-08-15T07:52:28.625Z",
+    "model": "edge-neural-tts",
+    "transcript": "Buch. Buch.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-vocabulary-sun.mp3": {
+    "generatedAt": "2026-08-15T07:52:28.625Z",
+    "model": "edge-neural-tts",
+    "transcript": "Sonne. Sonne.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-vocabulary-cat.mp3": {
+    "generatedAt": "2026-08-15T07:52:28.625Z",
+    "model": "edge-neural-tts",
+    "transcript": "Katze. Katze.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-vocabulary-house.mp3": {
+    "generatedAt": "2026-08-15T07:52:28.625Z",
+    "model": "edge-neural-tts",
+    "transcript": "Haus. Haus.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-feedback-correct.mp3": {
+    "generatedAt": "2026-08-15T07:52:28.625Z",
+    "model": "edge-neural-tts",
+    "transcript": "Richtig!",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "de-DE/de-feedback-try-again.mp3": {
+    "generatedAt": "2026-08-15T07:52:28.625Z",
+    "model": "edge-neural-tts",
+    "transcript": "Versuche es noch einmal.",
+    "voice": "de-DE-KatjaNeural"
+  },
+  "ru-RU/ru-alphabet-1-1.mp3": {
+    "generatedAt": "2026-08-15T07:52:33.755Z",
+    "model": "edge-neural-tts",
+    "transcript": "А а. А а.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-alphabet-1-2.mp3": {
+    "generatedAt": "2026-08-15T07:52:33.755Z",
+    "model": "edge-neural-tts",
+    "transcript": "Б б. Б б.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-alphabet-1-3.mp3": {
+    "generatedAt": "2026-08-15T07:52:33.755Z",
+    "model": "edge-neural-tts",
+    "transcript": "В в. В в.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-alphabet-1-4.mp3": {
+    "generatedAt": "2026-08-15T07:52:33.755Z",
+    "model": "edge-neural-tts",
+    "transcript": "Г г. Г г.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-alphabet-1-5.mp3": {
+    "generatedAt": "2026-08-15T07:52:33.755Z",
+    "model": "edge-neural-tts",
+    "transcript": "Д д. Д д.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-alphabet-1-6.mp3": {
+    "generatedAt": "2026-08-15T07:52:33.755Z",
+    "model": "edge-neural-tts",
+    "transcript": "Е е. Е е.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-alphabet-2-1.mp3": {
+    "generatedAt": "2026-08-15T07:52:33.755Z",
+    "model": "edge-neural-tts",
+    "transcript": "Ж ж. Ж ж.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-alphabet-2-2.mp3": {
+    "generatedAt": "2026-08-15T07:52:33.755Z",
+    "model": "edge-neural-tts",
+    "transcript": "З з. З з.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-alphabet-2-3.mp3": {
+    "generatedAt": "2026-08-15T07:52:39.752Z",
+    "model": "edge-neural-tts",
+    "transcript": "И и. И и.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-alphabet-2-4.mp3": {
+    "generatedAt": "2026-08-15T07:52:39.752Z",
+    "model": "edge-neural-tts",
+    "transcript": "Й й. Й й.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-alphabet-2-5.mp3": {
+    "generatedAt": "2026-08-15T07:52:39.752Z",
+    "model": "edge-neural-tts",
+    "transcript": "К к. К к.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-alphabet-2-6.mp3": {
+    "generatedAt": "2026-08-15T07:52:39.752Z",
+    "model": "edge-neural-tts",
+    "transcript": "Л л. Л л.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-script-more-1.mp3": {
+    "generatedAt": "2026-08-15T07:52:39.752Z",
+    "model": "edge-neural-tts",
+    "transcript": "М м. М м.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-script-more-2.mp3": {
+    "generatedAt": "2026-08-15T07:52:39.752Z",
+    "model": "edge-neural-tts",
+    "transcript": "Н н. Н н.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-script-more-3.mp3": {
+    "generatedAt": "2026-08-15T07:52:39.752Z",
+    "model": "edge-neural-tts",
+    "transcript": "О о. О о.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-script-more-4.mp3": {
+    "generatedAt": "2026-08-15T07:52:39.752Z",
+    "model": "edge-neural-tts",
+    "transcript": "П п. П п.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-script-more-5.mp3": {
+    "generatedAt": "2026-08-15T07:52:45.500Z",
+    "model": "edge-neural-tts",
+    "transcript": "Р р. Р р.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-script-more-6.mp3": {
+    "generatedAt": "2026-08-15T07:52:45.500Z",
+    "model": "edge-neural-tts",
+    "transcript": "С с. С с.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-numbers-1.mp3": {
+    "generatedAt": "2026-08-15T07:52:45.500Z",
+    "model": "edge-neural-tts",
+    "transcript": "один. один.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-numbers-2.mp3": {
+    "generatedAt": "2026-08-15T07:52:45.500Z",
+    "model": "edge-neural-tts",
+    "transcript": "два. два.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-numbers-3.mp3": {
+    "generatedAt": "2026-08-15T07:52:45.500Z",
+    "model": "edge-neural-tts",
+    "transcript": "три. три.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-numbers-4.mp3": {
+    "generatedAt": "2026-08-15T07:52:45.500Z",
+    "model": "edge-neural-tts",
+    "transcript": "четыре. четыре.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-numbers-5.mp3": {
+    "generatedAt": "2026-08-15T07:52:45.500Z",
+    "model": "edge-neural-tts",
+    "transcript": "пять. пять.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-picture-words-1.mp3": {
+    "generatedAt": "2026-08-15T07:52:45.500Z",
+    "model": "edge-neural-tts",
+    "transcript": "привет. привет.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-picture-words-2.mp3": {
+    "generatedAt": "2026-08-15T07:52:52.414Z",
+    "model": "edge-neural-tts",
+    "transcript": "вода. вода.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-picture-words-3.mp3": {
+    "generatedAt": "2026-08-15T07:52:52.414Z",
+    "model": "edge-neural-tts",
+    "transcript": "книга. книга.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-picture-words-4.mp3": {
+    "generatedAt": "2026-08-15T07:52:52.415Z",
+    "model": "edge-neural-tts",
+    "transcript": "солнце. солнце.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-picture-words-5.mp3": {
+    "generatedAt": "2026-08-15T07:52:52.415Z",
+    "model": "edge-neural-tts",
+    "transcript": "кошка. кошка.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-picture-words-6.mp3": {
+    "generatedAt": "2026-08-15T07:52:52.415Z",
+    "model": "edge-neural-tts",
+    "transcript": "дом. дом.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-phrases-1.mp3": {
+    "generatedAt": "2026-08-15T07:52:52.415Z",
+    "model": "edge-neural-tts",
+    "transcript": "Здравствуйте!. Здравствуйте!.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-phrases-2.mp3": {
+    "generatedAt": "2026-08-15T07:52:52.415Z",
+    "model": "edge-neural-tts",
+    "transcript": "Меня зовут ,.. Меня зовут ,..",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-phrases-3.mp3": {
+    "generatedAt": "2026-08-15T07:52:52.415Z",
+    "model": "edge-neural-tts",
+    "transcript": "Я хочу воды, пожалуйста.. Я хочу воды, пожалуйста..",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-phrase-1.mp3": {
+    "generatedAt": "2026-08-15T07:52:57.200Z",
+    "model": "edge-neural-tts",
+    "transcript": "Здравствуйте!",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-phrase-2.mp3": {
+    "generatedAt": "2026-08-15T07:52:57.200Z",
+    "model": "edge-neural-tts",
+    "transcript": "Меня зовут ,.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-phrase-3.mp3": {
+    "generatedAt": "2026-08-15T07:52:57.200Z",
+    "model": "edge-neural-tts",
+    "transcript": "Я хочу воды, пожалуйста.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-vocabulary-hello.mp3": {
+    "generatedAt": "2026-08-15T07:52:57.200Z",
+    "model": "edge-neural-tts",
+    "transcript": "привет. привет.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-vocabulary-water.mp3": {
+    "generatedAt": "2026-08-15T07:52:57.200Z",
+    "model": "edge-neural-tts",
+    "transcript": "вода. вода.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-vocabulary-book.mp3": {
+    "generatedAt": "2026-08-15T07:52:57.200Z",
+    "model": "edge-neural-tts",
+    "transcript": "книга. книга.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-vocabulary-sun.mp3": {
+    "generatedAt": "2026-08-15T07:52:57.200Z",
+    "model": "edge-neural-tts",
+    "transcript": "солнце. солнце.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-vocabulary-cat.mp3": {
+    "generatedAt": "2026-08-15T07:52:57.200Z",
+    "model": "edge-neural-tts",
+    "transcript": "кошка. кошка.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-vocabulary-house.mp3": {
+    "generatedAt": "2026-08-15T07:53:02.221Z",
+    "model": "edge-neural-tts",
+    "transcript": "дом. дом.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-feedback-correct.mp3": {
+    "generatedAt": "2026-08-15T07:53:02.221Z",
+    "model": "edge-neural-tts",
+    "transcript": "Правильно!",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ru-RU/ru-feedback-try-again.mp3": {
+    "generatedAt": "2026-08-15T07:53:02.221Z",
+    "model": "edge-neural-tts",
+    "transcript": "Попробуйте ещё раз.",
+    "voice": "ru-RU-SvetlanaNeural"
+  },
+  "ar-SA/ar-letters-1-1.mp3": {
+    "generatedAt": "2026-08-15T07:53:02.221Z",
+    "model": "edge-neural-tts",
+    "transcript": "ا. ا.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-letters-1-2.mp3": {
+    "generatedAt": "2026-08-15T07:53:02.221Z",
+    "model": "edge-neural-tts",
+    "transcript": "ب. ب.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-letters-1-3.mp3": {
+    "generatedAt": "2026-08-15T07:53:02.221Z",
+    "model": "edge-neural-tts",
+    "transcript": "ت. ت.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-letters-1-4.mp3": {
+    "generatedAt": "2026-08-15T07:53:02.221Z",
+    "model": "edge-neural-tts",
+    "transcript": "ث. ث.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-letters-1-5.mp3": {
+    "generatedAt": "2026-08-15T07:53:02.221Z",
+    "model": "edge-neural-tts",
+    "transcript": "ج. ج.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-letters-1-6.mp3": {
+    "generatedAt": "2026-08-15T07:53:07.094Z",
+    "model": "edge-neural-tts",
+    "transcript": "ح. ح.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-letters-2-1.mp3": {
+    "generatedAt": "2026-08-15T07:53:07.094Z",
+    "model": "edge-neural-tts",
+    "transcript": "خ. خ.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-letters-2-2.mp3": {
+    "generatedAt": "2026-08-15T07:53:07.094Z",
+    "model": "edge-neural-tts",
+    "transcript": "د. د.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-letters-2-3.mp3": {
+    "generatedAt": "2026-08-15T07:53:07.094Z",
+    "model": "edge-neural-tts",
+    "transcript": "ذ. ذ.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-letters-2-4.mp3": {
+    "generatedAt": "2026-08-15T07:53:07.094Z",
+    "model": "edge-neural-tts",
+    "transcript": "ر. ر.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-letters-2-5.mp3": {
+    "generatedAt": "2026-08-15T07:53:07.094Z",
+    "model": "edge-neural-tts",
+    "transcript": "ز. ز.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-letters-2-6.mp3": {
+    "generatedAt": "2026-08-15T07:53:07.094Z",
+    "model": "edge-neural-tts",
+    "transcript": "س. س.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-script-more-1.mp3": {
+    "generatedAt": "2026-08-15T07:53:07.094Z",
+    "model": "edge-neural-tts",
+    "transcript": "ش. ش.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-script-more-2.mp3": {
+    "generatedAt": "2026-08-15T07:53:12.441Z",
+    "model": "edge-neural-tts",
+    "transcript": "ص. ص.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-script-more-3.mp3": {
+    "generatedAt": "2026-08-15T07:53:12.441Z",
+    "model": "edge-neural-tts",
+    "transcript": "ض. ض.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-script-more-4.mp3": {
+    "generatedAt": "2026-08-15T07:53:12.441Z",
+    "model": "edge-neural-tts",
+    "transcript": "ط. ط.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-script-more-5.mp3": {
+    "generatedAt": "2026-08-15T07:53:12.441Z",
+    "model": "edge-neural-tts",
+    "transcript": "ظ. ظ.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-script-more-6.mp3": {
+    "generatedAt": "2026-08-15T07:53:12.441Z",
+    "model": "edge-neural-tts",
+    "transcript": "ع. ع.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-numbers-1.mp3": {
+    "generatedAt": "2026-08-15T07:53:12.441Z",
+    "model": "edge-neural-tts",
+    "transcript": "واحد. واحد.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-numbers-2.mp3": {
+    "generatedAt": "2026-08-15T07:53:12.441Z",
+    "model": "edge-neural-tts",
+    "transcript": "اثنان. اثنان.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-numbers-3.mp3": {
+    "generatedAt": "2026-08-15T07:53:12.441Z",
+    "model": "edge-neural-tts",
+    "transcript": "ثلاثة. ثلاثة.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-numbers-4.mp3": {
+    "generatedAt": "2026-08-15T07:53:17.881Z",
+    "model": "edge-neural-tts",
+    "transcript": "أربعة. أربعة.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-numbers-5.mp3": {
+    "generatedAt": "2026-08-15T07:53:17.881Z",
+    "model": "edge-neural-tts",
+    "transcript": "خمسة. خمسة.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-picture-words-1.mp3": {
+    "generatedAt": "2026-08-15T07:53:17.881Z",
+    "model": "edge-neural-tts",
+    "transcript": "مرحبًا. مرحبًا.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-picture-words-2.mp3": {
+    "generatedAt": "2026-08-15T07:53:17.881Z",
+    "model": "edge-neural-tts",
+    "transcript": "ماء. ماء.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-picture-words-3.mp3": {
+    "generatedAt": "2026-08-15T07:53:17.881Z",
+    "model": "edge-neural-tts",
+    "transcript": "كتاب. كتاب.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-picture-words-4.mp3": {
+    "generatedAt": "2026-08-15T07:53:17.881Z",
+    "model": "edge-neural-tts",
+    "transcript": "شمس. شمس.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-picture-words-5.mp3": {
+    "generatedAt": "2026-08-15T07:53:17.881Z",
+    "model": "edge-neural-tts",
+    "transcript": "قطة. قطة.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-picture-words-6.mp3": {
+    "generatedAt": "2026-08-15T07:53:17.881Z",
+    "model": "edge-neural-tts",
+    "transcript": "بيت. بيت.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-phrases-1.mp3": {
+    "generatedAt": "2026-08-15T07:53:23.635Z",
+    "model": "edge-neural-tts",
+    "transcript": "مرحبًا!. مرحبًا!.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-phrases-2.mp3": {
+    "generatedAt": "2026-08-15T07:53:23.635Z",
+    "model": "edge-neural-tts",
+    "transcript": "اسمي ,.. اسمي ,..",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-phrases-3.mp3": {
+    "generatedAt": "2026-08-15T07:53:23.635Z",
+    "model": "edge-neural-tts",
+    "transcript": "أريد ماءً، من فضلك.. أريد ماءً، من فضلك..",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-phrase-1.mp3": {
+    "generatedAt": "2026-08-15T07:53:23.635Z",
+    "model": "edge-neural-tts",
+    "transcript": "مرحبًا!",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-phrase-2.mp3": {
+    "generatedAt": "2026-08-15T07:53:23.635Z",
+    "model": "edge-neural-tts",
+    "transcript": "اسمي ,.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-phrase-3.mp3": {
+    "generatedAt": "2026-08-15T07:53:23.635Z",
+    "model": "edge-neural-tts",
+    "transcript": "أريد ماءً، من فضلك.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-vocabulary-hello.mp3": {
+    "generatedAt": "2026-08-15T07:53:23.635Z",
+    "model": "edge-neural-tts",
+    "transcript": "مرحبًا. مرحبًا.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-vocabulary-water.mp3": {
+    "generatedAt": "2026-08-15T07:53:23.635Z",
+    "model": "edge-neural-tts",
+    "transcript": "ماء. ماء.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-vocabulary-book.mp3": {
+    "generatedAt": "2026-08-15T07:53:28.135Z",
+    "model": "edge-neural-tts",
+    "transcript": "كتاب. كتاب.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-vocabulary-sun.mp3": {
+    "generatedAt": "2026-08-15T07:53:28.135Z",
+    "model": "edge-neural-tts",
+    "transcript": "شمس. شمس.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-vocabulary-cat.mp3": {
+    "generatedAt": "2026-08-15T07:53:28.135Z",
+    "model": "edge-neural-tts",
+    "transcript": "قطة. قطة.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-vocabulary-house.mp3": {
+    "generatedAt": "2026-08-15T07:53:28.135Z",
+    "model": "edge-neural-tts",
+    "transcript": "بيت. بيت.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-feedback-correct.mp3": {
+    "generatedAt": "2026-08-15T07:53:28.135Z",
+    "model": "edge-neural-tts",
+    "transcript": "صحيح!",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "ar-SA/ar-feedback-try-again.mp3": {
+    "generatedAt": "2026-08-15T07:53:28.135Z",
+    "model": "edge-neural-tts",
+    "transcript": "حاول مرة أخرى.",
+    "voice": "ar-SA-ZariyahNeural"
+  },
+  "zh-CN/zh-tones-1.mp3": {
+    "generatedAt": "2026-08-15T07:53:28.135Z",
+    "model": "edge-neural-tts",
+    "transcript": "mā. mā.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-tones-2.mp3": {
+    "generatedAt": "2026-08-15T07:53:28.135Z",
+    "model": "edge-neural-tts",
+    "transcript": "má. má.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-tones-3.mp3": {
+    "generatedAt": "2026-08-15T07:53:32.794Z",
+    "model": "edge-neural-tts",
+    "transcript": "mǎ. mǎ.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-tones-4.mp3": {
+    "generatedAt": "2026-08-15T07:53:32.794Z",
+    "model": "edge-neural-tts",
+    "transcript": "mà. mà.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-tones-5.mp3": {
+    "generatedAt": "2026-08-15T07:53:32.794Z",
+    "model": "edge-neural-tts",
+    "transcript": "ma. ma.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-hanzi-1-1.mp3": {
+    "generatedAt": "2026-08-15T07:53:32.794Z",
+    "model": "edge-neural-tts",
+    "transcript": "一. 一.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-hanzi-1-2.mp3": {
+    "generatedAt": "2026-08-15T07:53:32.794Z",
+    "model": "edge-neural-tts",
+    "transcript": "二. 二.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-hanzi-1-3.mp3": {
+    "generatedAt": "2026-08-15T07:53:32.794Z",
+    "model": "edge-neural-tts",
+    "transcript": "三. 三.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-hanzi-1-4.mp3": {
+    "generatedAt": "2026-08-15T07:53:32.794Z",
+    "model": "edge-neural-tts",
+    "transcript": "人. 人.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-hanzi-1-5.mp3": {
+    "generatedAt": "2026-08-15T07:53:32.794Z",
+    "model": "edge-neural-tts",
+    "transcript": "大. 大.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-hanzi-1-6.mp3": {
+    "generatedAt": "2026-08-15T07:53:37.493Z",
+    "model": "edge-neural-tts",
+    "transcript": "中. 中.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-script-more-1.mp3": {
+    "generatedAt": "2026-08-15T07:53:37.493Z",
+    "model": "edge-neural-tts",
+    "transcript": "七. 七.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-script-more-2.mp3": {
+    "generatedAt": "2026-08-15T07:53:37.493Z",
+    "model": "edge-neural-tts",
+    "transcript": "八. 八.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-script-more-3.mp3": {
+    "generatedAt": "2026-08-15T07:53:37.493Z",
+    "model": "edge-neural-tts",
+    "transcript": "九. 九.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-script-more-4.mp3": {
+    "generatedAt": "2026-08-15T07:53:37.493Z",
+    "model": "edge-neural-tts",
+    "transcript": "十. 十.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-script-more-5.mp3": {
+    "generatedAt": "2026-08-15T07:53:37.493Z",
+    "model": "edge-neural-tts",
+    "transcript": "日. 日.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-script-more-6.mp3": {
+    "generatedAt": "2026-08-15T07:53:37.493Z",
+    "model": "edge-neural-tts",
+    "transcript": "月. 月.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-numbers-1.mp3": {
+    "generatedAt": "2026-08-15T07:53:37.493Z",
+    "model": "edge-neural-tts",
+    "transcript": "一. 一.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-numbers-2.mp3": {
+    "generatedAt": "2026-08-15T07:53:42.381Z",
+    "model": "edge-neural-tts",
+    "transcript": "二. 二.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-numbers-3.mp3": {
+    "generatedAt": "2026-08-15T07:53:42.381Z",
+    "model": "edge-neural-tts",
+    "transcript": "三. 三.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-numbers-4.mp3": {
+    "generatedAt": "2026-08-15T07:53:42.381Z",
+    "model": "edge-neural-tts",
+    "transcript": "四. 四.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-numbers-5.mp3": {
+    "generatedAt": "2026-08-15T07:53:42.381Z",
+    "model": "edge-neural-tts",
+    "transcript": "五. 五.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-picture-words-1.mp3": {
+    "generatedAt": "2026-08-15T07:53:42.381Z",
+    "model": "edge-neural-tts",
+    "transcript": "你好. 你好.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-picture-words-2.mp3": {
+    "generatedAt": "2026-08-15T07:53:42.381Z",
+    "model": "edge-neural-tts",
+    "transcript": "水. 水.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-picture-words-3.mp3": {
+    "generatedAt": "2026-08-15T07:53:42.381Z",
+    "model": "edge-neural-tts",
+    "transcript": "书. 书.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-picture-words-4.mp3": {
+    "generatedAt": "2026-08-15T07:53:42.381Z",
+    "model": "edge-neural-tts",
+    "transcript": "太阳. 太阳.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-picture-words-5.mp3": {
+    "generatedAt": "2026-08-15T07:53:47.042Z",
+    "model": "edge-neural-tts",
+    "transcript": "猫. 猫.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-picture-words-6.mp3": {
+    "generatedAt": "2026-08-15T07:53:47.042Z",
+    "model": "edge-neural-tts",
+    "transcript": "房子. 房子.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-phrases-1.mp3": {
+    "generatedAt": "2026-08-15T07:53:47.042Z",
+    "model": "edge-neural-tts",
+    "transcript": "你好！. 你好！.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-phrases-2.mp3": {
+    "generatedAt": "2026-08-15T07:53:47.042Z",
+    "model": "edge-neural-tts",
+    "transcript": "我叫,。. 我叫,。.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-phrases-3.mp3": {
+    "generatedAt": "2026-08-15T07:53:47.042Z",
+    "model": "edge-neural-tts",
+    "transcript": "我想要水，谢谢。. 我想要水，谢谢。.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-phrase-1.mp3": {
+    "generatedAt": "2026-08-15T07:53:47.042Z",
+    "model": "edge-neural-tts",
+    "transcript": "你好！",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-phrase-2.mp3": {
+    "generatedAt": "2026-08-15T07:53:47.042Z",
+    "model": "edge-neural-tts",
+    "transcript": "我叫,。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-phrase-3.mp3": {
+    "generatedAt": "2026-08-15T07:53:47.042Z",
+    "model": "edge-neural-tts",
+    "transcript": "我想要水，谢谢。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-vocabulary-hello.mp3": {
+    "generatedAt": "2026-08-15T07:53:51.492Z",
+    "model": "edge-neural-tts",
+    "transcript": "你好. 你好.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-vocabulary-water.mp3": {
+    "generatedAt": "2026-08-15T07:53:51.492Z",
+    "model": "edge-neural-tts",
+    "transcript": "水. 水.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-vocabulary-book.mp3": {
+    "generatedAt": "2026-08-15T07:53:51.492Z",
+    "model": "edge-neural-tts",
+    "transcript": "书. 书.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-vocabulary-sun.mp3": {
+    "generatedAt": "2026-08-15T07:53:51.492Z",
+    "model": "edge-neural-tts",
+    "transcript": "太阳. 太阳.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-vocabulary-cat.mp3": {
+    "generatedAt": "2026-08-15T07:53:51.492Z",
+    "model": "edge-neural-tts",
+    "transcript": "猫. 猫.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-vocabulary-house.mp3": {
+    "generatedAt": "2026-08-15T07:53:51.492Z",
+    "model": "edge-neural-tts",
+    "transcript": "房子. 房子.",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-feedback-correct.mp3": {
+    "generatedAt": "2026-08-15T07:53:51.492Z",
+    "model": "edge-neural-tts",
+    "transcript": "正确！",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "zh-CN/zh-feedback-try-again.mp3": {
+    "generatedAt": "2026-08-15T07:53:51.492Z",
+    "model": "edge-neural-tts",
+    "transcript": "再试一次。",
+    "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  "ja-JP/ja-hiragana-vowels-1.mp3": {
+    "generatedAt": "2026-08-15T07:53:56.850Z",
+    "model": "edge-neural-tts",
+    "transcript": "あ. あ.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-hiragana-vowels-2.mp3": {
+    "generatedAt": "2026-08-15T07:53:56.850Z",
+    "model": "edge-neural-tts",
+    "transcript": "い. い.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-hiragana-vowels-3.mp3": {
+    "generatedAt": "2026-08-15T07:53:56.850Z",
+    "model": "edge-neural-tts",
+    "transcript": "う. う.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-hiragana-vowels-4.mp3": {
+    "generatedAt": "2026-08-15T07:53:56.850Z",
+    "model": "edge-neural-tts",
+    "transcript": "え. え.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-hiragana-vowels-5.mp3": {
+    "generatedAt": "2026-08-15T07:53:56.850Z",
+    "model": "edge-neural-tts",
+    "transcript": "お. お.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-hiragana-k-1.mp3": {
+    "generatedAt": "2026-08-15T07:53:56.850Z",
+    "model": "edge-neural-tts",
+    "transcript": "か. か.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-hiragana-k-2.mp3": {
+    "generatedAt": "2026-08-15T07:53:56.850Z",
+    "model": "edge-neural-tts",
+    "transcript": "き. き.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-hiragana-k-3.mp3": {
+    "generatedAt": "2026-08-15T07:53:56.850Z",
+    "model": "edge-neural-tts",
+    "transcript": "く. く.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-hiragana-k-4.mp3": {
+    "generatedAt": "2026-08-15T07:54:01.377Z",
+    "model": "edge-neural-tts",
+    "transcript": "け. け.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-hiragana-k-5.mp3": {
+    "generatedAt": "2026-08-15T07:54:01.377Z",
+    "model": "edge-neural-tts",
+    "transcript": "こ. こ.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-script-more-1.mp3": {
+    "generatedAt": "2026-08-15T07:54:01.377Z",
+    "model": "edge-neural-tts",
+    "transcript": "さ. さ.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-script-more-2.mp3": {
+    "generatedAt": "2026-08-15T07:54:01.377Z",
+    "model": "edge-neural-tts",
+    "transcript": "し. し.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-script-more-3.mp3": {
+    "generatedAt": "2026-08-15T07:54:01.377Z",
+    "model": "edge-neural-tts",
+    "transcript": "す. す.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-script-more-4.mp3": {
+    "generatedAt": "2026-08-15T07:54:01.377Z",
+    "model": "edge-neural-tts",
+    "transcript": "せ. せ.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-script-more-5.mp3": {
+    "generatedAt": "2026-08-15T07:54:01.377Z",
+    "model": "edge-neural-tts",
+    "transcript": "そ. そ.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-script-more-6.mp3": {
+    "generatedAt": "2026-08-15T07:54:01.377Z",
+    "model": "edge-neural-tts",
+    "transcript": "た. た.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-numbers-1.mp3": {
+    "generatedAt": "2026-08-15T07:54:06.546Z",
+    "model": "edge-neural-tts",
+    "transcript": "一. 一.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-numbers-2.mp3": {
+    "generatedAt": "2026-08-15T07:54:06.546Z",
+    "model": "edge-neural-tts",
+    "transcript": "二. 二.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-numbers-3.mp3": {
+    "generatedAt": "2026-08-15T07:54:06.546Z",
+    "model": "edge-neural-tts",
+    "transcript": "三. 三.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-numbers-4.mp3": {
+    "generatedAt": "2026-08-15T07:54:06.546Z",
+    "model": "edge-neural-tts",
+    "transcript": "四. 四.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-numbers-5.mp3": {
+    "generatedAt": "2026-08-15T07:54:06.546Z",
+    "model": "edge-neural-tts",
+    "transcript": "五. 五.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-picture-words-1.mp3": {
+    "generatedAt": "2026-08-15T07:54:06.546Z",
+    "model": "edge-neural-tts",
+    "transcript": "こんにちは. こんにちは.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-picture-words-2.mp3": {
+    "generatedAt": "2026-08-15T07:54:06.546Z",
+    "model": "edge-neural-tts",
+    "transcript": "水. 水.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-picture-words-3.mp3": {
+    "generatedAt": "2026-08-15T07:54:06.546Z",
+    "model": "edge-neural-tts",
+    "transcript": "本. 本.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-picture-words-4.mp3": {
+    "generatedAt": "2026-08-15T07:54:11.356Z",
+    "model": "edge-neural-tts",
+    "transcript": "太陽. 太陽.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-picture-words-5.mp3": {
+    "generatedAt": "2026-08-15T07:54:11.356Z",
+    "model": "edge-neural-tts",
+    "transcript": "猫. 猫.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-picture-words-6.mp3": {
+    "generatedAt": "2026-08-15T07:54:11.356Z",
+    "model": "edge-neural-tts",
+    "transcript": "家. 家.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-phrases-1.mp3": {
+    "generatedAt": "2026-08-15T07:54:11.356Z",
+    "model": "edge-neural-tts",
+    "transcript": "こんにちは！. こんにちは！.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-phrases-2.mp3": {
+    "generatedAt": "2026-08-15T07:54:11.356Z",
+    "model": "edge-neural-tts",
+    "transcript": "私の名前は,です。. 私の名前は,です。.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-phrases-3.mp3": {
+    "generatedAt": "2026-08-15T07:54:11.356Z",
+    "model": "edge-neural-tts",
+    "transcript": "お水をください。. お水をください。.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-phrase-1.mp3": {
+    "generatedAt": "2026-08-15T07:54:11.356Z",
+    "model": "edge-neural-tts",
+    "transcript": "こんにちは！",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-phrase-2.mp3": {
+    "generatedAt": "2026-08-15T07:54:11.356Z",
+    "model": "edge-neural-tts",
+    "transcript": "私の名前は,です。",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-phrase-3.mp3": {
+    "generatedAt": "2026-08-15T07:54:15.905Z",
+    "model": "edge-neural-tts",
+    "transcript": "お水をください。",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-vocabulary-hello.mp3": {
+    "generatedAt": "2026-08-15T07:54:15.905Z",
+    "model": "edge-neural-tts",
+    "transcript": "こんにちは. こんにちは.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-vocabulary-water.mp3": {
+    "generatedAt": "2026-08-15T07:54:15.905Z",
+    "model": "edge-neural-tts",
+    "transcript": "水. 水.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-vocabulary-book.mp3": {
+    "generatedAt": "2026-08-15T07:54:15.905Z",
+    "model": "edge-neural-tts",
+    "transcript": "本. 本.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-vocabulary-sun.mp3": {
+    "generatedAt": "2026-08-15T07:54:15.905Z",
+    "model": "edge-neural-tts",
+    "transcript": "太陽. 太陽.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-vocabulary-cat.mp3": {
+    "generatedAt": "2026-08-15T07:54:15.905Z",
+    "model": "edge-neural-tts",
+    "transcript": "猫. 猫.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-vocabulary-house.mp3": {
+    "generatedAt": "2026-08-15T07:54:15.905Z",
+    "model": "edge-neural-tts",
+    "transcript": "家. 家.",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-feedback-correct.mp3": {
+    "generatedAt": "2026-08-15T07:54:15.905Z",
+    "model": "edge-neural-tts",
+    "transcript": "正解です！",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ja-JP/ja-feedback-try-again.mp3": {
+    "generatedAt": "2026-08-15T07:54:20.393Z",
+    "model": "edge-neural-tts",
+    "transcript": "もう一度やってみましょう。",
+    "voice": "ja-JP-NanamiNeural"
+  },
+  "ko-KR/ko-vowels-1-1.mp3": {
+    "generatedAt": "2026-08-15T07:54:20.393Z",
+    "model": "edge-neural-tts",
+    "transcript": "ㅏ. ㅏ.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-vowels-1-2.mp3": {
+    "generatedAt": "2026-08-15T07:54:20.393Z",
+    "model": "edge-neural-tts",
+    "transcript": "ㅑ. ㅑ.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-vowels-1-3.mp3": {
+    "generatedAt": "2026-08-15T07:54:20.393Z",
+    "model": "edge-neural-tts",
+    "transcript": "ㅓ. ㅓ.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-vowels-1-4.mp3": {
+    "generatedAt": "2026-08-15T07:54:20.393Z",
+    "model": "edge-neural-tts",
+    "transcript": "ㅕ. ㅕ.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-vowels-1-5.mp3": {
+    "generatedAt": "2026-08-15T07:54:20.393Z",
+    "model": "edge-neural-tts",
+    "transcript": "ㅗ. ㅗ.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-vowels-1-6.mp3": {
+    "generatedAt": "2026-08-15T07:54:20.393Z",
+    "model": "edge-neural-tts",
+    "transcript": "ㅜ. ㅜ.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-consonants-1-1.mp3": {
+    "generatedAt": "2026-08-15T07:54:20.393Z",
+    "model": "edge-neural-tts",
+    "transcript": "ㄱ. ㄱ.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-consonants-1-2.mp3": {
+    "generatedAt": "2026-08-15T07:54:25.010Z",
+    "model": "edge-neural-tts",
+    "transcript": "ㄴ. ㄴ.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-consonants-1-3.mp3": {
+    "generatedAt": "2026-08-15T07:54:25.010Z",
+    "model": "edge-neural-tts",
+    "transcript": "ㄷ. ㄷ.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-consonants-1-4.mp3": {
+    "generatedAt": "2026-08-15T07:54:25.010Z",
+    "model": "edge-neural-tts",
+    "transcript": "ㄹ. ㄹ.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-consonants-1-5.mp3": {
+    "generatedAt": "2026-08-15T07:54:25.010Z",
+    "model": "edge-neural-tts",
+    "transcript": "ㅁ. ㅁ.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-consonants-1-6.mp3": {
+    "generatedAt": "2026-08-15T07:54:25.010Z",
+    "model": "edge-neural-tts",
+    "transcript": "ㅂ. ㅂ.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-script-more-1.mp3": {
+    "generatedAt": "2026-08-15T07:54:25.010Z",
+    "model": "edge-neural-tts",
+    "transcript": "ㅐ. ㅐ.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-script-more-2.mp3": {
+    "generatedAt": "2026-08-15T07:54:25.010Z",
+    "model": "edge-neural-tts",
+    "transcript": "ㅔ. ㅔ.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-script-more-3.mp3": {
+    "generatedAt": "2026-08-15T07:54:25.010Z",
+    "model": "edge-neural-tts",
+    "transcript": "ㅚ. ㅚ.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-script-more-4.mp3": {
+    "generatedAt": "2026-08-15T07:54:29.681Z",
+    "model": "edge-neural-tts",
+    "transcript": "ㅟ. ㅟ.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-script-more-5.mp3": {
+    "generatedAt": "2026-08-15T07:54:29.681Z",
+    "model": "edge-neural-tts",
+    "transcript": "ㅡ. ㅡ.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-script-more-6.mp3": {
+    "generatedAt": "2026-08-15T07:54:29.681Z",
+    "model": "edge-neural-tts",
+    "transcript": "ㅣ. ㅣ.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-numbers-1.mp3": {
+    "generatedAt": "2026-08-15T07:54:29.681Z",
+    "model": "edge-neural-tts",
+    "transcript": "하나. 하나.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-numbers-2.mp3": {
+    "generatedAt": "2026-08-15T07:54:29.681Z",
+    "model": "edge-neural-tts",
+    "transcript": "둘. 둘.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-numbers-3.mp3": {
+    "generatedAt": "2026-08-15T07:54:29.681Z",
+    "model": "edge-neural-tts",
+    "transcript": "셋. 셋.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-numbers-4.mp3": {
+    "generatedAt": "2026-08-15T07:54:29.681Z",
+    "model": "edge-neural-tts",
+    "transcript": "넷. 넷.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-numbers-5.mp3": {
+    "generatedAt": "2026-08-15T07:54:29.681Z",
+    "model": "edge-neural-tts",
+    "transcript": "다섯. 다섯.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-picture-words-1.mp3": {
+    "generatedAt": "2026-08-15T07:54:34.659Z",
+    "model": "edge-neural-tts",
+    "transcript": "안녕하세요. 안녕하세요.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-picture-words-2.mp3": {
+    "generatedAt": "2026-08-15T07:54:34.659Z",
+    "model": "edge-neural-tts",
+    "transcript": "물. 물.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-picture-words-3.mp3": {
+    "generatedAt": "2026-08-15T07:54:34.659Z",
+    "model": "edge-neural-tts",
+    "transcript": "책. 책.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-picture-words-4.mp3": {
+    "generatedAt": "2026-08-15T07:54:34.659Z",
+    "model": "edge-neural-tts",
+    "transcript": "태양. 태양.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-picture-words-5.mp3": {
+    "generatedAt": "2026-08-15T07:54:34.659Z",
+    "model": "edge-neural-tts",
+    "transcript": "고양이. 고양이.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-picture-words-6.mp3": {
+    "generatedAt": "2026-08-15T07:54:34.659Z",
+    "model": "edge-neural-tts",
+    "transcript": "집. 집.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-phrases-1.mp3": {
+    "generatedAt": "2026-08-15T07:54:34.659Z",
+    "model": "edge-neural-tts",
+    "transcript": "안녕하세요!. 안녕하세요!.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-phrases-2.mp3": {
+    "generatedAt": "2026-08-15T07:54:34.659Z",
+    "model": "edge-neural-tts",
+    "transcript": "제 이름은 ,예요.. 제 이름은 ,예요..",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-phrases-3.mp3": {
+    "generatedAt": "2026-08-15T07:54:39.382Z",
+    "model": "edge-neural-tts",
+    "transcript": "물 주세요.. 물 주세요..",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-phrase-1.mp3": {
+    "generatedAt": "2026-08-15T07:54:39.382Z",
+    "model": "edge-neural-tts",
+    "transcript": "안녕하세요!",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-phrase-2.mp3": {
+    "generatedAt": "2026-08-15T07:54:39.382Z",
+    "model": "edge-neural-tts",
+    "transcript": "제 이름은 ,예요.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-phrase-3.mp3": {
+    "generatedAt": "2026-08-15T07:54:39.382Z",
+    "model": "edge-neural-tts",
+    "transcript": "물 주세요.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-vocabulary-hello.mp3": {
+    "generatedAt": "2026-08-15T07:54:39.382Z",
+    "model": "edge-neural-tts",
+    "transcript": "안녕하세요. 안녕하세요.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-vocabulary-water.mp3": {
+    "generatedAt": "2026-08-15T07:54:39.382Z",
+    "model": "edge-neural-tts",
+    "transcript": "물. 물.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-vocabulary-book.mp3": {
+    "generatedAt": "2026-08-15T07:54:39.382Z",
+    "model": "edge-neural-tts",
+    "transcript": "책. 책.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-vocabulary-sun.mp3": {
+    "generatedAt": "2026-08-15T07:54:39.382Z",
+    "model": "edge-neural-tts",
+    "transcript": "태양. 태양.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-vocabulary-cat.mp3": {
+    "generatedAt": "2026-08-15T07:54:44.555Z",
+    "model": "edge-neural-tts",
+    "transcript": "고양이. 고양이.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-vocabulary-house.mp3": {
+    "generatedAt": "2026-08-15T07:54:44.555Z",
+    "model": "edge-neural-tts",
+    "transcript": "집. 집.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-feedback-correct.mp3": {
+    "generatedAt": "2026-08-15T07:54:44.555Z",
+    "model": "edge-neural-tts",
+    "transcript": "맞아요!",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "ko-KR/ko-feedback-try-again.mp3": {
+    "generatedAt": "2026-08-15T07:54:44.555Z",
+    "model": "edge-neural-tts",
+    "transcript": "다시 해 보세요.",
+    "voice": "ko-KR-SunHiNeural"
+  },
+  "kn-IN/kn-vowels-1-1.mp3": {
+    "generatedAt": "2026-08-15T07:54:44.555Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಅ. ಅ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-vowels-1-2.mp3": {
+    "generatedAt": "2026-08-15T07:54:44.555Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಆ. ಆ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-vowels-1-3.mp3": {
+    "generatedAt": "2026-08-15T07:54:44.555Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಇ. ಇ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-vowels-1-4.mp3": {
+    "generatedAt": "2026-08-15T07:54:44.555Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಈ. ಈ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-vowels-1-5.mp3": {
+    "generatedAt": "2026-08-15T07:54:49.256Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಉ. ಉ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-vowels-1-6.mp3": {
+    "generatedAt": "2026-08-15T07:54:49.256Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಊ. ಊ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-consonants-1-1.mp3": {
+    "generatedAt": "2026-08-15T07:54:49.256Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಕ. ಕ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-consonants-1-2.mp3": {
+    "generatedAt": "2026-08-15T07:54:49.256Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಖ. ಖ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-consonants-1-3.mp3": {
+    "generatedAt": "2026-08-15T07:54:49.256Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಗ. ಗ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-consonants-1-4.mp3": {
+    "generatedAt": "2026-08-15T07:54:49.256Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಘ. ಘ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-consonants-1-5.mp3": {
+    "generatedAt": "2026-08-15T07:54:49.256Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಙ. ಙ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-script-more-1.mp3": {
+    "generatedAt": "2026-08-15T07:54:49.256Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಎ. ಎ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-script-more-2.mp3": {
+    "generatedAt": "2026-08-15T07:54:53.984Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಏ. ಏ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-script-more-3.mp3": {
+    "generatedAt": "2026-08-15T07:54:53.984Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಐ. ಐ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-script-more-4.mp3": {
+    "generatedAt": "2026-08-15T07:54:53.984Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಒ. ಒ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-script-more-5.mp3": {
+    "generatedAt": "2026-08-15T07:54:53.984Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಓ. ಓ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-script-more-6.mp3": {
+    "generatedAt": "2026-08-15T07:54:53.984Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಔ. ಔ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-numbers-1.mp3": {
+    "generatedAt": "2026-08-15T07:54:53.984Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಒಂದು. ಒಂದು.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-numbers-2.mp3": {
+    "generatedAt": "2026-08-15T07:54:53.984Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಎರಡು. ಎರಡು.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-numbers-3.mp3": {
+    "generatedAt": "2026-08-15T07:54:53.984Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಮೂರು. ಮೂರು.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-numbers-4.mp3": {
+    "generatedAt": "2026-08-15T07:54:59.240Z",
+    "model": "edge-neural-tts",
+    "transcript": "ನಾಲ್ಕು. ನಾಲ್ಕು.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-numbers-5.mp3": {
+    "generatedAt": "2026-08-15T07:54:59.240Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಐದು. ಐದು.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-picture-words-1.mp3": {
+    "generatedAt": "2026-08-15T07:54:59.240Z",
+    "model": "edge-neural-tts",
+    "transcript": "ನಮಸ್ಕಾರ. ನಮಸ್ಕಾರ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-picture-words-2.mp3": {
+    "generatedAt": "2026-08-15T07:54:59.240Z",
+    "model": "edge-neural-tts",
+    "transcript": "ನೀರು. ನೀರು.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-picture-words-3.mp3": {
+    "generatedAt": "2026-08-15T07:54:59.240Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಪುಸ್ತಕ. ಪುಸ್ತಕ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-picture-words-4.mp3": {
+    "generatedAt": "2026-08-15T07:54:59.240Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಸೂರ್ಯ. ಸೂರ್ಯ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-picture-words-5.mp3": {
+    "generatedAt": "2026-08-15T07:54:59.240Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಬೆಕ್ಕು. ಬೆಕ್ಕು.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-picture-words-6.mp3": {
+    "generatedAt": "2026-08-15T07:54:59.240Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಮನೆ. ಮನೆ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-phrases-1.mp3": {
+    "generatedAt": "2026-08-15T07:55:04.018Z",
+    "model": "edge-neural-tts",
+    "transcript": "ನಮಸ್ಕಾರ!. ನಮಸ್ಕಾರ!.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-phrases-2.mp3": {
+    "generatedAt": "2026-08-15T07:55:04.018Z",
+    "model": "edge-neural-tts",
+    "transcript": "ನನ್ನ ಹೆಸರು ,.. ನನ್ನ ಹೆಸರು ,..",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-phrases-3.mp3": {
+    "generatedAt": "2026-08-15T07:55:04.018Z",
+    "model": "edge-neural-tts",
+    "transcript": "ನನಗೆ ನೀರು ಬೇಕು.. ನನಗೆ ನೀರು ಬೇಕು..",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-phrase-1.mp3": {
+    "generatedAt": "2026-08-15T07:55:04.018Z",
+    "model": "edge-neural-tts",
+    "transcript": "ನಮಸ್ಕಾರ!",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-phrase-2.mp3": {
+    "generatedAt": "2026-08-15T07:55:04.018Z",
+    "model": "edge-neural-tts",
+    "transcript": "ನನ್ನ ಹೆಸರು ,.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-phrase-3.mp3": {
+    "generatedAt": "2026-08-15T07:55:04.018Z",
+    "model": "edge-neural-tts",
+    "transcript": "ನನಗೆ ನೀರು ಬೇಕು.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-vocabulary-hello.mp3": {
+    "generatedAt": "2026-08-15T07:55:04.018Z",
+    "model": "edge-neural-tts",
+    "transcript": "ನಮಸ್ಕಾರ. ನಮಸ್ಕಾರ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-vocabulary-water.mp3": {
+    "generatedAt": "2026-08-15T07:55:04.018Z",
+    "model": "edge-neural-tts",
+    "transcript": "ನೀರು. ನೀರು.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-vocabulary-book.mp3": {
+    "generatedAt": "2026-08-15T07:55:08.348Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಪುಸ್ತಕ. ಪುಸ್ತಕ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-vocabulary-sun.mp3": {
+    "generatedAt": "2026-08-15T07:55:08.348Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಸೂರ್ಯ. ಸೂರ್ಯ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-vocabulary-cat.mp3": {
+    "generatedAt": "2026-08-15T07:55:08.348Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಬೆಕ್ಕು. ಬೆಕ್ಕು.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-vocabulary-house.mp3": {
+    "generatedAt": "2026-08-15T07:55:08.348Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಮನೆ. ಮನೆ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-feedback-correct.mp3": {
+    "generatedAt": "2026-08-15T07:55:08.348Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಸರಿಯಾಗಿದೆ!",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "kn-IN/kn-feedback-try-again.mp3": {
+    "generatedAt": "2026-08-15T07:55:08.348Z",
+    "model": "edge-neural-tts",
+    "transcript": "ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.",
+    "voice": "kn-IN-SapnaNeural"
+  },
+  "pa-IN/pa-letters-1-1.mp3": {
+    "generatedAt": "2026-08-15T07:55:08.348Z",
+    "model": "google-translate-tts",
+    "transcript": "ੳ. ੳ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-letters-1-2.mp3": {
+    "generatedAt": "2026-08-15T07:55:08.348Z",
+    "model": "google-translate-tts",
+    "transcript": "ਅ. ਅ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-letters-1-3.mp3": {
+    "generatedAt": "2026-08-15T07:55:11.008Z",
+    "model": "google-translate-tts",
+    "transcript": "ੲ. ੲ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-letters-1-4.mp3": {
+    "generatedAt": "2026-08-15T07:55:11.008Z",
+    "model": "google-translate-tts",
+    "transcript": "ਸ. ਸ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-letters-1-5.mp3": {
+    "generatedAt": "2026-08-15T07:55:11.008Z",
+    "model": "google-translate-tts",
+    "transcript": "ਹ. ਹ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-letters-1-6.mp3": {
+    "generatedAt": "2026-08-15T07:55:11.008Z",
+    "model": "google-translate-tts",
+    "transcript": "ਕ. ਕ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-letters-2-1.mp3": {
+    "generatedAt": "2026-08-15T07:55:11.008Z",
+    "model": "google-translate-tts",
+    "transcript": "ਖ. ਖ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-letters-2-2.mp3": {
+    "generatedAt": "2026-08-15T07:55:11.008Z",
+    "model": "google-translate-tts",
+    "transcript": "ਗ. ਗ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-letters-2-3.mp3": {
+    "generatedAt": "2026-08-15T07:55:11.008Z",
+    "model": "google-translate-tts",
+    "transcript": "ਘ. ਘ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-letters-2-4.mp3": {
+    "generatedAt": "2026-08-15T07:55:11.008Z",
+    "model": "google-translate-tts",
+    "transcript": "ਙ. ਙ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-letters-2-5.mp3": {
+    "generatedAt": "2026-08-15T07:55:13.961Z",
+    "model": "google-translate-tts",
+    "transcript": "ਚ. ਚ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-script-more-1.mp3": {
+    "generatedAt": "2026-08-15T07:55:13.961Z",
+    "model": "google-translate-tts",
+    "transcript": "ਘ. ਘ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-script-more-2.mp3": {
+    "generatedAt": "2026-08-15T07:55:13.961Z",
+    "model": "google-translate-tts",
+    "transcript": "ਙ. ਙ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-script-more-3.mp3": {
+    "generatedAt": "2026-08-15T07:55:13.961Z",
+    "model": "google-translate-tts",
+    "transcript": "ਚ. ਚ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-script-more-4.mp3": {
+    "generatedAt": "2026-08-15T07:55:13.961Z",
+    "model": "google-translate-tts",
+    "transcript": "ਛ. ਛ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-script-more-5.mp3": {
+    "generatedAt": "2026-08-15T07:55:13.961Z",
+    "model": "google-translate-tts",
+    "transcript": "ਜ. ਜ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-script-more-6.mp3": {
+    "generatedAt": "2026-08-15T07:55:13.961Z",
+    "model": "google-translate-tts",
+    "transcript": "ਝ. ਝ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-numbers-1.mp3": {
+    "generatedAt": "2026-08-15T07:55:13.961Z",
+    "model": "google-translate-tts",
+    "transcript": "ਇੱਕ. ਇੱਕ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-numbers-2.mp3": {
+    "generatedAt": "2026-08-15T07:55:16.868Z",
+    "model": "google-translate-tts",
+    "transcript": "ਦੋ. ਦੋ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-numbers-3.mp3": {
+    "generatedAt": "2026-08-15T07:55:16.868Z",
+    "model": "google-translate-tts",
+    "transcript": "ਤਿੰਨ. ਤਿੰਨ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-numbers-4.mp3": {
+    "generatedAt": "2026-08-15T07:55:16.868Z",
+    "model": "google-translate-tts",
+    "transcript": "ਚਾਰ. ਚਾਰ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-numbers-5.mp3": {
+    "generatedAt": "2026-08-15T07:55:16.868Z",
+    "model": "google-translate-tts",
+    "transcript": "ਪੰਜ. ਪੰਜ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-picture-words-1.mp3": {
+    "generatedAt": "2026-08-15T07:55:16.868Z",
+    "model": "google-translate-tts",
+    "transcript": "ਸਤ ਸ੍ਰੀ ਅਕਾਲ. ਸਤ ਸ੍ਰੀ ਅਕਾਲ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-picture-words-2.mp3": {
+    "generatedAt": "2026-08-15T07:55:16.868Z",
+    "model": "google-translate-tts",
+    "transcript": "ਪਾਣੀ. ਪਾਣੀ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-picture-words-3.mp3": {
+    "generatedAt": "2026-08-15T07:55:16.868Z",
+    "model": "google-translate-tts",
+    "transcript": "ਕਿਤਾਬ. ਕਿਤਾਬ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-picture-words-4.mp3": {
+    "generatedAt": "2026-08-15T07:55:16.868Z",
+    "model": "google-translate-tts",
+    "transcript": "ਸੂਰਜ. ਸੂਰਜ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-picture-words-5.mp3": {
+    "generatedAt": "2026-08-15T07:55:19.480Z",
+    "model": "google-translate-tts",
+    "transcript": "ਬਿੱਲੀ. ਬਿੱਲੀ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-picture-words-6.mp3": {
+    "generatedAt": "2026-08-15T07:55:19.480Z",
+    "model": "google-translate-tts",
+    "transcript": "ਘਰ. ਘਰ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-phrases-1.mp3": {
+    "generatedAt": "2026-08-15T07:55:19.480Z",
+    "model": "google-translate-tts",
+    "transcript": "ਸਤ ਸ੍ਰੀ ਅਕਾਲ!. ਸਤ ਸ੍ਰੀ ਅਕਾਲ!.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-phrases-2.mp3": {
+    "generatedAt": "2026-08-15T07:55:19.480Z",
+    "model": "google-translate-tts",
+    "transcript": "ਮੇਰਾ ਨਾਮ , ਹੈ।. ਮੇਰਾ ਨਾਮ , ਹੈ।.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-phrases-3.mp3": {
+    "generatedAt": "2026-08-15T07:55:19.480Z",
+    "model": "google-translate-tts",
+    "transcript": "ਮੈਨੂੰ ਪਾਣੀ ਚਾਹੀਦਾ ਹੈ।. ਮੈਨੂੰ ਪਾਣੀ ਚਾਹੀਦਾ ਹੈ।.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-phrase-1.mp3": {
+    "generatedAt": "2026-08-15T07:55:19.480Z",
+    "model": "google-translate-tts",
+    "transcript": "ਸਤ ਸ੍ਰੀ ਅਕਾਲ!",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-phrase-2.mp3": {
+    "generatedAt": "2026-08-15T07:55:19.480Z",
+    "model": "google-translate-tts",
+    "transcript": "ਮੇਰਾ ਨਾਮ , ਹੈ।",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-phrase-3.mp3": {
+    "generatedAt": "2026-08-15T07:55:19.480Z",
+    "model": "google-translate-tts",
+    "transcript": "ਮੈਨੂੰ ਪਾਣੀ ਚਾਹੀਦਾ ਹੈ।",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-vocabulary-hello.mp3": {
+    "generatedAt": "2026-08-15T07:55:21.952Z",
+    "model": "google-translate-tts",
+    "transcript": "ਸਤ ਸ੍ਰੀ ਅਕਾਲ. ਸਤ ਸ੍ਰੀ ਅਕਾਲ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-vocabulary-water.mp3": {
+    "generatedAt": "2026-08-15T07:55:21.952Z",
+    "model": "google-translate-tts",
+    "transcript": "ਪਾਣੀ. ਪਾਣੀ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-vocabulary-book.mp3": {
+    "generatedAt": "2026-08-15T07:55:21.952Z",
+    "model": "google-translate-tts",
+    "transcript": "ਕਿਤਾਬ. ਕਿਤਾਬ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-vocabulary-sun.mp3": {
+    "generatedAt": "2026-08-15T07:55:21.952Z",
+    "model": "google-translate-tts",
+    "transcript": "ਸੂਰਜ. ਸੂਰਜ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-vocabulary-cat.mp3": {
+    "generatedAt": "2026-08-15T07:55:21.952Z",
+    "model": "google-translate-tts",
+    "transcript": "ਬਿੱਲੀ. ਬਿੱਲੀ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-vocabulary-house.mp3": {
+    "generatedAt": "2026-08-15T07:55:21.952Z",
+    "model": "google-translate-tts",
+    "transcript": "ਘਰ. ਘਰ.",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-feedback-correct.mp3": {
+    "generatedAt": "2026-08-15T07:55:21.952Z",
+    "model": "google-translate-tts",
+    "transcript": "ਸਹੀ!",
+    "voice": "Google Punjabi"
+  },
+  "pa-IN/pa-feedback-try-again.mp3": {
+    "generatedAt": "2026-08-15T07:55:21.952Z",
+    "model": "google-translate-tts",
+    "transcript": "ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "voice": "Google Punjabi"
+  },
+  "gu-IN/gu-vowels-1-1.mp3": {
+    "generatedAt": "2026-08-15T07:55:27.376Z",
+    "model": "edge-neural-tts",
+    "transcript": "અ. અ.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-vowels-1-2.mp3": {
+    "generatedAt": "2026-08-15T07:55:27.376Z",
+    "model": "edge-neural-tts",
+    "transcript": "આ. આ.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-vowels-1-3.mp3": {
+    "generatedAt": "2026-08-15T07:55:27.376Z",
+    "model": "edge-neural-tts",
+    "transcript": "ઇ. ઇ.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-vowels-1-4.mp3": {
+    "generatedAt": "2026-08-15T07:55:27.376Z",
+    "model": "edge-neural-tts",
+    "transcript": "ઈ. ઈ.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-vowels-1-5.mp3": {
+    "generatedAt": "2026-08-15T07:55:27.376Z",
+    "model": "edge-neural-tts",
+    "transcript": "ઉ. ઉ.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-vowels-1-6.mp3": {
+    "generatedAt": "2026-08-15T07:55:27.376Z",
+    "model": "edge-neural-tts",
+    "transcript": "ઊ. ઊ.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-consonants-1-1.mp3": {
+    "generatedAt": "2026-08-15T07:55:27.376Z",
+    "model": "edge-neural-tts",
+    "transcript": "ક. ક.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-consonants-1-2.mp3": {
+    "generatedAt": "2026-08-15T07:55:27.376Z",
+    "model": "edge-neural-tts",
+    "transcript": "ખ. ખ.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-consonants-1-3.mp3": {
+    "generatedAt": "2026-08-15T07:55:31.996Z",
+    "model": "edge-neural-tts",
+    "transcript": "ગ. ગ.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-consonants-1-4.mp3": {
+    "generatedAt": "2026-08-15T07:55:31.996Z",
+    "model": "edge-neural-tts",
+    "transcript": "ઘ. ઘ.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-consonants-1-5.mp3": {
+    "generatedAt": "2026-08-15T07:55:31.996Z",
+    "model": "edge-neural-tts",
+    "transcript": "ઙ. ઙ.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-script-more-1.mp3": {
+    "generatedAt": "2026-08-15T07:55:31.996Z",
+    "model": "edge-neural-tts",
+    "transcript": "એ. એ.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-script-more-2.mp3": {
+    "generatedAt": "2026-08-15T07:55:31.996Z",
+    "model": "edge-neural-tts",
+    "transcript": "ઐ. ઐ.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-script-more-3.mp3": {
+    "generatedAt": "2026-08-15T07:55:31.996Z",
+    "model": "edge-neural-tts",
+    "transcript": "ઓ. ઓ.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-script-more-4.mp3": {
+    "generatedAt": "2026-08-15T07:55:31.996Z",
+    "model": "edge-neural-tts",
+    "transcript": "ઔ. ઔ.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-script-more-5.mp3": {
+    "generatedAt": "2026-08-15T07:55:31.996Z",
+    "model": "edge-neural-tts",
+    "transcript": "અં. અં.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-script-more-6.mp3": {
+    "generatedAt": "2026-08-15T07:55:36.928Z",
+    "model": "edge-neural-tts",
+    "transcript": "અઃ. અઃ.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-numbers-1.mp3": {
+    "generatedAt": "2026-08-15T07:55:36.928Z",
+    "model": "edge-neural-tts",
+    "transcript": "એક. એક.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-numbers-2.mp3": {
+    "generatedAt": "2026-08-15T07:55:36.928Z",
+    "model": "edge-neural-tts",
+    "transcript": "બે. બે.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-numbers-3.mp3": {
+    "generatedAt": "2026-08-15T07:55:36.928Z",
+    "model": "edge-neural-tts",
+    "transcript": "ત્રણ. ત્રણ.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-numbers-4.mp3": {
+    "generatedAt": "2026-08-15T07:55:36.928Z",
+    "model": "edge-neural-tts",
+    "transcript": "ચાર. ચાર.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-numbers-5.mp3": {
+    "generatedAt": "2026-08-15T07:55:36.928Z",
+    "model": "edge-neural-tts",
+    "transcript": "પાંચ. પાંચ.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-picture-words-1.mp3": {
+    "generatedAt": "2026-08-15T07:55:36.928Z",
+    "model": "edge-neural-tts",
+    "transcript": "નમસ્તે. નમસ્તે.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-picture-words-2.mp3": {
+    "generatedAt": "2026-08-15T07:55:36.928Z",
+    "model": "edge-neural-tts",
+    "transcript": "પાણી. પાણી.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-picture-words-3.mp3": {
+    "generatedAt": "2026-08-15T07:55:42.736Z",
+    "model": "edge-neural-tts",
+    "transcript": "પુસ્તક. પુસ્તક.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-picture-words-4.mp3": {
+    "generatedAt": "2026-08-15T07:55:42.736Z",
+    "model": "edge-neural-tts",
+    "transcript": "સૂર્ય. સૂર્ય.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-picture-words-5.mp3": {
+    "generatedAt": "2026-08-15T07:55:42.736Z",
+    "model": "edge-neural-tts",
+    "transcript": "બિલાડી. બિલાડી.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-picture-words-6.mp3": {
+    "generatedAt": "2026-08-15T07:55:42.736Z",
+    "model": "edge-neural-tts",
+    "transcript": "ઘર. ઘર.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-phrases-1.mp3": {
+    "generatedAt": "2026-08-15T07:55:42.736Z",
+    "model": "edge-neural-tts",
+    "transcript": "નમસ્તે!. નમસ્તે!.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-phrases-2.mp3": {
+    "generatedAt": "2026-08-15T07:55:42.736Z",
+    "model": "edge-neural-tts",
+    "transcript": "મારું નામ , છે.. મારું નામ , છે..",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-phrases-3.mp3": {
+    "generatedAt": "2026-08-15T07:55:42.736Z",
+    "model": "edge-neural-tts",
+    "transcript": "મને પાણી જોઈએ છે.. મને પાણી જોઈએ છે..",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-phrase-1.mp3": {
+    "generatedAt": "2026-08-15T07:55:42.736Z",
+    "model": "edge-neural-tts",
+    "transcript": "નમસ્તે!",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-phrase-2.mp3": {
+    "generatedAt": "2026-08-15T07:55:47.559Z",
+    "model": "edge-neural-tts",
+    "transcript": "મારું નામ , છે.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-phrase-3.mp3": {
+    "generatedAt": "2026-08-15T07:55:47.559Z",
+    "model": "edge-neural-tts",
+    "transcript": "મને પાણી જોઈએ છે.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-vocabulary-hello.mp3": {
+    "generatedAt": "2026-08-15T07:55:47.559Z",
+    "model": "edge-neural-tts",
+    "transcript": "નમસ્તે. નમસ્તે.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-vocabulary-water.mp3": {
+    "generatedAt": "2026-08-15T07:55:47.559Z",
+    "model": "edge-neural-tts",
+    "transcript": "પાણી. પાણી.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-vocabulary-book.mp3": {
+    "generatedAt": "2026-08-15T07:55:47.559Z",
+    "model": "edge-neural-tts",
+    "transcript": "પુસ્તક. પુસ્તક.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-vocabulary-sun.mp3": {
+    "generatedAt": "2026-08-15T07:55:47.559Z",
+    "model": "edge-neural-tts",
+    "transcript": "સૂર્ય. સૂર્ય.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-vocabulary-cat.mp3": {
+    "generatedAt": "2026-08-15T07:55:47.559Z",
+    "model": "edge-neural-tts",
+    "transcript": "બિલાડી. બિલાડી.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-vocabulary-house.mp3": {
+    "generatedAt": "2026-08-15T07:55:47.559Z",
+    "model": "edge-neural-tts",
+    "transcript": "ઘર. ઘર.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-feedback-correct.mp3": {
+    "generatedAt": "2026-08-15T07:55:52.170Z",
+    "model": "edge-neural-tts",
+    "transcript": "સાચું!",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "gu-IN/gu-feedback-try-again.mp3": {
+    "generatedAt": "2026-08-15T07:55:52.170Z",
+    "model": "edge-neural-tts",
+    "transcript": "ફરીથી પ્રયત્ન કરો.",
+    "voice": "gu-IN-DhwaniNeural"
+  },
+  "te-IN/te-vowels-1-1.mp3": {
+    "generatedAt": "2026-08-15T07:55:52.170Z",
+    "model": "edge-neural-tts",
+    "transcript": "అ. అ.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-vowels-1-2.mp3": {
+    "generatedAt": "2026-08-15T07:55:52.170Z",
+    "model": "edge-neural-tts",
+    "transcript": "ఆ. ఆ.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-vowels-1-3.mp3": {
+    "generatedAt": "2026-08-15T07:55:52.170Z",
+    "model": "edge-neural-tts",
+    "transcript": "ఇ. ఇ.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-vowels-1-4.mp3": {
+    "generatedAt": "2026-08-15T07:55:52.170Z",
+    "model": "edge-neural-tts",
+    "transcript": "ఈ. ఈ.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-vowels-1-5.mp3": {
+    "generatedAt": "2026-08-15T07:55:52.170Z",
+    "model": "edge-neural-tts",
+    "transcript": "ఉ. ఉ.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-vowels-1-6.mp3": {
+    "generatedAt": "2026-08-15T07:55:52.170Z",
+    "model": "edge-neural-tts",
+    "transcript": "ఊ. ఊ.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-consonants-1-1.mp3": {
+    "generatedAt": "2026-08-15T07:55:56.816Z",
+    "model": "edge-neural-tts",
+    "transcript": "క. క.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-consonants-1-2.mp3": {
+    "generatedAt": "2026-08-15T07:55:56.816Z",
+    "model": "edge-neural-tts",
+    "transcript": "ఖ. ఖ.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-consonants-1-3.mp3": {
+    "generatedAt": "2026-08-15T07:55:56.816Z",
+    "model": "edge-neural-tts",
+    "transcript": "గ. గ.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-consonants-1-4.mp3": {
+    "generatedAt": "2026-08-15T07:55:56.816Z",
+    "model": "edge-neural-tts",
+    "transcript": "ఘ. ఘ.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-consonants-1-5.mp3": {
+    "generatedAt": "2026-08-15T07:55:56.816Z",
+    "model": "edge-neural-tts",
+    "transcript": "ఙ. ఙ.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-script-more-1.mp3": {
+    "generatedAt": "2026-08-15T07:55:56.816Z",
+    "model": "edge-neural-tts",
+    "transcript": "ఎ. ఎ.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-script-more-2.mp3": {
+    "generatedAt": "2026-08-15T07:55:56.816Z",
+    "model": "edge-neural-tts",
+    "transcript": "ఏ. ఏ.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-script-more-3.mp3": {
+    "generatedAt": "2026-08-15T07:55:56.816Z",
+    "model": "edge-neural-tts",
+    "transcript": "ఐ. ఐ.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-script-more-4.mp3": {
+    "generatedAt": "2026-08-15T07:56:01.660Z",
+    "model": "edge-neural-tts",
+    "transcript": "ఒ. ఒ.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-script-more-5.mp3": {
+    "generatedAt": "2026-08-15T07:56:01.660Z",
+    "model": "edge-neural-tts",
+    "transcript": "ఓ. ఓ.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-script-more-6.mp3": {
+    "generatedAt": "2026-08-15T07:56:01.660Z",
+    "model": "edge-neural-tts",
+    "transcript": "ఔ. ఔ.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-numbers-1.mp3": {
+    "generatedAt": "2026-08-15T07:56:01.660Z",
+    "model": "edge-neural-tts",
+    "transcript": "ఒకటి. ఒకటి.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-numbers-2.mp3": {
+    "generatedAt": "2026-08-15T07:56:01.660Z",
+    "model": "edge-neural-tts",
+    "transcript": "రెండు. రెండు.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-numbers-3.mp3": {
+    "generatedAt": "2026-08-15T07:56:01.660Z",
+    "model": "edge-neural-tts",
+    "transcript": "మూడు. మూడు.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-numbers-4.mp3": {
+    "generatedAt": "2026-08-15T07:56:01.660Z",
+    "model": "edge-neural-tts",
+    "transcript": "నాలుగు. నాలుగు.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-numbers-5.mp3": {
+    "generatedAt": "2026-08-15T07:56:01.660Z",
+    "model": "edge-neural-tts",
+    "transcript": "ఐదు. ఐదు.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-picture-words-1.mp3": {
+    "generatedAt": "2026-08-15T07:56:06.547Z",
+    "model": "edge-neural-tts",
+    "transcript": "నమస్కారం. నమస్కారం.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-picture-words-2.mp3": {
+    "generatedAt": "2026-08-15T07:56:06.547Z",
+    "model": "edge-neural-tts",
+    "transcript": "నీరు. నీరు.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-picture-words-3.mp3": {
+    "generatedAt": "2026-08-15T07:56:06.547Z",
+    "model": "edge-neural-tts",
+    "transcript": "పుస్తకం. పుస్తకం.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-picture-words-4.mp3": {
+    "generatedAt": "2026-08-15T07:56:06.547Z",
+    "model": "edge-neural-tts",
+    "transcript": "సూర్యుడు. సూర్యుడు.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-picture-words-5.mp3": {
+    "generatedAt": "2026-08-15T07:56:06.547Z",
+    "model": "edge-neural-tts",
+    "transcript": "పిల్లి. పిల్లి.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-picture-words-6.mp3": {
+    "generatedAt": "2026-08-15T07:56:06.547Z",
+    "model": "edge-neural-tts",
+    "transcript": "ఇల్లు. ఇల్లు.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-phrases-1.mp3": {
+    "generatedAt": "2026-08-15T07:56:06.547Z",
+    "model": "edge-neural-tts",
+    "transcript": "నమస్కారం!. నమస్కారం!.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-phrases-2.mp3": {
+    "generatedAt": "2026-08-15T07:56:06.547Z",
+    "model": "edge-neural-tts",
+    "transcript": "నా పేరు ,.. నా పేరు ,..",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-phrases-3.mp3": {
+    "generatedAt": "2026-08-15T07:56:11.813Z",
+    "model": "edge-neural-tts",
+    "transcript": "నాకు నీళ్లు కావాలి.. నాకు నీళ్లు కావాలి..",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-phrase-1.mp3": {
+    "generatedAt": "2026-08-15T07:56:11.813Z",
+    "model": "edge-neural-tts",
+    "transcript": "నమస్కారం!",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-phrase-2.mp3": {
+    "generatedAt": "2026-08-15T07:56:11.813Z",
+    "model": "edge-neural-tts",
+    "transcript": "నా పేరు ,.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-phrase-3.mp3": {
+    "generatedAt": "2026-08-15T07:56:11.813Z",
+    "model": "edge-neural-tts",
+    "transcript": "నాకు నీళ్లు కావాలి.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-vocabulary-hello.mp3": {
+    "generatedAt": "2026-08-15T07:56:11.813Z",
+    "model": "edge-neural-tts",
+    "transcript": "నమస్కారం. నమస్కారం.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-vocabulary-water.mp3": {
+    "generatedAt": "2026-08-15T07:56:11.813Z",
+    "model": "edge-neural-tts",
+    "transcript": "నీరు. నీరు.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-vocabulary-book.mp3": {
+    "generatedAt": "2026-08-15T07:56:11.813Z",
+    "model": "edge-neural-tts",
+    "transcript": "పుస్తకం. పుస్తకం.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-vocabulary-sun.mp3": {
+    "generatedAt": "2026-08-15T07:56:11.813Z",
+    "model": "edge-neural-tts",
+    "transcript": "సూర్యుడు. సూర్యుడు.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-vocabulary-cat.mp3": {
+    "generatedAt": "2026-08-15T07:56:16.388Z",
+    "model": "edge-neural-tts",
+    "transcript": "పిల్లి. పిల్లి.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-vocabulary-house.mp3": {
+    "generatedAt": "2026-08-15T07:56:16.388Z",
+    "model": "edge-neural-tts",
+    "transcript": "ఇల్లు. ఇల్లు.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-feedback-correct.mp3": {
+    "generatedAt": "2026-08-15T07:56:16.388Z",
+    "model": "edge-neural-tts",
+    "transcript": "సరైనది!",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "te-IN/te-feedback-try-again.mp3": {
+    "generatedAt": "2026-08-15T07:56:16.388Z",
+    "model": "edge-neural-tts",
+    "transcript": "మళ్లీ ప్రయత్నించండి.",
+    "voice": "te-IN-ShrutiNeural"
+  },
+  "sa-IN/sa-vowels-1-1.mp3": {
+    "generatedAt": "2026-08-15T07:56:16.388Z",
+    "model": "edge-neural-tts",
+    "transcript": "अ. अ.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-vowels-1-2.mp3": {
+    "generatedAt": "2026-08-15T07:56:16.388Z",
+    "model": "edge-neural-tts",
+    "transcript": "आ. आ.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-vowels-1-3.mp3": {
+    "generatedAt": "2026-08-15T07:56:16.388Z",
+    "model": "edge-neural-tts",
+    "transcript": "इ. इ.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-vowels-1-4.mp3": {
+    "generatedAt": "2026-08-15T07:56:16.388Z",
+    "model": "edge-neural-tts",
+    "transcript": "ई. ई.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-vowels-1-5.mp3": {
+    "generatedAt": "2026-08-15T07:56:20.917Z",
+    "model": "edge-neural-tts",
+    "transcript": "उ. उ.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-vowels-1-6.mp3": {
+    "generatedAt": "2026-08-15T07:56:20.917Z",
+    "model": "edge-neural-tts",
+    "transcript": "ऋ. ऋ.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-consonants-1-1.mp3": {
+    "generatedAt": "2026-08-15T07:56:20.917Z",
+    "model": "edge-neural-tts",
+    "transcript": "क. क.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-consonants-1-2.mp3": {
+    "generatedAt": "2026-08-15T07:56:20.917Z",
+    "model": "edge-neural-tts",
+    "transcript": "ख. ख.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-consonants-1-3.mp3": {
+    "generatedAt": "2026-08-15T07:56:20.917Z",
+    "model": "edge-neural-tts",
+    "transcript": "ग. ग.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-consonants-1-4.mp3": {
+    "generatedAt": "2026-08-15T07:56:20.917Z",
+    "model": "edge-neural-tts",
+    "transcript": "घ. घ.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-consonants-1-5.mp3": {
+    "generatedAt": "2026-08-15T07:56:20.917Z",
+    "model": "edge-neural-tts",
+    "transcript": "ङ. ङ.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-script-more-1.mp3": {
+    "generatedAt": "2026-08-15T07:56:20.917Z",
+    "model": "edge-neural-tts",
+    "transcript": "ए. ए.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-script-more-2.mp3": {
+    "generatedAt": "2026-08-15T07:56:26.090Z",
+    "model": "edge-neural-tts",
+    "transcript": "ऐ. ऐ.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-script-more-3.mp3": {
+    "generatedAt": "2026-08-15T07:56:26.090Z",
+    "model": "edge-neural-tts",
+    "transcript": "ओ. ओ.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-script-more-4.mp3": {
+    "generatedAt": "2026-08-15T07:56:26.090Z",
+    "model": "edge-neural-tts",
+    "transcript": "औ. औ.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-script-more-5.mp3": {
+    "generatedAt": "2026-08-15T07:56:26.090Z",
+    "model": "edge-neural-tts",
+    "transcript": "अं. अं.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-script-more-6.mp3": {
+    "generatedAt": "2026-08-15T07:56:26.090Z",
+    "model": "edge-neural-tts",
+    "transcript": "अः. अः.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-numbers-1.mp3": {
+    "generatedAt": "2026-08-15T07:56:26.090Z",
+    "model": "edge-neural-tts",
+    "transcript": "एकम्. एकम्.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-numbers-2.mp3": {
+    "generatedAt": "2026-08-15T07:56:26.090Z",
+    "model": "edge-neural-tts",
+    "transcript": "द्वे. द्वे.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-numbers-3.mp3": {
+    "generatedAt": "2026-08-15T07:56:26.090Z",
+    "model": "edge-neural-tts",
+    "transcript": "त्रीणि. त्रीणि.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-numbers-4.mp3": {
+    "generatedAt": "2026-08-15T07:56:30.848Z",
+    "model": "edge-neural-tts",
+    "transcript": "चत्वारि. चत्वारि.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-numbers-5.mp3": {
+    "generatedAt": "2026-08-15T07:56:30.848Z",
+    "model": "edge-neural-tts",
+    "transcript": "पञ्च. पञ्च.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-picture-words-1.mp3": {
+    "generatedAt": "2026-08-15T07:56:30.848Z",
+    "model": "edge-neural-tts",
+    "transcript": "नमस्ते. नमस्ते.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-picture-words-2.mp3": {
+    "generatedAt": "2026-08-15T07:56:30.848Z",
+    "model": "edge-neural-tts",
+    "transcript": "जलम्. जलम्.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-picture-words-3.mp3": {
+    "generatedAt": "2026-08-15T07:56:30.848Z",
+    "model": "edge-neural-tts",
+    "transcript": "पुस्तकम्. पुस्तकम्.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-picture-words-4.mp3": {
+    "generatedAt": "2026-08-15T07:56:30.848Z",
+    "model": "edge-neural-tts",
+    "transcript": "सूर्यः. सूर्यः.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-picture-words-5.mp3": {
+    "generatedAt": "2026-08-15T07:56:30.848Z",
+    "model": "edge-neural-tts",
+    "transcript": "मार्जारः. मार्जारः.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-picture-words-6.mp3": {
+    "generatedAt": "2026-08-15T07:56:30.848Z",
+    "model": "edge-neural-tts",
+    "transcript": "गृहम्. गृहम्.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-phrases-1.mp3": {
+    "generatedAt": "2026-08-15T07:56:35.421Z",
+    "model": "edge-neural-tts",
+    "transcript": "नमस्ते!. नमस्ते!.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-phrases-2.mp3": {
+    "generatedAt": "2026-08-15T07:56:35.421Z",
+    "model": "edge-neural-tts",
+    "transcript": "मम नाम , अस्ति।. मम नाम , अस्ति।.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-phrases-3.mp3": {
+    "generatedAt": "2026-08-15T07:56:35.421Z",
+    "model": "edge-neural-tts",
+    "transcript": "मह्यं जलं देहि।. मह्यं जलं देहि।.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-phrase-1.mp3": {
+    "generatedAt": "2026-08-15T07:56:35.421Z",
+    "model": "edge-neural-tts",
+    "transcript": "नमस्ते!",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-phrase-2.mp3": {
+    "generatedAt": "2026-08-15T07:56:35.421Z",
+    "model": "edge-neural-tts",
+    "transcript": "मम नाम , अस्ति।",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-phrase-3.mp3": {
+    "generatedAt": "2026-08-15T07:56:35.421Z",
+    "model": "edge-neural-tts",
+    "transcript": "मह्यं जलं देहि।",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-vocabulary-hello.mp3": {
+    "generatedAt": "2026-08-15T07:56:35.421Z",
+    "model": "edge-neural-tts",
+    "transcript": "नमस्ते. नमस्ते.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-vocabulary-water.mp3": {
+    "generatedAt": "2026-08-15T07:56:35.421Z",
+    "model": "edge-neural-tts",
+    "transcript": "जलम्. जलम्.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-vocabulary-book.mp3": {
+    "generatedAt": "2026-08-15T07:56:39.557Z",
+    "model": "edge-neural-tts",
+    "transcript": "पुस्तकम्. पुस्तकम्.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-vocabulary-sun.mp3": {
+    "generatedAt": "2026-08-15T07:56:39.557Z",
+    "model": "edge-neural-tts",
+    "transcript": "सूर्यः. सूर्यः.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-vocabulary-cat.mp3": {
+    "generatedAt": "2026-08-15T07:56:39.557Z",
+    "model": "edge-neural-tts",
+    "transcript": "मार्जारः. मार्जारः.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-vocabulary-house.mp3": {
+    "generatedAt": "2026-08-15T07:56:39.557Z",
+    "model": "edge-neural-tts",
+    "transcript": "गृहम्. गृहम्.",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-feedback-correct.mp3": {
+    "generatedAt": "2026-08-15T07:56:39.557Z",
+    "model": "edge-neural-tts",
+    "transcript": "समीचीनम्!",
+    "voice": "hi-IN-SwaraNeural"
+  },
+  "sa-IN/sa-feedback-try-again.mp3": {
+    "generatedAt": "2026-08-15T07:56:39.557Z",
+    "model": "edge-neural-tts",
+    "transcript": "पुनः प्रयत्नं कुरु।",
+    "voice": "hi-IN-SwaraNeural"
+  }
+}

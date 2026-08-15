@@ -1,7 +1,7 @@
 {
   "name": "lipi",
   "main": "expo-router/entry",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "engines": {
     "node": ">=20.19.0"
   },
@@ -59,8 +59,11 @@
     "server": "node server/index.js",
     "server:check": "node --check server/index.js",
     "audio:english": "node scripts/generate-gemini-phonics-audio.mjs",
+    "audio:english:content": "tsx scripts/generate-english-content-audio.ts",
     "audio:marathi": "tsx scripts/generate-gemini-marathi-audio.ts",
     "audio:marathi:fallback": "tsx scripts/generate-gemini-marathi-audio.ts --provider=edge --concurrency=4 --delay=500",
+    "audio:multilingual": "tsx scripts/generate-multilingual-audio.ts --concurrency=8 --delay=400",
+    "audio:multilingual:status": "tsx scripts/generate-multilingual-audio.ts --plan",
     "audio:status": "tsx scripts/generate-gemini-marathi-audio.ts --plan",
     "audio:validate": "node scripts/validate-audio-packs.mjs",
     "validate:migrations": "node scripts/validate-migrations.mjs",

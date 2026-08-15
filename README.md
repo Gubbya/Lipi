@@ -37,18 +37,21 @@ physical Android device.
 
 ## Offline learning audio
 
-English US/UK phonics recordings and all 712 planned Marathi recordings are
-packaged with the app, so these audio packs work without internet. The Marathi
-pack covers 689 lesson units, 15 phrases, 6 vocabulary targets, and 2 feedback
-messages. Lesson, phrase, Practice, and Tutor targets provide **Normal** and
-**Slow** playback. Other courses currently use a clearly labelled device voice
-when a permanent recording is unavailable.
+Lipi packages 1,482 permanent recordings across every course. This includes
+separate US/UK English phonics and content variants, all 712 planned Marathi
+recordings, and 630 lesson, phrase, vocabulary, and feedback recordings for the
+other 15 courses. Lesson, phrase, Practice, and Tutor targets provide **Normal**
+and **Slow** playback. Dynamic tutor sentences that are not part of the planned
+curriculum still use a clearly labelled device voice.
 
 ```powershell
 npm run audio:status
 npm run audio:english
+npm run audio:english:content
 npm run audio:marathi
 npm run audio:marathi:fallback
+npm run audio:multilingual:status
+npm run audio:multilingual
 npm run audio:validate
 ```
 
@@ -59,6 +62,10 @@ calls. If Gemini quota is unavailable, install the pinned helper with
 `audio:marathi:fallback` to create compact Marathi neural-voice MP3 files.
 Generated WAV/MP3 files are written to `assets/audio`, and the Marathi generator
 rebuilds its static TypeScript asset manifest automatically.
+
+The Sanskrit pack uses the clearest available Devanagari neural voice because
+the configured providers do not expose a dedicated Sanskrit voice. It, along
+with all educational audio, must receive native-teacher review before release.
 
 ## Installable Android APK
 

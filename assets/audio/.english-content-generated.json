@@ -1,0 +1,110 @@
+{
+  "en-US/en-phrase-1.mp3": {
+    "generatedAt": "2026-08-15T07:58:50.288Z",
+    "model": "edge-neural-tts",
+    "text": "Hello!",
+    "voice": "en-US-AvaNeural"
+  },
+  "en-US/en-phrase-2.mp3": {
+    "generatedAt": "2026-08-15T07:58:50.289Z",
+    "model": "edge-neural-tts",
+    "text": "My name is ___.",
+    "voice": "en-US-AvaNeural"
+  },
+  "en-US/en-phrase-3.mp3": {
+    "generatedAt": "2026-08-15T07:58:50.289Z",
+    "model": "edge-neural-tts",
+    "text": "I would like water, please.",
+    "voice": "en-US-AvaNeural"
+  },
+  "en-US/en-vocabulary-hello.mp3": {
+    "generatedAt": "2026-08-15T07:58:50.289Z",
+    "model": "edge-neural-tts",
+    "text": "hello",
+    "voice": "en-US-AvaNeural"
+  },
+  "en-US/en-vocabulary-water.mp3": {
+    "generatedAt": "2026-08-15T07:58:50.289Z",
+    "model": "edge-neural-tts",
+    "text": "water",
+    "voice": "en-US-AvaNeural"
+  },
+  "en-US/en-vocabulary-book.mp3": {
+    "generatedAt": "2026-08-15T07:58:50.289Z",
+    "model": "edge-neural-tts",
+    "text": "book",
+    "voice": "en-US-AvaNeural"
+  },
+  "en-US/en-vocabulary-sun.mp3": {
+    "generatedAt": "2026-08-15T07:58:54.483Z",
+    "model": "edge-neural-tts",
+    "text": "sun",
+    "voice": "en-US-AvaNeural"
+  },
+  "en-US/en-vocabulary-cat.mp3": {
+    "generatedAt": "2026-08-15T07:58:54.483Z",
+    "model": "edge-neural-tts",
+    "text": "cat",
+    "voice": "en-US-AvaNeural"
+  },
+  "en-US/en-vocabulary-house.mp3": {
+    "generatedAt": "2026-08-15T07:58:54.483Z",
+    "model": "edge-neural-tts",
+    "text": "house",
+    "voice": "en-US-AvaNeural"
+  },
+  "en-GB/en-phrase-1.mp3": {
+    "generatedAt": "2026-08-15T07:58:54.483Z",
+    "model": "edge-neural-tts",
+    "text": "Hello!",
+    "voice": "en-GB-SoniaNeural"
+  },
+  "en-GB/en-phrase-2.mp3": {
+    "generatedAt": "2026-08-15T07:58:54.483Z",
+    "model": "edge-neural-tts",
+    "text": "My name is ___.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  "en-GB/en-phrase-3.mp3": {
+    "generatedAt": "2026-08-15T07:58:54.483Z",
+    "model": "edge-neural-tts",
+    "text": "I would like water, please.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  "en-GB/en-vocabulary-hello.mp3": {
+    "generatedAt": "2026-08-15T07:58:58.046Z",
+    "model": "edge-neural-tts",
+    "text": "hello",
+    "voice": "en-GB-SoniaNeural"
+  },
+  "en-GB/en-vocabulary-water.mp3": {
+    "generatedAt": "2026-08-15T07:58:58.046Z",
+    "model": "edge-neural-tts",
+    "text": "water",
+    "voice": "en-GB-SoniaNeural"
+  },
+  "en-GB/en-vocabulary-book.mp3": {
+    "generatedAt": "2026-08-15T07:58:58.046Z",
+    "model": "edge-neural-tts",
+    "text": "book",
+    "voice": "en-GB-SoniaNeural"
+  },
+  "en-GB/en-vocabulary-sun.mp3": {
+    "generatedAt": "2026-08-15T07:58:58.046Z",
+    "model": "edge-neural-tts",
+    "text": "sun",
+    "voice": "en-GB-SoniaNeural"
+  },
+  "en-GB/en-vocabulary-cat.mp3": {
+    "generatedAt": "2026-08-15T07:58:58.046Z",
+    "model": "edge-neural-tts",
+    "text": "cat",
+    "voice": "en-GB-SoniaNeural"
+  },
+  "en-GB/en-vocabulary-house.mp3": {
+    "generatedAt": "2026-08-15T07:58:58.046Z",
+    "model": "edge-neural-tts",
+    "text": "house",
+    "voice": "en-GB-SoniaNeural"
+  }
+}
