@@ -26,13 +26,6 @@ export function useLearningAudio() {
     setKind(null);
   }, [player]);
 
-  useEffect(() => {
-    if (status.didJustFinish) {
-      setActiveKey(null);
-      setKind(null);
-    }
-  }, [status.didJustFinish]);
-
   useEffect(() => () => {
     player.pause();
     Speech.stop();
@@ -70,11 +63,13 @@ export function useLearningAudio() {
     });
   }, [player, sourceFor]);
 
+  const recordingFinished = kind === 'recording' && status.didJustFinish;
+
   return {
-    activeKey,
+    activeKey: recordingFinished ? null : activeKey,
     hasRecording,
-    isPlaying: Boolean(activeKey) && (kind === 'device' || status.playing),
-    kind,
+    isPlaying: !recordingFinished && Boolean(activeKey) && (kind === 'device' || status.playing),
+    kind: recordingFinished ? null : kind,
     play,
     speed,
     stop,

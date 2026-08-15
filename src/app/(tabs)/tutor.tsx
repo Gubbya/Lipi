@@ -153,6 +153,7 @@ export default function TutorScreen() {
   const db = useSQLiteContext();
   const chatRef = useRef<ScrollView>(null);
   const learningAudio = useLearningAudio();
+  const stopLearningAudio = learningAudio.stop;
   const [courses, setCourses] = useState<LanguageCourse[]>([]);
   const [courseIndex, setCourseIndex] = useState(0);
   const [messages, setMessages] = useState<TutorMessageRow[]>([]);
@@ -173,7 +174,7 @@ export default function TutorScreen() {
     setMessages(activeCourse ? await getTutorMessages(db, user.id, activeCourse.id) : []);
   }, [courseIndex, db]);
 
-  useFocusEffect(useCallback(() => { load(); return () => learningAudio.stop(); }, [learningAudio.stop, load]));
+  useFocusEffect(useCallback(() => { load(); return () => stopLearningAudio(); }, [load, stopLearningAudio]));
 
   const suggestedPrompts = useMemo<PromptSuggestion[]>(() => [
     { label: 'Greeting', prompt: 'Teach me a greeting' },

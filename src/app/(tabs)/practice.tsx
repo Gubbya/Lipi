@@ -71,6 +71,7 @@ export default function PracticeScreen() {
   const recorderState = useAudioRecorderState(recorder);
   const recordingPlayer = useAudioPlayer(null);
   const learningAudio = useLearningAudio();
+  const stopLearningAudio = learningAudio.stop;
   const [units, setUnits] = useState<PracticeUnit[]>([]);
   const [dueCards, setDueCards] = useState<ReviewCardRow[]>([]);
   const [reviewSummary, setReviewSummary] = useState({ due: 0, total: 0 });
@@ -96,8 +97,8 @@ export default function PracticeScreen() {
 
   useFocusEffect(useCallback(() => {
     loadPractice();
-    return () => { learningAudio.stop(); recordingPlayer.pause(); };
-  }, [learningAudio.stop, loadPractice, recordingPlayer]));
+    return () => { stopLearningAudio(); recordingPlayer.pause(); };
+  }, [loadPractice, recordingPlayer, stopLearningAudio]));
 
   const reviewCard = dueCards[reviewIndex] ?? null;
   const reviewUnit = reviewCard ? units.find((unit) => unit.id === reviewCard.unit_id) ?? null : null;
