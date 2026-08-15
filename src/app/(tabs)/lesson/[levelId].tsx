@@ -2,13 +2,13 @@ import { useEffect, useMemo, useState } from 'react';
 import { Pressable, SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useSQLiteContext } from 'expo-sqlite';
-import { useAudioPlayer, useAudioPlayerStatus } from 'expo-audio';
-import * as Speech from 'expo-speech';
 import { getContentPackage } from '@/content';
 import { getFeedbackAudio, getPhonicsAudio, getQuizAudio } from '@/content/phonics-audio';
 import { getLocalUser, getSelectedLanguages } from '@/db/onboarding';
 import { recordAttempt, recordLessonCompletion, saveUnitMastery } from '@/db/progress';
 import { scheduleReview, seedReviewCard } from '@/db/review';
+import { AudioPlaybackControls } from '@/features/audio/AudioPlaybackControls';
+import { useLearningAudio, type LearningAudioSpeed } from '@/features/audio/use-learning-audio';
 import { colors } from '@/features/onboarding/theme';
 import type { IdentifyUnitActivity } from '@/models';
 
@@ -18,8 +18,7 @@ type Feedback = 'correct' | 'incorrect' | null;
 export default function LessonScreen() {
   const { levelId } = useLocalSearchParams<{ levelId: string }>();
   const db = useSQLiteContext();
-  const audioPlayer = useAudioPlayer(null);
-  const audioStatus = useAudioPlayerStatus(audioPlayer);
+  const learningAudio = useLearningAudio();
   const level = content.levels.find((item) => item.id === levelId);
   const units = useMemo(() => level?.unitIds.map((id) => content.units.find((unit) => unit.id === id)).filter((unit) => unit !== undefined) ?? [], [level]);
   const activity = content.activities.find(
@@ -47,25 +46,30 @@ export default function LessonScreen() {
     return <SafeAreaView style={styles.safe}><View style={styles.errorWrap}><Text style={styles.title}>Lesson not found</Text><Pressable onPress={() => router.replace('/(tabs)/learn')} style={styles.primaryButton}><Text style={styles.primaryText}>Back to Learn</Text></Pressable></View></SafeAreaView>;
   }
 
-  function playAudio(source: Parameters<typeof audioPlayer.replace>[0] | null) {
-    if (!source) return;
-    audioPlayer.replace(source);
-    audioPlayer.play();
-  }
-
-  function playSound() {
+  function playSound(nextSpeed: LearningAudioSpeed = 'normal') {
     const unit = units[Math.min(step, units.length - 1)];
     if (!unit) return;
-    const source = getPhonicsAudio(unit.id, pronunciationVariantId);
-    if (source) playAudio(source);
-    else Speech.speak(unit.speechCue ?? `${unit.symbol}. ${unit.soundHint ?? ''}`, { language: pronunciationVariantId, rate: 0.62 });
+    learningAudio.play({
+      key: unit.id,
+      languageId: 'en',
+      locale: pronunciationVariantId,
+      pronunciationVariantId,
+      source: getPhonicsAudio(unit.id, pronunciationVariantId),
+      text: unit.speechCue ?? `${unit.symbol}. ${unit.soundHint ?? ''}`,
+      unitId: unit.id,
+    }, nextSpeed);
   }
 
-  function playQuizPrompt() {
+  function playQuizPrompt(nextSpeed: LearningAudioSpeed = 'normal') {
     if (!activity) return;
-    const source = getQuizAudio(activity.id, pronunciationVariantId);
-    if (source) playAudio(source);
-    else Speech.speak(activity.prompt, { language: pronunciationVariantId, rate: 0.68 });
+    learningAudio.play({
+      key: activity.id,
+      languageId: 'en',
+      locale: pronunciationVariantId,
+      pronunciationVariantId,
+      source: getQuizAudio(activity.id, pronunciationVariantId),
+      text: activity.prompt,
+    }, nextSpeed);
   }
 
   async function chooseAnswer(unitId: string) {
@@ -73,11 +77,11 @@ export default function LessonScreen() {
     const correct = unitId === activity.correctUnitId;
     setFeedback(correct ? 'correct' : 'incorrect');
     if (!correct) {
-      playAudio(getFeedbackAudio('try-again', pronunciationVariantId));
+      learningAudio.play({ key: 'feedback-try-again', languageId: 'en', locale: pronunciationVariantId, source: getFeedbackAudio('try-again', pronunciationVariantId), text: 'Listen once more, and try again.' });
       setTimeout(() => setFeedback(null), 900);
       return;
     }
-    playAudio(getFeedbackAudio('correct', pronunciationVariantId));
+    learningAudio.play({ key: 'feedback-correct', languageId: 'en', locale: pronunciationVariantId, source: getFeedbackAudio('correct', pronunciationVariantId), text: 'Correct! Well done!' });
     setSaving(true);
     try {
       const user = await getLocalUser(db);
@@ -122,7 +126,7 @@ export default function LessonScreen() {
       {isQuiz ? (
         <View style={styles.lessonBody}>
           <Text style={styles.eyebrow}>LISTEN & CHOOSE</Text><Text style={styles.title}>{activity.prompt}</Text>
-          <Pressable onPress={playQuizPrompt} style={({ pressed }) => [styles.smallSoundButton, pressed && styles.pressed]}><Text style={styles.soundIcon}>♪</Text><Text style={styles.smallSoundText}>Hear the question</Text></Pressable>
+          <AudioPlaybackControls activeKind={learningAudio.kind} activeSpeed={learningAudio.speed} hasRecording={Boolean(getQuizAudio(activity.id, pronunciationVariantId))} isActive={learningAudio.activeKey === activity.id} onNormal={() => playQuizPrompt('normal')} onSlow={() => playQuizPrompt('slow')} />
           <View style={styles.choiceGrid}>{activity.choices.map((unitId) => {
             const choice = unitsById.get(unitId); const correctChoice = feedback === 'correct' && unitId === activity.correctUnitId;
             return <Pressable key={unitId} onPress={() => chooseAnswer(unitId)} style={({ pressed }) => [styles.choice, correctChoice && styles.choiceCorrect, pressed && styles.pressed]}><Text style={styles.choiceText}>{choice?.symbol}</Text></Pressable>;
@@ -133,17 +137,17 @@ export default function LessonScreen() {
       ) : (
         <View style={styles.lessonBody}>
           <Text style={styles.eyebrow}>{level.focus?.toUpperCase()} • TAP TO HEAR</Text>
-          <Pressable accessibilityLabel={`Hear ${unit.displayName}`} onPress={playSound} style={({ pressed }) => [styles.heroLetter, audioStatus.playing && styles.heroSpeaking, pressed && styles.pressed]}><Text style={styles.heroLetterText}>{unit.symbol}</Text><View style={styles.speakerBadge}><Text style={styles.speakerText}>{audioStatus.playing ? '♪' : '▶'}</Text></View></Pressable>
+          <Pressable accessibilityLabel={`Hear ${unit.displayName}`} onPress={() => playSound('normal')} style={({ pressed }) => [styles.heroLetter, learningAudio.activeKey === unit.id && learningAudio.isPlaying && styles.heroSpeaking, pressed && styles.pressed]}><Text style={styles.heroLetterText}>{unit.symbol}</Text><View style={styles.speakerBadge}><Text style={styles.speakerText}>{learningAudio.activeKey === unit.id && learningAudio.isPlaying ? '♪' : '▶'}</Text></View></Pressable>
           <Text style={styles.title}>{unit.displayName}</Text><Text style={styles.pronunciation}>{unit.soundHint} · “{unit.transliteration}”</Text>
           <View style={styles.wordRow}>{unit.exampleWords?.map((word) => <View key={word} style={styles.wordPill}><Text style={styles.wordText}>{word}</Text></View>)}</View>
-          <Pressable onPress={playSound} style={({ pressed }) => [styles.smallSoundButton, pressed && styles.pressed]}><Text style={styles.soundIcon}>♪</Text><Text style={styles.smallSoundText}>{audioStatus.playing ? 'Playing sound…' : 'Hear clear sound & words'}</Text></Pressable>
+          <AudioPlaybackControls activeKind={learningAudio.kind} activeSpeed={learningAudio.speed} hasRecording={Boolean(getPhonicsAudio(unit.id, pronunciationVariantId))} isActive={learningAudio.activeKey === unit.id} onNormal={() => playSound('normal')} onSlow={() => playSound('slow')} />
         </View>
       )}
 
       <View style={styles.footer}>{isQuiz ? (
         <Pressable disabled={feedback !== 'correct' || saving} onPress={() => setStep((current) => current + 1)} style={({ pressed }) => [styles.primaryButton, feedback !== 'correct' && styles.disabled, pressed && styles.pressed]}><Text style={styles.primaryText}>{saving ? 'Saving…' : 'Finish lesson'}</Text><Text style={styles.primaryArrow}>→</Text></Pressable>
       ) : (
-        <Pressable onPress={() => { audioPlayer.pause(); setStep((current) => current + 1); }} style={({ pressed }) => [styles.primaryButton, pressed && styles.pressed]}><Text style={styles.primaryText}>{step === units.length - 1 ? 'Quick check' : 'Next sound'}</Text><Text style={styles.primaryArrow}>→</Text></Pressable>
+        <Pressable onPress={() => { learningAudio.stop(); setStep((current) => current + 1); }} style={({ pressed }) => [styles.primaryButton, pressed && styles.pressed]}><Text style={styles.primaryText}>{step === units.length - 1 ? 'Quick check' : 'Next sound'}</Text><Text style={styles.primaryArrow}>→</Text></Pressable>
       )}</View>
     </View></SafeAreaView>
   );

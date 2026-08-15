@@ -38,5 +38,11 @@
   "en-US/en-letter-j.wav": {
     "model": "gemini-3.1-flash-tts-preview",
     "generatedAt": "2026-08-14T17:25:40.998Z"
+  },
+  "mr-IN/mr-vowels-1-1.wav": {
+    "generatedAt": "2026-08-15T06:00:27.364Z",
+    "model": "gemini-3.1-flash-tts-preview",
+    "transcript": "अ. [short pause] अ. अननस. अ.",
+    "voice": "Erinome"
   }
 }

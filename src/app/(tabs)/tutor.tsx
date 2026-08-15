@@ -2,11 +2,12 @@ import { useCallback, useMemo, useRef, useState } from 'react';
 import { KeyboardAvoidingView, Platform, Pressable, SafeAreaView, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { useFocusEffect } from 'expo-router';
 import { useSQLiteContext } from 'expo-sqlite';
-import * as Speech from 'expo-speech';
 import { getCourse } from '@/content/course-catalog';
 import { phrasebook } from '@/content/phrasebook';
 import { getLocalUser, getSelectedLanguages } from '@/db/onboarding';
 import { clearTutorMessages, getTutorMessages, saveTutorMessage, type TutorMessageRow } from '@/db/tutor';
+import { AudioPlaybackControls } from '@/features/audio/AudioPlaybackControls';
+import { useLearningAudio, type LearningAudioSpeed } from '@/features/audio/use-learning-audio';
 import { authorizedFetch } from '@/services/app-config';
 import { colors } from '@/features/onboarding/theme';
 import type { LanguageCourse, PhraseEntry } from '@/models';
@@ -98,7 +99,25 @@ function formatTime(value: string) {
   return new Date(value).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
 }
 
-function TutorMessage({ message, course }: { message: TutorMessageRow; course: LanguageCourse }) {
+function TutorMessage({
+  activeAudioKey,
+  activeAudioKind,
+  activeAudioSpeed,
+  course,
+  hasRecording,
+  isAudioPlaying,
+  message,
+  playTarget,
+}: {
+  activeAudioKey: string | null;
+  activeAudioKind: ReturnType<typeof useLearningAudio>['kind'];
+  activeAudioSpeed: LearningAudioSpeed;
+  course: LanguageCourse;
+  hasRecording: (text: string, key: string) => boolean;
+  isAudioPlaying: boolean;
+  message: TutorMessageRow;
+  playTarget: (text: string, key: string, speed: LearningAudioSpeed) => void;
+}) {
   const isLearner = message.role === 'learner';
   const [targetText, ...detailLines] = message.message.split('\n').filter(Boolean);
   const canSpeak = course.id === 'en' || Boolean(message.romanization) || Boolean(message.translation);
@@ -124,7 +143,7 @@ function TutorMessage({ message, course }: { message: TutorMessageRow; course: L
         {message.romanization ? <Text style={styles.romanization}>{message.romanization}</Text> : null}
         {detailLines.map((line, index) => <Text key={`${message.id}-detail-${index}`} style={styles.explanation}>{line}</Text>)}
         {message.translation ? <View style={styles.meaning}><Text style={styles.meaningLabel}>MEANING</Text><Text style={styles.translation}>{message.translation}</Text></View> : null}
-        {targetText && canSpeak ? <Pressable accessibilityRole="button" accessibilityLabel={`Hear ${targetText}`} onPress={() => { Speech.stop(); Speech.speak(targetText, { language: course.locale, rate: 0.62 }); }} style={styles.hearButton}><Text style={styles.hearText}>♪ Hear and repeat</Text></Pressable> : null}
+        {targetText && canSpeak ? <View style={styles.messageAudio}><AudioPlaybackControls activeKind={activeAudioKind} activeSpeed={activeAudioSpeed} compact hasRecording={hasRecording(targetText, message.id)} isActive={activeAudioKey === message.id && isAudioPlaying} onNormal={() => playTarget(targetText, message.id, 'normal')} onSlow={() => playTarget(targetText, message.id, 'slow')} tint={course.accentColor} /></View> : null}
       </View>
     </View>
   );
@@ -133,6 +152,7 @@ function TutorMessage({ message, course }: { message: TutorMessageRow; course: L
 export default function TutorScreen() {
   const db = useSQLiteContext();
   const chatRef = useRef<ScrollView>(null);
+  const learningAudio = useLearningAudio();
   const [courses, setCourses] = useState<LanguageCourse[]>([]);
   const [courseIndex, setCourseIndex] = useState(0);
   const [messages, setMessages] = useState<TutorMessageRow[]>([]);
@@ -153,7 +173,7 @@ export default function TutorScreen() {
     setMessages(activeCourse ? await getTutorMessages(db, user.id, activeCourse.id) : []);
   }, [courseIndex, db]);
 
-  useFocusEffect(useCallback(() => { load(); return () => Speech.stop(); }, [load]));
+  useFocusEffect(useCallback(() => { load(); return () => learningAudio.stop(); }, [learningAudio.stop, load]));
 
   const suggestedPrompts = useMemo<PromptSuggestion[]>(() => [
     { label: 'Greeting', prompt: 'Teach me a greeting' },
@@ -205,7 +225,7 @@ export default function TutorScreen() {
   }
 
   async function changeCourse(index: number) {
-    Speech.stop();
+    learningAudio.stop();
     setCourseIndex(index);
     setMode(null);
     setInput('');
@@ -221,7 +241,7 @@ export default function TutorScreen() {
     const user = await getLocalUser(db);
     if (!user) return;
     await clearTutorMessages(db, user.id, course.id);
-    Speech.stop();
+    learningAudio.stop();
     setMessages([]);
     setMode(null);
     setConfirmingClear(false);
@@ -229,6 +249,14 @@ export default function TutorScreen() {
 
   function confirmNewConversation() {
     setConfirmingClear(true);
+  }
+
+  function audioRequest(text: string, key: string) {
+    return { key, languageId: course!.id, locale: course!.locale, text };
+  }
+
+  function playTutorTarget(text: string, key: string, speed: LearningAudioSpeed) {
+    learningAudio.play(audioRequest(text, key), speed);
   }
 
   return (
@@ -254,7 +282,7 @@ export default function TutorScreen() {
             {!course ? <View style={styles.empty}><Text style={styles.emptyMark}>＋</Text><Text style={styles.emptyTitle}>Add a language from the Learn tab</Text><Text style={styles.emptyBody}>Your selected languages will appear here for conversation practice.</Text></View> : null}
             {course && !messages.length ? <View style={[styles.welcome, { borderColor: course.accentColor }]}><View style={styles.welcomeTop}><View><Text style={[styles.welcomeMark, { color: course.accentColor }]}>{course.preview}</Text><Text style={styles.welcomeTitle}>Your {course.name} coach is ready.</Text></View><View style={[styles.lessonBadge, { backgroundColor: course.color }]}><Text style={[styles.lessonBadgeText, { color: course.accentColor }]}>BEGINNER</Text></View></View><Text style={styles.welcomeBody}>Build a real conversation one small step at a time. Ask for a phrase, an introduction, a correction, or a quick memory check. Your history stays on this device.</Text><View style={styles.welcomePromptList}>{suggestedPrompts.slice(0, 3).map((item) => <Pressable disabled={working} key={item.label} onPress={() => askTutor(item.prompt)} style={styles.welcomePrompt}><Text style={styles.welcomePromptText}>{item.label}</Text><Text style={styles.welcomePromptArrow}>→</Text></Pressable>)}</View></View> : null}
             {messages.length ? <View style={styles.sessionDivider}><View style={styles.dividerLine} /><Text style={styles.sessionText}>CURRENT PRACTICE</Text><View style={styles.dividerLine} /></View> : null}
-            {course ? messages.map((message) => <TutorMessage key={message.id} message={message} course={course} />) : null}
+            {course ? messages.map((message) => <TutorMessage activeAudioKey={learningAudio.activeKey} activeAudioKind={learningAudio.kind} activeAudioSpeed={learningAudio.speed} course={course} hasRecording={(text, key) => learningAudio.hasRecording(audioRequest(text, key))} isAudioPlaying={learningAudio.isPlaying} key={message.id} message={message} playTarget={playTutorTarget} />) : null}
             {working ? <View style={styles.messageRow}><View style={[styles.avatar, styles.tutorAvatar]}><Text style={styles.tutorAvatarText}>✦</Text></View><View style={[styles.bubble, styles.tutorBubble, styles.thinkingBubble]}><View style={styles.typingDots}><View style={styles.typingDot} /><View style={styles.typingDot} /><View style={styles.typingDot} /></View><Text style={styles.thinking}>Preparing one clear practice step…</Text></View></View> : null}
           </View>
         </ScrollView>
@@ -347,8 +375,7 @@ const styles = StyleSheet.create({
   meaning: { marginTop: 12, padding: 11, borderRadius: 12, backgroundColor: '#F4F1E7' },
   meaningLabel: { color: colors.muted, fontSize: 7, fontWeight: '900', letterSpacing: 1 },
   translation: { marginTop: 4, color: colors.ink, fontSize: 11, fontWeight: '700' },
-  hearButton: { alignSelf: 'flex-start', minHeight: 36, marginTop: 12, paddingHorizontal: 12, borderRadius: 11, alignItems: 'center', justifyContent: 'center', backgroundColor: '#E8F5EF' },
-  hearText: { color: colors.mintDark, fontSize: 10, fontWeight: '900' },
+  messageAudio: { marginTop: 12 },
   thinkingBubble: { width: 'auto', flexDirection: 'row', alignItems: 'center' },
   typingDots: { marginRight: 9, flexDirection: 'row', gap: 3 },
   typingDot: { width: 5, height: 5, borderRadius: 3, backgroundColor: colors.coral },

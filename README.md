@@ -35,6 +35,39 @@ npx expo start --clear
 Press `w` for web. Use a compatible Expo Go version or development build for a
 physical Android device.
 
+## Offline learning audio
+
+English US/UK phonics recordings and generated Marathi recordings are packaged
+with the app, so completed audio packs work without internet. Lesson, phrase,
+Practice, and Tutor targets provide **Normal** and **Slow** playback. If a clip
+has not been generated yet, Lipi labels and uses the phone's device voice as a
+fallback.
+
+```powershell
+npm run audio:status
+npm run audio:english
+npm run audio:marathi
+npm run audio:validate
+```
+
+The Gemini generators read `GEMINI_API_KEY` from the ignored `server/.env`, are
+resumable, and never place the key in app code. `audio:status` makes no paid API
+calls. Generated WAV files are written to `assets/audio`, and the Marathi
+generator rebuilds its static TypeScript asset manifest automatically.
+
+## Installable Android APK
+
+The `preview` EAS profile creates an APK that can be installed directly on an
+Android phone:
+
+```powershell
+npx eas-cli@latest login
+npx eas-cli@latest build --platform android --profile preview
+```
+
+The `production` profile creates an Android App Bundle for a later Play Store
+release.
+
 ## Verification
 
 ```powershell
@@ -80,9 +113,9 @@ Twemoji graphics licensed under CC-BY 4.0; attribution is stored in
 `assets/images/vocabulary/ATTRIBUTION.md`.
 
 The Marathi writing-system inventory follows the current Unicode Devanagari
-repertoire. Every lesson can be heard with the device's Marathi voice, completed
-as a recognition quiz, printed as a worksheet, repeated, and scheduled for
-spaced review.
+repertoire. Every lesson can be heard with a bundled recording or clearly
+labelled device voice fallback, completed as a recognition quiz, printed as a
+worksheet, repeated, and scheduled for spaced review.
 
 ## Important scope note
 
