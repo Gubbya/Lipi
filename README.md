@@ -37,23 +37,28 @@ physical Android device.
 
 ## Offline learning audio
 
-English US/UK phonics recordings and generated Marathi recordings are packaged
-with the app, so completed audio packs work without internet. Lesson, phrase,
-Practice, and Tutor targets provide **Normal** and **Slow** playback. If a clip
-has not been generated yet, Lipi labels and uses the phone's device voice as a
-fallback.
+English US/UK phonics recordings and all 712 planned Marathi recordings are
+packaged with the app, so these audio packs work without internet. The Marathi
+pack covers 689 lesson units, 15 phrases, 6 vocabulary targets, and 2 feedback
+messages. Lesson, phrase, Practice, and Tutor targets provide **Normal** and
+**Slow** playback. Other courses currently use a clearly labelled device voice
+when a permanent recording is unavailable.
 
 ```powershell
 npm run audio:status
 npm run audio:english
 npm run audio:marathi
+npm run audio:marathi:fallback
 npm run audio:validate
 ```
 
 The Gemini generators read `GEMINI_API_KEY` from the ignored `server/.env`, are
 resumable, and never place the key in app code. `audio:status` makes no paid API
-calls. Generated WAV files are written to `assets/audio`, and the Marathi
-generator rebuilds its static TypeScript asset manifest automatically.
+calls. If Gemini quota is unavailable, install the pinned helper with
+`python -m pip install -r scripts/requirements-audio.txt`, then use
+`audio:marathi:fallback` to create compact Marathi neural-voice MP3 files.
+Generated WAV/MP3 files are written to `assets/audio`, and the Marathi generator
+rebuilds its static TypeScript asset manifest automatically.
 
 ## Installable Android APK
 

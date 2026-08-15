@@ -44,5 +44,4271 @@
     "model": "gemini-3.1-flash-tts-preview",
     "transcript": "अ. [short pause] अ. अननस. अ.",
     "voice": "Erinome"
+  },
+  "mr-IN/mr-vowels-1-2.wav": {
+    "generatedAt": "2026-08-15T07:01:47.611Z",
+    "model": "gemini-3.1-flash-tts-preview",
+    "transcript": "आ. [short pause] आ. आंबा. आ.",
+    "voice": "Erinome"
+  },
+  "mr-IN/mr-vowels-1-3.wav": {
+    "generatedAt": "2026-08-15T07:02:02.170Z",
+    "model": "gemini-3.1-flash-tts-preview",
+    "transcript": "इ. [short pause] इ. इमारत. इ.",
+    "voice": "Erinome"
+  },
+  "mr-IN/mr-vowels-1-4.wav": {
+    "generatedAt": "2026-08-15T07:02:49.393Z",
+    "model": "gemini-3.1-flash-tts-preview",
+    "transcript": "ई. [short pause] ई. ई-मेल. ई.",
+    "voice": "Erinome"
+  },
+  "mr-IN/mr-vowels-1-5.wav": {
+    "generatedAt": "2026-08-15T07:03:02.865Z",
+    "model": "gemini-3.1-flash-tts-preview",
+    "transcript": "उ. [short pause] उ. उंट. उ.",
+    "voice": "Erinome"
+  },
+  "mr-IN/mr-vowels-1-6.wav": {
+    "generatedAt": "2026-08-15T07:03:19.401Z",
+    "model": "gemini-3.1-flash-tts-preview",
+    "transcript": "ऊ. [short pause] ऊ. ऊस. ऊ.",
+    "voice": "Erinome"
+  },
+  "mr-IN/mr-vowels-1-7.wav": {
+    "generatedAt": "2026-08-15T07:03:27.465Z",
+    "model": "gemini-3.1-flash-tts-preview",
+    "transcript": "ऋ. [short pause] ऋ. ऋषी. ऋ.",
+    "voice": "Erinome"
+  },
+  "mr-IN/mr-vowels-2-1.wav": {
+    "generatedAt": "2026-08-15T07:03:34.657Z",
+    "model": "gemini-3.1-flash-tts-preview",
+    "transcript": "ए. [short pause] ए. एक. ए.",
+    "voice": "Erinome"
+  },
+  "mr-IN/mr-vowels-2-2.wav": {
+    "generatedAt": "2026-08-15T07:03:43.163Z",
+    "model": "gemini-3.1-flash-tts-preview",
+    "transcript": "ऐ. [short pause] ऐ. ऐनक. ऐ.",
+    "voice": "Erinome"
+  },
+  "mr-IN/mr-vowels-2-3.mp3": {
+    "generatedAt": "2026-08-15T07:08:22.507Z",
+    "model": "edge-neural-tts",
+    "transcript": "ओ. [short pause] ओ. ओठ. ओ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-vowels-2-4.mp3": {
+    "generatedAt": "2026-08-15T07:08:22.508Z",
+    "model": "edge-neural-tts",
+    "transcript": "औ. [short pause] औ. औषध. औ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-vowels-2-5.mp3": {
+    "generatedAt": "2026-08-15T07:08:22.508Z",
+    "model": "edge-neural-tts",
+    "transcript": "अं. [short pause] अं. अंग. अं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-vowels-2-6.mp3": {
+    "generatedAt": "2026-08-15T07:08:22.508Z",
+    "model": "edge-neural-tts",
+    "transcript": "अः. [short pause] अः. दुःख. अः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-vowels-2-7.mp3": {
+    "generatedAt": "2026-08-15T07:08:38.745Z",
+    "model": "edge-neural-tts",
+    "transcript": "ॲ. [short pause] ॲ. ॲप. ॲ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-vowels-2-8.mp3": {
+    "generatedAt": "2026-08-15T07:08:38.745Z",
+    "model": "edge-neural-tts",
+    "transcript": "ऑ. [short pause] ऑ. ऑटो. ऑ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-ka-varga-1.mp3": {
+    "generatedAt": "2026-08-15T07:08:38.745Z",
+    "model": "edge-neural-tts",
+    "transcript": "क. [short pause] क. कमळ. क.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-ka-varga-2.mp3": {
+    "generatedAt": "2026-08-15T07:08:38.745Z",
+    "model": "edge-neural-tts",
+    "transcript": "ख. [short pause] ख. खडू. ख.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-ka-varga-3.mp3": {
+    "generatedAt": "2026-08-15T07:08:38.745Z",
+    "model": "edge-neural-tts",
+    "transcript": "ग. [short pause] ग. गाय. ग.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-ka-varga-4.mp3": {
+    "generatedAt": "2026-08-15T07:08:38.745Z",
+    "model": "edge-neural-tts",
+    "transcript": "घ. [short pause] घ. घर. घ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-ka-varga-5.mp3": {
+    "generatedAt": "2026-08-15T07:08:38.745Z",
+    "model": "edge-neural-tts",
+    "transcript": "ङ. [short pause] ङ. अङ्ग is a spelling demonstration. ङ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-cha-varga-1.mp3": {
+    "generatedAt": "2026-08-15T07:08:38.745Z",
+    "model": "edge-neural-tts",
+    "transcript": "च. [short pause] च. चहा. च.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-cha-varga-2.mp3": {
+    "generatedAt": "2026-08-15T07:08:43.690Z",
+    "model": "edge-neural-tts",
+    "transcript": "छ. [short pause] छ. छत्री. छ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-cha-varga-3.mp3": {
+    "generatedAt": "2026-08-15T07:08:43.690Z",
+    "model": "edge-neural-tts",
+    "transcript": "ज. [short pause] ज. जहाज. ज.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-cha-varga-4.mp3": {
+    "generatedAt": "2026-08-15T07:08:43.691Z",
+    "model": "edge-neural-tts",
+    "transcript": "झ. [short pause] झ. झरा. झ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-cha-varga-5.mp3": {
+    "generatedAt": "2026-08-15T07:08:43.691Z",
+    "model": "edge-neural-tts",
+    "transcript": "ञ. [short pause] ञ. पञ्च is a spelling demonstration. ञ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-tta-varga-1.mp3": {
+    "generatedAt": "2026-08-15T07:08:43.691Z",
+    "model": "edge-neural-tts",
+    "transcript": "ट. [short pause] ट. टमाटा. ट.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-tta-varga-2.mp3": {
+    "generatedAt": "2026-08-15T07:08:43.691Z",
+    "model": "edge-neural-tts",
+    "transcript": "ठ. [short pause] ठ. ठसा. ठ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-tta-varga-3.mp3": {
+    "generatedAt": "2026-08-15T07:08:43.691Z",
+    "model": "edge-neural-tts",
+    "transcript": "ड. [short pause] ड. डबा. ड.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-tta-varga-4.mp3": {
+    "generatedAt": "2026-08-15T07:08:43.691Z",
+    "model": "edge-neural-tts",
+    "transcript": "ढ. [short pause] ढ. ढग. ढ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-tta-varga-5.mp3": {
+    "generatedAt": "2026-08-15T07:08:48.779Z",
+    "model": "edge-neural-tts",
+    "transcript": "ण. [short pause] ण. बाण. ण.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-ta-varga-1.mp3": {
+    "generatedAt": "2026-08-15T07:08:48.779Z",
+    "model": "edge-neural-tts",
+    "transcript": "त. [short pause] त. तबला. त.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-ta-varga-2.mp3": {
+    "generatedAt": "2026-08-15T07:08:48.779Z",
+    "model": "edge-neural-tts",
+    "transcript": "थ. [short pause] थ. थवा. थ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-ta-varga-3.mp3": {
+    "generatedAt": "2026-08-15T07:08:48.779Z",
+    "model": "edge-neural-tts",
+    "transcript": "द. [short pause] द. दगड. द.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-ta-varga-4.mp3": {
+    "generatedAt": "2026-08-15T07:08:48.779Z",
+    "model": "edge-neural-tts",
+    "transcript": "ध. [short pause] ध. धागा. ध.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-ta-varga-5.mp3": {
+    "generatedAt": "2026-08-15T07:08:48.779Z",
+    "model": "edge-neural-tts",
+    "transcript": "न. [short pause] न. नळ. न.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-pa-varga-1.mp3": {
+    "generatedAt": "2026-08-15T07:08:48.779Z",
+    "model": "edge-neural-tts",
+    "transcript": "प. [short pause] प. पतंग. प.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-pa-varga-2.mp3": {
+    "generatedAt": "2026-08-15T07:08:48.779Z",
+    "model": "edge-neural-tts",
+    "transcript": "फ. [short pause] फ. फळ. फ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-pa-varga-3.mp3": {
+    "generatedAt": "2026-08-15T07:08:54.297Z",
+    "model": "edge-neural-tts",
+    "transcript": "ब. [short pause] ब. बदक. ब.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-pa-varga-4.mp3": {
+    "generatedAt": "2026-08-15T07:08:54.297Z",
+    "model": "edge-neural-tts",
+    "transcript": "भ. [short pause] भ. भात. भ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-pa-varga-5.mp3": {
+    "generatedAt": "2026-08-15T07:08:54.297Z",
+    "model": "edge-neural-tts",
+    "transcript": "म. [short pause] म. मासा. म.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-semivowels-1.mp3": {
+    "generatedAt": "2026-08-15T07:08:54.297Z",
+    "model": "edge-neural-tts",
+    "transcript": "य. [short pause] य. यश. य.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-semivowels-2.mp3": {
+    "generatedAt": "2026-08-15T07:08:54.297Z",
+    "model": "edge-neural-tts",
+    "transcript": "र. [short pause] र. रथ. र.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-semivowels-3.mp3": {
+    "generatedAt": "2026-08-15T07:08:54.297Z",
+    "model": "edge-neural-tts",
+    "transcript": "ल. [short pause] ल. लसूण. ल.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-semivowels-4.mp3": {
+    "generatedAt": "2026-08-15T07:08:54.297Z",
+    "model": "edge-neural-tts",
+    "transcript": "व. [short pause] व. वन. व.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-sibilants-extra-1.mp3": {
+    "generatedAt": "2026-08-15T07:08:54.297Z",
+    "model": "edge-neural-tts",
+    "transcript": "श. [short pause] श. शाळा. श.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-sibilants-extra-2.mp3": {
+    "generatedAt": "2026-08-15T07:08:59.342Z",
+    "model": "edge-neural-tts",
+    "transcript": "ष. [short pause] ष. षट्कोन. ष.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-sibilants-extra-3.mp3": {
+    "generatedAt": "2026-08-15T07:08:59.342Z",
+    "model": "edge-neural-tts",
+    "transcript": "स. [short pause] स. ससा. स.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-sibilants-extra-4.mp3": {
+    "generatedAt": "2026-08-15T07:08:59.342Z",
+    "model": "edge-neural-tts",
+    "transcript": "ह. [short pause] ह. हत्ती. ह.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-sibilants-extra-5.mp3": {
+    "generatedAt": "2026-08-15T07:08:59.342Z",
+    "model": "edge-neural-tts",
+    "transcript": "ळ. [short pause] ळ. बाळ. ळ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-sibilants-extra-6.mp3": {
+    "generatedAt": "2026-08-15T07:08:59.342Z",
+    "model": "edge-neural-tts",
+    "transcript": "क्ष. [short pause] क्ष. क्षमा. क्ष.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-sibilants-extra-7.mp3": {
+    "generatedAt": "2026-08-15T07:08:59.342Z",
+    "model": "edge-neural-tts",
+    "transcript": "ज्ञ. [short pause] ज्ञ. ज्ञान. ज्ञ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-sibilants-extra-8.mp3": {
+    "generatedAt": "2026-08-15T07:08:59.342Z",
+    "model": "edge-neural-tts",
+    "transcript": "श्र. [short pause] श्र. श्रम. श्र.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-matras-1-1.mp3": {
+    "generatedAt": "2026-08-15T07:08:59.342Z",
+    "model": "edge-neural-tts",
+    "transcript": "क. [short pause] क. कमळ. क.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-matras-1-2.mp3": {
+    "generatedAt": "2026-08-15T07:09:12.630Z",
+    "model": "edge-neural-tts",
+    "transcript": "का. [short pause] का. कान. का.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-matras-1-3.mp3": {
+    "generatedAt": "2026-08-15T07:09:12.631Z",
+    "model": "edge-neural-tts",
+    "transcript": "कि. [short pause] कि. किल्ला. कि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-matras-1-4.mp3": {
+    "generatedAt": "2026-08-15T07:09:12.631Z",
+    "model": "edge-neural-tts",
+    "transcript": "की. [short pause] की. कीड. की.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-matras-1-5.mp3": {
+    "generatedAt": "2026-08-15T07:09:12.631Z",
+    "model": "edge-neural-tts",
+    "transcript": "कु. [short pause] कु. कुत्रा. कु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-matras-1-6.mp3": {
+    "generatedAt": "2026-08-15T07:09:12.631Z",
+    "model": "edge-neural-tts",
+    "transcript": "कू. [short pause] कू. कूजन. कू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-matras-1-7.mp3": {
+    "generatedAt": "2026-08-15T07:09:12.631Z",
+    "model": "edge-neural-tts",
+    "transcript": "कृ. [short pause] कृ. कृती. कृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-matras-2-1.mp3": {
+    "generatedAt": "2026-08-15T07:09:12.631Z",
+    "model": "edge-neural-tts",
+    "transcript": "के. [short pause] के. केक. के.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-matras-2-2.mp3": {
+    "generatedAt": "2026-08-15T07:09:12.631Z",
+    "model": "edge-neural-tts",
+    "transcript": "कै. [short pause] कै. कैरी. कै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-matras-2-3.mp3": {
+    "generatedAt": "2026-08-15T07:09:18.587Z",
+    "model": "edge-neural-tts",
+    "transcript": "को. [short pause] को. कोल्हा. को.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-matras-2-4.mp3": {
+    "generatedAt": "2026-08-15T07:09:18.587Z",
+    "model": "edge-neural-tts",
+    "transcript": "कौ. [short pause] कौ. कौतुक. कौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-matras-2-5.mp3": {
+    "generatedAt": "2026-08-15T07:09:18.587Z",
+    "model": "edge-neural-tts",
+    "transcript": "कं. [short pause] कं. कंदील. कं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-matras-2-6.mp3": {
+    "generatedAt": "2026-08-15T07:09:18.587Z",
+    "model": "edge-neural-tts",
+    "transcript": "कः. [short pause] कः. कः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-matras-2-7.mp3": {
+    "generatedAt": "2026-08-15T07:09:18.587Z",
+    "model": "edge-neural-tts",
+    "transcript": "कॅ. [short pause] कॅ. कॅमेरा. कॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-matras-2-8.mp3": {
+    "generatedAt": "2026-08-15T07:09:18.587Z",
+    "model": "edge-neural-tts",
+    "transcript": "कॉ. [short pause] कॉ. कॉफी. कॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-matras-2-9.mp3": {
+    "generatedAt": "2026-08-15T07:09:18.587Z",
+    "model": "edge-neural-tts",
+    "transcript": "क्. [short pause] क्. used to build जोडाक्षरे. क्.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ka-1.mp3": {
+    "generatedAt": "2026-08-15T07:09:18.587Z",
+    "model": "edge-neural-tts",
+    "transcript": "क. [short pause] क. क.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ka-2.mp3": {
+    "generatedAt": "2026-08-15T07:09:23.308Z",
+    "model": "edge-neural-tts",
+    "transcript": "का. [short pause] का. का.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ka-3.mp3": {
+    "generatedAt": "2026-08-15T07:09:23.308Z",
+    "model": "edge-neural-tts",
+    "transcript": "कि. [short pause] कि. कि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ka-4.mp3": {
+    "generatedAt": "2026-08-15T07:09:23.308Z",
+    "model": "edge-neural-tts",
+    "transcript": "की. [short pause] की. की.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ka-5.mp3": {
+    "generatedAt": "2026-08-15T07:09:23.308Z",
+    "model": "edge-neural-tts",
+    "transcript": "कु. [short pause] कु. कु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ka-6.mp3": {
+    "generatedAt": "2026-08-15T07:09:23.308Z",
+    "model": "edge-neural-tts",
+    "transcript": "कू. [short pause] कू. कू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ka-7.mp3": {
+    "generatedAt": "2026-08-15T07:09:23.308Z",
+    "model": "edge-neural-tts",
+    "transcript": "कृ. [short pause] कृ. कृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ka-8.mp3": {
+    "generatedAt": "2026-08-15T07:09:23.308Z",
+    "model": "edge-neural-tts",
+    "transcript": "के. [short pause] के. के.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ka-9.mp3": {
+    "generatedAt": "2026-08-15T07:09:23.308Z",
+    "model": "edge-neural-tts",
+    "transcript": "कै. [short pause] कै. कै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ka-10.mp3": {
+    "generatedAt": "2026-08-15T07:09:28.349Z",
+    "model": "edge-neural-tts",
+    "transcript": "को. [short pause] को. को.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ka-11.mp3": {
+    "generatedAt": "2026-08-15T07:09:28.349Z",
+    "model": "edge-neural-tts",
+    "transcript": "कौ. [short pause] कौ. कौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ka-12.mp3": {
+    "generatedAt": "2026-08-15T07:09:28.349Z",
+    "model": "edge-neural-tts",
+    "transcript": "कं. [short pause] कं. कं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ka-13.mp3": {
+    "generatedAt": "2026-08-15T07:09:28.349Z",
+    "model": "edge-neural-tts",
+    "transcript": "कः. [short pause] कः. कः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ka-14.mp3": {
+    "generatedAt": "2026-08-15T07:09:28.349Z",
+    "model": "edge-neural-tts",
+    "transcript": "कॅ. [short pause] कॅ. कॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ka-15.mp3": {
+    "generatedAt": "2026-08-15T07:09:28.349Z",
+    "model": "edge-neural-tts",
+    "transcript": "कॉ. [short pause] कॉ. कॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-kha-1.mp3": {
+    "generatedAt": "2026-08-15T07:09:28.349Z",
+    "model": "edge-neural-tts",
+    "transcript": "ख. [short pause] ख. ख.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-kha-2.mp3": {
+    "generatedAt": "2026-08-15T07:09:28.349Z",
+    "model": "edge-neural-tts",
+    "transcript": "खा. [short pause] खा. खा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-kha-3.mp3": {
+    "generatedAt": "2026-08-15T07:09:33.225Z",
+    "model": "edge-neural-tts",
+    "transcript": "खि. [short pause] खि. खि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-kha-4.mp3": {
+    "generatedAt": "2026-08-15T07:09:33.225Z",
+    "model": "edge-neural-tts",
+    "transcript": "खी. [short pause] खी. खी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-kha-5.mp3": {
+    "generatedAt": "2026-08-15T07:09:33.225Z",
+    "model": "edge-neural-tts",
+    "transcript": "खु. [short pause] खु. खु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-kha-6.mp3": {
+    "generatedAt": "2026-08-15T07:09:33.225Z",
+    "model": "edge-neural-tts",
+    "transcript": "खू. [short pause] खू. खू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-kha-7.mp3": {
+    "generatedAt": "2026-08-15T07:09:33.225Z",
+    "model": "edge-neural-tts",
+    "transcript": "खृ. [short pause] खृ. खृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-kha-8.mp3": {
+    "generatedAt": "2026-08-15T07:09:33.225Z",
+    "model": "edge-neural-tts",
+    "transcript": "खे. [short pause] खे. खे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-kha-9.mp3": {
+    "generatedAt": "2026-08-15T07:09:33.225Z",
+    "model": "edge-neural-tts",
+    "transcript": "खै. [short pause] खै. खै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-kha-10.mp3": {
+    "generatedAt": "2026-08-15T07:09:33.225Z",
+    "model": "edge-neural-tts",
+    "transcript": "खो. [short pause] खो. खो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-kha-11.mp3": {
+    "generatedAt": "2026-08-15T07:09:38.143Z",
+    "model": "edge-neural-tts",
+    "transcript": "खौ. [short pause] खौ. खौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-kha-12.mp3": {
+    "generatedAt": "2026-08-15T07:09:38.143Z",
+    "model": "edge-neural-tts",
+    "transcript": "खं. [short pause] खं. खं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-kha-13.mp3": {
+    "generatedAt": "2026-08-15T07:09:38.143Z",
+    "model": "edge-neural-tts",
+    "transcript": "खः. [short pause] खः. खः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-kha-14.mp3": {
+    "generatedAt": "2026-08-15T07:09:38.143Z",
+    "model": "edge-neural-tts",
+    "transcript": "खॅ. [short pause] खॅ. खॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-kha-15.mp3": {
+    "generatedAt": "2026-08-15T07:09:38.143Z",
+    "model": "edge-neural-tts",
+    "transcript": "खॉ. [short pause] खॉ. खॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ga-1.mp3": {
+    "generatedAt": "2026-08-15T07:09:38.143Z",
+    "model": "edge-neural-tts",
+    "transcript": "ग. [short pause] ग. ग.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ga-2.mp3": {
+    "generatedAt": "2026-08-15T07:09:38.143Z",
+    "model": "edge-neural-tts",
+    "transcript": "गा. [short pause] गा. गा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ga-3.mp3": {
+    "generatedAt": "2026-08-15T07:09:38.143Z",
+    "model": "edge-neural-tts",
+    "transcript": "गि. [short pause] गि. गि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ga-4.mp3": {
+    "generatedAt": "2026-08-15T07:09:43.137Z",
+    "model": "edge-neural-tts",
+    "transcript": "गी. [short pause] गी. गी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ga-5.mp3": {
+    "generatedAt": "2026-08-15T07:09:43.137Z",
+    "model": "edge-neural-tts",
+    "transcript": "गु. [short pause] गु. गु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ga-6.mp3": {
+    "generatedAt": "2026-08-15T07:09:43.137Z",
+    "model": "edge-neural-tts",
+    "transcript": "गू. [short pause] गू. गू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ga-7.mp3": {
+    "generatedAt": "2026-08-15T07:09:43.137Z",
+    "model": "edge-neural-tts",
+    "transcript": "गृ. [short pause] गृ. गृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ga-8.mp3": {
+    "generatedAt": "2026-08-15T07:09:43.137Z",
+    "model": "edge-neural-tts",
+    "transcript": "गे. [short pause] गे. गे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ga-9.mp3": {
+    "generatedAt": "2026-08-15T07:09:43.137Z",
+    "model": "edge-neural-tts",
+    "transcript": "गै. [short pause] गै. गै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ga-10.mp3": {
+    "generatedAt": "2026-08-15T07:09:43.137Z",
+    "model": "edge-neural-tts",
+    "transcript": "गो. [short pause] गो. गो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ga-11.mp3": {
+    "generatedAt": "2026-08-15T07:09:43.137Z",
+    "model": "edge-neural-tts",
+    "transcript": "गौ. [short pause] गौ. गौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ga-12.mp3": {
+    "generatedAt": "2026-08-15T07:09:48.037Z",
+    "model": "edge-neural-tts",
+    "transcript": "गं. [short pause] गं. गं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ga-13.mp3": {
+    "generatedAt": "2026-08-15T07:09:48.037Z",
+    "model": "edge-neural-tts",
+    "transcript": "गः. [short pause] गः. गः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ga-14.mp3": {
+    "generatedAt": "2026-08-15T07:09:48.037Z",
+    "model": "edge-neural-tts",
+    "transcript": "गॅ. [short pause] गॅ. गॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ga-15.mp3": {
+    "generatedAt": "2026-08-15T07:09:48.037Z",
+    "model": "edge-neural-tts",
+    "transcript": "गॉ. [short pause] गॉ. गॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-gha-1.mp3": {
+    "generatedAt": "2026-08-15T07:09:48.037Z",
+    "model": "edge-neural-tts",
+    "transcript": "घ. [short pause] घ. घ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-gha-2.mp3": {
+    "generatedAt": "2026-08-15T07:09:48.037Z",
+    "model": "edge-neural-tts",
+    "transcript": "घा. [short pause] घा. घा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-gha-3.mp3": {
+    "generatedAt": "2026-08-15T07:09:48.037Z",
+    "model": "edge-neural-tts",
+    "transcript": "घि. [short pause] घि. घि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-gha-4.mp3": {
+    "generatedAt": "2026-08-15T07:09:48.037Z",
+    "model": "edge-neural-tts",
+    "transcript": "घी. [short pause] घी. घी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-gha-5.mp3": {
+    "generatedAt": "2026-08-15T07:09:52.686Z",
+    "model": "edge-neural-tts",
+    "transcript": "घु. [short pause] घु. घु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-gha-6.mp3": {
+    "generatedAt": "2026-08-15T07:09:52.686Z",
+    "model": "edge-neural-tts",
+    "transcript": "घू. [short pause] घू. घू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-gha-7.mp3": {
+    "generatedAt": "2026-08-15T07:09:52.686Z",
+    "model": "edge-neural-tts",
+    "transcript": "घृ. [short pause] घृ. घृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-gha-8.mp3": {
+    "generatedAt": "2026-08-15T07:09:52.686Z",
+    "model": "edge-neural-tts",
+    "transcript": "घे. [short pause] घे. घे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-gha-9.mp3": {
+    "generatedAt": "2026-08-15T07:09:52.686Z",
+    "model": "edge-neural-tts",
+    "transcript": "घै. [short pause] घै. घै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-gha-10.mp3": {
+    "generatedAt": "2026-08-15T07:09:52.686Z",
+    "model": "edge-neural-tts",
+    "transcript": "घो. [short pause] घो. घो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-gha-11.mp3": {
+    "generatedAt": "2026-08-15T07:09:52.686Z",
+    "model": "edge-neural-tts",
+    "transcript": "घौ. [short pause] घौ. घौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-gha-12.mp3": {
+    "generatedAt": "2026-08-15T07:09:52.686Z",
+    "model": "edge-neural-tts",
+    "transcript": "घं. [short pause] घं. घं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-gha-13.mp3": {
+    "generatedAt": "2026-08-15T07:09:57.731Z",
+    "model": "edge-neural-tts",
+    "transcript": "घः. [short pause] घः. घः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-gha-14.mp3": {
+    "generatedAt": "2026-08-15T07:09:57.731Z",
+    "model": "edge-neural-tts",
+    "transcript": "घॅ. [short pause] घॅ. घॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-gha-15.mp3": {
+    "generatedAt": "2026-08-15T07:09:57.731Z",
+    "model": "edge-neural-tts",
+    "transcript": "घॉ. [short pause] घॉ. घॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nga-1.mp3": {
+    "generatedAt": "2026-08-15T07:09:57.731Z",
+    "model": "edge-neural-tts",
+    "transcript": "ङ. [short pause] ङ. ङ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nga-2.mp3": {
+    "generatedAt": "2026-08-15T07:09:57.731Z",
+    "model": "edge-neural-tts",
+    "transcript": "ङा. [short pause] ङा. ङा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nga-3.mp3": {
+    "generatedAt": "2026-08-15T07:09:57.731Z",
+    "model": "edge-neural-tts",
+    "transcript": "ङि. [short pause] ङि. ङि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nga-4.mp3": {
+    "generatedAt": "2026-08-15T07:09:57.731Z",
+    "model": "edge-neural-tts",
+    "transcript": "ङी. [short pause] ङी. ङी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nga-5.mp3": {
+    "generatedAt": "2026-08-15T07:09:57.731Z",
+    "model": "edge-neural-tts",
+    "transcript": "ङु. [short pause] ङु. ङु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nga-6.mp3": {
+    "generatedAt": "2026-08-15T07:10:02.657Z",
+    "model": "edge-neural-tts",
+    "transcript": "ङू. [short pause] ङू. ङू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nga-7.mp3": {
+    "generatedAt": "2026-08-15T07:10:02.657Z",
+    "model": "edge-neural-tts",
+    "transcript": "ङृ. [short pause] ङृ. ङृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nga-8.mp3": {
+    "generatedAt": "2026-08-15T07:10:02.657Z",
+    "model": "edge-neural-tts",
+    "transcript": "ङे. [short pause] ङे. ङे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nga-9.mp3": {
+    "generatedAt": "2026-08-15T07:10:02.657Z",
+    "model": "edge-neural-tts",
+    "transcript": "ङै. [short pause] ङै. ङै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nga-10.mp3": {
+    "generatedAt": "2026-08-15T07:10:02.657Z",
+    "model": "edge-neural-tts",
+    "transcript": "ङो. [short pause] ङो. ङो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nga-11.mp3": {
+    "generatedAt": "2026-08-15T07:10:02.657Z",
+    "model": "edge-neural-tts",
+    "transcript": "ङौ. [short pause] ङौ. ङौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nga-12.mp3": {
+    "generatedAt": "2026-08-15T07:10:02.657Z",
+    "model": "edge-neural-tts",
+    "transcript": "ङं. [short pause] ङं. ङं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nga-13.mp3": {
+    "generatedAt": "2026-08-15T07:10:02.657Z",
+    "model": "edge-neural-tts",
+    "transcript": "ङः. [short pause] ङः. ङः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nga-14.mp3": {
+    "generatedAt": "2026-08-15T07:10:07.677Z",
+    "model": "edge-neural-tts",
+    "transcript": "ङॅ. [short pause] ङॅ. ङॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nga-15.mp3": {
+    "generatedAt": "2026-08-15T07:10:07.677Z",
+    "model": "edge-neural-tts",
+    "transcript": "ङॉ. [short pause] ङॉ. ङॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-cha-1.mp3": {
+    "generatedAt": "2026-08-15T07:10:07.677Z",
+    "model": "edge-neural-tts",
+    "transcript": "च. [short pause] च. च.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-cha-2.mp3": {
+    "generatedAt": "2026-08-15T07:10:07.677Z",
+    "model": "edge-neural-tts",
+    "transcript": "चा. [short pause] चा. चा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-cha-3.mp3": {
+    "generatedAt": "2026-08-15T07:10:07.677Z",
+    "model": "edge-neural-tts",
+    "transcript": "चि. [short pause] चि. चि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-cha-4.mp3": {
+    "generatedAt": "2026-08-15T07:10:07.677Z",
+    "model": "edge-neural-tts",
+    "transcript": "ची. [short pause] ची. ची.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-cha-5.mp3": {
+    "generatedAt": "2026-08-15T07:10:07.677Z",
+    "model": "edge-neural-tts",
+    "transcript": "चु. [short pause] चु. चु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-cha-6.mp3": {
+    "generatedAt": "2026-08-15T07:10:07.677Z",
+    "model": "edge-neural-tts",
+    "transcript": "चू. [short pause] चू. चू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-cha-7.mp3": {
+    "generatedAt": "2026-08-15T07:10:12.707Z",
+    "model": "edge-neural-tts",
+    "transcript": "चृ. [short pause] चृ. चृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-cha-8.mp3": {
+    "generatedAt": "2026-08-15T07:10:12.707Z",
+    "model": "edge-neural-tts",
+    "transcript": "चे. [short pause] चे. चे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-cha-9.mp3": {
+    "generatedAt": "2026-08-15T07:10:12.707Z",
+    "model": "edge-neural-tts",
+    "transcript": "चै. [short pause] चै. चै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-cha-10.mp3": {
+    "generatedAt": "2026-08-15T07:10:12.707Z",
+    "model": "edge-neural-tts",
+    "transcript": "चो. [short pause] चो. चो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-cha-11.mp3": {
+    "generatedAt": "2026-08-15T07:10:12.707Z",
+    "model": "edge-neural-tts",
+    "transcript": "चौ. [short pause] चौ. चौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-cha-12.mp3": {
+    "generatedAt": "2026-08-15T07:10:12.707Z",
+    "model": "edge-neural-tts",
+    "transcript": "चं. [short pause] चं. चं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-cha-13.mp3": {
+    "generatedAt": "2026-08-15T07:10:12.707Z",
+    "model": "edge-neural-tts",
+    "transcript": "चः. [short pause] चः. चः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-cha-14.mp3": {
+    "generatedAt": "2026-08-15T07:10:12.707Z",
+    "model": "edge-neural-tts",
+    "transcript": "चॅ. [short pause] चॅ. चॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-cha-15.mp3": {
+    "generatedAt": "2026-08-15T07:10:17.776Z",
+    "model": "edge-neural-tts",
+    "transcript": "चॉ. [short pause] चॉ. चॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-chha-1.mp3": {
+    "generatedAt": "2026-08-15T07:10:17.776Z",
+    "model": "edge-neural-tts",
+    "transcript": "छ. [short pause] छ. छ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-chha-2.mp3": {
+    "generatedAt": "2026-08-15T07:10:17.776Z",
+    "model": "edge-neural-tts",
+    "transcript": "छा. [short pause] छा. छा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-chha-3.mp3": {
+    "generatedAt": "2026-08-15T07:10:17.776Z",
+    "model": "edge-neural-tts",
+    "transcript": "छि. [short pause] छि. छि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-chha-4.mp3": {
+    "generatedAt": "2026-08-15T07:10:17.776Z",
+    "model": "edge-neural-tts",
+    "transcript": "छी. [short pause] छी. छी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-chha-5.mp3": {
+    "generatedAt": "2026-08-15T07:10:17.776Z",
+    "model": "edge-neural-tts",
+    "transcript": "छु. [short pause] छु. छु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-chha-6.mp3": {
+    "generatedAt": "2026-08-15T07:10:17.776Z",
+    "model": "edge-neural-tts",
+    "transcript": "छू. [short pause] छू. छू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-chha-7.mp3": {
+    "generatedAt": "2026-08-15T07:10:17.776Z",
+    "model": "edge-neural-tts",
+    "transcript": "छृ. [short pause] छृ. छृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-chha-8.mp3": {
+    "generatedAt": "2026-08-15T07:10:22.482Z",
+    "model": "edge-neural-tts",
+    "transcript": "छे. [short pause] छे. छे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-chha-9.mp3": {
+    "generatedAt": "2026-08-15T07:10:22.482Z",
+    "model": "edge-neural-tts",
+    "transcript": "छै. [short pause] छै. छै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-chha-10.mp3": {
+    "generatedAt": "2026-08-15T07:10:22.482Z",
+    "model": "edge-neural-tts",
+    "transcript": "छो. [short pause] छो. छो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-chha-11.mp3": {
+    "generatedAt": "2026-08-15T07:10:22.482Z",
+    "model": "edge-neural-tts",
+    "transcript": "छौ. [short pause] छौ. छौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-chha-12.mp3": {
+    "generatedAt": "2026-08-15T07:10:22.482Z",
+    "model": "edge-neural-tts",
+    "transcript": "छं. [short pause] छं. छं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-chha-13.mp3": {
+    "generatedAt": "2026-08-15T07:10:22.482Z",
+    "model": "edge-neural-tts",
+    "transcript": "छः. [short pause] छः. छः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-chha-14.mp3": {
+    "generatedAt": "2026-08-15T07:10:22.482Z",
+    "model": "edge-neural-tts",
+    "transcript": "छॅ. [short pause] छॅ. छॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-chha-15.mp3": {
+    "generatedAt": "2026-08-15T07:10:22.482Z",
+    "model": "edge-neural-tts",
+    "transcript": "छॉ. [short pause] छॉ. छॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ja-1.mp3": {
+    "generatedAt": "2026-08-15T07:10:27.389Z",
+    "model": "edge-neural-tts",
+    "transcript": "ज. [short pause] ज. ज.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ja-2.mp3": {
+    "generatedAt": "2026-08-15T07:10:27.389Z",
+    "model": "edge-neural-tts",
+    "transcript": "जा. [short pause] जा. जा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ja-3.mp3": {
+    "generatedAt": "2026-08-15T07:10:27.389Z",
+    "model": "edge-neural-tts",
+    "transcript": "जि. [short pause] जि. जि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ja-4.mp3": {
+    "generatedAt": "2026-08-15T07:10:27.389Z",
+    "model": "edge-neural-tts",
+    "transcript": "जी. [short pause] जी. जी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ja-5.mp3": {
+    "generatedAt": "2026-08-15T07:10:27.389Z",
+    "model": "edge-neural-tts",
+    "transcript": "जु. [short pause] जु. जु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ja-6.mp3": {
+    "generatedAt": "2026-08-15T07:10:27.389Z",
+    "model": "edge-neural-tts",
+    "transcript": "जू. [short pause] जू. जू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ja-7.mp3": {
+    "generatedAt": "2026-08-15T07:10:27.389Z",
+    "model": "edge-neural-tts",
+    "transcript": "जृ. [short pause] जृ. जृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ja-8.mp3": {
+    "generatedAt": "2026-08-15T07:10:27.389Z",
+    "model": "edge-neural-tts",
+    "transcript": "जे. [short pause] जे. जे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ja-9.mp3": {
+    "generatedAt": "2026-08-15T07:10:32.282Z",
+    "model": "edge-neural-tts",
+    "transcript": "जै. [short pause] जै. जै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ja-10.mp3": {
+    "generatedAt": "2026-08-15T07:10:32.282Z",
+    "model": "edge-neural-tts",
+    "transcript": "जो. [short pause] जो. जो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ja-11.mp3": {
+    "generatedAt": "2026-08-15T07:10:32.282Z",
+    "model": "edge-neural-tts",
+    "transcript": "जौ. [short pause] जौ. जौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ja-12.mp3": {
+    "generatedAt": "2026-08-15T07:10:32.282Z",
+    "model": "edge-neural-tts",
+    "transcript": "जं. [short pause] जं. जं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ja-13.mp3": {
+    "generatedAt": "2026-08-15T07:10:32.282Z",
+    "model": "edge-neural-tts",
+    "transcript": "जः. [short pause] जः. जः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ja-14.mp3": {
+    "generatedAt": "2026-08-15T07:10:32.282Z",
+    "model": "edge-neural-tts",
+    "transcript": "जॅ. [short pause] जॅ. जॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ja-15.mp3": {
+    "generatedAt": "2026-08-15T07:10:32.282Z",
+    "model": "edge-neural-tts",
+    "transcript": "जॉ. [short pause] जॉ. जॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-jha-1.mp3": {
+    "generatedAt": "2026-08-15T07:10:32.282Z",
+    "model": "edge-neural-tts",
+    "transcript": "झ. [short pause] झ. झ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-jha-2.mp3": {
+    "generatedAt": "2026-08-15T07:10:37.546Z",
+    "model": "edge-neural-tts",
+    "transcript": "झा. [short pause] झा. झा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-jha-3.mp3": {
+    "generatedAt": "2026-08-15T07:10:37.546Z",
+    "model": "edge-neural-tts",
+    "transcript": "झि. [short pause] झि. झि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-jha-4.mp3": {
+    "generatedAt": "2026-08-15T07:10:37.546Z",
+    "model": "edge-neural-tts",
+    "transcript": "झी. [short pause] झी. झी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-jha-5.mp3": {
+    "generatedAt": "2026-08-15T07:10:37.546Z",
+    "model": "edge-neural-tts",
+    "transcript": "झु. [short pause] झु. झु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-jha-6.mp3": {
+    "generatedAt": "2026-08-15T07:10:37.546Z",
+    "model": "edge-neural-tts",
+    "transcript": "झू. [short pause] झू. झू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-jha-7.mp3": {
+    "generatedAt": "2026-08-15T07:10:37.546Z",
+    "model": "edge-neural-tts",
+    "transcript": "झृ. [short pause] झृ. झृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-jha-8.mp3": {
+    "generatedAt": "2026-08-15T07:10:37.546Z",
+    "model": "edge-neural-tts",
+    "transcript": "झे. [short pause] झे. झे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-jha-9.mp3": {
+    "generatedAt": "2026-08-15T07:10:37.546Z",
+    "model": "edge-neural-tts",
+    "transcript": "झै. [short pause] झै. झै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-jha-10.mp3": {
+    "generatedAt": "2026-08-15T07:10:42.590Z",
+    "model": "edge-neural-tts",
+    "transcript": "झो. [short pause] झो. झो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-jha-11.mp3": {
+    "generatedAt": "2026-08-15T07:10:42.590Z",
+    "model": "edge-neural-tts",
+    "transcript": "झौ. [short pause] झौ. झौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-jha-12.mp3": {
+    "generatedAt": "2026-08-15T07:10:42.590Z",
+    "model": "edge-neural-tts",
+    "transcript": "झं. [short pause] झं. झं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-jha-13.mp3": {
+    "generatedAt": "2026-08-15T07:10:42.590Z",
+    "model": "edge-neural-tts",
+    "transcript": "झः. [short pause] झः. झः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-jha-14.mp3": {
+    "generatedAt": "2026-08-15T07:10:42.590Z",
+    "model": "edge-neural-tts",
+    "transcript": "झॅ. [short pause] झॅ. झॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-jha-15.mp3": {
+    "generatedAt": "2026-08-15T07:10:42.590Z",
+    "model": "edge-neural-tts",
+    "transcript": "झॉ. [short pause] झॉ. झॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nya-1.mp3": {
+    "generatedAt": "2026-08-15T07:10:42.590Z",
+    "model": "edge-neural-tts",
+    "transcript": "ञ. [short pause] ञ. ञ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nya-2.mp3": {
+    "generatedAt": "2026-08-15T07:10:42.590Z",
+    "model": "edge-neural-tts",
+    "transcript": "ञा. [short pause] ञा. ञा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nya-3.mp3": {
+    "generatedAt": "2026-08-15T07:10:47.646Z",
+    "model": "edge-neural-tts",
+    "transcript": "ञि. [short pause] ञि. ञि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nya-4.mp3": {
+    "generatedAt": "2026-08-15T07:10:47.646Z",
+    "model": "edge-neural-tts",
+    "transcript": "ञी. [short pause] ञी. ञी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nya-5.mp3": {
+    "generatedAt": "2026-08-15T07:10:47.646Z",
+    "model": "edge-neural-tts",
+    "transcript": "ञु. [short pause] ञु. ञु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nya-6.mp3": {
+    "generatedAt": "2026-08-15T07:10:47.646Z",
+    "model": "edge-neural-tts",
+    "transcript": "ञू. [short pause] ञू. ञू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nya-7.mp3": {
+    "generatedAt": "2026-08-15T07:10:47.646Z",
+    "model": "edge-neural-tts",
+    "transcript": "ञृ. [short pause] ञृ. ञृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nya-8.mp3": {
+    "generatedAt": "2026-08-15T07:10:47.646Z",
+    "model": "edge-neural-tts",
+    "transcript": "ञे. [short pause] ञे. ञे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nya-9.mp3": {
+    "generatedAt": "2026-08-15T07:10:47.646Z",
+    "model": "edge-neural-tts",
+    "transcript": "ञै. [short pause] ञै. ञै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nya-10.mp3": {
+    "generatedAt": "2026-08-15T07:10:47.646Z",
+    "model": "edge-neural-tts",
+    "transcript": "ञो. [short pause] ञो. ञो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nya-11.mp3": {
+    "generatedAt": "2026-08-15T07:10:52.680Z",
+    "model": "edge-neural-tts",
+    "transcript": "ञौ. [short pause] ञौ. ञौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nya-12.mp3": {
+    "generatedAt": "2026-08-15T07:10:52.680Z",
+    "model": "edge-neural-tts",
+    "transcript": "ञं. [short pause] ञं. ञं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nya-13.mp3": {
+    "generatedAt": "2026-08-15T07:10:52.680Z",
+    "model": "edge-neural-tts",
+    "transcript": "ञः. [short pause] ञः. ञः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nya-14.mp3": {
+    "generatedAt": "2026-08-15T07:10:52.680Z",
+    "model": "edge-neural-tts",
+    "transcript": "ञॅ. [short pause] ञॅ. ञॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nya-15.mp3": {
+    "generatedAt": "2026-08-15T07:10:52.680Z",
+    "model": "edge-neural-tts",
+    "transcript": "ञॉ. [short pause] ञॉ. ञॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tta-1.mp3": {
+    "generatedAt": "2026-08-15T07:10:52.680Z",
+    "model": "edge-neural-tts",
+    "transcript": "ट. [short pause] ट. ट.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tta-2.mp3": {
+    "generatedAt": "2026-08-15T07:10:52.680Z",
+    "model": "edge-neural-tts",
+    "transcript": "टा. [short pause] टा. टा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tta-3.mp3": {
+    "generatedAt": "2026-08-15T07:10:52.680Z",
+    "model": "edge-neural-tts",
+    "transcript": "टि. [short pause] टि. टि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tta-4.mp3": {
+    "generatedAt": "2026-08-15T07:10:57.869Z",
+    "model": "edge-neural-tts",
+    "transcript": "टी. [short pause] टी. टी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tta-5.mp3": {
+    "generatedAt": "2026-08-15T07:10:57.869Z",
+    "model": "edge-neural-tts",
+    "transcript": "टु. [short pause] टु. टु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tta-6.mp3": {
+    "generatedAt": "2026-08-15T07:10:57.869Z",
+    "model": "edge-neural-tts",
+    "transcript": "टू. [short pause] टू. टू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tta-7.mp3": {
+    "generatedAt": "2026-08-15T07:10:57.869Z",
+    "model": "edge-neural-tts",
+    "transcript": "टृ. [short pause] टृ. टृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tta-8.mp3": {
+    "generatedAt": "2026-08-15T07:10:57.869Z",
+    "model": "edge-neural-tts",
+    "transcript": "टे. [short pause] टे. टे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tta-9.mp3": {
+    "generatedAt": "2026-08-15T07:10:57.869Z",
+    "model": "edge-neural-tts",
+    "transcript": "टै. [short pause] टै. टै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tta-10.mp3": {
+    "generatedAt": "2026-08-15T07:10:57.869Z",
+    "model": "edge-neural-tts",
+    "transcript": "टो. [short pause] टो. टो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tta-11.mp3": {
+    "generatedAt": "2026-08-15T07:10:57.869Z",
+    "model": "edge-neural-tts",
+    "transcript": "टौ. [short pause] टौ. टौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tta-12.mp3": {
+    "generatedAt": "2026-08-15T07:11:02.988Z",
+    "model": "edge-neural-tts",
+    "transcript": "टं. [short pause] टं. टं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tta-13.mp3": {
+    "generatedAt": "2026-08-15T07:11:02.988Z",
+    "model": "edge-neural-tts",
+    "transcript": "टः. [short pause] टः. टः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tta-14.mp3": {
+    "generatedAt": "2026-08-15T07:11:02.988Z",
+    "model": "edge-neural-tts",
+    "transcript": "टॅ. [short pause] टॅ. टॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tta-15.mp3": {
+    "generatedAt": "2026-08-15T07:11:02.988Z",
+    "model": "edge-neural-tts",
+    "transcript": "टॉ. [short pause] टॉ. टॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ttha-1.mp3": {
+    "generatedAt": "2026-08-15T07:11:02.988Z",
+    "model": "edge-neural-tts",
+    "transcript": "ठ. [short pause] ठ. ठ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ttha-2.mp3": {
+    "generatedAt": "2026-08-15T07:11:02.988Z",
+    "model": "edge-neural-tts",
+    "transcript": "ठा. [short pause] ठा. ठा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ttha-3.mp3": {
+    "generatedAt": "2026-08-15T07:11:02.988Z",
+    "model": "edge-neural-tts",
+    "transcript": "ठि. [short pause] ठि. ठि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ttha-4.mp3": {
+    "generatedAt": "2026-08-15T07:11:02.988Z",
+    "model": "edge-neural-tts",
+    "transcript": "ठी. [short pause] ठी. ठी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ttha-5.mp3": {
+    "generatedAt": "2026-08-15T07:11:07.828Z",
+    "model": "edge-neural-tts",
+    "transcript": "ठु. [short pause] ठु. ठु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ttha-6.mp3": {
+    "generatedAt": "2026-08-15T07:11:07.828Z",
+    "model": "edge-neural-tts",
+    "transcript": "ठू. [short pause] ठू. ठू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ttha-7.mp3": {
+    "generatedAt": "2026-08-15T07:11:07.828Z",
+    "model": "edge-neural-tts",
+    "transcript": "ठृ. [short pause] ठृ. ठृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ttha-8.mp3": {
+    "generatedAt": "2026-08-15T07:11:07.828Z",
+    "model": "edge-neural-tts",
+    "transcript": "ठे. [short pause] ठे. ठे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ttha-9.mp3": {
+    "generatedAt": "2026-08-15T07:11:07.828Z",
+    "model": "edge-neural-tts",
+    "transcript": "ठै. [short pause] ठै. ठै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ttha-10.mp3": {
+    "generatedAt": "2026-08-15T07:11:07.828Z",
+    "model": "edge-neural-tts",
+    "transcript": "ठो. [short pause] ठो. ठो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ttha-11.mp3": {
+    "generatedAt": "2026-08-15T07:11:07.828Z",
+    "model": "edge-neural-tts",
+    "transcript": "ठौ. [short pause] ठौ. ठौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ttha-12.mp3": {
+    "generatedAt": "2026-08-15T07:11:07.828Z",
+    "model": "edge-neural-tts",
+    "transcript": "ठं. [short pause] ठं. ठं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ttha-13.mp3": {
+    "generatedAt": "2026-08-15T07:11:13.552Z",
+    "model": "edge-neural-tts",
+    "transcript": "ठः. [short pause] ठः. ठः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ttha-14.mp3": {
+    "generatedAt": "2026-08-15T07:11:13.552Z",
+    "model": "edge-neural-tts",
+    "transcript": "ठॅ. [short pause] ठॅ. ठॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ttha-15.mp3": {
+    "generatedAt": "2026-08-15T07:11:13.552Z",
+    "model": "edge-neural-tts",
+    "transcript": "ठॉ. [short pause] ठॉ. ठॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dda-1.mp3": {
+    "generatedAt": "2026-08-15T07:11:13.552Z",
+    "model": "edge-neural-tts",
+    "transcript": "ड. [short pause] ड. ड.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dda-2.mp3": {
+    "generatedAt": "2026-08-15T07:11:13.552Z",
+    "model": "edge-neural-tts",
+    "transcript": "डा. [short pause] डा. डा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dda-3.mp3": {
+    "generatedAt": "2026-08-15T07:11:13.552Z",
+    "model": "edge-neural-tts",
+    "transcript": "डि. [short pause] डि. डि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dda-4.mp3": {
+    "generatedAt": "2026-08-15T07:11:13.552Z",
+    "model": "edge-neural-tts",
+    "transcript": "डी. [short pause] डी. डी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dda-5.mp3": {
+    "generatedAt": "2026-08-15T07:11:13.552Z",
+    "model": "edge-neural-tts",
+    "transcript": "डु. [short pause] डु. डु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dda-6.mp3": {
+    "generatedAt": "2026-08-15T07:11:18.849Z",
+    "model": "edge-neural-tts",
+    "transcript": "डू. [short pause] डू. डू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dda-7.mp3": {
+    "generatedAt": "2026-08-15T07:11:18.849Z",
+    "model": "edge-neural-tts",
+    "transcript": "डृ. [short pause] डृ. डृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dda-8.mp3": {
+    "generatedAt": "2026-08-15T07:11:18.849Z",
+    "model": "edge-neural-tts",
+    "transcript": "डे. [short pause] डे. डे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dda-9.mp3": {
+    "generatedAt": "2026-08-15T07:11:18.849Z",
+    "model": "edge-neural-tts",
+    "transcript": "डै. [short pause] डै. डै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dda-10.mp3": {
+    "generatedAt": "2026-08-15T07:11:18.849Z",
+    "model": "edge-neural-tts",
+    "transcript": "डो. [short pause] डो. डो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dda-11.mp3": {
+    "generatedAt": "2026-08-15T07:11:18.849Z",
+    "model": "edge-neural-tts",
+    "transcript": "डौ. [short pause] डौ. डौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dda-12.mp3": {
+    "generatedAt": "2026-08-15T07:11:18.849Z",
+    "model": "edge-neural-tts",
+    "transcript": "डं. [short pause] डं. डं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dda-13.mp3": {
+    "generatedAt": "2026-08-15T07:11:18.849Z",
+    "model": "edge-neural-tts",
+    "transcript": "डः. [short pause] डः. डः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dda-14.mp3": {
+    "generatedAt": "2026-08-15T07:11:27.707Z",
+    "model": "edge-neural-tts",
+    "transcript": "डॅ. [short pause] डॅ. डॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dda-15.mp3": {
+    "generatedAt": "2026-08-15T07:11:27.707Z",
+    "model": "edge-neural-tts",
+    "transcript": "डॉ. [short pause] डॉ. डॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ddha-1.mp3": {
+    "generatedAt": "2026-08-15T07:11:27.707Z",
+    "model": "edge-neural-tts",
+    "transcript": "ढ. [short pause] ढ. ढ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ddha-2.mp3": {
+    "generatedAt": "2026-08-15T07:11:27.707Z",
+    "model": "edge-neural-tts",
+    "transcript": "ढा. [short pause] ढा. ढा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ddha-3.mp3": {
+    "generatedAt": "2026-08-15T07:11:27.707Z",
+    "model": "edge-neural-tts",
+    "transcript": "ढि. [short pause] ढि. ढि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ddha-4.mp3": {
+    "generatedAt": "2026-08-15T07:11:27.707Z",
+    "model": "edge-neural-tts",
+    "transcript": "ढी. [short pause] ढी. ढी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ddha-5.mp3": {
+    "generatedAt": "2026-08-15T07:11:27.707Z",
+    "model": "edge-neural-tts",
+    "transcript": "ढु. [short pause] ढु. ढु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ddha-6.mp3": {
+    "generatedAt": "2026-08-15T07:11:27.707Z",
+    "model": "edge-neural-tts",
+    "transcript": "ढू. [short pause] ढू. ढू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ddha-7.mp3": {
+    "generatedAt": "2026-08-15T07:11:33.347Z",
+    "model": "edge-neural-tts",
+    "transcript": "ढृ. [short pause] ढृ. ढृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ddha-8.mp3": {
+    "generatedAt": "2026-08-15T07:11:33.347Z",
+    "model": "edge-neural-tts",
+    "transcript": "ढे. [short pause] ढे. ढे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ddha-9.mp3": {
+    "generatedAt": "2026-08-15T07:11:33.347Z",
+    "model": "edge-neural-tts",
+    "transcript": "ढै. [short pause] ढै. ढै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ddha-10.mp3": {
+    "generatedAt": "2026-08-15T07:11:33.347Z",
+    "model": "edge-neural-tts",
+    "transcript": "ढो. [short pause] ढो. ढो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ddha-11.mp3": {
+    "generatedAt": "2026-08-15T07:11:33.347Z",
+    "model": "edge-neural-tts",
+    "transcript": "ढौ. [short pause] ढौ. ढौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ddha-12.mp3": {
+    "generatedAt": "2026-08-15T07:11:33.347Z",
+    "model": "edge-neural-tts",
+    "transcript": "ढं. [short pause] ढं. ढं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ddha-13.mp3": {
+    "generatedAt": "2026-08-15T07:11:33.347Z",
+    "model": "edge-neural-tts",
+    "transcript": "ढः. [short pause] ढः. ढः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ddha-14.mp3": {
+    "generatedAt": "2026-08-15T07:11:33.347Z",
+    "model": "edge-neural-tts",
+    "transcript": "ढॅ. [short pause] ढॅ. ढॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ddha-15.mp3": {
+    "generatedAt": "2026-08-15T07:11:38.663Z",
+    "model": "edge-neural-tts",
+    "transcript": "ढॉ. [short pause] ढॉ. ढॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nna-1.mp3": {
+    "generatedAt": "2026-08-15T07:11:38.663Z",
+    "model": "edge-neural-tts",
+    "transcript": "ण. [short pause] ण. ण.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nna-2.mp3": {
+    "generatedAt": "2026-08-15T07:11:38.663Z",
+    "model": "edge-neural-tts",
+    "transcript": "णा. [short pause] णा. णा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nna-3.mp3": {
+    "generatedAt": "2026-08-15T07:11:38.663Z",
+    "model": "edge-neural-tts",
+    "transcript": "णि. [short pause] णि. णि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nna-4.mp3": {
+    "generatedAt": "2026-08-15T07:11:38.663Z",
+    "model": "edge-neural-tts",
+    "transcript": "णी. [short pause] णी. णी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nna-5.mp3": {
+    "generatedAt": "2026-08-15T07:11:38.663Z",
+    "model": "edge-neural-tts",
+    "transcript": "णु. [short pause] णु. णु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nna-6.mp3": {
+    "generatedAt": "2026-08-15T07:11:38.663Z",
+    "model": "edge-neural-tts",
+    "transcript": "णू. [short pause] णू. णू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nna-7.mp3": {
+    "generatedAt": "2026-08-15T07:11:38.663Z",
+    "model": "edge-neural-tts",
+    "transcript": "णृ. [short pause] णृ. णृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nna-8.mp3": {
+    "generatedAt": "2026-08-15T07:11:44.047Z",
+    "model": "edge-neural-tts",
+    "transcript": "णे. [short pause] णे. णे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nna-9.mp3": {
+    "generatedAt": "2026-08-15T07:11:44.047Z",
+    "model": "edge-neural-tts",
+    "transcript": "णै. [short pause] णै. णै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nna-10.mp3": {
+    "generatedAt": "2026-08-15T07:11:44.047Z",
+    "model": "edge-neural-tts",
+    "transcript": "णो. [short pause] णो. णो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nna-11.mp3": {
+    "generatedAt": "2026-08-15T07:11:44.047Z",
+    "model": "edge-neural-tts",
+    "transcript": "णौ. [short pause] णौ. णौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nna-12.mp3": {
+    "generatedAt": "2026-08-15T07:11:44.047Z",
+    "model": "edge-neural-tts",
+    "transcript": "णं. [short pause] णं. णं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nna-13.mp3": {
+    "generatedAt": "2026-08-15T07:11:44.047Z",
+    "model": "edge-neural-tts",
+    "transcript": "णः. [short pause] णः. णः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nna-14.mp3": {
+    "generatedAt": "2026-08-15T07:11:44.047Z",
+    "model": "edge-neural-tts",
+    "transcript": "णॅ. [short pause] णॅ. णॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-nna-15.mp3": {
+    "generatedAt": "2026-08-15T07:11:44.047Z",
+    "model": "edge-neural-tts",
+    "transcript": "णॉ. [short pause] णॉ. णॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ta-1.mp3": {
+    "generatedAt": "2026-08-15T07:11:49.136Z",
+    "model": "edge-neural-tts",
+    "transcript": "त. [short pause] त. त.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ta-2.mp3": {
+    "generatedAt": "2026-08-15T07:11:49.136Z",
+    "model": "edge-neural-tts",
+    "transcript": "ता. [short pause] ता. ता.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ta-3.mp3": {
+    "generatedAt": "2026-08-15T07:11:49.136Z",
+    "model": "edge-neural-tts",
+    "transcript": "ति. [short pause] ति. ति.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ta-4.mp3": {
+    "generatedAt": "2026-08-15T07:11:49.136Z",
+    "model": "edge-neural-tts",
+    "transcript": "ती. [short pause] ती. ती.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ta-5.mp3": {
+    "generatedAt": "2026-08-15T07:11:49.136Z",
+    "model": "edge-neural-tts",
+    "transcript": "तु. [short pause] तु. तु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ta-6.mp3": {
+    "generatedAt": "2026-08-15T07:11:49.136Z",
+    "model": "edge-neural-tts",
+    "transcript": "तू. [short pause] तू. तू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ta-7.mp3": {
+    "generatedAt": "2026-08-15T07:11:49.136Z",
+    "model": "edge-neural-tts",
+    "transcript": "तृ. [short pause] तृ. तृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ta-8.mp3": {
+    "generatedAt": "2026-08-15T07:11:49.136Z",
+    "model": "edge-neural-tts",
+    "transcript": "ते. [short pause] ते. ते.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ta-9.mp3": {
+    "generatedAt": "2026-08-15T07:11:53.944Z",
+    "model": "edge-neural-tts",
+    "transcript": "तै. [short pause] तै. तै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ta-10.mp3": {
+    "generatedAt": "2026-08-15T07:11:53.944Z",
+    "model": "edge-neural-tts",
+    "transcript": "तो. [short pause] तो. तो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ta-11.mp3": {
+    "generatedAt": "2026-08-15T07:11:53.944Z",
+    "model": "edge-neural-tts",
+    "transcript": "तौ. [short pause] तौ. तौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ta-12.mp3": {
+    "generatedAt": "2026-08-15T07:11:53.944Z",
+    "model": "edge-neural-tts",
+    "transcript": "तं. [short pause] तं. तं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ta-13.mp3": {
+    "generatedAt": "2026-08-15T07:11:53.944Z",
+    "model": "edge-neural-tts",
+    "transcript": "तः. [short pause] तः. तः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ta-14.mp3": {
+    "generatedAt": "2026-08-15T07:11:53.944Z",
+    "model": "edge-neural-tts",
+    "transcript": "तॅ. [short pause] तॅ. तॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ta-15.mp3": {
+    "generatedAt": "2026-08-15T07:11:53.944Z",
+    "model": "edge-neural-tts",
+    "transcript": "तॉ. [short pause] तॉ. तॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tha-1.mp3": {
+    "generatedAt": "2026-08-15T07:11:53.944Z",
+    "model": "edge-neural-tts",
+    "transcript": "थ. [short pause] थ. थ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tha-2.mp3": {
+    "generatedAt": "2026-08-15T07:11:58.915Z",
+    "model": "edge-neural-tts",
+    "transcript": "था. [short pause] था. था.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tha-3.mp3": {
+    "generatedAt": "2026-08-15T07:11:58.915Z",
+    "model": "edge-neural-tts",
+    "transcript": "थि. [short pause] थि. थि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tha-4.mp3": {
+    "generatedAt": "2026-08-15T07:11:58.915Z",
+    "model": "edge-neural-tts",
+    "transcript": "थी. [short pause] थी. थी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tha-5.mp3": {
+    "generatedAt": "2026-08-15T07:11:58.915Z",
+    "model": "edge-neural-tts",
+    "transcript": "थु. [short pause] थु. थु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tha-6.mp3": {
+    "generatedAt": "2026-08-15T07:11:58.915Z",
+    "model": "edge-neural-tts",
+    "transcript": "थू. [short pause] थू. थू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tha-7.mp3": {
+    "generatedAt": "2026-08-15T07:11:58.915Z",
+    "model": "edge-neural-tts",
+    "transcript": "थृ. [short pause] थृ. थृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tha-8.mp3": {
+    "generatedAt": "2026-08-15T07:11:58.915Z",
+    "model": "edge-neural-tts",
+    "transcript": "थे. [short pause] थे. थे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tha-9.mp3": {
+    "generatedAt": "2026-08-15T07:11:58.915Z",
+    "model": "edge-neural-tts",
+    "transcript": "थै. [short pause] थै. थै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tha-10.mp3": {
+    "generatedAt": "2026-08-15T07:12:03.928Z",
+    "model": "edge-neural-tts",
+    "transcript": "थो. [short pause] थो. थो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tha-11.mp3": {
+    "generatedAt": "2026-08-15T07:12:03.928Z",
+    "model": "edge-neural-tts",
+    "transcript": "थौ. [short pause] थौ. थौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tha-12.mp3": {
+    "generatedAt": "2026-08-15T07:12:03.928Z",
+    "model": "edge-neural-tts",
+    "transcript": "थं. [short pause] थं. थं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tha-13.mp3": {
+    "generatedAt": "2026-08-15T07:12:03.928Z",
+    "model": "edge-neural-tts",
+    "transcript": "थः. [short pause] थः. थः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tha-14.mp3": {
+    "generatedAt": "2026-08-15T07:12:03.928Z",
+    "model": "edge-neural-tts",
+    "transcript": "थॅ. [short pause] थॅ. थॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-tha-15.mp3": {
+    "generatedAt": "2026-08-15T07:12:03.928Z",
+    "model": "edge-neural-tts",
+    "transcript": "थॉ. [short pause] थॉ. थॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-da-1.mp3": {
+    "generatedAt": "2026-08-15T07:12:03.928Z",
+    "model": "edge-neural-tts",
+    "transcript": "द. [short pause] द. द.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-da-2.mp3": {
+    "generatedAt": "2026-08-15T07:12:03.928Z",
+    "model": "edge-neural-tts",
+    "transcript": "दा. [short pause] दा. दा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-da-3.mp3": {
+    "generatedAt": "2026-08-15T07:12:08.985Z",
+    "model": "edge-neural-tts",
+    "transcript": "दि. [short pause] दि. दि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-da-4.mp3": {
+    "generatedAt": "2026-08-15T07:12:08.985Z",
+    "model": "edge-neural-tts",
+    "transcript": "दी. [short pause] दी. दी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-da-5.mp3": {
+    "generatedAt": "2026-08-15T07:12:08.985Z",
+    "model": "edge-neural-tts",
+    "transcript": "दु. [short pause] दु. दु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-da-6.mp3": {
+    "generatedAt": "2026-08-15T07:12:08.985Z",
+    "model": "edge-neural-tts",
+    "transcript": "दू. [short pause] दू. दू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-da-7.mp3": {
+    "generatedAt": "2026-08-15T07:12:08.985Z",
+    "model": "edge-neural-tts",
+    "transcript": "दृ. [short pause] दृ. दृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-da-8.mp3": {
+    "generatedAt": "2026-08-15T07:12:08.985Z",
+    "model": "edge-neural-tts",
+    "transcript": "दे. [short pause] दे. दे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-da-9.mp3": {
+    "generatedAt": "2026-08-15T07:12:08.985Z",
+    "model": "edge-neural-tts",
+    "transcript": "दै. [short pause] दै. दै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-da-10.mp3": {
+    "generatedAt": "2026-08-15T07:12:08.985Z",
+    "model": "edge-neural-tts",
+    "transcript": "दो. [short pause] दो. दो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-da-11.mp3": {
+    "generatedAt": "2026-08-15T07:12:13.738Z",
+    "model": "edge-neural-tts",
+    "transcript": "दौ. [short pause] दौ. दौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-da-12.mp3": {
+    "generatedAt": "2026-08-15T07:12:13.738Z",
+    "model": "edge-neural-tts",
+    "transcript": "दं. [short pause] दं. दं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-da-13.mp3": {
+    "generatedAt": "2026-08-15T07:12:13.738Z",
+    "model": "edge-neural-tts",
+    "transcript": "दः. [short pause] दः. दः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-da-14.mp3": {
+    "generatedAt": "2026-08-15T07:12:13.738Z",
+    "model": "edge-neural-tts",
+    "transcript": "दॅ. [short pause] दॅ. दॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-da-15.mp3": {
+    "generatedAt": "2026-08-15T07:12:13.738Z",
+    "model": "edge-neural-tts",
+    "transcript": "दॉ. [short pause] दॉ. दॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dha-1.mp3": {
+    "generatedAt": "2026-08-15T07:12:13.738Z",
+    "model": "edge-neural-tts",
+    "transcript": "ध. [short pause] ध. ध.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dha-2.mp3": {
+    "generatedAt": "2026-08-15T07:12:13.738Z",
+    "model": "edge-neural-tts",
+    "transcript": "धा. [short pause] धा. धा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dha-3.mp3": {
+    "generatedAt": "2026-08-15T07:12:13.738Z",
+    "model": "edge-neural-tts",
+    "transcript": "धि. [short pause] धि. धि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dha-4.mp3": {
+    "generatedAt": "2026-08-15T07:12:18.658Z",
+    "model": "edge-neural-tts",
+    "transcript": "धी. [short pause] धी. धी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dha-5.mp3": {
+    "generatedAt": "2026-08-15T07:12:18.658Z",
+    "model": "edge-neural-tts",
+    "transcript": "धु. [short pause] धु. धु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dha-6.mp3": {
+    "generatedAt": "2026-08-15T07:12:18.658Z",
+    "model": "edge-neural-tts",
+    "transcript": "धू. [short pause] धू. धू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dha-7.mp3": {
+    "generatedAt": "2026-08-15T07:12:18.658Z",
+    "model": "edge-neural-tts",
+    "transcript": "धृ. [short pause] धृ. धृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dha-8.mp3": {
+    "generatedAt": "2026-08-15T07:12:18.658Z",
+    "model": "edge-neural-tts",
+    "transcript": "धे. [short pause] धे. धे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dha-9.mp3": {
+    "generatedAt": "2026-08-15T07:12:18.658Z",
+    "model": "edge-neural-tts",
+    "transcript": "धै. [short pause] धै. धै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dha-10.mp3": {
+    "generatedAt": "2026-08-15T07:12:18.658Z",
+    "model": "edge-neural-tts",
+    "transcript": "धो. [short pause] धो. धो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dha-11.mp3": {
+    "generatedAt": "2026-08-15T07:12:18.658Z",
+    "model": "edge-neural-tts",
+    "transcript": "धौ. [short pause] धौ. धौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dha-12.mp3": {
+    "generatedAt": "2026-08-15T07:12:23.422Z",
+    "model": "edge-neural-tts",
+    "transcript": "धं. [short pause] धं. धं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dha-13.mp3": {
+    "generatedAt": "2026-08-15T07:12:23.422Z",
+    "model": "edge-neural-tts",
+    "transcript": "धः. [short pause] धः. धः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dha-14.mp3": {
+    "generatedAt": "2026-08-15T07:12:23.422Z",
+    "model": "edge-neural-tts",
+    "transcript": "धॅ. [short pause] धॅ. धॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dha-15.mp3": {
+    "generatedAt": "2026-08-15T07:12:23.422Z",
+    "model": "edge-neural-tts",
+    "transcript": "धॉ. [short pause] धॉ. धॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-na-1.mp3": {
+    "generatedAt": "2026-08-15T07:12:23.422Z",
+    "model": "edge-neural-tts",
+    "transcript": "न. [short pause] न. न.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-na-2.mp3": {
+    "generatedAt": "2026-08-15T07:12:23.422Z",
+    "model": "edge-neural-tts",
+    "transcript": "ना. [short pause] ना. ना.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-na-3.mp3": {
+    "generatedAt": "2026-08-15T07:12:23.422Z",
+    "model": "edge-neural-tts",
+    "transcript": "नि. [short pause] नि. नि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-na-4.mp3": {
+    "generatedAt": "2026-08-15T07:12:23.422Z",
+    "model": "edge-neural-tts",
+    "transcript": "नी. [short pause] नी. नी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-na-5.mp3": {
+    "generatedAt": "2026-08-15T07:12:28.161Z",
+    "model": "edge-neural-tts",
+    "transcript": "नु. [short pause] नु. नु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-na-6.mp3": {
+    "generatedAt": "2026-08-15T07:12:28.161Z",
+    "model": "edge-neural-tts",
+    "transcript": "नू. [short pause] नू. नू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-na-7.mp3": {
+    "generatedAt": "2026-08-15T07:12:28.161Z",
+    "model": "edge-neural-tts",
+    "transcript": "नृ. [short pause] नृ. नृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-na-8.mp3": {
+    "generatedAt": "2026-08-15T07:12:28.161Z",
+    "model": "edge-neural-tts",
+    "transcript": "ने. [short pause] ने. ने.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-na-9.mp3": {
+    "generatedAt": "2026-08-15T07:12:28.161Z",
+    "model": "edge-neural-tts",
+    "transcript": "नै. [short pause] नै. नै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-na-10.mp3": {
+    "generatedAt": "2026-08-15T07:12:28.161Z",
+    "model": "edge-neural-tts",
+    "transcript": "नो. [short pause] नो. नो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-na-11.mp3": {
+    "generatedAt": "2026-08-15T07:12:28.161Z",
+    "model": "edge-neural-tts",
+    "transcript": "नौ. [short pause] नौ. नौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-na-12.mp3": {
+    "generatedAt": "2026-08-15T07:12:28.161Z",
+    "model": "edge-neural-tts",
+    "transcript": "नं. [short pause] नं. नं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-na-13.mp3": {
+    "generatedAt": "2026-08-15T07:12:33.033Z",
+    "model": "edge-neural-tts",
+    "transcript": "नः. [short pause] नः. नः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-na-14.mp3": {
+    "generatedAt": "2026-08-15T07:12:33.033Z",
+    "model": "edge-neural-tts",
+    "transcript": "नॅ. [short pause] नॅ. नॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-na-15.mp3": {
+    "generatedAt": "2026-08-15T07:12:33.033Z",
+    "model": "edge-neural-tts",
+    "transcript": "नॉ. [short pause] नॉ. नॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pa-1.mp3": {
+    "generatedAt": "2026-08-15T07:12:33.033Z",
+    "model": "edge-neural-tts",
+    "transcript": "प. [short pause] प. प.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pa-2.mp3": {
+    "generatedAt": "2026-08-15T07:12:33.033Z",
+    "model": "edge-neural-tts",
+    "transcript": "पा. [short pause] पा. पा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pa-3.mp3": {
+    "generatedAt": "2026-08-15T07:12:33.033Z",
+    "model": "edge-neural-tts",
+    "transcript": "पि. [short pause] पि. पि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pa-4.mp3": {
+    "generatedAt": "2026-08-15T07:12:33.033Z",
+    "model": "edge-neural-tts",
+    "transcript": "पी. [short pause] पी. पी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pa-5.mp3": {
+    "generatedAt": "2026-08-15T07:12:33.033Z",
+    "model": "edge-neural-tts",
+    "transcript": "पु. [short pause] पु. पु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pa-6.mp3": {
+    "generatedAt": "2026-08-15T07:12:38.276Z",
+    "model": "edge-neural-tts",
+    "transcript": "पू. [short pause] पू. पू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pa-7.mp3": {
+    "generatedAt": "2026-08-15T07:12:38.276Z",
+    "model": "edge-neural-tts",
+    "transcript": "पृ. [short pause] पृ. पृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pa-8.mp3": {
+    "generatedAt": "2026-08-15T07:12:38.276Z",
+    "model": "edge-neural-tts",
+    "transcript": "पे. [short pause] पे. पे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pa-9.mp3": {
+    "generatedAt": "2026-08-15T07:12:38.276Z",
+    "model": "edge-neural-tts",
+    "transcript": "पै. [short pause] पै. पै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pa-10.mp3": {
+    "generatedAt": "2026-08-15T07:12:38.276Z",
+    "model": "edge-neural-tts",
+    "transcript": "पो. [short pause] पो. पो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pa-11.mp3": {
+    "generatedAt": "2026-08-15T07:12:38.276Z",
+    "model": "edge-neural-tts",
+    "transcript": "पौ. [short pause] पौ. पौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pa-12.mp3": {
+    "generatedAt": "2026-08-15T07:12:38.276Z",
+    "model": "edge-neural-tts",
+    "transcript": "पं. [short pause] पं. पं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pa-13.mp3": {
+    "generatedAt": "2026-08-15T07:12:38.276Z",
+    "model": "edge-neural-tts",
+    "transcript": "पः. [short pause] पः. पः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pa-14.mp3": {
+    "generatedAt": "2026-08-15T07:12:43.382Z",
+    "model": "edge-neural-tts",
+    "transcript": "पॅ. [short pause] पॅ. पॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pa-15.mp3": {
+    "generatedAt": "2026-08-15T07:12:43.382Z",
+    "model": "edge-neural-tts",
+    "transcript": "पॉ. [short pause] पॉ. पॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pha-1.mp3": {
+    "generatedAt": "2026-08-15T07:12:43.382Z",
+    "model": "edge-neural-tts",
+    "transcript": "फ. [short pause] फ. फ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pha-2.mp3": {
+    "generatedAt": "2026-08-15T07:12:43.382Z",
+    "model": "edge-neural-tts",
+    "transcript": "फा. [short pause] फा. फा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pha-3.mp3": {
+    "generatedAt": "2026-08-15T07:12:43.382Z",
+    "model": "edge-neural-tts",
+    "transcript": "फि. [short pause] फि. फि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pha-4.mp3": {
+    "generatedAt": "2026-08-15T07:12:43.382Z",
+    "model": "edge-neural-tts",
+    "transcript": "फी. [short pause] फी. फी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pha-5.mp3": {
+    "generatedAt": "2026-08-15T07:12:43.382Z",
+    "model": "edge-neural-tts",
+    "transcript": "फु. [short pause] फु. फु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pha-6.mp3": {
+    "generatedAt": "2026-08-15T07:12:43.382Z",
+    "model": "edge-neural-tts",
+    "transcript": "फू. [short pause] फू. फू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pha-7.mp3": {
+    "generatedAt": "2026-08-15T07:12:48.554Z",
+    "model": "edge-neural-tts",
+    "transcript": "फृ. [short pause] फृ. फृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pha-8.mp3": {
+    "generatedAt": "2026-08-15T07:12:48.554Z",
+    "model": "edge-neural-tts",
+    "transcript": "फे. [short pause] फे. फे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pha-9.mp3": {
+    "generatedAt": "2026-08-15T07:12:48.554Z",
+    "model": "edge-neural-tts",
+    "transcript": "फै. [short pause] फै. फै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pha-10.mp3": {
+    "generatedAt": "2026-08-15T07:12:48.554Z",
+    "model": "edge-neural-tts",
+    "transcript": "फो. [short pause] फो. फो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pha-11.mp3": {
+    "generatedAt": "2026-08-15T07:12:48.554Z",
+    "model": "edge-neural-tts",
+    "transcript": "फौ. [short pause] फौ. फौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pha-12.mp3": {
+    "generatedAt": "2026-08-15T07:12:48.554Z",
+    "model": "edge-neural-tts",
+    "transcript": "फं. [short pause] फं. फं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pha-13.mp3": {
+    "generatedAt": "2026-08-15T07:12:48.554Z",
+    "model": "edge-neural-tts",
+    "transcript": "फः. [short pause] फः. फः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pha-14.mp3": {
+    "generatedAt": "2026-08-15T07:12:48.554Z",
+    "model": "edge-neural-tts",
+    "transcript": "फॅ. [short pause] फॅ. फॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-pha-15.mp3": {
+    "generatedAt": "2026-08-15T07:12:53.401Z",
+    "model": "edge-neural-tts",
+    "transcript": "फॉ. [short pause] फॉ. फॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ba-1.mp3": {
+    "generatedAt": "2026-08-15T07:12:53.401Z",
+    "model": "edge-neural-tts",
+    "transcript": "ब. [short pause] ब. ब.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ba-2.mp3": {
+    "generatedAt": "2026-08-15T07:12:53.401Z",
+    "model": "edge-neural-tts",
+    "transcript": "बा. [short pause] बा. बा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ba-3.mp3": {
+    "generatedAt": "2026-08-15T07:12:53.401Z",
+    "model": "edge-neural-tts",
+    "transcript": "बि. [short pause] बि. बि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ba-4.mp3": {
+    "generatedAt": "2026-08-15T07:12:53.401Z",
+    "model": "edge-neural-tts",
+    "transcript": "बी. [short pause] बी. बी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ba-5.mp3": {
+    "generatedAt": "2026-08-15T07:12:53.401Z",
+    "model": "edge-neural-tts",
+    "transcript": "बु. [short pause] बु. बु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ba-6.mp3": {
+    "generatedAt": "2026-08-15T07:12:53.401Z",
+    "model": "edge-neural-tts",
+    "transcript": "बू. [short pause] बू. बू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ba-7.mp3": {
+    "generatedAt": "2026-08-15T07:12:53.402Z",
+    "model": "edge-neural-tts",
+    "transcript": "बृ. [short pause] बृ. बृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ba-8.mp3": {
+    "generatedAt": "2026-08-15T07:12:58.295Z",
+    "model": "edge-neural-tts",
+    "transcript": "बे. [short pause] बे. बे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ba-9.mp3": {
+    "generatedAt": "2026-08-15T07:12:58.295Z",
+    "model": "edge-neural-tts",
+    "transcript": "बै. [short pause] बै. बै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ba-10.mp3": {
+    "generatedAt": "2026-08-15T07:12:58.295Z",
+    "model": "edge-neural-tts",
+    "transcript": "बो. [short pause] बो. बो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ba-11.mp3": {
+    "generatedAt": "2026-08-15T07:12:58.295Z",
+    "model": "edge-neural-tts",
+    "transcript": "बौ. [short pause] बौ. बौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ba-12.mp3": {
+    "generatedAt": "2026-08-15T07:12:58.295Z",
+    "model": "edge-neural-tts",
+    "transcript": "बं. [short pause] बं. बं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ba-13.mp3": {
+    "generatedAt": "2026-08-15T07:12:58.295Z",
+    "model": "edge-neural-tts",
+    "transcript": "बः. [short pause] बः. बः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ba-14.mp3": {
+    "generatedAt": "2026-08-15T07:12:58.295Z",
+    "model": "edge-neural-tts",
+    "transcript": "बॅ. [short pause] बॅ. बॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ba-15.mp3": {
+    "generatedAt": "2026-08-15T07:12:58.295Z",
+    "model": "edge-neural-tts",
+    "transcript": "बॉ. [short pause] बॉ. बॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-bha-1.mp3": {
+    "generatedAt": "2026-08-15T07:13:03.300Z",
+    "model": "edge-neural-tts",
+    "transcript": "भ. [short pause] भ. भ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-bha-2.mp3": {
+    "generatedAt": "2026-08-15T07:13:03.300Z",
+    "model": "edge-neural-tts",
+    "transcript": "भा. [short pause] भा. भा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-bha-3.mp3": {
+    "generatedAt": "2026-08-15T07:13:03.300Z",
+    "model": "edge-neural-tts",
+    "transcript": "भि. [short pause] भि. भि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-bha-4.mp3": {
+    "generatedAt": "2026-08-15T07:13:03.300Z",
+    "model": "edge-neural-tts",
+    "transcript": "भी. [short pause] भी. भी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-bha-5.mp3": {
+    "generatedAt": "2026-08-15T07:13:03.300Z",
+    "model": "edge-neural-tts",
+    "transcript": "भु. [short pause] भु. भु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-bha-6.mp3": {
+    "generatedAt": "2026-08-15T07:13:03.300Z",
+    "model": "edge-neural-tts",
+    "transcript": "भू. [short pause] भू. भू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-bha-7.mp3": {
+    "generatedAt": "2026-08-15T07:13:03.300Z",
+    "model": "edge-neural-tts",
+    "transcript": "भृ. [short pause] भृ. भृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-bha-8.mp3": {
+    "generatedAt": "2026-08-15T07:13:03.300Z",
+    "model": "edge-neural-tts",
+    "transcript": "भे. [short pause] भे. भे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-bha-9.mp3": {
+    "generatedAt": "2026-08-15T07:13:08.574Z",
+    "model": "edge-neural-tts",
+    "transcript": "भै. [short pause] भै. भै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-bha-10.mp3": {
+    "generatedAt": "2026-08-15T07:13:08.574Z",
+    "model": "edge-neural-tts",
+    "transcript": "भो. [short pause] भो. भो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-bha-11.mp3": {
+    "generatedAt": "2026-08-15T07:13:08.574Z",
+    "model": "edge-neural-tts",
+    "transcript": "भौ. [short pause] भौ. भौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-bha-12.mp3": {
+    "generatedAt": "2026-08-15T07:13:08.574Z",
+    "model": "edge-neural-tts",
+    "transcript": "भं. [short pause] भं. भं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-bha-13.mp3": {
+    "generatedAt": "2026-08-15T07:13:08.574Z",
+    "model": "edge-neural-tts",
+    "transcript": "भः. [short pause] भः. भः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-bha-14.mp3": {
+    "generatedAt": "2026-08-15T07:13:08.574Z",
+    "model": "edge-neural-tts",
+    "transcript": "भॅ. [short pause] भॅ. भॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-bha-15.mp3": {
+    "generatedAt": "2026-08-15T07:13:08.574Z",
+    "model": "edge-neural-tts",
+    "transcript": "भॉ. [short pause] भॉ. भॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ma-1.mp3": {
+    "generatedAt": "2026-08-15T07:13:08.574Z",
+    "model": "edge-neural-tts",
+    "transcript": "म. [short pause] म. म.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ma-2.mp3": {
+    "generatedAt": "2026-08-15T07:13:13.464Z",
+    "model": "edge-neural-tts",
+    "transcript": "मा. [short pause] मा. मा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ma-3.mp3": {
+    "generatedAt": "2026-08-15T07:13:13.464Z",
+    "model": "edge-neural-tts",
+    "transcript": "मि. [short pause] मि. मि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ma-4.mp3": {
+    "generatedAt": "2026-08-15T07:13:13.464Z",
+    "model": "edge-neural-tts",
+    "transcript": "मी. [short pause] मी. मी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ma-5.mp3": {
+    "generatedAt": "2026-08-15T07:13:13.464Z",
+    "model": "edge-neural-tts",
+    "transcript": "मु. [short pause] मु. मु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ma-6.mp3": {
+    "generatedAt": "2026-08-15T07:13:13.464Z",
+    "model": "edge-neural-tts",
+    "transcript": "मू. [short pause] मू. मू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ma-7.mp3": {
+    "generatedAt": "2026-08-15T07:13:13.464Z",
+    "model": "edge-neural-tts",
+    "transcript": "मृ. [short pause] मृ. मृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ma-8.mp3": {
+    "generatedAt": "2026-08-15T07:13:13.464Z",
+    "model": "edge-neural-tts",
+    "transcript": "मे. [short pause] मे. मे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ma-9.mp3": {
+    "generatedAt": "2026-08-15T07:13:13.464Z",
+    "model": "edge-neural-tts",
+    "transcript": "मै. [short pause] मै. मै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ma-10.mp3": {
+    "generatedAt": "2026-08-15T07:13:18.779Z",
+    "model": "edge-neural-tts",
+    "transcript": "मो. [short pause] मो. मो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ma-11.mp3": {
+    "generatedAt": "2026-08-15T07:13:18.779Z",
+    "model": "edge-neural-tts",
+    "transcript": "मौ. [short pause] मौ. मौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ma-12.mp3": {
+    "generatedAt": "2026-08-15T07:13:18.779Z",
+    "model": "edge-neural-tts",
+    "transcript": "मं. [short pause] मं. मं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ma-13.mp3": {
+    "generatedAt": "2026-08-15T07:13:18.779Z",
+    "model": "edge-neural-tts",
+    "transcript": "मः. [short pause] मः. मः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ma-14.mp3": {
+    "generatedAt": "2026-08-15T07:13:18.779Z",
+    "model": "edge-neural-tts",
+    "transcript": "मॅ. [short pause] मॅ. मॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ma-15.mp3": {
+    "generatedAt": "2026-08-15T07:13:18.779Z",
+    "model": "edge-neural-tts",
+    "transcript": "मॉ. [short pause] मॉ. मॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ya-1.mp3": {
+    "generatedAt": "2026-08-15T07:13:18.779Z",
+    "model": "edge-neural-tts",
+    "transcript": "य. [short pause] य. य.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ya-2.mp3": {
+    "generatedAt": "2026-08-15T07:13:18.779Z",
+    "model": "edge-neural-tts",
+    "transcript": "या. [short pause] या. या.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ya-3.mp3": {
+    "generatedAt": "2026-08-15T07:13:35.523Z",
+    "model": "edge-neural-tts",
+    "transcript": "यि. [short pause] यि. यि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ya-4.mp3": {
+    "generatedAt": "2026-08-15T07:13:35.523Z",
+    "model": "edge-neural-tts",
+    "transcript": "यी. [short pause] यी. यी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ya-5.mp3": {
+    "generatedAt": "2026-08-15T07:13:35.523Z",
+    "model": "edge-neural-tts",
+    "transcript": "यु. [short pause] यु. यु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ya-6.mp3": {
+    "generatedAt": "2026-08-15T07:13:35.523Z",
+    "model": "edge-neural-tts",
+    "transcript": "यू. [short pause] यू. यू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ya-7.mp3": {
+    "generatedAt": "2026-08-15T07:13:35.523Z",
+    "model": "edge-neural-tts",
+    "transcript": "यृ. [short pause] यृ. यृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ya-8.mp3": {
+    "generatedAt": "2026-08-15T07:13:35.523Z",
+    "model": "edge-neural-tts",
+    "transcript": "ये. [short pause] ये. ये.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ya-9.mp3": {
+    "generatedAt": "2026-08-15T07:13:35.523Z",
+    "model": "edge-neural-tts",
+    "transcript": "यै. [short pause] यै. यै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ya-10.mp3": {
+    "generatedAt": "2026-08-15T07:13:35.523Z",
+    "model": "edge-neural-tts",
+    "transcript": "यो. [short pause] यो. यो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ya-11.mp3": {
+    "generatedAt": "2026-08-15T07:13:40.365Z",
+    "model": "edge-neural-tts",
+    "transcript": "यौ. [short pause] यौ. यौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ya-12.mp3": {
+    "generatedAt": "2026-08-15T07:13:40.365Z",
+    "model": "edge-neural-tts",
+    "transcript": "यं. [short pause] यं. यं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ya-13.mp3": {
+    "generatedAt": "2026-08-15T07:13:40.365Z",
+    "model": "edge-neural-tts",
+    "transcript": "यः. [short pause] यः. यः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ya-14.mp3": {
+    "generatedAt": "2026-08-15T07:13:40.365Z",
+    "model": "edge-neural-tts",
+    "transcript": "यॅ. [short pause] यॅ. यॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ya-15.mp3": {
+    "generatedAt": "2026-08-15T07:13:40.365Z",
+    "model": "edge-neural-tts",
+    "transcript": "यॉ. [short pause] यॉ. यॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ra-1.mp3": {
+    "generatedAt": "2026-08-15T07:13:40.365Z",
+    "model": "edge-neural-tts",
+    "transcript": "र. [short pause] र. र.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ra-2.mp3": {
+    "generatedAt": "2026-08-15T07:13:40.365Z",
+    "model": "edge-neural-tts",
+    "transcript": "रा. [short pause] रा. रा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ra-3.mp3": {
+    "generatedAt": "2026-08-15T07:13:40.365Z",
+    "model": "edge-neural-tts",
+    "transcript": "रि. [short pause] रि. रि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ra-4.mp3": {
+    "generatedAt": "2026-08-15T07:13:45.092Z",
+    "model": "edge-neural-tts",
+    "transcript": "री. [short pause] री. री.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ra-5.mp3": {
+    "generatedAt": "2026-08-15T07:13:45.092Z",
+    "model": "edge-neural-tts",
+    "transcript": "रु. [short pause] रु. रु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ra-6.mp3": {
+    "generatedAt": "2026-08-15T07:13:45.092Z",
+    "model": "edge-neural-tts",
+    "transcript": "रू. [short pause] रू. रू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ra-7.mp3": {
+    "generatedAt": "2026-08-15T07:13:45.092Z",
+    "model": "edge-neural-tts",
+    "transcript": "रृ. [short pause] रृ. रृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ra-8.mp3": {
+    "generatedAt": "2026-08-15T07:13:45.092Z",
+    "model": "edge-neural-tts",
+    "transcript": "रे. [short pause] रे. रे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ra-9.mp3": {
+    "generatedAt": "2026-08-15T07:13:45.092Z",
+    "model": "edge-neural-tts",
+    "transcript": "रै. [short pause] रै. रै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ra-10.mp3": {
+    "generatedAt": "2026-08-15T07:13:45.092Z",
+    "model": "edge-neural-tts",
+    "transcript": "रो. [short pause] रो. रो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ra-11.mp3": {
+    "generatedAt": "2026-08-15T07:13:45.092Z",
+    "model": "edge-neural-tts",
+    "transcript": "रौ. [short pause] रौ. रौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ra-12.mp3": {
+    "generatedAt": "2026-08-15T07:13:50.464Z",
+    "model": "edge-neural-tts",
+    "transcript": "रं. [short pause] रं. रं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ra-13.mp3": {
+    "generatedAt": "2026-08-15T07:13:50.464Z",
+    "model": "edge-neural-tts",
+    "transcript": "रः. [short pause] रः. रः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ra-14.mp3": {
+    "generatedAt": "2026-08-15T07:13:50.464Z",
+    "model": "edge-neural-tts",
+    "transcript": "रॅ. [short pause] रॅ. रॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ra-15.mp3": {
+    "generatedAt": "2026-08-15T07:13:50.464Z",
+    "model": "edge-neural-tts",
+    "transcript": "रॉ. [short pause] रॉ. रॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-la-1.mp3": {
+    "generatedAt": "2026-08-15T07:13:50.464Z",
+    "model": "edge-neural-tts",
+    "transcript": "ल. [short pause] ल. ल.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-la-2.mp3": {
+    "generatedAt": "2026-08-15T07:13:50.464Z",
+    "model": "edge-neural-tts",
+    "transcript": "ला. [short pause] ला. ला.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-la-3.mp3": {
+    "generatedAt": "2026-08-15T07:13:50.464Z",
+    "model": "edge-neural-tts",
+    "transcript": "लि. [short pause] लि. लि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-la-4.mp3": {
+    "generatedAt": "2026-08-15T07:13:50.464Z",
+    "model": "edge-neural-tts",
+    "transcript": "ली. [short pause] ली. ली.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-la-5.mp3": {
+    "generatedAt": "2026-08-15T07:13:55.617Z",
+    "model": "edge-neural-tts",
+    "transcript": "लु. [short pause] लु. लु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-la-6.mp3": {
+    "generatedAt": "2026-08-15T07:13:55.617Z",
+    "model": "edge-neural-tts",
+    "transcript": "लू. [short pause] लू. लू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-la-7.mp3": {
+    "generatedAt": "2026-08-15T07:13:55.617Z",
+    "model": "edge-neural-tts",
+    "transcript": "लृ. [short pause] लृ. लृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-la-8.mp3": {
+    "generatedAt": "2026-08-15T07:13:55.617Z",
+    "model": "edge-neural-tts",
+    "transcript": "ले. [short pause] ले. ले.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-la-9.mp3": {
+    "generatedAt": "2026-08-15T07:13:55.617Z",
+    "model": "edge-neural-tts",
+    "transcript": "लै. [short pause] लै. लै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-la-10.mp3": {
+    "generatedAt": "2026-08-15T07:13:55.617Z",
+    "model": "edge-neural-tts",
+    "transcript": "लो. [short pause] लो. लो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-la-11.mp3": {
+    "generatedAt": "2026-08-15T07:13:55.617Z",
+    "model": "edge-neural-tts",
+    "transcript": "लौ. [short pause] लौ. लौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-la-12.mp3": {
+    "generatedAt": "2026-08-15T07:13:55.617Z",
+    "model": "edge-neural-tts",
+    "transcript": "लं. [short pause] लं. लं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-la-13.mp3": {
+    "generatedAt": "2026-08-15T07:14:00.566Z",
+    "model": "edge-neural-tts",
+    "transcript": "लः. [short pause] लः. लः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-la-14.mp3": {
+    "generatedAt": "2026-08-15T07:14:00.566Z",
+    "model": "edge-neural-tts",
+    "transcript": "लॅ. [short pause] लॅ. लॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-la-15.mp3": {
+    "generatedAt": "2026-08-15T07:14:00.566Z",
+    "model": "edge-neural-tts",
+    "transcript": "लॉ. [short pause] लॉ. लॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-va-1.mp3": {
+    "generatedAt": "2026-08-15T07:14:00.566Z",
+    "model": "edge-neural-tts",
+    "transcript": "व. [short pause] व. व.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-va-2.mp3": {
+    "generatedAt": "2026-08-15T07:14:00.566Z",
+    "model": "edge-neural-tts",
+    "transcript": "वा. [short pause] वा. वा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-va-3.mp3": {
+    "generatedAt": "2026-08-15T07:14:00.566Z",
+    "model": "edge-neural-tts",
+    "transcript": "वि. [short pause] वि. वि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-va-4.mp3": {
+    "generatedAt": "2026-08-15T07:14:00.566Z",
+    "model": "edge-neural-tts",
+    "transcript": "वी. [short pause] वी. वी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-va-5.mp3": {
+    "generatedAt": "2026-08-15T07:14:00.566Z",
+    "model": "edge-neural-tts",
+    "transcript": "वु. [short pause] वु. वु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-va-6.mp3": {
+    "generatedAt": "2026-08-15T07:14:05.497Z",
+    "model": "edge-neural-tts",
+    "transcript": "वू. [short pause] वू. वू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-va-7.mp3": {
+    "generatedAt": "2026-08-15T07:14:05.497Z",
+    "model": "edge-neural-tts",
+    "transcript": "वृ. [short pause] वृ. वृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-va-8.mp3": {
+    "generatedAt": "2026-08-15T07:14:05.497Z",
+    "model": "edge-neural-tts",
+    "transcript": "वे. [short pause] वे. वे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-va-9.mp3": {
+    "generatedAt": "2026-08-15T07:14:05.497Z",
+    "model": "edge-neural-tts",
+    "transcript": "वै. [short pause] वै. वै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-va-10.mp3": {
+    "generatedAt": "2026-08-15T07:14:05.497Z",
+    "model": "edge-neural-tts",
+    "transcript": "वो. [short pause] वो. वो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-va-11.mp3": {
+    "generatedAt": "2026-08-15T07:14:05.497Z",
+    "model": "edge-neural-tts",
+    "transcript": "वौ. [short pause] वौ. वौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-va-12.mp3": {
+    "generatedAt": "2026-08-15T07:14:05.497Z",
+    "model": "edge-neural-tts",
+    "transcript": "वं. [short pause] वं. वं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-va-13.mp3": {
+    "generatedAt": "2026-08-15T07:14:05.497Z",
+    "model": "edge-neural-tts",
+    "transcript": "वः. [short pause] वः. वः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-va-14.mp3": {
+    "generatedAt": "2026-08-15T07:14:10.622Z",
+    "model": "edge-neural-tts",
+    "transcript": "वॅ. [short pause] वॅ. वॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-va-15.mp3": {
+    "generatedAt": "2026-08-15T07:14:10.622Z",
+    "model": "edge-neural-tts",
+    "transcript": "वॉ. [short pause] वॉ. वॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sha-1.mp3": {
+    "generatedAt": "2026-08-15T07:14:10.622Z",
+    "model": "edge-neural-tts",
+    "transcript": "श. [short pause] श. श.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sha-2.mp3": {
+    "generatedAt": "2026-08-15T07:14:10.622Z",
+    "model": "edge-neural-tts",
+    "transcript": "शा. [short pause] शा. शा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sha-3.mp3": {
+    "generatedAt": "2026-08-15T07:14:10.622Z",
+    "model": "edge-neural-tts",
+    "transcript": "शि. [short pause] शि. शि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sha-4.mp3": {
+    "generatedAt": "2026-08-15T07:14:10.622Z",
+    "model": "edge-neural-tts",
+    "transcript": "शी. [short pause] शी. शी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sha-5.mp3": {
+    "generatedAt": "2026-08-15T07:14:10.622Z",
+    "model": "edge-neural-tts",
+    "transcript": "शु. [short pause] शु. शु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sha-6.mp3": {
+    "generatedAt": "2026-08-15T07:14:10.622Z",
+    "model": "edge-neural-tts",
+    "transcript": "शू. [short pause] शू. शू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sha-7.mp3": {
+    "generatedAt": "2026-08-15T07:14:15.759Z",
+    "model": "edge-neural-tts",
+    "transcript": "शृ. [short pause] शृ. शृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sha-8.mp3": {
+    "generatedAt": "2026-08-15T07:14:15.759Z",
+    "model": "edge-neural-tts",
+    "transcript": "शे. [short pause] शे. शे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sha-9.mp3": {
+    "generatedAt": "2026-08-15T07:14:15.759Z",
+    "model": "edge-neural-tts",
+    "transcript": "शै. [short pause] शै. शै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sha-10.mp3": {
+    "generatedAt": "2026-08-15T07:14:15.759Z",
+    "model": "edge-neural-tts",
+    "transcript": "शो. [short pause] शो. शो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sha-11.mp3": {
+    "generatedAt": "2026-08-15T07:14:15.759Z",
+    "model": "edge-neural-tts",
+    "transcript": "शौ. [short pause] शौ. शौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sha-12.mp3": {
+    "generatedAt": "2026-08-15T07:14:15.759Z",
+    "model": "edge-neural-tts",
+    "transcript": "शं. [short pause] शं. शं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sha-13.mp3": {
+    "generatedAt": "2026-08-15T07:14:15.759Z",
+    "model": "edge-neural-tts",
+    "transcript": "शः. [short pause] शः. शः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sha-14.mp3": {
+    "generatedAt": "2026-08-15T07:14:15.759Z",
+    "model": "edge-neural-tts",
+    "transcript": "शॅ. [short pause] शॅ. शॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sha-15.mp3": {
+    "generatedAt": "2026-08-15T07:14:20.952Z",
+    "model": "edge-neural-tts",
+    "transcript": "शॉ. [short pause] शॉ. शॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ssa-1.mp3": {
+    "generatedAt": "2026-08-15T07:14:20.952Z",
+    "model": "edge-neural-tts",
+    "transcript": "ष. [short pause] ष. ष.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ssa-2.mp3": {
+    "generatedAt": "2026-08-15T07:14:20.952Z",
+    "model": "edge-neural-tts",
+    "transcript": "षा. [short pause] षा. षा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ssa-3.mp3": {
+    "generatedAt": "2026-08-15T07:14:20.952Z",
+    "model": "edge-neural-tts",
+    "transcript": "षि. [short pause] षि. षि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ssa-4.mp3": {
+    "generatedAt": "2026-08-15T07:14:20.952Z",
+    "model": "edge-neural-tts",
+    "transcript": "षी. [short pause] षी. षी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ssa-5.mp3": {
+    "generatedAt": "2026-08-15T07:14:20.952Z",
+    "model": "edge-neural-tts",
+    "transcript": "षु. [short pause] षु. षु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ssa-6.mp3": {
+    "generatedAt": "2026-08-15T07:14:20.952Z",
+    "model": "edge-neural-tts",
+    "transcript": "षू. [short pause] षू. षू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ssa-7.mp3": {
+    "generatedAt": "2026-08-15T07:14:20.952Z",
+    "model": "edge-neural-tts",
+    "transcript": "षृ. [short pause] षृ. षृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ssa-8.mp3": {
+    "generatedAt": "2026-08-15T07:14:26.344Z",
+    "model": "edge-neural-tts",
+    "transcript": "षे. [short pause] षे. षे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ssa-9.mp3": {
+    "generatedAt": "2026-08-15T07:14:26.344Z",
+    "model": "edge-neural-tts",
+    "transcript": "षै. [short pause] षै. षै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ssa-10.mp3": {
+    "generatedAt": "2026-08-15T07:14:26.344Z",
+    "model": "edge-neural-tts",
+    "transcript": "षो. [short pause] षो. षो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ssa-11.mp3": {
+    "generatedAt": "2026-08-15T07:14:26.344Z",
+    "model": "edge-neural-tts",
+    "transcript": "षौ. [short pause] षौ. षौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ssa-12.mp3": {
+    "generatedAt": "2026-08-15T07:14:26.344Z",
+    "model": "edge-neural-tts",
+    "transcript": "षं. [short pause] षं. षं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ssa-13.mp3": {
+    "generatedAt": "2026-08-15T07:14:26.344Z",
+    "model": "edge-neural-tts",
+    "transcript": "षः. [short pause] षः. षः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ssa-14.mp3": {
+    "generatedAt": "2026-08-15T07:14:26.344Z",
+    "model": "edge-neural-tts",
+    "transcript": "षॅ. [short pause] षॅ. षॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ssa-15.mp3": {
+    "generatedAt": "2026-08-15T07:14:26.344Z",
+    "model": "edge-neural-tts",
+    "transcript": "षॉ. [short pause] षॉ. षॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sa-1.mp3": {
+    "generatedAt": "2026-08-15T07:14:39.756Z",
+    "model": "edge-neural-tts",
+    "transcript": "स. [short pause] स. स.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sa-2.mp3": {
+    "generatedAt": "2026-08-15T07:14:39.756Z",
+    "model": "edge-neural-tts",
+    "transcript": "सा. [short pause] सा. सा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sa-3.mp3": {
+    "generatedAt": "2026-08-15T07:14:39.756Z",
+    "model": "edge-neural-tts",
+    "transcript": "सि. [short pause] सि. सि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sa-4.mp3": {
+    "generatedAt": "2026-08-15T07:14:39.756Z",
+    "model": "edge-neural-tts",
+    "transcript": "सी. [short pause] सी. सी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sa-5.mp3": {
+    "generatedAt": "2026-08-15T07:14:39.756Z",
+    "model": "edge-neural-tts",
+    "transcript": "सु. [short pause] सु. सु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sa-6.mp3": {
+    "generatedAt": "2026-08-15T07:14:39.756Z",
+    "model": "edge-neural-tts",
+    "transcript": "सू. [short pause] सू. सू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sa-7.mp3": {
+    "generatedAt": "2026-08-15T07:14:39.756Z",
+    "model": "edge-neural-tts",
+    "transcript": "सृ. [short pause] सृ. सृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sa-8.mp3": {
+    "generatedAt": "2026-08-15T07:14:39.756Z",
+    "model": "edge-neural-tts",
+    "transcript": "से. [short pause] से. से.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sa-9.mp3": {
+    "generatedAt": "2026-08-15T07:14:44.673Z",
+    "model": "edge-neural-tts",
+    "transcript": "सै. [short pause] सै. सै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sa-10.mp3": {
+    "generatedAt": "2026-08-15T07:14:44.673Z",
+    "model": "edge-neural-tts",
+    "transcript": "सो. [short pause] सो. सो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sa-11.mp3": {
+    "generatedAt": "2026-08-15T07:14:44.673Z",
+    "model": "edge-neural-tts",
+    "transcript": "सौ. [short pause] सौ. सौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sa-12.mp3": {
+    "generatedAt": "2026-08-15T07:14:44.673Z",
+    "model": "edge-neural-tts",
+    "transcript": "सं. [short pause] सं. सं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sa-13.mp3": {
+    "generatedAt": "2026-08-15T07:14:44.673Z",
+    "model": "edge-neural-tts",
+    "transcript": "सः. [short pause] सः. सः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sa-14.mp3": {
+    "generatedAt": "2026-08-15T07:14:44.673Z",
+    "model": "edge-neural-tts",
+    "transcript": "सॅ. [short pause] सॅ. सॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-sa-15.mp3": {
+    "generatedAt": "2026-08-15T07:14:44.673Z",
+    "model": "edge-neural-tts",
+    "transcript": "सॉ. [short pause] सॉ. सॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ha-1.mp3": {
+    "generatedAt": "2026-08-15T07:14:44.673Z",
+    "model": "edge-neural-tts",
+    "transcript": "ह. [short pause] ह. ह.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ha-2.mp3": {
+    "generatedAt": "2026-08-15T07:14:49.588Z",
+    "model": "edge-neural-tts",
+    "transcript": "हा. [short pause] हा. हा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ha-3.mp3": {
+    "generatedAt": "2026-08-15T07:14:49.588Z",
+    "model": "edge-neural-tts",
+    "transcript": "हि. [short pause] हि. हि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ha-4.mp3": {
+    "generatedAt": "2026-08-15T07:14:49.588Z",
+    "model": "edge-neural-tts",
+    "transcript": "ही. [short pause] ही. ही.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ha-5.mp3": {
+    "generatedAt": "2026-08-15T07:14:49.588Z",
+    "model": "edge-neural-tts",
+    "transcript": "हु. [short pause] हु. हु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ha-6.mp3": {
+    "generatedAt": "2026-08-15T07:14:49.588Z",
+    "model": "edge-neural-tts",
+    "transcript": "हू. [short pause] हू. हू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ha-7.mp3": {
+    "generatedAt": "2026-08-15T07:14:49.588Z",
+    "model": "edge-neural-tts",
+    "transcript": "हृ. [short pause] हृ. हृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ha-8.mp3": {
+    "generatedAt": "2026-08-15T07:14:49.588Z",
+    "model": "edge-neural-tts",
+    "transcript": "हे. [short pause] हे. हे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ha-9.mp3": {
+    "generatedAt": "2026-08-15T07:14:49.588Z",
+    "model": "edge-neural-tts",
+    "transcript": "है. [short pause] है. है.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ha-10.mp3": {
+    "generatedAt": "2026-08-15T07:14:54.407Z",
+    "model": "edge-neural-tts",
+    "transcript": "हो. [short pause] हो. हो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ha-11.mp3": {
+    "generatedAt": "2026-08-15T07:14:54.407Z",
+    "model": "edge-neural-tts",
+    "transcript": "हौ. [short pause] हौ. हौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ha-12.mp3": {
+    "generatedAt": "2026-08-15T07:14:54.407Z",
+    "model": "edge-neural-tts",
+    "transcript": "हं. [short pause] हं. हं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ha-13.mp3": {
+    "generatedAt": "2026-08-15T07:14:54.407Z",
+    "model": "edge-neural-tts",
+    "transcript": "हः. [short pause] हः. हः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ha-14.mp3": {
+    "generatedAt": "2026-08-15T07:14:54.407Z",
+    "model": "edge-neural-tts",
+    "transcript": "हॅ. [short pause] हॅ. हॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ha-15.mp3": {
+    "generatedAt": "2026-08-15T07:14:54.407Z",
+    "model": "edge-neural-tts",
+    "transcript": "हॉ. [short pause] हॉ. हॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-lla-1.mp3": {
+    "generatedAt": "2026-08-15T07:14:54.407Z",
+    "model": "edge-neural-tts",
+    "transcript": "ळ. [short pause] ळ. ळ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-lla-2.mp3": {
+    "generatedAt": "2026-08-15T07:14:54.407Z",
+    "model": "edge-neural-tts",
+    "transcript": "ळा. [short pause] ळा. ळा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-lla-3.mp3": {
+    "generatedAt": "2026-08-15T07:14:59.397Z",
+    "model": "edge-neural-tts",
+    "transcript": "ळि. [short pause] ळि. ळि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-lla-4.mp3": {
+    "generatedAt": "2026-08-15T07:14:59.397Z",
+    "model": "edge-neural-tts",
+    "transcript": "ळी. [short pause] ळी. ळी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-lla-5.mp3": {
+    "generatedAt": "2026-08-15T07:14:59.397Z",
+    "model": "edge-neural-tts",
+    "transcript": "ळु. [short pause] ळु. ळु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-lla-6.mp3": {
+    "generatedAt": "2026-08-15T07:14:59.397Z",
+    "model": "edge-neural-tts",
+    "transcript": "ळू. [short pause] ळू. ळू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-lla-7.mp3": {
+    "generatedAt": "2026-08-15T07:14:59.397Z",
+    "model": "edge-neural-tts",
+    "transcript": "ळृ. [short pause] ळृ. ळृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-lla-8.mp3": {
+    "generatedAt": "2026-08-15T07:14:59.397Z",
+    "model": "edge-neural-tts",
+    "transcript": "ळे. [short pause] ळे. ळे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-lla-9.mp3": {
+    "generatedAt": "2026-08-15T07:14:59.397Z",
+    "model": "edge-neural-tts",
+    "transcript": "ळै. [short pause] ळै. ळै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-lla-10.mp3": {
+    "generatedAt": "2026-08-15T07:14:59.397Z",
+    "model": "edge-neural-tts",
+    "transcript": "ळो. [short pause] ळो. ळो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-lla-11.mp3": {
+    "generatedAt": "2026-08-15T07:15:04.443Z",
+    "model": "edge-neural-tts",
+    "transcript": "ळौ. [short pause] ळौ. ळौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-lla-12.mp3": {
+    "generatedAt": "2026-08-15T07:15:04.443Z",
+    "model": "edge-neural-tts",
+    "transcript": "ळं. [short pause] ळं. ळं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-lla-13.mp3": {
+    "generatedAt": "2026-08-15T07:15:04.443Z",
+    "model": "edge-neural-tts",
+    "transcript": "ळः. [short pause] ळः. ळः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-lla-14.mp3": {
+    "generatedAt": "2026-08-15T07:15:04.443Z",
+    "model": "edge-neural-tts",
+    "transcript": "ळॅ. [short pause] ळॅ. ळॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-lla-15.mp3": {
+    "generatedAt": "2026-08-15T07:15:04.443Z",
+    "model": "edge-neural-tts",
+    "transcript": "ळॉ. [short pause] ळॉ. ळॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ksha-1.mp3": {
+    "generatedAt": "2026-08-15T07:15:04.443Z",
+    "model": "edge-neural-tts",
+    "transcript": "क्ष. [short pause] क्ष. क्ष.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ksha-2.mp3": {
+    "generatedAt": "2026-08-15T07:15:04.443Z",
+    "model": "edge-neural-tts",
+    "transcript": "क्षा. [short pause] क्षा. क्षा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ksha-3.mp3": {
+    "generatedAt": "2026-08-15T07:15:04.443Z",
+    "model": "edge-neural-tts",
+    "transcript": "क्षि. [short pause] क्षि. क्षि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ksha-4.mp3": {
+    "generatedAt": "2026-08-15T07:15:09.495Z",
+    "model": "edge-neural-tts",
+    "transcript": "क्षी. [short pause] क्षी. क्षी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ksha-5.mp3": {
+    "generatedAt": "2026-08-15T07:15:09.495Z",
+    "model": "edge-neural-tts",
+    "transcript": "क्षु. [short pause] क्षु. क्षु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ksha-6.mp3": {
+    "generatedAt": "2026-08-15T07:15:09.495Z",
+    "model": "edge-neural-tts",
+    "transcript": "क्षू. [short pause] क्षू. क्षू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ksha-7.mp3": {
+    "generatedAt": "2026-08-15T07:15:09.495Z",
+    "model": "edge-neural-tts",
+    "transcript": "क्षृ. [short pause] क्षृ. क्षृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ksha-8.mp3": {
+    "generatedAt": "2026-08-15T07:15:09.495Z",
+    "model": "edge-neural-tts",
+    "transcript": "क्षे. [short pause] क्षे. क्षे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ksha-9.mp3": {
+    "generatedAt": "2026-08-15T07:15:09.495Z",
+    "model": "edge-neural-tts",
+    "transcript": "क्षै. [short pause] क्षै. क्षै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ksha-10.mp3": {
+    "generatedAt": "2026-08-15T07:15:09.495Z",
+    "model": "edge-neural-tts",
+    "transcript": "क्षो. [short pause] क्षो. क्षो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ksha-11.mp3": {
+    "generatedAt": "2026-08-15T07:15:09.495Z",
+    "model": "edge-neural-tts",
+    "transcript": "क्षौ. [short pause] क्षौ. क्षौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ksha-12.mp3": {
+    "generatedAt": "2026-08-15T07:15:14.660Z",
+    "model": "edge-neural-tts",
+    "transcript": "क्षं. [short pause] क्षं. क्षं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ksha-13.mp3": {
+    "generatedAt": "2026-08-15T07:15:14.660Z",
+    "model": "edge-neural-tts",
+    "transcript": "क्षः. [short pause] क्षः. क्षः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ksha-14.mp3": {
+    "generatedAt": "2026-08-15T07:15:14.660Z",
+    "model": "edge-neural-tts",
+    "transcript": "क्षॅ. [short pause] क्षॅ. क्षॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-ksha-15.mp3": {
+    "generatedAt": "2026-08-15T07:15:14.660Z",
+    "model": "edge-neural-tts",
+    "transcript": "क्षॉ. [short pause] क्षॉ. क्षॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dnya-1.mp3": {
+    "generatedAt": "2026-08-15T07:15:14.660Z",
+    "model": "edge-neural-tts",
+    "transcript": "ज्ञ. [short pause] ज्ञ. ज्ञ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dnya-2.mp3": {
+    "generatedAt": "2026-08-15T07:15:14.660Z",
+    "model": "edge-neural-tts",
+    "transcript": "ज्ञा. [short pause] ज्ञा. ज्ञा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dnya-3.mp3": {
+    "generatedAt": "2026-08-15T07:15:14.660Z",
+    "model": "edge-neural-tts",
+    "transcript": "ज्ञि. [short pause] ज्ञि. ज्ञि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dnya-4.mp3": {
+    "generatedAt": "2026-08-15T07:15:14.660Z",
+    "model": "edge-neural-tts",
+    "transcript": "ज्ञी. [short pause] ज्ञी. ज्ञी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dnya-5.mp3": {
+    "generatedAt": "2026-08-15T07:15:20.493Z",
+    "model": "edge-neural-tts",
+    "transcript": "ज्ञु. [short pause] ज्ञु. ज्ञु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dnya-6.mp3": {
+    "generatedAt": "2026-08-15T07:15:20.494Z",
+    "model": "edge-neural-tts",
+    "transcript": "ज्ञू. [short pause] ज्ञू. ज्ञू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dnya-7.mp3": {
+    "generatedAt": "2026-08-15T07:15:20.494Z",
+    "model": "edge-neural-tts",
+    "transcript": "ज्ञृ. [short pause] ज्ञृ. ज्ञृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dnya-8.mp3": {
+    "generatedAt": "2026-08-15T07:15:20.494Z",
+    "model": "edge-neural-tts",
+    "transcript": "ज्ञे. [short pause] ज्ञे. ज्ञे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dnya-9.mp3": {
+    "generatedAt": "2026-08-15T07:15:20.494Z",
+    "model": "edge-neural-tts",
+    "transcript": "ज्ञै. [short pause] ज्ञै. ज्ञै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dnya-10.mp3": {
+    "generatedAt": "2026-08-15T07:15:20.494Z",
+    "model": "edge-neural-tts",
+    "transcript": "ज्ञो. [short pause] ज्ञो. ज्ञो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dnya-11.mp3": {
+    "generatedAt": "2026-08-15T07:15:20.494Z",
+    "model": "edge-neural-tts",
+    "transcript": "ज्ञौ. [short pause] ज्ञौ. ज्ञौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dnya-12.mp3": {
+    "generatedAt": "2026-08-15T07:15:20.494Z",
+    "model": "edge-neural-tts",
+    "transcript": "ज्ञं. [short pause] ज्ञं. ज्ञं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dnya-13.mp3": {
+    "generatedAt": "2026-08-15T07:15:25.069Z",
+    "model": "edge-neural-tts",
+    "transcript": "ज्ञः. [short pause] ज्ञः. ज्ञः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dnya-14.mp3": {
+    "generatedAt": "2026-08-15T07:15:25.069Z",
+    "model": "edge-neural-tts",
+    "transcript": "ज्ञॅ. [short pause] ज्ञॅ. ज्ञॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-dnya-15.mp3": {
+    "generatedAt": "2026-08-15T07:15:25.069Z",
+    "model": "edge-neural-tts",
+    "transcript": "ज्ञॉ. [short pause] ज्ञॉ. ज्ञॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-shra-1.mp3": {
+    "generatedAt": "2026-08-15T07:15:25.069Z",
+    "model": "edge-neural-tts",
+    "transcript": "श्र. [short pause] श्र. श्र.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-shra-2.mp3": {
+    "generatedAt": "2026-08-15T07:15:25.069Z",
+    "model": "edge-neural-tts",
+    "transcript": "श्रा. [short pause] श्रा. श्रा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-shra-3.mp3": {
+    "generatedAt": "2026-08-15T07:15:25.069Z",
+    "model": "edge-neural-tts",
+    "transcript": "श्रि. [short pause] श्रि. श्रि.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-shra-4.mp3": {
+    "generatedAt": "2026-08-15T07:15:25.069Z",
+    "model": "edge-neural-tts",
+    "transcript": "श्री. [short pause] श्री. श्री.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-shra-5.mp3": {
+    "generatedAt": "2026-08-15T07:15:25.069Z",
+    "model": "edge-neural-tts",
+    "transcript": "श्रु. [short pause] श्रु. श्रु.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-shra-6.mp3": {
+    "generatedAt": "2026-08-15T07:15:30.026Z",
+    "model": "edge-neural-tts",
+    "transcript": "श्रू. [short pause] श्रू. श्रू.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-shra-7.mp3": {
+    "generatedAt": "2026-08-15T07:15:30.026Z",
+    "model": "edge-neural-tts",
+    "transcript": "श्रृ. [short pause] श्रृ. श्रृ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-shra-8.mp3": {
+    "generatedAt": "2026-08-15T07:15:30.026Z",
+    "model": "edge-neural-tts",
+    "transcript": "श्रे. [short pause] श्रे. श्रे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-shra-9.mp3": {
+    "generatedAt": "2026-08-15T07:15:30.026Z",
+    "model": "edge-neural-tts",
+    "transcript": "श्रै. [short pause] श्रै. श्रै.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-shra-10.mp3": {
+    "generatedAt": "2026-08-15T07:15:30.026Z",
+    "model": "edge-neural-tts",
+    "transcript": "श्रो. [short pause] श्रो. श्रो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-shra-11.mp3": {
+    "generatedAt": "2026-08-15T07:15:30.026Z",
+    "model": "edge-neural-tts",
+    "transcript": "श्रौ. [short pause] श्रौ. श्रौ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-shra-12.mp3": {
+    "generatedAt": "2026-08-15T07:15:30.026Z",
+    "model": "edge-neural-tts",
+    "transcript": "श्रं. [short pause] श्रं. श्रं.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-shra-13.mp3": {
+    "generatedAt": "2026-08-15T07:15:30.026Z",
+    "model": "edge-neural-tts",
+    "transcript": "श्रः. [short pause] श्रः. श्रः.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-shra-14.mp3": {
+    "generatedAt": "2026-08-15T07:15:34.828Z",
+    "model": "edge-neural-tts",
+    "transcript": "श्रॅ. [short pause] श्रॅ. श्रॅ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-barakhadi-shra-15.mp3": {
+    "generatedAt": "2026-08-15T07:15:34.828Z",
+    "model": "edge-neural-tts",
+    "transcript": "श्रॉ. [short pause] श्रॉ. श्रॉ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-numbers-0-10-1.mp3": {
+    "generatedAt": "2026-08-15T07:15:34.828Z",
+    "model": "edge-neural-tts",
+    "transcript": "०. [short pause] ०. ०.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-numbers-0-10-2.mp3": {
+    "generatedAt": "2026-08-15T07:15:34.828Z",
+    "model": "edge-neural-tts",
+    "transcript": "१. [short pause] १. १.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-numbers-0-10-3.mp3": {
+    "generatedAt": "2026-08-15T07:15:34.828Z",
+    "model": "edge-neural-tts",
+    "transcript": "२. [short pause] २. २.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-numbers-0-10-4.mp3": {
+    "generatedAt": "2026-08-15T07:15:34.828Z",
+    "model": "edge-neural-tts",
+    "transcript": "३. [short pause] ३. ३.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-numbers-0-10-5.mp3": {
+    "generatedAt": "2026-08-15T07:15:34.828Z",
+    "model": "edge-neural-tts",
+    "transcript": "४. [short pause] ४. ४.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-numbers-0-10-6.mp3": {
+    "generatedAt": "2026-08-15T07:15:34.828Z",
+    "model": "edge-neural-tts",
+    "transcript": "५. [short pause] ५. ५.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-numbers-0-10-7.mp3": {
+    "generatedAt": "2026-08-15T07:15:39.722Z",
+    "model": "edge-neural-tts",
+    "transcript": "६. [short pause] ६. ६.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-numbers-0-10-8.mp3": {
+    "generatedAt": "2026-08-15T07:15:39.722Z",
+    "model": "edge-neural-tts",
+    "transcript": "७. [short pause] ७. ७.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-numbers-0-10-9.mp3": {
+    "generatedAt": "2026-08-15T07:15:39.722Z",
+    "model": "edge-neural-tts",
+    "transcript": "८. [short pause] ८. ८.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-numbers-0-10-10.mp3": {
+    "generatedAt": "2026-08-15T07:15:39.722Z",
+    "model": "edge-neural-tts",
+    "transcript": "९. [short pause] ९. ९.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-numbers-0-10-11.mp3": {
+    "generatedAt": "2026-08-15T07:15:39.722Z",
+    "model": "edge-neural-tts",
+    "transcript": "१०. [short pause] १०. १०.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-numbers-11-20-1.mp3": {
+    "generatedAt": "2026-08-15T07:15:39.722Z",
+    "model": "edge-neural-tts",
+    "transcript": "११. [short pause] ११. ११.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-numbers-11-20-2.mp3": {
+    "generatedAt": "2026-08-15T07:15:39.722Z",
+    "model": "edge-neural-tts",
+    "transcript": "१२. [short pause] १२. १२.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-numbers-11-20-3.mp3": {
+    "generatedAt": "2026-08-15T07:15:39.722Z",
+    "model": "edge-neural-tts",
+    "transcript": "१३. [short pause] १३. १३.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-numbers-11-20-4.mp3": {
+    "generatedAt": "2026-08-15T07:15:44.751Z",
+    "model": "edge-neural-tts",
+    "transcript": "१४. [short pause] १४. १४.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-numbers-11-20-5.mp3": {
+    "generatedAt": "2026-08-15T07:15:44.751Z",
+    "model": "edge-neural-tts",
+    "transcript": "१५. [short pause] १५. १५.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-numbers-11-20-6.mp3": {
+    "generatedAt": "2026-08-15T07:15:44.751Z",
+    "model": "edge-neural-tts",
+    "transcript": "१६. [short pause] १६. १६.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-numbers-11-20-7.mp3": {
+    "generatedAt": "2026-08-15T07:15:44.751Z",
+    "model": "edge-neural-tts",
+    "transcript": "१७. [short pause] १७. १७.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-numbers-11-20-8.mp3": {
+    "generatedAt": "2026-08-15T07:15:44.751Z",
+    "model": "edge-neural-tts",
+    "transcript": "१८. [short pause] १८. १८.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-numbers-11-20-9.mp3": {
+    "generatedAt": "2026-08-15T07:15:44.751Z",
+    "model": "edge-neural-tts",
+    "transcript": "१९. [short pause] १९. १९.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-numbers-11-20-10.mp3": {
+    "generatedAt": "2026-08-15T07:15:44.751Z",
+    "model": "edge-neural-tts",
+    "transcript": "२०. [short pause] २०. २०.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-familiar-words-1.mp3": {
+    "generatedAt": "2026-08-15T07:15:44.751Z",
+    "model": "edge-neural-tts",
+    "transcript": "आई. [short pause] आई. आई घरी आहे.. आई.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-familiar-words-2.mp3": {
+    "generatedAt": "2026-08-15T07:15:50.356Z",
+    "model": "edge-neural-tts",
+    "transcript": "बाबा. [short pause] बाबा. बाबा वाचतात.. बाबा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-familiar-words-3.mp3": {
+    "generatedAt": "2026-08-15T07:15:50.356Z",
+    "model": "edge-neural-tts",
+    "transcript": "घर. [short pause] घर. हे घर आहे.. घर.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-familiar-words-4.mp3": {
+    "generatedAt": "2026-08-15T07:15:50.356Z",
+    "model": "edge-neural-tts",
+    "transcript": "पाणी. [short pause] पाणी. पाणी प्या.. पाणी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-familiar-words-5.mp3": {
+    "generatedAt": "2026-08-15T07:15:50.356Z",
+    "model": "edge-neural-tts",
+    "transcript": "पुस्तक [short pause] पुस्तक",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-familiar-words-6.mp3": {
+    "generatedAt": "2026-08-15T07:15:50.356Z",
+    "model": "edge-neural-tts",
+    "transcript": "शाळा. [short pause] शाळा. ही माझी शाळा आहे.. शाळा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-familiar-words-7.mp3": {
+    "generatedAt": "2026-08-15T07:15:50.356Z",
+    "model": "edge-neural-tts",
+    "transcript": "सूर्य [short pause] सूर्य",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-familiar-words-8.mp3": {
+    "generatedAt": "2026-08-15T07:15:50.356Z",
+    "model": "edge-neural-tts",
+    "transcript": "मांजर [short pause] मांजर",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-nature-colours-1.mp3": {
+    "generatedAt": "2026-08-15T07:15:50.356Z",
+    "model": "edge-neural-tts",
+    "transcript": "फूल. [short pause] फूल. लाल फूल. फूल.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-nature-colours-2.mp3": {
+    "generatedAt": "2026-08-15T07:15:56.184Z",
+    "model": "edge-neural-tts",
+    "transcript": "फळ. [short pause] फळ. गोड फळ. फळ.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-nature-colours-3.mp3": {
+    "generatedAt": "2026-08-15T07:15:56.184Z",
+    "model": "edge-neural-tts",
+    "transcript": "झाड. [short pause] झाड. हिरवे झाड. झाड.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-nature-colours-4.mp3": {
+    "generatedAt": "2026-08-15T07:15:56.184Z",
+    "model": "edge-neural-tts",
+    "transcript": "आकाश. [short pause] आकाश. निळे आकाश. आकाश.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-nature-colours-5.mp3": {
+    "generatedAt": "2026-08-15T07:15:56.184Z",
+    "model": "edge-neural-tts",
+    "transcript": "लाल. [short pause] लाल. लाल.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-nature-colours-6.mp3": {
+    "generatedAt": "2026-08-15T07:15:56.184Z",
+    "model": "edge-neural-tts",
+    "transcript": "निळा. [short pause] निळा. निळा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-nature-colours-7.mp3": {
+    "generatedAt": "2026-08-15T07:15:56.184Z",
+    "model": "edge-neural-tts",
+    "transcript": "हिरवा [short pause] हिरवा",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-nature-colours-8.mp3": {
+    "generatedAt": "2026-08-15T07:15:56.184Z",
+    "model": "edge-neural-tts",
+    "transcript": "पिवळा [short pause] पिवळा",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-everyday-actions-1.mp3": {
+    "generatedAt": "2026-08-15T07:15:56.184Z",
+    "model": "edge-neural-tts",
+    "transcript": "या. [short pause] या. इथे या.. या.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-everyday-actions-2.mp3": {
+    "generatedAt": "2026-08-15T07:16:01.655Z",
+    "model": "edge-neural-tts",
+    "transcript": "जा. [short pause] जा. घरी जा.. जा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-everyday-actions-3.mp3": {
+    "generatedAt": "2026-08-15T07:16:01.655Z",
+    "model": "edge-neural-tts",
+    "transcript": "बसा. [short pause] बसा. इथे बसा.. बसा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-everyday-actions-4.mp3": {
+    "generatedAt": "2026-08-15T07:16:01.655Z",
+    "model": "edge-neural-tts",
+    "transcript": "उठा. [short pause] उठा. हळू उठा.. उठा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-everyday-actions-5.mp3": {
+    "generatedAt": "2026-08-15T07:16:01.655Z",
+    "model": "edge-neural-tts",
+    "transcript": "वाचा. [short pause] वाचा. पुस्तक वाचा.. वाचा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-everyday-actions-6.mp3": {
+    "generatedAt": "2026-08-15T07:16:01.655Z",
+    "model": "edge-neural-tts",
+    "transcript": "लिहा. [short pause] लिहा. नाव लिहा.. लिहा.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-everyday-actions-7.mp3": {
+    "generatedAt": "2026-08-15T07:16:01.655Z",
+    "model": "edge-neural-tts",
+    "transcript": "ऐका. [short pause] ऐका. लक्ष देऊन ऐका.. ऐका.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-everyday-actions-8.mp3": {
+    "generatedAt": "2026-08-15T07:16:01.655Z",
+    "model": "edge-neural-tts",
+    "transcript": "बोला. [short pause] बोला. हळू बोला.. बोला.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-sentences-1.mp3": {
+    "generatedAt": "2026-08-15T07:16:01.655Z",
+    "model": "edge-neural-tts",
+    "transcript": "हे घर आहे. [short pause] हे घर आहे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-sentences-2.mp3": {
+    "generatedAt": "2026-08-15T07:16:06.799Z",
+    "model": "edge-neural-tts",
+    "transcript": "हे पुस्तक आहे. [short pause] हे पुस्तक आहे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-sentences-3.mp3": {
+    "generatedAt": "2026-08-15T07:16:06.799Z",
+    "model": "edge-neural-tts",
+    "transcript": "मला पुस्तक आवडते. [short pause] मला पुस्तक आवडते.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-sentences-4.mp3": {
+    "generatedAt": "2026-08-15T07:16:06.799Z",
+    "model": "edge-neural-tts",
+    "transcript": "आई पाणी देते. [short pause] आई पाणी देते.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-sentences-5.mp3": {
+    "generatedAt": "2026-08-15T07:16:06.799Z",
+    "model": "edge-neural-tts",
+    "transcript": "सूर्य उगवतो. [short pause] सूर्य उगवतो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-reading-sentences-6.mp3": {
+    "generatedAt": "2026-08-15T07:16:06.799Z",
+    "model": "edge-neural-tts",
+    "transcript": "मांजर बसले आहे. [short pause] मांजर बसले आहे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrases-greetings-1.mp3": {
+    "generatedAt": "2026-08-15T07:16:06.799Z",
+    "model": "edge-neural-tts",
+    "transcript": "नमस्कार! [short pause] नमस्कार!",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrases-greetings-2.mp3": {
+    "generatedAt": "2026-08-15T07:16:06.799Z",
+    "model": "edge-neural-tts",
+    "transcript": "माझे नाव ___ आहे. [short pause] माझे नाव ___ आहे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrases-greetings-3.mp3": {
+    "generatedAt": "2026-08-15T07:16:06.799Z",
+    "model": "edge-neural-tts",
+    "transcript": "तुमचे नाव काय आहे? [short pause] तुमचे नाव काय आहे?",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrases-greetings-4.mp3": {
+    "generatedAt": "2026-08-15T07:16:11.791Z",
+    "model": "edge-neural-tts",
+    "transcript": "तुम्ही कसे आहात? [short pause] तुम्ही कसे आहात?",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrases-greetings-5.mp3": {
+    "generatedAt": "2026-08-15T07:16:11.791Z",
+    "model": "edge-neural-tts",
+    "transcript": "मी ठीक आहे. [short pause] मी ठीक आहे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrases-greetings-6.mp3": {
+    "generatedAt": "2026-08-15T07:16:11.791Z",
+    "model": "edge-neural-tts",
+    "transcript": "हो.. [short pause] हो.. हो..",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrases-greetings-7.mp3": {
+    "generatedAt": "2026-08-15T07:16:11.791Z",
+    "model": "edge-neural-tts",
+    "transcript": "नाही.. [short pause] नाही.. नाही..",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrases-needs-1.mp3": {
+    "generatedAt": "2026-08-15T07:16:11.791Z",
+    "model": "edge-neural-tts",
+    "transcript": "मला मराठी शिकायची आहे. [short pause] मला मराठी शिकायची आहे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrases-needs-2.mp3": {
+    "generatedAt": "2026-08-15T07:16:11.791Z",
+    "model": "edge-neural-tts",
+    "transcript": "कृपया हळू बोला. [short pause] कृपया हळू बोला.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrases-needs-3.mp3": {
+    "generatedAt": "2026-08-15T07:16:11.791Z",
+    "model": "edge-neural-tts",
+    "transcript": "पुन्हा सांगा, कृपया. [short pause] पुन्हा सांगा, कृपया.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrases-needs-4.mp3": {
+    "generatedAt": "2026-08-15T07:16:11.791Z",
+    "model": "edge-neural-tts",
+    "transcript": "मला समजले. [short pause] मला समजले.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrases-needs-5.mp3": {
+    "generatedAt": "2026-08-15T07:16:17.121Z",
+    "model": "edge-neural-tts",
+    "transcript": "मला समजले नाही. [short pause] मला समजले नाही.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrases-needs-6.mp3": {
+    "generatedAt": "2026-08-15T07:16:17.121Z",
+    "model": "edge-neural-tts",
+    "transcript": "मला पाणी हवे आहे. [short pause] मला पाणी हवे आहे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrases-needs-7.mp3": {
+    "generatedAt": "2026-08-15T07:16:17.121Z",
+    "model": "edge-neural-tts",
+    "transcript": "धन्यवाद! [short pause] धन्यवाद!",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrases-needs-8.mp3": {
+    "generatedAt": "2026-08-15T07:16:17.121Z",
+    "model": "edge-neural-tts",
+    "transcript": "पुन्हा भेटूया. [short pause] पुन्हा भेटूया.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrase-1.mp3": {
+    "generatedAt": "2026-08-15T07:16:17.121Z",
+    "model": "edge-neural-tts",
+    "transcript": "नमस्कार!",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrase-2.mp3": {
+    "generatedAt": "2026-08-15T07:16:17.121Z",
+    "model": "edge-neural-tts",
+    "transcript": "माझे नाव [short pause] आहे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrase-3.mp3": {
+    "generatedAt": "2026-08-15T07:16:17.121Z",
+    "model": "edge-neural-tts",
+    "transcript": "तुमचे नाव काय आहे?",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrase-4.mp3": {
+    "generatedAt": "2026-08-15T07:16:17.121Z",
+    "model": "edge-neural-tts",
+    "transcript": "तुम्ही कसे आहात?",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrase-5.mp3": {
+    "generatedAt": "2026-08-15T07:16:22.027Z",
+    "model": "edge-neural-tts",
+    "transcript": "मी ठीक आहे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrase-6.mp3": {
+    "generatedAt": "2026-08-15T07:16:22.027Z",
+    "model": "edge-neural-tts",
+    "transcript": "हो.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrase-7.mp3": {
+    "generatedAt": "2026-08-15T07:16:22.027Z",
+    "model": "edge-neural-tts",
+    "transcript": "नाही.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrase-8.mp3": {
+    "generatedAt": "2026-08-15T07:16:22.027Z",
+    "model": "edge-neural-tts",
+    "transcript": "मला मराठी शिकायची आहे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrase-9.mp3": {
+    "generatedAt": "2026-08-15T07:16:22.027Z",
+    "model": "edge-neural-tts",
+    "transcript": "कृपया हळू बोला.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrase-10.mp3": {
+    "generatedAt": "2026-08-15T07:16:22.027Z",
+    "model": "edge-neural-tts",
+    "transcript": "पुन्हा सांगा, कृपया.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrase-11.mp3": {
+    "generatedAt": "2026-08-15T07:16:22.027Z",
+    "model": "edge-neural-tts",
+    "transcript": "मला समजले.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrase-12.mp3": {
+    "generatedAt": "2026-08-15T07:16:22.027Z",
+    "model": "edge-neural-tts",
+    "transcript": "मला समजले नाही.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrase-13.mp3": {
+    "generatedAt": "2026-08-15T07:16:43.105Z",
+    "model": "edge-neural-tts",
+    "transcript": "मला पाणी हवे आहे.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrase-14.mp3": {
+    "generatedAt": "2026-08-15T07:16:43.106Z",
+    "model": "edge-neural-tts",
+    "transcript": "धन्यवाद!",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-phrase-15.mp3": {
+    "generatedAt": "2026-08-15T07:16:43.106Z",
+    "model": "edge-neural-tts",
+    "transcript": "पुन्हा भेटूया.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-vocabulary-hello.mp3": {
+    "generatedAt": "2026-08-15T07:16:43.106Z",
+    "model": "edge-neural-tts",
+    "transcript": "नमस्कार. [short pause] नमस्कार.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-vocabulary-water.mp3": {
+    "generatedAt": "2026-08-15T07:16:46.961Z",
+    "model": "edge-neural-tts",
+    "transcript": "पाणी. [short pause] पाणी.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-vocabulary-book.mp3": {
+    "generatedAt": "2026-08-15T07:16:46.961Z",
+    "model": "edge-neural-tts",
+    "transcript": "पुस्तक. [short pause] पुस्तक.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-vocabulary-sun.mp3": {
+    "generatedAt": "2026-08-15T07:16:46.961Z",
+    "model": "edge-neural-tts",
+    "transcript": "सूर्य. [short pause] सूर्य.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-vocabulary-cat.mp3": {
+    "generatedAt": "2026-08-15T07:16:46.961Z",
+    "model": "edge-neural-tts",
+    "transcript": "मांजर. [short pause] मांजर.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-vocabulary-house.mp3": {
+    "generatedAt": "2026-08-15T07:16:50.807Z",
+    "model": "edge-neural-tts",
+    "transcript": "घर. [short pause] घर.",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-feedback-correct.mp3": {
+    "generatedAt": "2026-08-15T07:16:50.807Z",
+    "model": "edge-neural-tts",
+    "transcript": "बरोबर! छान केले!",
+    "voice": "mr-IN-AarohiNeural"
+  },
+  "mr-IN/mr-feedback-try-again.mp3": {
+    "generatedAt": "2026-08-15T07:16:50.807Z",
+    "model": "edge-neural-tts",
+    "transcript": "पुन्हा प्रयत्न करा.",
+    "voice": "mr-IN-AarohiNeural"
   }
 }
