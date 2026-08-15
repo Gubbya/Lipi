@@ -321,7 +321,7 @@ export const marathiCurriculumStats = Object.freeze({
   formsPerBarakhadiRow: vowelForms.length,
 });
 
-function validateMarathiCurriculum() {
+export function validateMarathiCurriculum() {
   const lessonIds = new Set<string>();
   const unitIds = new Set<string>();
   const symbols = new Set<string>();
@@ -342,5 +342,3 @@ function validateMarathiCurriculum() {
   if (barakhadiLessons.some((item) => item.units.length !== vowelForms.length)) throw new Error('Every Marathi bārākhaḍī row needs all vowel forms');
   if (marathiCurriculumStats.lessons !== 56 || marathiCurriculumStats.units !== 689) throw new Error('Marathi foundational curriculum is incomplete');
 }
-
-validateMarathiCurriculum();

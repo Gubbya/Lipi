@@ -1,5 +1,8 @@
 import { courseCatalog } from '../src/content/course-catalog';
+import { validateMarathiCurriculum } from '../src/content/marathi-curriculum';
 import { phrasebook } from '../src/content/phrasebook';
+
+validateMarathiCurriculum();
 
 const expected: Record<string, { lessons: number; units: number }> = {
   hi: { lessons: 13, units: 112 }, fr: { lessons: 12, units: 89 },

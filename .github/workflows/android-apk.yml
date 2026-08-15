@@ -40,6 +40,7 @@ jobs:
         run: |
           npx tsc --noEmit
           npm run lint
+          npm run validate:curriculum
           npm run audio:validate
 
       - name: Generate the Android project
@@ -52,12 +53,12 @@ jobs:
         run: ./gradlew assembleRelease --no-daemon
 
       - name: Name APK
-        run: cp android/app/build/outputs/apk/release/app-release.apk Lipi-1.5.0.apk
+        run: cp android/app/build/outputs/apk/release/app-release.apk Lipi-1.5.1.apk
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v6
         with:
-          name: Lipi-Android-1.5.0
-          path: Lipi-1.5.0.apk
+          name: Lipi-Android-1.5.1
+          path: Lipi-1.5.1.apk
           if-no-files-found: error
           retention-days: 30
