@@ -104,7 +104,11 @@ export default function MultilingualCourseScreen() {
       const user = await getLocalUser(db);
       if (!user) return router.replace('/');
       await recordLessonCompletion(db, user.id, activeLesson.id, 100);
-      for (const learnedUnit of activeLesson.units) await seedReviewCard(db, user.id, course!.id, learnedUnit.id, 'recognition');
+      for (const learnedUnit of activeLesson.units) {
+        for (const skill of ['recognition', 'listening', 'recall', 'pronunciation'] as const) {
+          await seedReviewCard(db, user.id, course!.id, learnedUnit.id, skill);
+        }
+      }
       await scheduleReview(db, user.id, course!.id, quizTarget.id, 'recognition', 100);
       const rows = await getLessonCompletions(db, user.id);
       setCompletions(Object.fromEntries(rows.map((row) => [row.level_id, row])));

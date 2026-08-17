@@ -15,6 +15,7 @@ export interface ReviewCardRow {
 }
 
 function nextSchedule(card: ReviewCardRow | null, score: number) {
+  const learningIntervals = [1, 3, 7, 14, 30];
   const quality = Math.max(0, Math.min(5, Math.round(score / 20)));
   const previousEase = card?.ease_factor ?? 2.5;
   const ease = Math.max(1.3, previousEase + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02)));
@@ -25,7 +26,7 @@ function nextSchedule(card: ReviewCardRow | null, score: number) {
     interval = 1;
   } else {
     repetitions += 1;
-    interval = repetitions === 1 ? 1 : repetitions === 2 ? 6 : Math.max(1, Math.round(interval * ease));
+    interval = learningIntervals[repetitions - 1] ?? Math.max(1, Math.round(interval * ease));
   }
   return { ease, repetitions, interval };
 }
@@ -69,11 +70,13 @@ export async function seedReviewCard(db: SQLiteDatabase, userId: string, languag
   );
 }
 
-export async function getDueReviews(db: SQLiteDatabase, userId: string, limit = 20) {
+export async function getDueReviews(db: SQLiteDatabase, userId: string, limit = 20, skills: Skill[] = []) {
+  const skillFilter = skills.length ? ` AND skill IN (${skills.map(() => '?').join(', ')})` : '';
   return db.getAllAsync<ReviewCardRow>(
-    'SELECT * FROM review_cards WHERE user_id = ? AND due_at <= ? ORDER BY due_at LIMIT ?',
+    `SELECT * FROM review_cards WHERE user_id = ? AND due_at <= ?${skillFilter} ORDER BY due_at LIMIT ?`,
     userId,
     new Date().toISOString(),
+    ...skills,
     limit,
   );
 }

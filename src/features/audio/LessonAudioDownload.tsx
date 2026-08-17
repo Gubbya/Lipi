@@ -69,11 +69,11 @@ export function LessonAudioDownload({ accentColor = colors.coral, paths }: Lesso
       <View style={styles.row}>
         <View style={[styles.icon, { backgroundColor: `${accentColor}1A` }]}><Text style={[styles.iconText, { color: accentColor }]}>{state.complete ? '✓' : '↓'}</Text></View>
         <View style={styles.copy}>
-          <Text style={styles.title}>{state.complete ? 'Clear audio available offline' : working === 'downloading' ? `Downloading ${downloaded}/${state.total}` : state.downloaded ? `Resume audio download · ${state.downloaded}/${state.total}` : `Download clear audio · ${state.total} clips`}</Text>
-          <Text style={styles.subtitle}>{state.complete ? 'No internet needed for this lesson.' : 'Optional · 250 MB safety limit · device voice still works.'}</Text>
+          <Text style={styles.title}>{state.complete ? 'Offline audio ready' : working === 'downloading' ? `Saving ${downloaded}/${state.total}` : state.downloaded ? `Resume offline pack · ${state.downloaded}/${state.total}` : `Go offline · ${state.total} clear clips`}</Text>
+          <Text style={styles.subtitle}>{state.complete ? 'Kept until you delete it. Learning progress is separate.' : 'Clear audio streams online; save this lesson only when needed.'}</Text>
         </View>
         <Pressable accessibilityRole="button" disabled={disabled} onPress={state.complete ? remove : download} style={({ pressed }) => [styles.button, { borderColor: accentColor }, disabled && styles.disabled, pressed && styles.pressed]}>
-          <Text style={[styles.buttonText, { color: accentColor }]}>{working === 'checking' ? '…' : working === 'removing' ? 'Removing' : state.complete ? 'Delete' : working === 'downloading' ? `${Math.round((downloaded / Math.max(1, state.total)) * 100)}%` : 'Download'}</Text>
+          <Text style={[styles.buttonText, { color: accentColor }]}>{working === 'checking' ? '…' : working === 'removing' ? 'Removing' : state.complete ? 'Delete' : working === 'downloading' ? `${Math.round((downloaded / Math.max(1, state.total)) * 100)}%` : state.downloaded ? 'Resume' : 'Go offline'}</Text>
         </Pressable>
       </View>
       {error ? <Text style={styles.error}>{error}</Text> : null}

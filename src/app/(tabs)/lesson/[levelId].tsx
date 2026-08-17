@@ -103,7 +103,11 @@ export default function LessonScreen() {
         pronunciation: 0, writing: 0, recall: 0, totalAttempts: 1, correctAttempts: 1, streakCorrect: 1,
         lastReviewedAt: now, nextReviewAt: new Date(Date.now() + 86400000).toISOString(), updatedAt: now,
       });
-      for (const learnedUnit of units) await seedReviewCard(db, user.id, 'en', learnedUnit.id, 'recognition');
+      for (const learnedUnit of units) {
+        for (const skill of ['recognition', 'listening', 'recall', 'pronunciation'] as const) {
+          await seedReviewCard(db, user.id, 'en', learnedUnit.id, skill);
+        }
+      }
       await scheduleReview(db, user.id, 'en', activity.unitId, activity.skill, 100);
       await recordLessonCompletion(db, user.id, level.id, 100);
     } finally { setSaving(false); }

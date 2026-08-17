@@ -20,7 +20,7 @@ foundation lessons and 1,589 learning units covering complete beginner writing-
 system inventories, high-value phonics, numbers 1–10, picture vocabulary, 11
 conversation phrases per language, worksheets, quizzes, and repeatable progress.
 
-The application also includes multiple learner profiles, spaced repetition,
+The application also includes multiple learner profiles, 1/3/7/14/30-day spaced repetition,
 voice recording, optional AI pronunciation coaching, a responsive online/offline
 tutor with intent-aware bundled lessons and private conversation history,
 printable PDF worksheets, manual cloud backup/restore, and a protected content
@@ -39,11 +39,13 @@ physical Android device.
 ## Lightweight downloadable learning audio
 
 Lipi keeps 2,726 permanent recordings in its publishable audio library without
-bundling that 71 MB library into the mobile binary. Learners can download or
-delete clear audio one lesson at a time. Downloads are stored in the phone's
-persistent documents directory, remain available offline, and never affect
-saved progress. Device voice remains available when a recording has not been
-downloaded.
+bundling that 71 MB library into the mobile binary. Clear recordings stream on
+demand using HTTP byte ranges, similar to video playback, so a whole lesson does
+not have to download before study begins. A **Go offline** option saves or
+deletes clear audio one lesson at a time. Intentional downloads stay in the
+phone's persistent documents directory until the learner deletes them and never
+affect saved progress. Device voice remains the automatic fallback if a stream
+or saved recording is unavailable.
 
 The library includes separate US/UK English variants, all 712 Marathi
 recordings, and 1,874 lesson, phrase, vocabulary, and feedback recordings for
@@ -137,9 +139,9 @@ Twemoji graphics licensed under CC-BY 4.0; attribution is stored in
 `assets/images/vocabulary/ATTRIBUTION.md`.
 
 The Marathi writing-system inventory follows the current Unicode Devanagari
-repertoire. Every lesson can be heard with a bundled recording or clearly
-labelled device voice fallback, completed as a recognition quiz, printed as a
-worksheet, repeated, and scheduled for spaced review.
+repertoire. Every completed item generates recognition, listening, recall, and
+speaking drills. Lessons can also be printed as worksheets, repeated, and
+scheduled for spaced review.
 
 ## Important scope note
 

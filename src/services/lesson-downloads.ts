@@ -13,6 +13,11 @@ export interface LessonDownloadState {
   total: number;
 }
 
+export interface AvailableAudioSource {
+  kind: 'offline' | 'streaming';
+  source: AudioSource;
+}
+
 let downloadedIndexPromise: Promise<Set<string>> | null = null;
 
 function normalizeAudioPath(value: string) {
@@ -43,8 +48,14 @@ async function readDownloadedIndex() {
   if (!file) return new Set<string>();
   try {
     const value = JSON.parse(await FileSystem.readAsStringAsync(file)) as unknown;
-    if (!Array.isArray(value)) return new Set<string>();
-    return new Set(value.filter((item): item is string => typeof item === 'string').map(normalizeAudioPath));
+    const rawPaths = Array.isArray(value)
+      ? value
+      : value && typeof value === 'object' && Array.isArray((value as { entries?: unknown[] }).entries)
+        ? (value as { entries: unknown[] }).entries.map((entry) => (
+          entry && typeof entry === 'object' && 'path' in entry ? (entry as { path: unknown }).path : entry
+        ))
+        : [];
+    return new Set(rawPaths.filter((item): item is string => typeof item === 'string').map(normalizeAudioPath));
   } catch {
     return new Set<string>();
   }
@@ -110,6 +121,14 @@ export async function resolveDownloadedAudioSource(path: string): Promise<AudioS
   return null;
 }
 
+export async function resolveAvailableAudioSource(path: string): Promise<AvailableAudioSource | null> {
+  const offlineSource = await resolveDownloadedAudioSource(path);
+  if (offlineSource) return { kind: 'offline', source: offlineSource };
+  const baseUrl = await assetBaseUrl();
+  if (!baseUrl) return null;
+  return { kind: 'streaming', source: { uri: remoteUrl(baseUrl, path) } };
+}
+
 export async function downloadLessonAudio(paths: string[], onProgress?: (completed: number, total: number) => void) {
   if (!lessonDownloadsSupported()) throw new Error('Offline lesson downloads are available in the Android and iOS apps.');
   const baseUrl = await assetBaseUrl();
@@ -138,7 +157,7 @@ export async function downloadLessonAudio(paths: string[], onProgress?: (complet
       const partialInfo = await FileSystem.getInfoAsync(partial);
       const partialBytes = partialInfo.exists && !partialInfo.isDirectory ? partialInfo.size : 0;
       if (storedBytes + partialBytes > MAX_LESSON_AUDIO_BYTES) {
-        throw new Error('The 250 MB lesson-audio limit is reached. Delete an offline lesson before downloading another.');
+        throw new Error('The 250 MB offline-audio limit is reached. Delete one offline lesson before downloading another.');
       }
       await FileSystem.deleteAsync(destination, { idempotent: true });
       await FileSystem.moveAsync({ from: partial, to: destination });

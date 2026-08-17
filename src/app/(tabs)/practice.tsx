@@ -40,6 +40,13 @@ interface Assessment {
   practiceTip?: string;
 }
 
+type ChoiceQuizSkill = 'recognition' | 'listening' | 'recall';
+const CHOICE_QUIZ_SKILLS: ChoiceQuizSkill[] = ['recognition', 'listening', 'recall'];
+
+function isChoiceQuizSkill(skill: Skill): skill is ChoiceQuizSkill {
+  return CHOICE_QUIZ_SKILLS.includes(skill as ChoiceQuizSkill);
+}
+
 function allUnitsForLanguage(languageId: string, pronunciationVariantId?: string | null): PracticeUnit[] {
   if (languageId === 'en') {
     return getContentPackage('en').units.map((unit) => ({
@@ -77,7 +84,9 @@ export default function PracticeScreen() {
   const [reviewSummary, setReviewSummary] = useState({ due: 0, total: 0 });
   const [reviewIndex, setReviewIndex] = useState(0);
   const [reviewFeedback, setReviewFeedback] = useState<'correct' | 'again' | null>(null);
+  const [reviewAnswerId, setReviewAnswerId] = useState<string | null>(null);
   const [pronunciationIndex, setPronunciationIndex] = useState(0);
+  const [pronunciationDueUnitIds, setPronunciationDueUnitIds] = useState<string[]>([]);
   const [recordingUri, setRecordingUri] = useState<string | null>(null);
   const [assessment, setAssessment] = useState<Assessment | null>(null);
   const [working, setWorking] = useState(false);
@@ -87,12 +96,18 @@ export default function PracticeScreen() {
     if (!user) return;
     const selected = await getSelectedLanguages(db, user.id);
     const available = selected.flatMap((language) => allUnitsForLanguage(language.language_id, language.pronunciation_variant_id));
-    const due = await getDueReviews(db, user.id);
+    const [due, pronunciationDue] = await Promise.all([
+      getDueReviews(db, user.id, 20, CHOICE_QUIZ_SKILLS),
+      getDueReviews(db, user.id, 20, ['pronunciation']),
+    ]);
     setUnits(available);
     setDueCards(due);
+    setPronunciationDueUnitIds(pronunciationDue.map((card) => card.unit_id));
     setReviewSummary(await getReviewSummary(db, user.id));
     setReviewIndex(0);
     setReviewFeedback(null);
+    setReviewAnswerId(null);
+    setPronunciationIndex(0);
   }, [db]);
 
   useFocusEffect(useCallback(() => {
@@ -104,22 +119,41 @@ export default function PracticeScreen() {
   const reviewUnit = reviewCard ? units.find((unit) => unit.id === reviewCard.unit_id) ?? null : null;
   const reviewChoices = useMemo(() => {
     if (!reviewUnit) return [];
-    const alternatives = units.filter((unit) => unit.languageId === reviewUnit.languageId && unit.id !== reviewUnit.id).slice(0, 2);
+    const pool = units.filter((unit) => unit.languageId === reviewUnit.languageId && unit.id !== reviewUnit.id);
+    const offset = pool.length ? (reviewIndex * 7) % pool.length : 0;
+    const alternatives = [...pool.slice(offset), ...pool.slice(0, offset)].slice(0, 2);
     const choices = [reviewUnit, ...alternatives];
-    return reviewIndex % 2 ? [choices[1], choices[0], choices[2]].filter(Boolean) : choices;
+    const rotation = choices.length ? reviewIndex % choices.length : 0;
+    return [...choices.slice(rotation), ...choices.slice(0, rotation)];
   }, [reviewIndex, reviewUnit, units]);
-  const pronunciationUnit = units[pronunciationIndex % Math.max(1, units.length)] ?? null;
+  const queuedPronunciationId = pronunciationDueUnitIds[pronunciationIndex];
+  const pronunciationUnit = (queuedPronunciationId ? units.find((unit) => unit.id === queuedPronunciationId) : null)
+    ?? units[pronunciationIndex % Math.max(1, units.length)]
+    ?? null;
+  const reviewSkill = reviewCard && isChoiceQuizSkill(reviewCard.skill) ? reviewCard.skill : 'recognition';
+  const reviewPrompt = !reviewUnit
+    ? ''
+    : reviewSkill === 'listening'
+      ? 'Listen, then choose what you heard.'
+      : reviewSkill === 'recall'
+        ? `How do you read “${reviewUnit.symbol}”?`
+        : `Which symbol says “${reviewUnit.romanization}”?`;
 
   async function seedReviews() {
     const user = await getLocalUser(db);
     if (!user) return;
-    for (const unit of units.slice(0, 12)) await seedReviewCard(db, user.id, unit.languageId, unit.id);
+    for (const unit of units.slice(0, 12)) {
+      for (const skill of [...CHOICE_QUIZ_SKILLS, 'pronunciation'] as Skill[]) {
+        await seedReviewCard(db, user.id, unit.languageId, unit.id, skill);
+      }
+    }
     await loadPractice();
   }
 
   async function answerReview(unitId: string) {
     if (!reviewCard || !reviewUnit || reviewFeedback) return;
     const correct = unitId === reviewUnit.id;
+    setReviewAnswerId(unitId);
     setReviewFeedback(correct ? 'correct' : 'again');
     const user = await getLocalUser(db);
     if (user) await scheduleReview(db, user.id, reviewUnit.languageId, reviewUnit.id, reviewCard.skill as Skill, correct ? 100 : 40);
@@ -127,6 +161,7 @@ export default function PracticeScreen() {
 
   function nextReview() {
     setReviewFeedback(null);
+    setReviewAnswerId(null);
     if (reviewIndex + 1 >= dueCards.length) loadPractice(); else setReviewIndex((value) => value + 1);
   }
 
@@ -222,20 +257,34 @@ export default function PracticeScreen() {
   return (
     <SafeAreaView style={styles.safe}><ScrollView contentContainerStyle={styles.page} showsVerticalScrollIndicator={false}>
       <Text style={styles.eyebrow}>DAILY PRACTICE</Text><Text style={styles.title}>Review. Speak. Remember.</Text>
-      <View style={styles.summaryRow}><View style={styles.summaryCard}><Text style={styles.summaryNumber}>{reviewSummary.due}</Text><Text style={styles.summaryLabel}>due now</Text></View><View style={styles.summaryCard}><Text style={styles.summaryNumber}>{reviewSummary.total}</Text><Text style={styles.summaryLabel}>review cards</Text></View></View>
-
-      <View style={styles.section}><Text style={styles.sectionTitle}>Spaced review</Text>
-        {reviewUnit ? <View style={styles.reviewCard}><Text style={styles.cardEyebrow}>{reviewUnit.languageName} · {reviewCard?.skill}</Text><Text style={styles.reviewPrompt}>Which symbol says “{reviewUnit.romanization}”?</Text><View style={styles.reviewAudio}><AudioPlaybackControls activeKind={learningAudio.kind} activeSpeed={learningAudio.speed} compact hasRecording={learningAudio.hasRecording({ key: `review-${reviewUnit.id}`, languageId: reviewUnit.languageId, locale: reviewUnit.locale, pronunciationVariantId: reviewUnit.languageId === 'en' ? reviewUnit.locale : undefined, text: reviewUnit.symbol, unitId: reviewUnit.id })} isActive={learningAudio.activeKey === `review-${reviewUnit.id}`} onNormal={() => hearUnit(reviewUnit, 'normal', `review-${reviewUnit.id}`)} onSlow={() => hearUnit(reviewUnit, 'slow', `review-${reviewUnit.id}`)} /></View><View style={styles.choiceRow}>{reviewChoices.map((choice) => <Pressable key={choice.id} disabled={Boolean(reviewFeedback)} onPress={() => answerReview(choice.id)} style={[styles.choice, reviewFeedback === 'correct' && choice.id === reviewUnit.id && styles.choiceCorrect]}><Text style={styles.choiceText}>{choice.symbol}</Text></Pressable>)}</View>{reviewFeedback ? <><Text style={reviewFeedback === 'correct' ? styles.good : styles.again}>{reviewFeedback === 'correct' ? 'Correct — this card will return later.' : `The answer is ${reviewUnit.symbol}. We will show it again sooner.`}</Text><Pressable onPress={nextReview} style={styles.darkButton}><Text style={styles.darkButtonText}>Next review →</Text></Pressable></> : null}</View> : <View style={styles.emptyCard}><Text style={styles.emptyTitle}>{reviewSummary.total ? 'Reviews complete for now' : 'Build your first review set'}</Text><Text style={styles.body}>Lipi schedules difficult items sooner and familiar items farther apart.</Text>{units.length ? <Pressable onPress={seedReviews} style={styles.outlineButton}><Text style={styles.outlineText}>{reviewSummary.total ? 'Practise extra cards' : 'Start quick review'}</Text></Pressable> : null}</View>}
+      <View style={styles.summaryRow}>
+        <View style={styles.summaryCard}><Text style={styles.summaryNumber}>{reviewSummary.due}</Text><Text style={styles.summaryLabel}>due now</Text></View>
+        <View style={styles.summaryCard}><Text style={styles.summaryNumber}>{reviewSummary.total}</Text><Text style={styles.summaryLabel}>saved cards</Text></View>
+        <View style={styles.summaryCard}><Text style={styles.summaryNumber}>{units.length * 4}</Text><Text style={styles.summaryLabel}>possible drills</Text></View>
       </View>
 
-      <View style={styles.section}><Text style={styles.sectionTitle}>Pronunciation studio</Text>
+      <View style={styles.section}><Text style={styles.sectionTitle}>Mixed quiz</Text>
+        {reviewUnit ? <View style={styles.reviewCard}>
+          <Text style={styles.cardEyebrow}>{reviewUnit.languageName} · {reviewSkill}</Text>
+          <Text style={styles.reviewPrompt}>{reviewPrompt}</Text>
+          {reviewSkill === 'listening' ? <View style={styles.reviewAudio}><AudioPlaybackControls activeKind={learningAudio.kind} activeSpeed={learningAudio.speed} compact hasRecording={learningAudio.hasRecording({ key: `review-${reviewUnit.id}`, languageId: reviewUnit.languageId, locale: reviewUnit.locale, pronunciationVariantId: reviewUnit.languageId === 'en' ? reviewUnit.locale : undefined, text: reviewUnit.symbol, unitId: reviewUnit.id })} isActive={learningAudio.activeKey === `review-${reviewUnit.id}`} onNormal={() => hearUnit(reviewUnit, 'normal', `review-${reviewUnit.id}`)} onSlow={() => hearUnit(reviewUnit, 'slow', `review-${reviewUnit.id}`)} /></View> : null}
+          <View style={styles.choiceRow}>{reviewChoices.map((choice) => {
+            const isCorrectChoice = Boolean(reviewFeedback) && choice.id === reviewUnit.id;
+            const isWrongChoice = reviewFeedback === 'again' && choice.id === reviewAnswerId;
+            return <Pressable key={choice.id} disabled={Boolean(reviewFeedback)} onPress={() => answerReview(choice.id)} style={[styles.choice, isCorrectChoice && styles.choiceCorrect, isWrongChoice && { borderColor: '#B55443', backgroundColor: '#FCE9E4' }]}><Text style={[styles.choiceText, reviewSkill === 'recall' && { fontSize: 15, lineHeight: 20 }]}>{reviewSkill === 'recall' ? choice.romanization : choice.symbol}</Text></Pressable>;
+          })}</View>
+          {reviewFeedback ? <><Text style={reviewFeedback === 'correct' ? styles.good : styles.again}>{reviewFeedback === 'correct' ? 'Correct — this card will return later.' : `The answer is ${reviewSkill === 'recall' ? reviewUnit.romanization : reviewUnit.symbol}. We will show it again sooner.`}</Text><Pressable onPress={nextReview} style={styles.darkButton}><Text style={styles.darkButtonText}>Next quiz →</Text></Pressable></> : null}
+        </View> : <View style={styles.emptyCard}><Text style={styles.emptyTitle}>{reviewSummary.total ? 'Reviews complete for now' : 'Build your first mixed quiz'}</Text><Text style={styles.body}>Each learned item creates recognition, listening, recall, and speaking practice. Difficult items return sooner.</Text>{units.length ? <Pressable onPress={seedReviews} style={styles.outlineButton}><Text style={styles.outlineText}>{reviewSummary.total ? 'Practise extra cards' : 'Create my quiz deck'}</Text></Pressable> : null}</View>}
+      </View>
+
+      <View style={styles.section}><Text style={styles.sectionTitle}>Speaking quiz</Text>
         {pronunciationUnit ? <View style={styles.speakCard}><View style={styles.targetHeader}><View style={styles.targetCopy}><Text style={styles.cardEyebrow}>{pronunciationUnit.languageName}</Text><Text style={styles.targetSymbol}>{pronunciationUnit.symbol}</Text><Text style={styles.targetRoman}>{pronunciationUnit.romanization} · {pronunciationUnit.soundHint}</Text></View><Pressable onPress={() => hearTarget('normal')} style={styles.roundListen}><Text style={styles.roundListenText}>{learningAudio.activeKey === `pronunciation-${pronunciationUnit.id}` && learningAudio.isPlaying ? '♪' : '▶'}</Text></Pressable></View>
-          <Text style={styles.instruction}>Listen, record yourself, then compare. AI feedback is optional and is a coaching estimate.</Text>
+          <Text style={styles.instruction}>Lipi asks you to speak. Listen once, record your answer, then compare. AI feedback is optional and is a coaching estimate.</Text>
           <AudioPlaybackControls activeKind={learningAudio.kind} activeSpeed={learningAudio.speed} hasRecording={learningAudio.hasRecording({ key: `pronunciation-${pronunciationUnit.id}`, languageId: pronunciationUnit.languageId, locale: pronunciationUnit.locale, pronunciationVariantId: pronunciationUnit.languageId === 'en' ? pronunciationUnit.locale : undefined, text: pronunciationUnit.symbol, unitId: pronunciationUnit.id })} isActive={learningAudio.activeKey === `pronunciation-${pronunciationUnit.id}`} onNormal={() => hearTarget('normal')} onSlow={() => hearTarget('slow')} />
           <Pressable onPress={toggleRecording} style={[styles.recordButton, recorderState.isRecording && styles.recording]}><View style={styles.recordDot} /><Text style={styles.recordText}>{recorderState.isRecording ? `Stop · ${Math.round((recorderState.durationMillis ?? 0) / 1000)}s` : 'Record my voice'}</Text></Pressable>
           {recordingUri ? <><Pressable onPress={() => { recordingPlayer.replace(recordingUri); recordingPlayer.play(); }} style={styles.playback}><Text style={styles.playbackText}>▶ Play my recording</Text></Pressable><Text style={styles.selfLabel}>How close did it sound?</Text><View style={styles.scoreRow}>{[[40, 'Try again'], [70, 'Close'], [100, 'Strong']].map(([score, label]) => <Pressable key={String(score)} onPress={() => saveSelfScore(Number(score))} style={styles.scoreButton}><Text style={styles.scoreText}>{label}</Text></Pressable>)}</View><Pressable disabled={working} onPress={requestAssessment} style={styles.aiButton}><Text style={styles.aiButtonText}>{working ? 'Listening carefully…' : '✦ Ask AI pronunciation coach'}</Text></Pressable></> : null}
           {assessment ? <View style={styles.assessment}><Text style={styles.assessmentScore}>{Math.round(assessment.score)}/100</Text><Text style={styles.assessmentText}>{assessment.feedback}</Text>{assessment.transcript ? <Text style={styles.transcript}>Heard: “{assessment.transcript}”</Text> : null}{assessment.practiceTip ? <Text style={styles.tip}>Tip: {assessment.practiceTip}</Text> : null}</View> : null}
-          <View style={styles.navigator}><Pressable onPress={() => { setPronunciationIndex((value) => Math.max(0, value - 1)); setRecordingUri(null); setAssessment(null); }}><Text style={styles.navText}>← Previous</Text></Pressable><Pressable onPress={() => { setPronunciationIndex((value) => value + 1); setRecordingUri(null); setAssessment(null); }}><Text style={styles.navText}>Next sound →</Text></Pressable></View>
+          <View style={styles.navigator}><Pressable onPress={() => { setPronunciationIndex((value) => Math.max(0, value - 1)); setRecordingUri(null); setAssessment(null); }}><Text style={styles.navText}>← Previous</Text></Pressable><Pressable onPress={() => { setPronunciationIndex((value) => value + 1); setRecordingUri(null); setAssessment(null); }}><Text style={styles.navText}>Next speaking quiz →</Text></Pressable></View>
         </View> : <View style={styles.emptyCard}><Text style={styles.emptyTitle}>Choose a language first</Text><Text style={styles.body}>Your selected course sounds will appear here.</Text></View>}
       </View>
     </ScrollView></SafeAreaView>

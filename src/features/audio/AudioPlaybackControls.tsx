@@ -23,10 +23,10 @@ export function AudioPlaybackControls({
   onSlow,
   tint = colors.coral,
 }: AudioPlaybackControlsProps) {
-  const sourceLabel = hasRecording ? 'CLEAR RECORDING AVAILABLE' : 'DEVICE VOICE FALLBACK';
+  const sourceLabel = hasRecording ? 'CLEAR RECORDING · STREAMS ONLINE' : 'DEVICE VOICE FALLBACK';
   return (
     <View style={[styles.wrap, compact && styles.compactWrap]}>
-      {!compact ? <Text style={styles.source}>{isActive && activeKind === 'recording' ? 'PLAYING CLEAR RECORDING' : isActive && activeKind === 'device' ? 'PLAYING DEVICE VOICE' : sourceLabel}</Text> : null}
+      {!compact ? <Text style={styles.source}>{isActive && activeKind === 'recording' ? 'PLAYING OFFLINE RECORDING' : isActive && activeKind === 'streaming' ? 'STREAMING CLEAR RECORDING' : isActive && activeKind === 'device' ? 'PLAYING DEVICE VOICE' : sourceLabel}</Text> : null}
       <View style={styles.row}>
         <Pressable accessibilityRole="button" accessibilityLabel="Play at normal speed" onPress={onNormal} style={({ pressed }) => [styles.button, compact && styles.compactButton, isActive && activeSpeed === 'normal' && { borderColor: tint, backgroundColor: `${tint}18` }, pressed && styles.pressed]}>
           <Text style={[styles.icon, { color: tint }]}>▶</Text><Text style={styles.label}>Normal</Text>
