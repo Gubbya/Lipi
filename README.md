@@ -36,14 +36,20 @@ npx expo start --clear
 Press `w` for web. Use a compatible Expo Go version or development build for a
 physical Android device.
 
-## Offline learning audio
+## Lightweight downloadable learning audio
 
-Lipi packages 2,726 permanent recordings across every course. This includes
-separate US/UK English phonics and content variants, all 712 planned Marathi
-recordings, and 1,874 lesson, phrase, vocabulary, and feedback recordings for the
-other 15 courses. Lesson, phrase, Practice, and Tutor targets provide **Normal**
-and **Slow** playback. Dynamic tutor sentences that are not part of the planned
-curriculum still use a clearly labelled device voice.
+Lipi keeps 2,726 permanent recordings in its publishable audio library without
+bundling that 71 MB library into the mobile binary. Learners can download or
+delete clear audio one lesson at a time. Downloads are stored in the phone's
+persistent documents directory, remain available offline, and never affect
+saved progress. Device voice remains available when a recording has not been
+downloaded.
+
+The library includes separate US/UK English variants, all 712 Marathi
+recordings, and 1,874 lesson, phrase, vocabulary, and feedback recordings for
+the other 15 courses. Set `EXPO_PUBLIC_LIPI_ASSET_URL` to a public object-storage
+audio origin, or leave it empty to use the configured Lipi server's
+`/media/audio` route. Copy `.env.example` to `.env` for build-time defaults.
 
 ```powershell
 npm run audio:status
@@ -62,8 +68,10 @@ resumable, and never place the key in app code. `audio:status` makes no paid API
 calls. If Gemini quota is unavailable, install the pinned helper with
 `python -m pip install -r scripts/requirements-audio.txt`, then use
 `audio:marathi:fallback` to create compact Marathi neural-voice MP3 files.
-Generated WAV/MP3 files are written to `assets/audio`, and the Marathi generator
-rebuilds its static TypeScript asset manifest automatically.
+Generated WAV/MP3 files are written to `assets/audio`, and the generators rebuild
+lightweight path catalogs automatically. Validation fails if a source file adds
+a static audio `require`, preventing recordings from accidentally returning to
+the APK.
 
 The Sanskrit pack uses the clearest available Devanagari neural voice because
 the configured providers do not expose a dedicated Sanskrit voice. It, along
@@ -109,6 +117,7 @@ The backend refuses to start unless `MONGODB_DB=lipi`. Without a configured
 Endpoints:
 
 - `GET /health`
+- `GET /media/audio/:locale/:file` (public lesson recording delivery)
 - `GET /api/progress/:deviceUserId`
 - `PUT /api/progress/:deviceUserId`
 - `POST /api/tutor`

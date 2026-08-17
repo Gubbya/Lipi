@@ -23,7 +23,7 @@ export function AudioPlaybackControls({
   onSlow,
   tint = colors.coral,
 }: AudioPlaybackControlsProps) {
-  const sourceLabel = hasRecording ? 'OFFLINE RECORDING' : 'DEVICE VOICE';
+  const sourceLabel = hasRecording ? 'CLEAR RECORDING AVAILABLE' : 'DEVICE VOICE FALLBACK';
   return (
     <View style={[styles.wrap, compact && styles.compactWrap]}>
       {!compact ? <Text style={styles.source}>{isActive && activeKind === 'recording' ? 'PLAYING CLEAR RECORDING' : isActive && activeKind === 'device' ? 'PLAYING DEVICE VOICE' : sourceLabel}</Text> : null}

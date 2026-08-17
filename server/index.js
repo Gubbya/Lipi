@@ -17,6 +17,7 @@ const geminiApiKey = envValue('GEMINI_API_KEY');
 const geminiModel = envValue('GEMINI_MODEL', 'gemini-3.1-flash-lite-preview');
 const apiToken = envValue('AI_API_TOKEN');
 const hasApiToken = Boolean(apiToken && !apiToken.includes('REPLACE_'));
+const audioDirectory = path.join(__dirname, '..', 'assets', 'audio');
 
 if (!mongoUri || mongoUri.includes('YOUR_')) throw new Error('MONGODB_URI is not configured in server/.env');
 if (databaseName !== 'lipi') throw new Error(`Refusing to start with MONGODB_DB=${databaseName}. Lipi must use the lipi database.`);
@@ -69,6 +70,15 @@ const app = express();
 app.disable('x-powered-by');
 app.use(cors({ origin: true, credentials: false }));
 app.use(express.json({ limit: '8mb' }));
+app.use('/media/audio', express.static(audioDirectory, {
+  dotfiles: 'deny',
+  index: false,
+  maxAge: '1h',
+  setHeaders: (res) => {
+    res.setHeader('X-Content-Type-Options', 'nosniff');
+    res.setHeader('Cross-Origin-Resource-Policy', 'cross-origin');
+  },
+}));
 
 app.get('/health', async (_req, res) => {
   try {

@@ -3,11 +3,12 @@ import { Pressable, SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useSQLiteContext } from 'expo-sqlite';
 import { getContentPackage } from '@/content';
-import { getFeedbackAudio, getPhonicsAudio, getQuizAudio } from '@/content/phonics-audio';
+import { getLessonAudioPaths } from '@/content/learning-audio';
 import { getLocalUser, getSelectedLanguages } from '@/db/onboarding';
 import { recordAttempt, recordLessonCompletion, saveUnitMastery } from '@/db/progress';
 import { scheduleReview, seedReviewCard } from '@/db/review';
 import { AudioPlaybackControls } from '@/features/audio/AudioPlaybackControls';
+import { LessonAudioDownload } from '@/features/audio/LessonAudioDownload';
 import { useLearningAudio, type LearningAudioSpeed } from '@/features/audio/use-learning-audio';
 import { colors } from '@/features/onboarding/theme';
 import type { IdentifyUnitActivity } from '@/models';
@@ -32,6 +33,12 @@ export default function LessonScreen() {
   const isQuiz = step === units.length;
   const isComplete = step > units.length;
   const progress = Math.min((step + 1) / (units.length + 1), 1) * 100;
+  const lessonAudioPaths = useMemo(() => getLessonAudioPaths(
+    'en',
+    pronunciationVariantId,
+    level?.unitIds ?? [],
+    activity ? [activity.id, 'feedback-correct', 'feedback-try-again'] : [],
+  ), [activity, level, pronunciationVariantId]);
 
   useEffect(() => {
     (async () => {
@@ -54,7 +61,6 @@ export default function LessonScreen() {
       languageId: 'en',
       locale: pronunciationVariantId,
       pronunciationVariantId,
-      source: getPhonicsAudio(unit.id, pronunciationVariantId),
       text: unit.speechCue ?? `${unit.symbol}. ${unit.soundHint ?? ''}`,
       unitId: unit.id,
     }, nextSpeed);
@@ -67,8 +73,8 @@ export default function LessonScreen() {
       languageId: 'en',
       locale: pronunciationVariantId,
       pronunciationVariantId,
-      source: getQuizAudio(activity.id, pronunciationVariantId),
       text: activity.prompt,
+      unitId: activity.id,
     }, nextSpeed);
   }
 
@@ -77,11 +83,11 @@ export default function LessonScreen() {
     const correct = unitId === activity.correctUnitId;
     setFeedback(correct ? 'correct' : 'incorrect');
     if (!correct) {
-      learningAudio.play({ key: 'feedback-try-again', languageId: 'en', locale: pronunciationVariantId, source: getFeedbackAudio('try-again', pronunciationVariantId), text: 'Listen once more, and try again.' });
+      learningAudio.play({ key: 'feedback-try-again', languageId: 'en', locale: pronunciationVariantId, pronunciationVariantId, text: 'Listen once more, and try again.', unitId: 'feedback-try-again' });
       setTimeout(() => setFeedback(null), 900);
       return;
     }
-    learningAudio.play({ key: 'feedback-correct', languageId: 'en', locale: pronunciationVariantId, source: getFeedbackAudio('correct', pronunciationVariantId), text: 'Correct! Well done!' });
+    learningAudio.play({ key: 'feedback-correct', languageId: 'en', locale: pronunciationVariantId, pronunciationVariantId, text: 'Correct! Well done!', unitId: 'feedback-correct' });
     setSaving(true);
     try {
       const user = await getLocalUser(db);
@@ -122,11 +128,12 @@ export default function LessonScreen() {
         <View style={styles.progressTrack}><View style={[styles.progressFill, { width: `${progress}%` }]} /></View>
         <Text style={styles.stepText}>{Math.min(step + 1, units.length + 1)}/{units.length + 1}</Text>
       </View>
+      <LessonAudioDownload paths={lessonAudioPaths} />
 
       {isQuiz ? (
         <View style={styles.lessonBody}>
           <Text style={styles.eyebrow}>LISTEN & CHOOSE</Text><Text style={styles.title}>{activity.prompt}</Text>
-          <AudioPlaybackControls activeKind={learningAudio.kind} activeSpeed={learningAudio.speed} hasRecording={Boolean(getQuizAudio(activity.id, pronunciationVariantId))} isActive={learningAudio.activeKey === activity.id} onNormal={() => playQuizPrompt('normal')} onSlow={() => playQuizPrompt('slow')} />
+          <AudioPlaybackControls activeKind={learningAudio.kind} activeSpeed={learningAudio.speed} hasRecording={learningAudio.hasRecording({ key: activity.id, languageId: 'en', locale: pronunciationVariantId, pronunciationVariantId, text: activity.prompt, unitId: activity.id })} isActive={learningAudio.activeKey === activity.id} onNormal={() => playQuizPrompt('normal')} onSlow={() => playQuizPrompt('slow')} />
           <View style={styles.choiceGrid}>{activity.choices.map((unitId) => {
             const choice = unitsById.get(unitId); const correctChoice = feedback === 'correct' && unitId === activity.correctUnitId;
             return <Pressable key={unitId} onPress={() => chooseAnswer(unitId)} style={({ pressed }) => [styles.choice, correctChoice && styles.choiceCorrect, pressed && styles.pressed]}><Text style={styles.choiceText}>{choice?.symbol}</Text></Pressable>;
@@ -140,7 +147,7 @@ export default function LessonScreen() {
           <Pressable accessibilityLabel={`Hear ${unit.displayName}`} onPress={() => playSound('normal')} style={({ pressed }) => [styles.heroLetter, learningAudio.activeKey === unit.id && learningAudio.isPlaying && styles.heroSpeaking, pressed && styles.pressed]}><Text style={styles.heroLetterText}>{unit.symbol}</Text><View style={styles.speakerBadge}><Text style={styles.speakerText}>{learningAudio.activeKey === unit.id && learningAudio.isPlaying ? '♪' : '▶'}</Text></View></Pressable>
           <Text style={styles.title}>{unit.displayName}</Text><Text style={styles.pronunciation}>{unit.soundHint} · “{unit.transliteration}”</Text>
           <View style={styles.wordRow}>{unit.exampleWords?.map((word) => <View key={word} style={styles.wordPill}><Text style={styles.wordText}>{word}</Text></View>)}</View>
-          <AudioPlaybackControls activeKind={learningAudio.kind} activeSpeed={learningAudio.speed} hasRecording={Boolean(getPhonicsAudio(unit.id, pronunciationVariantId))} isActive={learningAudio.activeKey === unit.id} onNormal={() => playSound('normal')} onSlow={() => playSound('slow')} />
+          <AudioPlaybackControls activeKind={learningAudio.kind} activeSpeed={learningAudio.speed} hasRecording={learningAudio.hasRecording({ key: unit.id, languageId: 'en', locale: pronunciationVariantId, pronunciationVariantId, text: unit.speechCue ?? unit.symbol, unitId: unit.id })} isActive={learningAudio.activeKey === unit.id} onNormal={() => playSound('normal')} onSlow={() => playSound('slow')} />
         </View>
       )}
 

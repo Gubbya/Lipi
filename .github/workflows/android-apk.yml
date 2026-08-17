@@ -52,13 +52,20 @@ jobs:
         working-directory: android
         run: ./gradlew assembleRelease --no-daemon
 
+      - name: Enforce the 350 MB application limit
+        run: |
+          apk_bytes=$(stat -c%s android/app/build/outputs/apk/release/app-release.apk)
+          max_bytes=$((350 * 1024 * 1024))
+          echo "Release APK: $((apk_bytes / 1024 / 1024)) MB"
+          test "$apk_bytes" -le "$max_bytes"
+
       - name: Name APK
-        run: cp android/app/build/outputs/apk/release/app-release.apk Lipi-1.5.1.apk
+        run: cp android/app/build/outputs/apk/release/app-release.apk Lipi-1.6.0.apk
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v6
         with:
-          name: Lipi-Android-1.5.1
-          path: Lipi-1.5.1.apk
+          name: Lipi-Android-1.6.0
+          path: Lipi-1.6.0.apk
           if-no-files-found: error
           retention-days: 30

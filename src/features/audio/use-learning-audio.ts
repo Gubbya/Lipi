@@ -1,7 +1,8 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { useAudioPlayer, useAudioPlayerStatus, type AudioSource } from 'expo-audio';
 import * as Speech from 'expo-speech';
-import { getLearningAudioSource, type LearningAudioLookup } from '@/content/learning-audio';
+import { getLearningAudioPath, hasLearningAudioRecording, type LearningAudioLookup } from '@/content/learning-audio';
+import { resolveDownloadedAudioSource } from '@/services/lesson-downloads';
 
 export type LearningAudioSpeed = 'normal' | 'slow';
 export type LearningAudioKind = 'recording' | 'device' | null;
@@ -18,8 +19,10 @@ export function useLearningAudio() {
   const [activeKey, setActiveKey] = useState<string | null>(null);
   const [speed, setSpeed] = useState<LearningAudioSpeed>('normal');
   const [kind, setKind] = useState<LearningAudioKind>(null);
+  const requestSequence = useRef(0);
 
   const stop = useCallback(() => {
+    requestSequence.current += 1;
     player.pause();
     Speech.stop();
     setActiveKey(null);
@@ -27,20 +30,27 @@ export function useLearningAudio() {
   }, [player]);
 
   useEffect(() => () => {
+    requestSequence.current += 1;
     player.pause();
     Speech.stop();
   }, [player]);
 
-  const sourceFor = useCallback((request: LearningAudioRequest) => (
-    request.source ?? getLearningAudioSource(request)
+  const sourceFor = useCallback(async (request: LearningAudioRequest) => {
+    if (request.source) return request.source;
+    const path = getLearningAudioPath(request);
+    return path ? resolveDownloadedAudioSource(path) : null;
+  }, []);
+
+  const hasRecording = useCallback((request: LearningAudioRequest) => (
+    Boolean(request.source) || hasLearningAudioRecording(request)
   ), []);
 
-  const hasRecording = useCallback((request: LearningAudioRequest) => Boolean(sourceFor(request)), [sourceFor]);
-
-  const play = useCallback((request: LearningAudioRequest, nextSpeed: LearningAudioSpeed = 'normal') => {
-    const source = sourceFor(request);
+  const play = useCallback(async (request: LearningAudioRequest, nextSpeed: LearningAudioSpeed = 'normal') => {
+    const sequence = ++requestSequence.current;
     player.pause();
     Speech.stop();
+    const source = await sourceFor(request);
+    if (sequence !== requestSequence.current) return;
     setActiveKey(request.key);
     setSpeed(nextSpeed);
 

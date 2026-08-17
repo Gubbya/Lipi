@@ -45,30 +45,56 @@ for (const [locale, expectedCount] of Object.entries(expectedCounts)) {
 }
 console.log(`All locale packs: ${totalFiles} audio files`);
 
+function mappedAudioPaths(moduleSource) {
+  return [...moduleSource.matchAll(/:\s*"([^"]+\.(?:mp3|wav))"\s*[,}]/gi)].map((match) => match[1]);
+}
+
 const generatedModule = await fs.readFile(path.join(projectRoot, 'src', 'content', 'marathi-audio.generated.ts'), 'utf8');
-const requires = [...generatedModule.matchAll(/require\('\.\.\/\.\.\/assets\/audio\/mr-IN\/([^']+)'\)/g)].map((match) => match[1]);
-for (const file of requires) {
+const marathiPaths = mappedAudioPaths(generatedModule);
+for (const file of marathiPaths) {
   try {
-    await fs.access(path.join(audioRoot, 'mr-IN', file));
+    await fs.access(path.join(audioRoot, file));
   } catch {
-    failures.push(`Generated manifest points to missing mr-IN/${file}`);
+    failures.push(`Generated manifest points to missing ${file}`);
   }
 }
-console.log(`Marathi static mappings: ${requires.length}`);
-if (requires.length !== 712) failures.push(`Marathi static mappings: expected 712, found ${requires.length}`);
+console.log(`Marathi downloadable mappings: ${marathiPaths.length}`);
+if (marathiPaths.length !== 712) failures.push(`Marathi downloadable mappings: expected 712, found ${marathiPaths.length}`);
 
 for (const [moduleName, expectedMappings] of [['multilingual-audio.generated.ts', 1874], ['english-content-audio.generated.ts', 18]]) {
   const moduleSource = await fs.readFile(path.join(projectRoot, 'src', 'content', moduleName), 'utf8');
-  const moduleRequires = [...moduleSource.matchAll(/require\('\.\.\/\.\.\/assets\/audio\/([^/]+)\/([^']+)'\)/g)];
-  for (const match of moduleRequires) {
+  const modulePaths = mappedAudioPaths(moduleSource);
+  for (const file of modulePaths) {
     try {
-      await fs.access(path.join(audioRoot, match[1], match[2]));
+      await fs.access(path.join(audioRoot, file));
     } catch {
-      failures.push(`${moduleName} points to missing ${match[1]}/${match[2]}`);
+      failures.push(`${moduleName} points to missing ${file}`);
     }
   }
-  console.log(`${moduleName}: ${moduleRequires.length} static mappings`);
-  if (moduleRequires.length !== expectedMappings) failures.push(`${moduleName}: expected ${expectedMappings} mappings, found ${moduleRequires.length}`);
+  console.log(`${moduleName}: ${modulePaths.length} downloadable mappings`);
+  if (modulePaths.length !== expectedMappings) failures.push(`${moduleName}: expected ${expectedMappings} mappings, found ${modulePaths.length}`);
+}
+
+const phonicsSource = await fs.readFile(path.join(projectRoot, 'src', 'content', 'phonics-audio.ts'), 'utf8');
+const phonicsPaths = mappedAudioPaths(phonicsSource);
+console.log(`phonics-audio.ts: ${phonicsPaths.length} downloadable mappings`);
+if (phonicsPaths.length !== 122) failures.push(`phonics-audio.ts: expected 122 mappings, found ${phonicsPaths.length}`);
+for (const file of phonicsPaths) {
+  try { await fs.access(path.join(audioRoot, file)); } catch { failures.push(`phonics-audio.ts points to missing ${file}`); }
+}
+
+async function sourceFiles(directory) {
+  const entries = await fs.readdir(directory, { withFileTypes: true });
+  const nested = await Promise.all(entries.map((entry) => {
+    const entryPath = path.join(directory, entry.name);
+    return entry.isDirectory() ? sourceFiles(entryPath) : /\.[cm]?[jt]sx?$/.test(entry.name) ? [entryPath] : [];
+  }));
+  return nested.flat();
+}
+
+for (const file of await sourceFiles(path.join(projectRoot, 'src'))) {
+  const source = await fs.readFile(file, 'utf8');
+  if (/require\([^)]*assets[\\/]audio/i.test(source)) failures.push(`${path.relative(projectRoot, file)} still bundles lesson audio`);
 }
 
 if (failures.length) {
